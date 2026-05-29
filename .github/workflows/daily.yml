@@ -1,0 +1,39 @@
+name: Daily News Pipeline
+
+on:
+  schedule:
+    - cron: "0 20 * * *"   # UTC 20:00 = KST 05:00
+  workflow_dispatch:        # 수동 실행 버튼
+
+permissions:
+  contents: write           # JSON 커밋/푸시 권한
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: python -m src.main 반도체
+
+      - name: Commit and push JSON
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "변경 없음, 스킵" || (
+            git commit -m "data: $(date +'%Y-%m-%d') 반도체 뉴스 업데이트"
+            git push
+          )

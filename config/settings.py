@@ -1,0 +1,30 @@
+"""
+전역 설정값. 튜닝은 여기서.
+"""
+
+# 시간 필터
+TIME_WINDOW_HOURS = 24
+
+# 점수 필터
+PYTHON_SCORE_THRESHOLD = 4
+TITLE_WEIGHT = 1.5
+BODY_WEIGHT = 1.0
+
+# 선별 개수
+TOP_N_FOR_EXTRACT = 30
+MIN_BODY_LENGTH = 300
+
+# dropped 저장 개수
+DROPPED_KEEP = 20
+
+# 본문 추출
+EXTRACT_TIMEOUT = 10
+EXTRACT_RETRY = 1
+EXTRACT_SLEEP = 1.0
+
+# 병렬 처리 (지금은 OFF, 섹터 늘릴 때 ON)
+PARALLEL_EXTRACT = False
+PARALLEL_WORKERS = 4
+
+# 출력
+DATA_DIR = "data"
