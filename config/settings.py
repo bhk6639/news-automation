@@ -26,5 +26,6 @@ EXTRACT_SLEEP = 1.0
 PARALLEL_EXTRACT = False
 PARALLEL_WORKERS = 4
 
-# 출력
+# JSON 저장
 DATA_DIR = "data"
+BODY_TRUNCATE = 1000  # 루틴 토큰 절약용 본문 최대 길이

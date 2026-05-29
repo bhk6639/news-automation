@@ -6,7 +6,7 @@ import json
 import shutil
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from config.settings import DATA_DIR
+from config.settings import DATA_DIR, BODY_TRUNCATE
 from config.keywords import KEYWORDS
 
 
@@ -21,7 +21,8 @@ def item_to_json(item: dict) -> dict:
         "date": published.astimezone(KST).strftime("%Y-%m-%d") if published else None,
         "source": item.get("source_name", ""),
         "url": item["url"],
-        "body": item.get("body", ""),
+        "summary": item.get("summary", ""),
+        "body": item.get("body", "")[:BODY_TRUNCATE],
         "score": item["score"],
         "score_detail": item["score_detail"],
     }

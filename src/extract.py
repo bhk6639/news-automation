@@ -4,6 +4,7 @@
 병렬 처리 옵션 지원 (settings.PARALLEL_EXTRACT).
 """
 
+import re
 import time
 import trafilatura
 from concurrent.futures import ThreadPoolExecutor
@@ -15,6 +16,21 @@ from config.settings import (
     PARALLEL_EXTRACT,
     PARALLEL_WORKERS,
 )
+
+
+def clean_body(text: str) -> str:
+    """본문 뒷부분 노이즈 제거 (저작권 고지, 관련기사 목록 등)."""
+    patterns = [
+        r'\nCopyright\s*©',
+        r'\n저작권자',
+        r'\n무단\s*전재',
+        r'\n\[.*?기자.*?\]',
+    ]
+    for pat in patterns:
+        m = re.search(pat, text)
+        if m:
+            text = text[:m.start()].strip()
+    return text
 
 
 def extract_one(url: str) -> tuple[str | None, str]:
@@ -38,6 +54,7 @@ def extract_one(url: str) -> tuple[str | None, str]:
             )
             if not body:
                 return None, "no_body"
+            body = clean_body(body)
             if len(body) < MIN_BODY_LENGTH:
                 return None, f"too_short({len(body)}자)"
             return body.strip(), "ok"
@@ -60,6 +77,7 @@ def extract_items_sequential(items: list[dict]) -> tuple[list[dict], list[dict]]
         else:
             failures.append({
                 "title": item["title"],
+                "url": item.get("url", ""),
                 "source": item.get("source_name", ""),
                 "score": item["score"],
                 "reason": reason,
@@ -91,6 +109,7 @@ def extract_items_parallel(items: list[dict]) -> tuple[list[dict], list[dict]]:
             else:
                 failures.append({
                     "title": item["title"],
+                    "url": item.get("url", ""),
                     "source": item.get("source_name", ""),
                     "score": item["score"],
                     "reason": reason,
