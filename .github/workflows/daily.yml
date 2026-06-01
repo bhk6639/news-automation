@@ -2,8 +2,9 @@ name: Daily News Pipeline
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # UTC 20:00 = KST 05:00
-  workflow_dispatch:        # 수동 실행 버튼
+    - cron: "7 18 * * *"    # KST 03:07
+    - cron: "7 19 * * *"    # KST 04:07 (보강)
+  workflow_dispatch:
 
 permissions:
   contents: write           # JSON 커밋/푸시 권한
