@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T06:24:16.498444+09:00",
+  "generated_at": "2026-06-03T06:58:54.133568+09:00",
   "field": "반도체",
   "field_date": "2026-06-03",
   "stats": {
@@ -102,14 +102,14 @@
       "score_raw": 25.0,
       "score_detail": {
         "title_hits": [
-          "파운드리",
           "HBM",
+          "파운드리",
           "메모리",
           "2나노"
         ],
         "summary_hits": [
-          "파운드리",
           "HBM",
+          "파운드리",
           "메모리",
           "2나노"
         ],
@@ -249,12 +249,12 @@
       }
     },
     {
-      "title": "최태원 \"5년 내 웨이퍼 생산능력 2배 확대\"…젠슨 황 'HBM 러브콜' - ebn.co.kr",
-      "date": "2026-06-03",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1711096",
-      "summary": "최태원 \"5년 내 웨이퍼 생산능력 2배 확대\"…젠슨 황 'HBM 러브콜' ebn.co.kr",
-      "body": "최태원 SK그룹 회장과 젠슨 황 엔비디아 최고경영자(CEO)가 '컴퓨텍스 2026' 현장에서 만나 인공지능(AI) 반도체 동맹을 확인했다. 황 CEO는 SK하이닉스에 고대역폭메모리(HBM) 생산 확대를 요청하며 양사 파트너십을 재확인했다.\n3일 SK하이닉스에 따르면 최 회장과 황 CEO는 지난 2일(현지시간) 대만 타이베이 난강 전시센터에서 개막한 '컴퓨텍스 2026'의 SK하이닉스 부스를 함께 둘러봤다. 2년 연속 SK하이닉스 부스를 찾은 황 CEO는 최 회장과 향후 협력 방향을 논의했다.\n이날 황 CEO는 부스에 전시된 SK하이닉스의 7세대 HBM(HBM4E) 웨이퍼에 \"더 많이 만들어 주세요(Please Make More)\"라고 사인을 남겼다. 차세대 메모리 192기가바이트(GB) 소캠2에는 \"소캠 사랑해(LOVE SOCAMM)\"라고 적었다.\n최 회장은 황 CEO의 HBM 생산 확대 요청에 \"향후 5년 안에 웨이퍼 생산능력을 두 배로 늘리겠다\"고 답했다.\n이번 전시에서 SK하이닉스는 'AI 웨이브의 중심, 메모리'를 콘셉트로 엔비디아와의 파트너십을 전면에 내세웠다.\n'AI 팩토리 존'에는 양사의 협력 제품이 전시됐다. 엔비디아 최신 AI 가속기 GB300 실물 옆에 SK하이닉스의 HBM3E와 황 CEO 사인이 담긴 파트너 사인보드가 배치됐다. 출시 예정인 엔비디아 슈퍼칩 '베라 루빈 200' 모형 옆에는 차세대 메모리 소캠2와 HBM4가 놓였다. 양사는 이를 통해 차세대 AI 인프라 구축 협력을 강조했다.\nAI 환경을 겨냥한 기술 협력 사례도 소개됐다. 엔비디아 최신 슈퍼컴퓨터 'DGX 스파크'에는 SK하이닉스 'LPDDR5X'가 탑재됐고, 발열 제어용 '블루필드4-DPU' 모형 옆에는 액체냉각(DLC) 지원 고성능 eSSD 'PEB210 E1.S'가 전시됐다.\n전시장 중앙에는 HBM3E 36GB 12단, HBM4 48GB 16단, HBM4E 48GB 12단 등 핵심 AI 메모리 라인업을 전시했다. TSV 기술을 낸드에 적용해 수직 적층하는 차세대 메모리",
+      "title": "젠슨 황, SK하닉 HBM 웨이퍼에 \"더 만들어주세요\"…2년연속 방문(종합) - v.daum.net",
+      "date": "2026-06-02",
+      "source": "v.daum.net",
+      "url": "https://v.daum.net/v/20260602182810374",
+      "summary": "젠슨 황, SK하닉 HBM 웨이퍼에 \"더 만들어주세요\"…2년연속 방문(종합) v.daum.net",
+      "body": "젠슨 황, SK하닉 HBM 웨이퍼에 \"더 만들어주세요\"…2년연속 방문(종합)\n최태원 회장·SK하이닉스 주요 경영진과 단체 촬영\n(타이베이=연합뉴스) 김민지 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 2일 오후 아시아 최대 규모 정보기술(IT) 전시회 '컴퓨텍스 2026'에 마련된 SK하이닉스 부스를 깜짝 방문해 \"(HBM을) 더 만들어달라\"는 위트있는 문구를 남겼다.\n황 CEO는 이날 SK하이닉스 부스를 찾아 최태원 SK그룹 회장 등 주요 경영진들과 SK하이닉스의 주요 메모리 제품을 둘러봤다.\n황 CEO가 SK하이닉스 컴퓨텍스 부스를 찾은 건 지난해에 이어 2년 연속이다. SK하이닉스는 지난 2024년부터 3년 연속 컴퓨텍스에 부스를 마련했다.\n황 CEO는 전시된 SK하이닉스의 HBM4E(7세대) 웨이퍼에 \"더 많이 만들어 주세요(Please Make More)\"라는 문구와 함께 사인을, 192GB(기가비트) 소캠에는 \"소캠 사랑해(LOVE SOCAMM)\"이라는 글귀를 남겼다.\nSK하이닉스 경영진들과 친분을 과시하며 단체 기념사진도 촬영했다. 이 자리에는 최태원 회장 외에 곽노정 SK하이닉스 대표이사 사장, 김주선 SK하이닉스 AI인프라 총괄 사장이 함께했다.\n현재 SK하이닉스는 엔비디아에 최신 고대역폭 메모리(HBM)인 HBM4(6세대)와 고성능 저전력 메모리 LPDDR5X 등을 공급하고 있다.\n황 CEO는 전날 대만 타이베이 뮤직센터에서 열린 'GTC 타이베이' 기조연설에서 올해 하반기 출시 예정인 차세대 AI 가속기 '베라 루빈'의 본격적인 생산을 공식화했다.\n황 CEO는 \"현재 베라 루빈은 완전히 생산 중\"이라며 삼성전자, SK하이닉스, 마이크론의 메모리가 탑재됐다고 밝혔다. 베라 루빈에는 6세대 고대역폭메모리인 HBM4가 탑재될 예정이다.\nSK하이닉스는 이번 전시에서 엔비디아와의 파트너십을 시각화한 'AI 팩토리 존'을 전면에 배치해 양사의 매칭 제품을 나란히 전시하며 AI 동맹을 강조했다.\n엔비디아의 최신 슈퍼컴퓨터 'DGX 스파트' 실물과 S",
       "score": 5.0,
       "score_raw": 12.5,
       "score_detail": {
@@ -272,9 +272,9 @@
   ],
   "dropped_below_threshold": [
     {
-      "title": "뉴욕증시, 알파벳 유증에도 달리는 반도체…강세 마감 - 연합인포맥스",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4418077",
-      "source": "연합인포맥스",
+      "title": "‘짜장면쇼’에도 칩 까였다…젠슨황 굴욕 준 中 반도체 여제 - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25433463",
+      "source": "중앙일보",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -302,9 +302,9 @@
       }
     },
     {
-      "title": "‘짜장면쇼’에도 칩 까였다…젠슨황 굴욕 준 中 반도체 여제 - 중앙일보",
-      "url": "https://www.joongang.co.kr/article/25433463",
-      "source": "중앙일보",
+      "title": "뉴욕증시, 알파벳 유증에도 달리는 반도체…강세 마감 - 연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4418077",
+      "source": "연합인포맥스",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -317,9 +317,9 @@
       }
     },
     {
-      "title": "국방반도체법 국무회의 통과, '반도체 자주국방' 시대 연다 - 굿모닝충청",
-      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=446987",
-      "source": "굿모닝충청",
+      "title": "[서울데이터랩]미국 증시, 반도체 강세 속 혼조 마감…다우 0.45%↑·나스닥 0.03%↑ - 서울신문",
+      "url": "https://www.seoul.co.kr/news/international/2026/06/03/20260603500005",
+      "source": "서울신문",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -335,6 +335,21 @@
       "title": "코스피 최고치에도 웃지 못한 은행주…반도체 쏠림에 '나홀로 부진' - 더구루",
       "url": "https://www.theguru.co.kr/news/article.html?no=102488",
       "source": "더구루",
+      "score": 2.5,
+      "score_detail": {
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "국방반도체법 국무회의 통과, '반도체 자주국방' 시대 연다 - 굿모닝충청",
+      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=446987",
+      "source": "굿모닝충청",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -377,9 +392,9 @@
       }
     },
     {
-      "title": "반도체 성과급에 사내 대출까지… 동탄 2군 아파트까지 들썩거린다 - 조선일보",
-      "url": "https://www.chosun.com/economy/2026/06/03/O5EM2WWEWNBV3G42ZQRD3LW5YE/",
-      "source": "조선일보",
+      "title": "젠슨 황 5일 전격 방한, '반도체→로봇' 동맹 격상… 4대 그룹 총수 만난다 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026060219274680612bd56fbc3c_1",
+      "source": "글로벌이코노믹",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -392,9 +407,9 @@
       }
     },
     {
-      "title": "젠슨 황 5일 전격 방한, '반도체→로봇' 동맹 격상… 4대 그룹 총수 만난다 - 글로벌이코노믹",
-      "url": "https://www.g-enews.com/article/Global-Biz/2026/06/2026060219274680612bd56fbc3c_1",
-      "source": "글로벌이코노믹",
+      "title": "반도체 성과급에 사내 대출까지… 동탄 2군 아파트까지 들썩거린다 - 조선일보",
+      "url": "https://www.chosun.com/economy/2026/06/03/O5EM2WWEWNBV3G42ZQRD3LW5YE/",
+      "source": "조선일보",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -512,21 +527,6 @@
       }
     },
     {
-      "title": "KODEX AI반도체핵심장비(471990) - 매일경제 마켓",
-      "url": "https://stock.mk.co.kr/price/news/KR7471990002?stock_code=KR7471990002&day=2026-06-03&page=7",
-      "source": "매일경제 마켓",
-      "score": 2.5,
-      "score_detail": {
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
       "title": "[박중현 칼럼]반도체 특수에 넘치는 유동성… 부동산 역류 막아야 - 동아일보",
       "url": "https://www.donga.com/news/Opinion/article/all/20260602/134039396/2",
       "source": "동아일보",
@@ -542,9 +542,9 @@
       }
     },
     {
-      "title": "'반도체 클러스터 수도권 배제' 시행령안 관련 회견하는 양향자 후보 - 연합뉴스",
-      "url": "https://www.yna.co.kr/amp/view/PYH20260602129200013",
-      "source": "연합뉴스",
+      "title": "車·IoT 등 주력업종 AI반도체 풀스텍 갖춘다…산업부, 국비 5000억 투입 - v.daum.net",
+      "url": "https://v.daum.net/v/20260602180021572",
+      "source": "v.daum.net",
       "score": 2.5,
       "score_detail": {
         "title_hits": [
@@ -557,8 +557,8 @@
       }
     },
     {
-      "title": "'반도체 클러스터 수도권 배제' 시행령안 관련 정부 규탄하는 양향자 후보 - 연합뉴스",
-      "url": "https://www.yna.co.kr/amp/view/PYH20260602129500013",
+      "title": "'반도체 클러스터 수도권 배제' 시행령안 관련 회견하는 양향자 후보 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/PYH20260602129200013",
       "source": "연합뉴스",
       "score": 2.5,
       "score_detail": {
