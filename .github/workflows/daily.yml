@@ -1,9 +1,11 @@
 name: Daily News Pipeline
 
 on:
+  repository_dispatch:
+    types: [daily-news]
   schedule:
-    - cron: "7 18 * * *"    # KST 03:07
-    - cron: "7 19 * * *"    # KST 04:07 (보강)
+    - cron: "7 18 * * *"
+    - cron: "7 19 * * *"
   workflow_dispatch:
 
 permissions:
