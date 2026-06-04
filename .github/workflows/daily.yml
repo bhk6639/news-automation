@@ -3,9 +3,6 @@ name: Daily News Pipeline
 on:
   repository_dispatch:
     types: [daily-news]
-  schedule:
-    - cron: "7 18 * * *"
-    - cron: "7 19 * * *"
   workflow_dispatch:
 
 permissions:
