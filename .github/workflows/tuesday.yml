@@ -1,0 +1,35 @@
+name: Tuesday Review Prep
+
+on:
+  repository_dispatch:
+    types: [tuesday-review]
+  workflow_dispatch:
+
+permissions:
+  contents: write           # prep.json / log 커밋·푸시 권한
+
+jobs:
+  run-prep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5.5.0
+        with:
+          python-version: "3.13"
+
+      - name: Run tuesday prep (집계만, 판단 없음)
+        run: python tuesday_prep.py
+
+      - name: Commit and push prep
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tuesday_prep.json data/tuesday_log.json
+          git diff --cached --quiet && echo "변경 없음, 스킵" || (
+            git commit -m "data: $(date +'%Y-%m-%d') 화요일 루틴 B 집계"
+            git push
+          )
