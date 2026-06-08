@@ -1,0 +1,619 @@
+{
+  "generated_at": "2026-06-09T03:30:25.381791+09:00",
+  "window": {
+    "today": "2026-06-09",
+    "window_start": "2026-06-03",
+    "window_end": "2026-06-09",
+    "days": 7,
+    "found_dates": [
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-05",
+      "2026-06-06",
+      "2026-06-07",
+      "2026-06-08",
+      "2026-06-09"
+    ],
+    "missing_dates": []
+  },
+  "empty": false,
+  "stats_trend": [
+    {
+      "date": "2026-06-03",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 8,
+      "extracted_failed": 2
+    },
+    {
+      "date": "2026-06-04",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 6,
+      "extracted_failed": 4
+    },
+    {
+      "date": "2026-06-05",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 8,
+      "extracted_failed": 2
+    },
+    {
+      "date": "2026-06-06",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 10,
+      "extracted_failed": 0
+    },
+    {
+      "date": "2026-06-07",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 8,
+      "extracted_failed": 2
+    },
+    {
+      "date": "2026-06-08",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 8,
+      "extracted_failed": 2
+    },
+    {
+      "date": "2026-06-09",
+      "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 8,
+      "extracted_failed": 2
+    }
+  ],
+  "stats_avg": {
+    "collected_total": 100.0,
+    "after_score_filter": 10.0,
+    "extracted_success": 8.0,
+    "extracted_failed": 2.0
+  },
+  "dropped_candidates": [
+    {
+      "title": "[ETF시황] 코스피 조정장 속 반도체 ETF 부각…소부장 '강세' - 뉴스핌",
+      "source": "뉴스핌",
+      "score": 3.5,
+      "date": "2026-06-04",
+      "title_hits": [
+        "소부장",
+        "반도체"
+      ],
+      "summary_hits": [
+        "소부장",
+        "반도체"
+      ],
+      "negative_hits": [
+        "ETF",
+        "시황"
+      ]
+    },
+    {
+      "title": "‘상한가 하루 만에 급락’ 소부장 변동성 확대…반도체 랠리 시험대 [투자360] - 헤럴드경제",
+      "source": "헤럴드경제",
+      "score": 3.5,
+      "date": "2026-06-06",
+      "title_hits": [
+        "소부장",
+        "반도체"
+      ],
+      "summary_hits": [
+        "소부장",
+        "반도체"
+      ],
+      "negative_hits": [
+        "상한가",
+        "급락"
+      ]
+    },
+    {
+      "title": "‘짜장면쇼’에도 칩 까였다…젠슨황 굴욕 준 中 반도체 여제 - 중앙일보",
+      "source": "중앙일보",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[경제 포커스] 한국 반도체 수입 1위 국가는 중국… 미국은 4위 - 조선비즈 - Chosunbiz",
+      "source": "Chosunbiz",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "뉴욕증시, 알파벳 유증에도 달리는 반도체…강세 마감 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[서울데이터랩]미국 증시, 반도체 강세 속 혼조 마감…다우 0.45%↑·나스닥 0.03%↑ - 서울신문",
+      "source": "서울신문",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "코스피 최고치에도 웃지 못한 은행주…반도체 쏠림에 '나홀로 부진' - 더구루",
+      "source": "더구루",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "국방반도체법 국무회의 통과, '반도체 자주국방' 시대 연다 - 굿모닝충청",
+      "source": "굿모닝충청",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "미국서도 반도체 거품 논쟁… 제2 닷컴버블 vs 랠리 계속 - 더스쿠프",
+      "source": "더스쿠프",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[뉴욕증시-1보] 알파벳 유증에도 달리는 반도체…강세 마감 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "젠슨 황 5일 전격 방한, '반도체→로봇' 동맹 격상… 4대 그룹 총수 만난다 - 글로벌이코노믹",
+      "source": "글로벌이코노믹",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "반도체 성과급에 사내 대출까지… 동탄 2군 아파트까지 들썩거린다 - 조선일보",
+      "source": "조선일보",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "美, AI칩 중국 우회 수출 차단... 中 ‘美 제재 덕에 반도체 기술 발전’ - 조선일보",
+      "source": "조선일보",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "'99% 해외의존' 국방반도체 자립화…국방반도체법 국무회의 통과 - 연합뉴스",
+      "source": "연합뉴스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "\"2분기 영업익 삼성 100조·SK 71조\"…반도체 투톱 목표가 또 상향 - 연합인포맥스",
+      "source": "연합인포맥스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "'AI반도체' 선점 도전…산업부, 온디바이스 AI반도체에 8002억 투입 - 뉴스1",
+      "source": "뉴스1",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[6·3 지선 경기]추\"이재명공약 실천 필요\"vs 양\"반도체 경제로 재도약\"…마지막날 총력 유세 - 뉴스핌",
+      "source": "뉴스핌",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "2030 매수 1·2위 수원 팔달·영통…반도체 벨트로 몰렸다 - 뉴시스",
+      "source": "뉴시스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "반도체를 향한 질문 “성장동력일까 고물가 배경일까” - 더스쿠프",
+      "source": "더스쿠프",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[박중현 칼럼]반도체 특수에 넘치는 유동성… 부동산 역류 막아야 - 동아일보",
+      "source": "동아일보",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "車·IoT 등 주력업종 AI반도체 풀스텍 갖춘다…산업부, 국비 5000억 투입 - v.daum.net",
+      "source": "v.daum.net",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "'반도체 클러스터 수도권 배제' 시행령안 관련 회견하는 양향자 후보 - 연합뉴스",
+      "source": "연합뉴스",
+      "score": 2.5,
+      "date": "2026-06-03",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "\"AI반도체 세계 선도 가능...피지컬AI와 '원팀' 이뤄야\" - v.daum.net",
+      "source": "v.daum.net",
+      "score": 2.5,
+      "date": "2026-06-04",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "골드만삭스 “코스피 1만2000 간다”…AI·반도체 호황, 증시 낙관론 확산 - 재외동포신문",
+      "source": "재외동포신문",
+      "score": 2.5,
+      "date": "2026-06-04",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "반도체가 쏘아 올린 성장과 시장의 쏠림 - 한국경제",
+      "source": "한국경제",
+      "score": 2.5,
+      "date": "2026-06-04",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    }
+  ],
+  "keyword_usage": [
+    {
+      "keyword": "반도체",
+      "hits": 340
+    },
+    {
+      "keyword": "HBM",
+      "hits": 62
+    },
+    {
+      "keyword": "엔비디아",
+      "hits": 34
+    },
+    {
+      "keyword": "TSMC",
+      "hits": 32
+    },
+    {
+      "keyword": "AI 반도체",
+      "hits": 28
+    },
+    {
+      "keyword": "SK하이닉스",
+      "hits": 24
+    },
+    {
+      "keyword": "파운드리",
+      "hits": 18
+    },
+    {
+      "keyword": "메모리",
+      "hits": 10
+    },
+    {
+      "keyword": "인텔",
+      "hits": 8
+    },
+    {
+      "keyword": "한미반도체",
+      "hits": 8
+    },
+    {
+      "keyword": "웨이퍼",
+      "hits": 6
+    },
+    {
+      "keyword": "EUV",
+      "hits": 4
+    },
+    {
+      "keyword": "소부장",
+      "hits": 4
+    },
+    {
+      "keyword": "LPDDR",
+      "hits": 4
+    },
+    {
+      "keyword": "2나노",
+      "hits": 2
+    },
+    {
+      "keyword": "공정",
+      "hits": 2
+    },
+    {
+      "keyword": "양산",
+      "hits": 2
+    },
+    {
+      "keyword": "본딩",
+      "hits": 2
+    },
+    {
+      "keyword": "낸드",
+      "hits": 2
+    },
+    {
+      "keyword": "패키징",
+      "hits": 2
+    }
+  ],
+  "dead_keywords": [
+    "1b",
+    "1c",
+    "3나노",
+    "7세대",
+    "AMD",
+    "ASML",
+    "CHIPS Act",
+    "CoWoS",
+    "DDR5",
+    "DRAM",
+    "GAA",
+    "GDDR",
+    "NAND",
+    "TSV",
+    "검사장비",
+    "고대역폭",
+    "노광",
+    "마이크론",
+    "보조금",
+    "브로드컴",
+    "삼성전자 반도체",
+    "수출규제",
+    "시스템반도체",
+    "식각",
+    "인텔 파운드리",
+    "적층",
+    "전공정",
+    "증착",
+    "첨단공정",
+    "칩렛",
+    "칩스법",
+    "퀄컴",
+    "팹",
+    "포토레지스트",
+    "후공정"
+  ],
+  "negative_usage": [
+    {
+      "keyword": "급락",
+      "hits": 3
+    },
+    {
+      "keyword": "ETF",
+      "hits": 1
+    },
+    {
+      "keyword": "시황",
+      "hits": 1
+    },
+    {
+      "keyword": "급등",
+      "hits": 1
+    },
+    {
+      "keyword": "상한가",
+      "hits": 1
+    }
+  ],
+  "passed_with_negative": [
+    {
+      "title": "금리 급등에 반도체·소형주 와르르...엔비디아 메모리 축소 진실은 [빈난새의 개장전요것만] - 한국경제",
+      "source": "한국경제",
+      "score": 5.78,
+      "date": "2026-06-06",
+      "negative_hits": [
+        "급등"
+      ]
+    },
+    {
+      "title": "“AI 반도체 급락…HBM 투자 ‘분수령’ 맞나” - 글로벌이코노믹",
+      "source": "글로벌이코노믹",
+      "score": 8.86,
+      "date": "2026-06-07",
+      "negative_hits": [
+        "급락"
+      ]
+    },
+    {
+      "title": "반도체 급락 부른 '엔비디아 용량 축소'…알고보니 메모리 품귀 탓 - ebn.co.kr",
+      "source": "ebn.co.kr",
+      "score": 7.43,
+      "date": "2026-06-07",
+      "negative_hits": [
+        "급락"
+      ]
+    }
+  ],
+  "extract_failed": {
+    "total": 14,
+    "by_reason": {
+      "too_short": 10,
+      "no_body": 2,
+      "fetch_fail": 2
+    },
+    "by_source": {
+      "디지털데일리": 4,
+      "Chosunbiz": 2,
+      "오피니언뉴스": 2,
+      "v.daum.net": 2,
+      "대한경제": 1,
+      "뉴스포스트": 1,
+      "비즈니스포스트": 1,
+      "서울경제": 1
+    }
+  },
+  "selected_source_distribution": {
+    "연합뉴스": 6,
+    "v.daum.net": 4,
+    "IT조선": 3,
+    "지디넷코리아": 2,
+    "이데일리": 2,
+    "서울신문": 2,
+    "중부매일": 2,
+    "경향신문": 2,
+    "연합인포맥스": 2,
+    "부산일보": 2,
+    "한국경제": 2,
+    "핀포인트뉴스": 2,
+    "ebn.co.kr": 2,
+    "파이낸셜뉴스": 2,
+    "이코노미트리뷴": 1
+  }
+}
