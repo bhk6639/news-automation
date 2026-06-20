@@ -66,11 +66,27 @@ def extract_one(url: str) -> tuple[str | None, str]:
     return None, "unknown"
 
 
+def get_body(item: dict) -> tuple[str | None, str]:
+    """
+    본문 확보. RSS가 본문 전체(rss_body)를 주면 재크롤링 없이 그걸 사용,
+    아니면 기사 URL 재크롤링(extract_one).
+    - semiengineering 등 재크롤링 차단 사이트는 RSS 본문으로 살림.
+    - thelec/KIPOST 등 요약만 주는 피드는 기존대로 재크롤링.
+    return: (본문 or None, 사유). 사유 "ok(rss)" | extract_one 사유
+    """
+    rss_body = item.get("rss_body", "")
+    if rss_body:
+        body = clean_body(rss_body)
+        if len(body) >= MIN_BODY_LENGTH:
+            return body.strip(), "ok(rss)"
+    return extract_one(item["url"])
+
+
 def extract_items_sequential(items: list[dict]) -> tuple[list[dict], list[dict]]:
     results = []
     failures = []
     for i, item in enumerate(items):
-        body, reason = extract_one(item["url"])
+        body, reason = get_body(item)
         if body:
             item["body"] = body
             results.append(item)
@@ -98,7 +114,7 @@ def extract_items_parallel(items: list[dict]) -> tuple[list[dict], list[dict]]:
     failures = []
 
     def worker(item):
-        body, reason = extract_one(item["url"])
+        body, reason = get_body(item)
         return item, body, reason
 
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as ex:

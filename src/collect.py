@@ -24,6 +24,26 @@ def clean_summary(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def html_to_text(html_str: str) -> str:
+    """RSS content:encoded(HTML)를 문단 보존하며 평문으로. 본문 후보용."""
+    if not html_str:
+        return ""
+    # 블록 종료 태그를 줄바꿈으로 치환해 문단 구조 유지
+    text = re.sub(r'(?i)</p>|<br\s*/?>|</div>|</li>|</h[1-6]>', '\n', html_str)
+    text = re.sub(r'<[^>]+>', '', text)
+    text = html.unescape(text)
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r'\n\s*\n+', '\n\n', text)
+    return text.strip()
+
+
+def extract_rss_content(entry) -> str:
+    """RSS 항목이 본문 전체(content:encoded)를 주면 평문으로 반환. 없으면 ''."""
+    if entry.get("content"):
+        return html_to_text(entry["content"][0].get("value", ""))
+    return ""
+
+
 def collect_field(field: str) -> list[dict]:
     """
     분야별 RSS 수집.
@@ -41,6 +61,7 @@ def collect_field(field: str) -> list[dict]:
                 "link": entry.get("link", "").strip(),
                 "published": parse_published(entry),
                 "summary": clean_summary(entry.get("summary", "")),
+                "rss_body": extract_rss_content(entry),  # 본문 전체 제공 피드용 (없으면 '')
                 "source_name": entry.get("source", {}).get("title", "")
                                if hasattr(entry, "source") else "",
                 "rss_source": src["name"],
