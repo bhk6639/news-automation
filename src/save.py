@@ -6,18 +6,35 @@ import json
 import shutil
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from config.settings import DATA_DIR, BODY_TRUNCATE
+from config.settings import DATA_DIR, BODY_TRUNCATE, SCORE_REF
 from config.keywords import KEYWORDS
 
 
 KST = timezone(timedelta(hours=9))
 
+_POS_TIERS = ("strong", "medium", "weak")
 
-def item_to_json(item: dict, max_score: float) -> dict:
-    """item dict를 JSON 직렬화 가능한 형태로 정리. score는 0~10 정규화."""
+
+def keywords_snapshot(field: str) -> dict:
+    """버킷 구조를 평탄한 tier별 키워드 목록으로 펼침.
+    tuesday_prep 등 'strong/medium/weak/neg_strong/neg_weak' 평탄 스냅샷을 읽는 소비처 호환."""
+    snap = {t: set() for t in ("strong", "medium", "weak", "neg_strong", "neg_weak")}
+    for bucket, sub in KEYWORDS[field].items():
+        if bucket == "negative":
+            for cat, words in sub.items():
+                snap[cat] |= set(words)
+        else:
+            for tier in _POS_TIERS:
+                snap[tier] |= set(sub.get(tier, ()))
+    return {k: sorted(v) for k, v in snap.items()}
+
+
+def item_to_json(item: dict) -> dict:
+    """item dict를 JSON 직렬화 가능한 형태로 정리.
+    score는 고정 기준(SCORE_REF) 0~10 정규화. 배치 최댓값 의존 폐기."""
     published = item.get("published")
     raw_score = item["score"]
-    normalized = raw_score / max_score * 10 if max_score > 0 else 0
+    normalized = min(10.0, max(0.0, raw_score) / SCORE_REF * 10) if SCORE_REF > 0 else 0
     return {
         "title": item["title"],
         "date": published.astimezone(KST).strftime("%Y-%m-%d") if published else None,
@@ -51,17 +68,13 @@ def save(field: str, items: list[dict], dropped: list[dict],
     now_kst = datetime.now(KST)
     date_str = now_kst.strftime("%Y-%m-%d")
 
-    # 정규화용 최댓값 (items + failed 통합 기준)
-    all_scores = [it["score"] for it in items] + [f["score"] for f in failed]
-    max_score = max(all_scores) if all_scores else 1
-
     payload = {
         "generated_at": now_kst.isoformat(),
         "field": field,
         "field_date": date_str,
         "stats": stats,
-        "keywords_snapshot": {k: sorted(v) for k, v in KEYWORDS[field].items()},
-        "items": [item_to_json(it, max_score) for it in items],
+        "keywords_snapshot": keywords_snapshot(field),
+        "items": [item_to_json(it) for it in items],
         "dropped_below_threshold": [dropped_to_json(it) for it in dropped],
         "extract_failed": failed,
     }
