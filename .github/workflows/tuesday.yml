@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Install deps (weekly_prep는 requests 필요)
+        run: pip install requests
+
       - name: Run tuesday prep (루틴 B 집계, 판단 없음)
         run: python tuesday_prep.py
 
