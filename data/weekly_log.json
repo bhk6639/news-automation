@@ -1,0 +1,11 @@
+[
+  {
+    "ran_at": "2026-06-23T06:00:19.537126+09:00",
+    "window_start": "2026-06-01",
+    "window_end": "2026-06-22",
+    "prev_briefing_date": "2026-05-31",
+    "total": 151,
+    "summary_empty_count": 42,
+    "empty": false
+  }
+]
