@@ -1,103 +1,128 @@
 {
-  "generated_at": "2026-06-16T03:30:36.023168+09:00",
+  "generated_at": "2026-06-23T03:30:45.613751+09:00",
   "window": {
-    "today": "2026-06-16",
-    "window_start": "2026-06-10",
-    "window_end": "2026-06-16",
+    "today": "2026-06-23",
+    "window_start": "2026-06-17",
+    "window_end": "2026-06-23",
     "days": 7,
     "found_dates": [
-      "2026-06-10",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-13",
-      "2026-06-14",
-      "2026-06-15",
-      "2026-06-16"
+      "2026-06-17",
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21",
+      "2026-06-22",
+      "2026-06-23"
     ],
     "missing_dates": []
   },
   "empty": false,
   "stats_trend": [
     {
-      "date": "2026-06-10",
-      "collected_total": 100,
-      "after_score_filter": 10,
-      "extracted_success": 4,
-      "extracted_failed": 6
-    },
-    {
-      "date": "2026-06-11",
-      "collected_total": 100,
-      "after_score_filter": 10,
-      "extracted_success": 6,
-      "extracted_failed": 4
-    },
-    {
-      "date": "2026-06-12",
-      "collected_total": 100,
-      "after_score_filter": 10,
-      "extracted_success": 10,
-      "extracted_failed": 0
-    },
-    {
-      "date": "2026-06-13",
-      "collected_total": 100,
-      "after_score_filter": 10,
-      "extracted_success": 8,
-      "extracted_failed": 2
-    },
-    {
-      "date": "2026-06-14",
+      "date": "2026-06-17",
       "collected_total": 100,
       "after_score_filter": 10,
       "extracted_success": 7,
       "extracted_failed": 3
     },
     {
-      "date": "2026-06-15",
+      "date": "2026-06-18",
       "collected_total": 100,
       "after_score_filter": 10,
-      "extracted_success": 10,
-      "extracted_failed": 0
+      "extracted_success": 9,
+      "extracted_failed": 1
     },
     {
-      "date": "2026-06-16",
+      "date": "2026-06-19",
       "collected_total": 100,
+      "after_score_filter": 10,
+      "extracted_success": 6,
+      "extracted_failed": 4
+    },
+    {
+      "date": "2026-06-20",
+      "collected_total": 200,
+      "after_score_filter": 10,
+      "extracted_success": 6,
+      "extracted_failed": 4
+    },
+    {
+      "date": "2026-06-21",
+      "collected_total": 200,
+      "after_score_filter": 10,
+      "extracted_success": 9,
+      "extracted_failed": 1
+    },
+    {
+      "date": "2026-06-22",
+      "collected_total": 200,
+      "after_score_filter": 10,
+      "extracted_success": 9,
+      "extracted_failed": 1
+    },
+    {
+      "date": "2026-06-23",
+      "collected_total": 350,
       "after_score_filter": 10,
       "extracted_success": 9,
       "extracted_failed": 1
     }
   ],
   "stats_avg": {
-    "collected_total": 100.0,
+    "collected_total": 178.6,
     "after_score_filter": 10.0,
-    "extracted_success": 7.7,
-    "extracted_failed": 2.3
+    "extracted_success": 7.9,
+    "extracted_failed": 2.1
   },
   "dropped_candidates": [
     {
-      "title": "'반도체 투톱' 주춤할 때 소부장 ETF 뛰었다…개미들은 '삼전닉스 레버리지' 베팅 - 한국경제",
-      "source": "한국경제",
+      "title": "트럼프 \"인텔, 애플 칩 생산 합의\"",
+      "source": "",
       "score": 3.5,
-      "date": "2026-06-15",
+      "date": "2026-06-20",
       "title_hits": [
-        "소부장",
-        "반도체"
+        "인텔"
       ],
       "summary_hits": [
-        "소부장",
+        "반도체",
+        "인텔"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "AMD-망고부스트, AI 서버 비용 10분의 1로 낮춘다",
+      "source": "",
+      "score": 3.5,
+      "date": "2026-06-22",
+      "title_hits": [
+        "AMD"
+      ],
+      "summary_hits": [
+        "AMD",
         "반도체"
       ],
+      "negative_hits": []
+    },
+    {
+      "title": "삼성전자, 인도 초프리미엄 주거단지에 고효율 HVAC 솔루션 공급",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-06-23",
+      "title_hits": [
+        "삼성전자"
+      ],
+      "summary_hits": [
+        "삼성전자"
+      ],
       "negative_hits": [
-        "ETF",
-        "레버리지"
+        "에어컨"
       ]
     },
     {
-      "title": "[단독] 삼성전자·하이닉스, 호남에 첫 반도체 공장 설립 추진 - 한겨레",
+      "title": "호남 반도체공장에 장성 ‘방긋’ 해남 ‘긴장’ 무안 ‘어머’…엇갈린 표정 - 한겨레",
       "source": "한겨레",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -107,10 +132,10 @@
       "negative_hits": []
     },
     {
-      "title": "삼성·SK, 전남·충남에 반도체 공장 검토 - 조선일보",
+      "title": "동탄이 들썩… 반도체가 불지핀 머니무브 - 조선일보",
       "source": "조선일보",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -120,10 +145,10 @@
       "negative_hits": []
     },
     {
-      "title": "삼성·SK, 해남·장성에 반도체 공장 짓는다 - v.daum.net",
-      "source": "v.daum.net",
+      "title": "KODEX AI반도체핵심장비(471990) - 매일경제 마켓",
+      "source": "매일경제 마켓",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -133,10 +158,10 @@
       "negative_hits": []
     },
     {
-      "title": "삼전·닉스 “아는 바 없다” 선 그었지만···호남에 반도체 공장 설립 가능성 제기 - 경향신문",
-      "source": "경향신문",
+      "title": "전남·광주, 반도체 시대 열리나 - 한국시민기자협회 뉴스포털1",
+      "source": "한국시민기자협회 뉴스포털1",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -146,101 +171,10 @@
       "negative_hits": []
     },
     {
-      "title": "“반도체 값 폭등, 美경제 악영향” 경고… 국내 업체 ‘규제 역풍’ 우려 - 동아일보",
-      "source": "동아일보",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "“한·일, AI·반도체 손잡으면…누구도 못 건드린다” - 중앙일보",
-      "source": "중앙일보",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "\"반도체는 건재하다\" 코스피 급반전‥명목 성장률은 50년 만에 최고치 - MBC 뉴스",
-      "source": "MBC 뉴스",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "김동연, 수도권 배제 반도체특별법에 \"지역간 제로섬 경쟁 우려\" - 연합뉴스",
-      "source": "연합뉴스",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "中 반도체 기업 잇단 상장 추진...‘삼전닉스’에 도전장 - 조선일보",
-      "source": "조선일보",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "호남에 ‘삼전·닉스’ 반도체 공장 들어서나…이달 말 정부 회의 - 경향신문",
-      "source": "경향신문",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "반도체값 폭등에 美기업들 아우성…韓 공급업체 압박 우려도 - 동아일보",
-      "source": "동아일보",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "강위원 전남도 부지사 “호남 반도체 시대 임박” - 진일보",
+      "title": "해남공고 마이스터고 지정…AI·반도체 인재 키운다 - 진일보",
       "source": "진일보",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -250,10 +184,10 @@
       "negative_hits": []
     },
     {
-      "title": "국운까지 흔드는 산업 스파이… “반도체가 제1 타깃” - 국민일보",
-      "source": "국민일보",
+      "title": "’반도체 열기’에 수출물가 11개월째 상승…수입물가 0.3%↓ - 연합뉴스TV",
+      "source": "연합뉴스TV",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -263,10 +197,153 @@
       "negative_hits": []
     },
     {
-      "title": "브이엠 '군계일학'… 1분기 반도체 장비업계도 날았다 - 디일렉",
+      "title": "[광화문에서/박재명]“반도체, 무조건 韓은 아니다”… 흔들리는 K반도체 공식 - 동아일보",
+      "source": "동아일보",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "“전 세계적으로 ‘자산 인플레이션’… 반도체 업종 장기보유 추천” - v.daum.net",
+      "source": "v.daum.net",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "헨켈, “접착제 넘어 첨단 전자소재로 반도체 혁신 뒷받침” - e4ds news",
+      "source": "e4ds news",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "AI 시대 반도체 혁신의 연결고리, ‘The Nexus for Silicon Intelligence’ - Samsung Semiconductor",
+      "source": "Samsung Semiconductor",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "용인반도체고 마이스터고 지정…18학급·288명 규모 운영 채비 본격 - 전자신문",
+      "source": "전자신문",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "반도체만 오르는 이유, 눈치 보는 주식 시장. - 네이버 프리미엄콘텐츠",
+      "source": "네이버 프리미엄콘텐츠",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "\"반도체 발열, 물길로 잡는다\"···KAIST, 초고효율 냉각 기술 개발 - 헬로디디",
+      "source": "헬로디디",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "반도체 또 새 역사 쓴다…투톱 분기 150조 시대 '눈 앞' - MTN 머니투데이방송",
+      "source": "MTN 머니투데이방송",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "‘반도체 호황’ 온기, 고환율·고금리 신음하는 서민 경제 언제쯤 닿을까 - 한겨레",
+      "source": "한겨레",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "부산전자공고 반도체 마이스터고 선정 - v.daum.net",
+      "source": "v.daum.net",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "금통위서도 “반도체 성과급, 집값 상승 기대 키울 수도” 목소리 - 한겨레",
+      "source": "한겨레",
+      "score": 2.5,
+      "date": "2026-06-17",
+      "title_hits": [
+        "반도체"
+      ],
+      "summary_hits": [
+        "반도체"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "[일렉 스타] 수입 의존하던 BMS 반도체, 아나배틱세미가 국산화 추진 - 디일렉",
       "source": "디일렉",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -276,10 +353,10 @@
       "negative_hits": []
     },
     {
-      "title": "반도체 호재에도 이천 집값은 왜 떨어지나 - 중부일보",
-      "source": "중부일보",
+      "title": "반도체업계에 ‘감 놔라 배 놔라’ 요구 쏟아져 세계 최강 경쟁력 흔들리면 안 돼 - 이코노미트리뷴",
+      "source": "이코노미트리뷴",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -289,10 +366,10 @@
       "negative_hits": []
     },
     {
-      "title": "코스피 하루 만에 급반전‥\"반도체 계속 간다\" - MBC 뉴스",
-      "source": "MBC 뉴스",
+      "title": "[영상] 중국이 막자 일본이 포기...반도체 흔드는 가스 - 더구루",
+      "source": "더구루",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "title_hits": [
         "반도체"
       ],
@@ -302,10 +379,10 @@
       "negative_hits": []
     },
     {
-      "title": "레미콘發 반도체 공장 올스톱 우려에...정부, 배치플랜트 도입 검토 - 조선일보",
-      "source": "조선일보",
+      "title": "SDV가 키우는 車반도체 시장…완성차·반도체 결합 생태계가 승부처 - 글로벌이코노믹",
+      "source": "글로벌이코노믹",
       "score": 2.5,
-      "date": "2026-06-10",
+      "date": "2026-06-18",
       "title_hits": [
         "반도체"
       ],
@@ -315,88 +392,10 @@
       "negative_hits": []
     },
     {
-      "title": "호남·충청에 ‘반도체 공장’… 與 \"삼전닉스 이달 발표\" - v.daum.net",
+      "title": "‘250억 투입’ 원주에 의료기기 반도체 거점 - v.daum.net",
       "source": "v.daum.net",
       "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "[반도체법의 이면] 산업부 '모호한 설명'이 혼란 키웠다 - 인천일보",
-      "source": "인천일보",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "명목 GDP, 50년만 최대…'반도체 초호황' 역설 - 뉴스토마토",
-      "source": "뉴스토마토",
-      "score": 2.5,
-      "date": "2026-06-10",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "건설연, 반도체·SMR·데이터센터 등 국가전략산업 인프라 연구 확장 - 전기신문",
-      "source": "전기신문",
-      "score": 2.5,
-      "date": "2026-06-11",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "정치권이 주도하는 ‘호남 반도체 투자’ 속도전 우려 - 조선일보",
-      "source": "조선일보",
-      "score": 2.5,
-      "date": "2026-06-11",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "李대통령 \"반도체 발전 혜택 함께\"…벨기에 총리 \"벨기에에도 유익\" - v.daum.net",
-      "source": "v.daum.net",
-      "score": 2.5,
-      "date": "2026-06-11",
-      "title_hits": [
-        "반도체"
-      ],
-      "summary_hits": [
-        "반도체"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "중 CXMT 상장 코앞…반도체 판도 흔드나 - 경향신문",
-      "source": "경향신문",
-      "score": 2.5,
-      "date": "2026-06-11",
+      "date": "2026-06-18",
       "title_hits": [
         "반도체"
       ],
@@ -409,78 +408,90 @@
   "keyword_usage": [
     {
       "keyword": "반도체",
-      "hits": 348
-    },
-    {
-      "keyword": "공정",
-      "hits": 32
-    },
-    {
-      "keyword": "파운드리",
-      "hits": 30
+      "hits": 319
     },
     {
       "keyword": "HBM",
-      "hits": 26
+      "hits": 52
     },
     {
-      "keyword": "TSMC",
+      "keyword": "삼성전자",
+      "hits": 40
+    },
+    {
+      "keyword": "하이닉스",
+      "hits": 33
+    },
+    {
+      "keyword": "파운드리",
       "hits": 24
     },
     {
-      "keyword": "SK하이닉스",
-      "hits": 20
+      "keyword": "인텔",
+      "hits": 18
     },
     {
-      "keyword": "후공정",
-      "hits": 20
-    },
-    {
-      "keyword": "엔비디아",
+      "keyword": "TSMC",
       "hits": 16
+    },
+    {
+      "keyword": "SK하이닉스",
+      "hits": 14
     },
     {
       "keyword": "AI 반도체",
       "hits": 14
     },
     {
+      "keyword": "공정",
+      "hits": 13
+    },
+    {
       "keyword": "패키징",
+      "hits": 9
+    },
+    {
+      "keyword": "메모리",
       "hits": 8
+    },
+    {
+      "keyword": "AI반도체",
+      "hits": 8
+    },
+    {
+      "keyword": "엔비디아",
+      "hits": 6
     },
     {
       "keyword": "팹",
       "hits": 6
     },
     {
-      "keyword": "메모리",
+      "keyword": "인텔 파운드리",
       "hits": 6
+    },
+    {
+      "keyword": "투자",
+      "hits": 6
+    },
+    {
+      "keyword": "AMD",
+      "hits": 4
     },
     {
       "keyword": "전공정",
-      "hits": 6
+      "hits": 4
+    },
+    {
+      "keyword": "후공정",
+      "hits": 4
     },
     {
       "keyword": "마이크론",
-      "hits": 6
-    },
-    {
-      "keyword": "한미반도체",
       "hits": 4
     },
     {
-      "keyword": "2나노",
-      "hits": 4
-    },
-    {
-      "keyword": "소부장",
-      "hits": 4
-    },
-    {
-      "keyword": "양산",
-      "hits": 4
-    },
-    {
-      "keyword": "삼성전자 반도체",
+      "keyword": "DDR5",
       "hits": 2
     },
     {
@@ -488,116 +499,246 @@
       "hits": 2
     },
     {
-      "keyword": "ASML",
+      "keyword": "한미반도체",
+      "hits": 2
+    },
+    {
+      "keyword": "검사장비",
+      "hits": 2
+    },
+    {
+      "keyword": "적층",
+      "hits": 2
+    },
+    {
+      "keyword": "양산",
+      "hits": 2
+    },
+    {
+      "keyword": "소부장",
+      "hits": 2
+    },
+    {
+      "keyword": "2나노",
+      "hits": 2
+    },
+    {
+      "keyword": "웨이퍼",
+      "hits": 2
+    },
+    {
+      "keyword": "DRAM",
+      "hits": 2
+    },
+    {
+      "keyword": "수주",
+      "hits": 2
+    },
+    {
+      "keyword": "브로드컴",
       "hits": 2
     }
   ],
   "dead_keywords": [
+    "10나노급",
+    "12단",
+    "16단",
+    "1a",
     "1b",
     "1c",
+    "1d",
+    "2.5D",
+    "200단",
+    "20단",
+    "2D 반도체",
+    "2D반도체",
+    "2nm",
+    "300단",
+    "3D IC",
+    "3nm",
     "3나노",
+    "400단",
+    "4F2",
     "7세대",
-    "AMD",
+    "AI accelerator",
+    "AI chip",
+    "AMAT",
+    "ASML",
+    "Applied Materials",
+    "BSPDN",
+    "Broadcom",
+    "CFET",
     "CHIPS Act",
+    "CXL",
     "CoWoS",
-    "DDR5",
-    "DRAM",
+    "DDR6",
+    "D램",
     "EUV",
+    "FeRAM",
     "GAA",
     "GDDR",
+    "GaN",
+    "HBM3E",
+    "HBM4",
+    "HBM4E",
+    "Intel",
+    "Kioxia",
+    "Lam Research",
+    "MR-MUF",
+    "MRAM",
+    "Micron",
     "NAND",
+    "Nvidia",
+    "PCRAM",
+    "PIM",
+    "QLC",
+    "Qualcomm",
+    "ReRAM",
+    "Samsung",
+    "SiC",
+    "TLC",
     "TSV",
-    "검사장비",
+    "Tokyo Electron",
+    "UCIe",
+    "advanced packaging",
+    "backend",
+    "backside power",
+    "base die",
+    "capacity expansion",
+    "capex",
+    "chiplet",
+    "chiplets",
+    "co-packaged optics",
+    "compound semiconductor",
+    "defect inspection",
+    "deposition",
+    "etching",
+    "export control",
+    "fab",
+    "foundry",
+    "high bandwidth memory",
+    "high-NA",
+    "hybrid bonding",
+    "hynix",
+    "interposer",
+    "lithography",
+    "mass production",
+    "metrology",
+    "microbump",
+    "nanosheet",
+    "node",
+    "packaging",
+    "photoresist",
+    "semiconductor",
+    "sub-2nm",
+    "subsidy",
+    "volume production",
+    "wafer",
+    "yield",
+    "강유전체",
     "고대역폭",
     "낸드",
     "노광",
+    "뉴로모픽",
+    "더블스택",
+    "도쿄일렉트론",
+    "디램",
+    "램리서치",
+    "매스리플로우",
+    "백그라인딩",
+    "버퍼 다이",
+    "버퍼다이",
+    "베이스 다이",
+    "베이스다이",
     "보조금",
     "본딩",
-    "브로드컴",
+    "삼성",
+    "삼전",
+    "셀온페리",
+    "수직 D램",
+    "수직D램",
     "수출규제",
     "시스템반도체",
     "식각",
-    "웨이퍼",
-    "인텔",
-    "인텔 파운드리",
-    "적층",
+    "어플라이드",
+    "웨이퍼본딩",
+    "인수",
+    "증설",
     "증착",
+    "채널홀",
     "첨단공정",
     "칩렛",
     "칩스법",
+    "코어 다이",
+    "코어다이",
     "퀄컴",
-    "포토레지스트"
+    "키옥시아",
+    "트리플스택",
+    "포토레지스트",
+    "프로세싱인메모리",
+    "하닉",
+    "하이브리드 본딩",
+    "하이브리드본딩"
   ],
   "negative_usage": [
     {
-      "keyword": "급락",
-      "hits": 2
-    },
-    {
-      "keyword": "ETF",
+      "keyword": "코인",
       "hits": 1
     },
     {
-      "keyword": "레버리지",
+      "keyword": "에어컨",
       "hits": 1
     }
   ],
   "passed_with_negative": [
     {
-      "title": "뉴욕증시 반도체 와르르 급락 \"구글 터보퀀트 충격 마이크론 10% 폭락\" - 초이스스탁",
-      "source": "초이스스탁",
-      "score": 3.56,
-      "date": "2026-06-12",
+      "title": "삼성전자 이어 SK하이닉스도 비트코인 추월…AI 반도체 질주에 시총 역전 > 뉴스포커스 - SeattleN",
+      "source": "SeattleN",
+      "score": 4.59,
+      "date": "2026-06-21",
       "negative_hits": [
-        "급락"
-      ]
-    },
-    {
-      "title": "[속보]마이크론5%↓반도체 투매 뉴욕증시 급락 - 문화일보",
-      "source": "문화일보",
-      "score": 3.56,
-      "date": "2026-06-12",
-      "negative_hits": [
-        "급락"
+        "코인"
       ]
     }
   ],
   "extract_failed": {
-    "total": 16,
+    "total": 15,
     "by_reason": {
-      "too_short": 8,
+      "too_short": 7,
       "fetch_fail": 6,
       "no_body": 2
     },
     "by_source": {
-      "v.daum.net": 4,
-      "쿠키뉴스": 2,
       "디지털데일리": 2,
-      "조선일보": 1,
-      "티제이비": 1,
-      "마켓인": 1,
-      "녹색경제신문": 1,
+      "조선일보": 2,
+      "v.daum.net": 1,
       "Chosunbiz": 1,
+      "녹색경제신문": 1,
+      "newstheai.com": 1,
+      "재외동포신문": 1,
+      "중앙일보": 1,
+      "금융소비자뉴스": 1,
       "서울경제": 1,
-      "비즈니스포스트": 1,
-      "뉴스1": 1
+      "대한경제": 1,
+      "뉴스1": 1,
+      "thecommoditiesnews.com": 1
     }
   },
   "selected_source_distribution": {
-    "v.daum.net": 12,
+    "v.daum.net": 8,
+    "디일렉": 4,
+    "전자신문": 3,
     "한국경제": 3,
-    "전자신문": 2,
-    "연합뉴스": 2,
-    "초이스스탁": 2,
-    "알파경제": 1,
-    "시사저널e": 1,
-    "디지털비즈온": 1,
-    "IT조선": 1,
+    "글로벌이코노믹": 3,
+    "테크데일리": 2,
+    "위클리포스트": 1,
+    "매일일보": 1,
+    "피플투데이": 1,
+    "서울신문": 1,
+    "이투데이": 1,
+    "동아일보": 1,
     "연합인포맥스": 1,
-    "한겨레": 1,
-    "아이뉴스24": 1,
-    "디일렉": 1,
-    "문화일보": 1,
-    "경향신문": 1
+    "조세일보": 1,
+    "지디넷코리아": 1
   }
 }
