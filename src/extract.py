@@ -1,6 +1,7 @@
 """
 본문 추출. trafilatura 사용.
-실패하거나 본문이 짧으면 drop.
+본문이 아예 없을 때만 drop (길이 컷 없음 — 짧아도 살림).
+MIN_BODY_LENGTH는 'rss 본문을 재크롤 없이 쓸지' 판단에만 사용(드롭 기준 아님).
 병렬 처리 옵션 지원 (settings.PARALLEL_EXTRACT).
 """
 
@@ -36,7 +37,7 @@ def clean_body(text: str) -> str:
 def extract_one(url: str) -> tuple[str | None, str]:
     """
     return: (본문 or None, 실패 사유)
-    사유: "ok" | "fetch_fail" | "no_body" | "too_short" | "exception"
+    사유: "ok" | "fetch_fail" | "no_body" | "exception"
     """
     for attempt in range(EXTRACT_RETRY + 1):
         try:
@@ -55,8 +56,9 @@ def extract_one(url: str) -> tuple[str | None, str]:
             if not body:
                 return None, "no_body"
             body = clean_body(body)
-            if len(body) < MIN_BODY_LENGTH:
-                return None, f"too_short({len(body)}자)"
+            if not body:
+                return None, "no_body"
+            # 길이 컷 제거 — 짧아도 버리지 않음
             return body.strip(), "ok"
         except Exception as e:
             if attempt < EXTRACT_RETRY:
@@ -74,12 +76,18 @@ def get_body(item: dict) -> tuple[str | None, str]:
     - thelec/KIPOST 등 요약만 주는 피드는 기존대로 재크롤링.
     return: (본문 or None, 사유). 사유 "ok(rss)" | extract_one 사유
     """
-    rss_body = item.get("rss_body", "")
+    rss_body = clean_body(item.get("rss_body", "") or "")
+    # rss 본문이 충분히 길면 재크롤 없이 사용 (전문 제공 피드)
+    if rss_body and len(rss_body) >= MIN_BODY_LENGTH:
+        return rss_body.strip(), "ok(rss)"
+    # 아니면 재크롤. 단 길이로는 안 버림(extract_one에서 컷 제거).
+    body, reason = extract_one(item["url"])
+    if body:
+        return body, reason
+    # 크롤 실패/빈 본문이어도 짧은 rss 본문이 있으면 살림.
     if rss_body:
-        body = clean_body(rss_body)
-        if len(body) >= MIN_BODY_LENGTH:
-            return body.strip(), "ok(rss)"
-    return extract_one(item["url"])
+        return rss_body.strip(), "ok(rss-short)"
+    return None, reason
 
 
 def extract_items_sequential(items: list[dict]) -> tuple[list[dict], list[dict]]:

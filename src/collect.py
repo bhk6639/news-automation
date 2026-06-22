@@ -62,8 +62,10 @@ def collect_field(field: str) -> list[dict]:
                 "published": parse_published(entry),
                 "summary": clean_summary(entry.get("summary", "")),
                 "rss_body": extract_rss_content(entry),  # 본문 전체 제공 피드용 (없으면 '')
-                "source_name": entry.get("source", {}).get("title", "")
-                               if hasattr(entry, "source") else "",
+                # Google News는 entry.source.title(실제 매체명) 우선,
+                # 직접피드는 그게 없으니 피드명(src["name"])으로 폴백 → 빈 source 방지.
+                "source_name": (entry.get("source", {}).get("title", "")
+                                if hasattr(entry, "source") else "") or src["name"],
                 "rss_source": src["name"],
             })
     return results
