@@ -14,6 +14,8 @@ from config.settings import (
     TOP_N_FOR_EXTRACT,
     DROPPED_KEEP,
     NEG_FLOOR,
+    ENGLISH_FEEDS,
+    ENGLISH_QUOTA,
 )
 from config.keywords import KEYWORDS, WEIGHTS, ALIASES, BUCKET_CAPS
 
@@ -26,6 +28,11 @@ _ALIAS2CANON = {alias: canon for canon, group in ALIASES.items() for alias in gr
 
 def _canon(word: str) -> str:
     return _ALIAS2CANON.get(word, word)
+
+
+def _is_english_feed(item: dict) -> bool:
+    """영문 피드(GoogleNews_EN/SemiEngineering/BlocksAndFiles) 출처인지."""
+    return item.get("rss_source") in ENGLISH_FEEDS
 
 
 def filter_by_time(items: list[dict]) -> list[dict]:
@@ -155,6 +162,11 @@ def score_and_filter(items: list[dict], field: str) -> tuple[list[dict], list[di
     """
     각 item에 점수 부여 후 정렬.
     return: (선정된 상위 N개, 컷오프 못 넘은 dropped)
+
+    영문 쿼터: 본문 추출용 top-N에 영문 피드 자리를 ENGLISH_QUOTA개 보장한다.
+    영문은 헤드라인이 키워드를 적게 때려 점수가 낮아 컷에서 늘 탈락하므로,
+    이 자리만은 컷(THRESHOLD)을 우회해 점수 높은 영문 후보를 끌어올린다.
+    부족한 자리는 점수 낮은 한글 기사를 빼서 만든다(후보 부족 시 그만큼만).
     """
     for it in items:
         detail = score_item(it, field)
@@ -171,9 +183,35 @@ def score_and_filter(items: list[dict], field: str) -> tuple[list[dict], list[di
     items.sort(key=lambda x: x["score"], reverse=True)
 
     passed = [it for it in items if it["score"] >= PYTHON_SCORE_THRESHOLD]
-    dropped = [it for it in items if it["score"] < PYTHON_SCORE_THRESHOLD]
+    selected = passed[:TOP_N_FOR_EXTRACT]
 
-    return passed[:TOP_N_FOR_EXTRACT], dropped[:DROPPED_KEEP]
+    # ── 영문 쿼터 ──────────────────────────────────────────────
+    eng_in = [it for it in selected if _is_english_feed(it)]
+    need = ENGLISH_QUOTA - len(eng_in)
+    if need > 0:
+        sel_urls = {it["url"] for it in selected}
+        # 아직 안 뽑힌 영문 후보(컷 미만 포함), 점수>0, 이미 점수순 정렬됨
+        eng_pool = [
+            it for it in items
+            if _is_english_feed(it) and it["url"] not in sel_urls and it["score"] > 0
+        ]
+        promote = eng_pool[:need]
+        if promote:
+            # 영문 자리만큼 점수 낮은 한글(비영문) 기사를 뺀다
+            korean = [it for it in selected if not _is_english_feed(it)]
+            drop_n = min(len(promote), len(korean))
+            demote_urls = {it["url"] for it in korean[-drop_n:]} if drop_n else set()
+            selected = [it for it in selected if it["url"] not in demote_urls] + promote
+            selected.sort(key=lambda x: x["score"], reverse=True)
+            selected = selected[:TOP_N_FOR_EXTRACT]
+
+    sel_urls = {it["url"] for it in selected}
+    dropped = [
+        it for it in items
+        if it["url"] not in sel_urls and it["score"] < PYTHON_SCORE_THRESHOLD
+    ]
+
+    return selected, dropped[:DROPPED_KEEP]
 
 
 if __name__ == "__main__":

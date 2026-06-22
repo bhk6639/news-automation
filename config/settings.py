@@ -23,6 +23,14 @@ NEG_FLOOR = -6     # 음수(감점) 합 하한. 한 기사가 무한정 깎이�
 TOP_N_FOR_EXTRACT = 10
 MIN_BODY_LENGTH = 300
 
+# 영문 쿼터 (filter.py score_and_filter)
+# 영문 헤드라인은 키워드를 적게 때려 점수가 낮음 → 컷(THRESHOLD)에서 늘 탈락.
+# 본문 추출용 top-N에 영문 피드 자리를 ENGLISH_QUOTA개 예약해 컷을 우회시킨다.
+# 이렇게 latest.json까지 살아남아야 본문을 읽는 클로드 루틴이 최종 판단할 수 있다.
+# (실제 노션 상위 5 보장은 데일리 프롬프트의 '영문 쿼터' 규칙이 담당)
+ENGLISH_FEEDS = {"GoogleNews_EN", "SemiEngineering", "BlocksAndFiles"}
+ENGLISH_QUOTA = 3
+
 # dropped 저장 개수
 DROPPED_KEEP = 20
 
@@ -37,4 +45,8 @@ PARALLEL_WORKERS = 4
 
 # JSON 저장
 DATA_DIR = "data"
-BODY_TRUNCATE = 1000  # 루틴 토큰 절약용 본문 최대 길이
+# 본문 최대 길이 (루틴 토큰 절약). 언어별 분리 — 한글은 짧게, 영문은 길게.
+# 한글 기사는 첫 문단에 핵심이 몰려 600자면 2문장 요약·카테고리 판단에 충분.
+# 영문(쿼터로 진입)은 LLM이 본문으로 관련성·요약을 판단해야 하므로 1000자 유지.
+BODY_TRUNCATE = 1000      # 영문/기본 본문 최대 길이
+BODY_TRUNCATE_KO = 600    # 한글 본문 최대 길이

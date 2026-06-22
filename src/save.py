@@ -6,7 +6,13 @@ import json
 import shutil
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from config.settings import DATA_DIR, BODY_TRUNCATE, SCORE_REF
+from config.settings import (
+    DATA_DIR,
+    BODY_TRUNCATE,
+    BODY_TRUNCATE_KO,
+    ENGLISH_FEEDS,
+    SCORE_REF,
+)
 from config.keywords import KEYWORDS
 
 
@@ -35,13 +41,15 @@ def item_to_json(item: dict) -> dict:
     published = item.get("published")
     raw_score = item["score"]
     normalized = min(10.0, max(0.0, raw_score) / SCORE_REF * 10) if SCORE_REF > 0 else 0
+    # 본문 길이: 영문 피드는 1000자, 한글은 600자 (루틴 토큰 절약)
+    limit = BODY_TRUNCATE if item.get("rss_source") in ENGLISH_FEEDS else BODY_TRUNCATE_KO
     return {
         "title": item["title"],
         "date": published.astimezone(KST).strftime("%Y-%m-%d") if published else None,
         "source": item.get("source_name", ""),
         "url": item["url"],
         "summary": item.get("summary", ""),
-        "body": item.get("body", "")[:BODY_TRUNCATE],
+        "body": item.get("body", "")[:limit],
         "score": round(normalized, 2),
         "score_raw": raw_score,
         "score_detail": item["score_detail"],
