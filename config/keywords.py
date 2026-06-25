@@ -30,25 +30,36 @@ KEYWORDS = {
                 "램리서치", "Lam Research",
                 "도쿄일렉트론", "Tokyo Electron",
                 "키옥시아", "Kioxia",
+                # 삼성 strong 승격 (6/25) — 메모리/파운드리 핵심 주체. DX부문(폰/가전)은 negative로 상쇄.
+                "삼성전자", "삼전", "삼성", "Samsung",
+                # 메모리/파운드리/장비/소재 추가 (6/25)
+                "난야", "Nanya", "윈본드", "Winbond",
+                "솔리다임", "Solidigm", "웨스턴디지털", "Western Digital", "샌디스크", "SanDisk",
+                "글로벌파운드리", "GlobalFoundries", "UMC", "SMIC", "라피더스", "Rapidus",
+                "KLA", "어드밴테스트", "Advantest", "신에츠", "Shin-Etsu", "섬코", "SUMCO",
             },
             "medium": {  # +2
-                "삼성전자", "삼전", "삼성", "Samsung",  # DX부문(폰/가전)은 negative로 상쇄
-                "인텔 파운드리", "한미반도체",
+                "인텔 파운드리", "삼성파운드리", "한미반도체",
+                # 국내외 소부장·장비·소재 (6/25)
+                "동진쎄미켐", "솔브레인", "원익IPS", "주성엔지니어링", "피에스케이",
+                "이오테크닉스", "HPSP", "SK실트론", "케이씨텍", "네패스", "하나마이크론",
+                "넥스틴", "파크시스템스", "에스앤에스텍", "JSR", "도쿄오카",
             },
             "weak": {  # +1
                 "인텔", "Intel", "AMD", "퀄컴", "Qualcomm", "브로드컴", "Broadcom",
+                "미디어텍", "MediaTek", "마벨", "Marvell", "Arm",
+                "시높시스", "Synopsys", "케이던스", "Cadence",
             },
         },
         # ── 제품 ───────────────────────────────────────────────
         "product": {
-            "cap": 7,
+            "cap": 5,
             "strong": {  # +3
                 "HBM", "HBM4", "HBM3E", "HBM4E", "high bandwidth memory",
                 "DRAM", "D램", "디램",  # 국문 'D램'/'디램' 보강 (기존엔 영문 DRAM만 있었음)
                 "NAND", "낸드",
                 "AI 반도체", "AI반도체", "AI chip", "AI accelerator", "시스템반도체",
-                "1a", "1b", "1c", "1d",  # DRAM 노드 세대
-                "DDR5", "LPDDR", "GDDR",
+                "DDR5", "LPDDR", "GDDR",  # ※ DRAM 세대(1a~1d)는 tech critical로 이동(채널 스케일링)
             },
             "medium": {  # +2
                 "메모리", "고대역폭", "DDR6",  # DDR6만 신규 (LPDDR/GDDR가 6/7세대 접미사 이미 잡음)
@@ -58,45 +69,88 @@ KEYWORDS = {
         # ── 기술·공정 ──────────────────────────────────────────
         "tech": {
             "cap": 10,
-            "strong": {  # +3
-                "EUV",
-                # HBM 적층 핵심 공정
+            "critical": {  # +5 — 차세대 DRAM/NAND/HBM 공정 + 노드. 로직 트랜지스터는 strong.
+                # 메모리 노광 (EUV DRAM 등)
+                "EUV", "high-NA",
+                # 노드(채널 길이) — ALIASES '노드'로 묶어 여러 개 나와도 1회 카운트
+                "3나노", "3nm", "2나노", "2nm", "1.4나노", "1.4nm",
+                "1나노", "1nm", "0.7나노", "0.7nm", "sub-2nm", "옹스트롬", "angstrom",
+                # DRAM 세대 — filter._kw_pattern이 뒤 컨텍스트(나노/nm/D램)를 요구해 '1 billion' 등 오매칭 차단
+                "1a", "1b", "1c", "1d",
+                # DRAM 구조·미세화
+                "4F2", "수직D램", "수직 D램", "3D DRAM", "3D D램",
+                "BCAT", "새들핀", "saddle-fin", "saddle fin",
+                "매립게이트", "buried word line", "buried gate", "RCAT",
+                "IGZO", "캐패시터리스", "capacitorless",
+                # NAND 적층 단수 (촘촘)
+                "128단", "176단", "200단", "232단", "236단", "238단", "280단",
+                "300단", "321단", "400단", "430단", "1000단",
+                "더블스택", "트리플스택", "셀온페리", "채널홀",
+                # HBM 적층 단수
+                "8단", "12단", "16단", "20단", "24단",
+                "8-Hi", "12-Hi", "16-Hi", "20-Hi", "24-Hi",
+                # 차세대 메모리
+                "CXL", "PIM", "프로세싱인메모리",
+                "MRAM", "PCRAM", "ReRAM", "FeRAM", "강유전체", "뉴로모픽",
+                # 차세대 소재
+                "2D 반도체", "2D반도체",
+            },
+            "strong": {  # +3 — 로직 트랜지스터 + 노광/식각/패터닝 + HBM 적층 기법 (노드는 critical로 이동)
+                # 로직 트랜지스터 구조
+                "GAA", "게이트올어라운드", "gate-all-around",
+                "nanosheet", "나노시트", "CFET",
+                "forksheet", "포크시트",
+                "RibbonFET", "리본펫", "PowerVia", "파워비아",
+                "backside power", "BSPDN", "후면전력공급", "후면전력",
+                # 게이트
+                "HKMG", "high-k metal gate", "하이k메탈게이트",
+                # 노광·패터닝 (메모리/로직 공통 핵심)
+                "노광", "lithography", "펠리클", "pellicle",
+                "다중패터닝", "멀티패터닝", "multi-patterning", "SADP", "SAQP",
+                # 식각 (고종횡비 채널 식각 — 메모리 핵심)
+                "식각", "etching", "고종횡비", "high aspect ratio",
+                # HBM 적층 공정
                 "MR-MUF", "매스리플로우",
                 "하이브리드본딩", "하이브리드 본딩", "hybrid bonding",
-                # 차세대 메모리 (주류)
-                "CXL", "PIM", "프로세싱인메모리",
             },
             "medium": {  # +2
-                # 공정 일반 (특정 기술)
-                "노광", "식각", "증착", "패키징", "packaging", "advanced packaging",
-                "포토레지스트", "photoresist", "소부장",
-                "2나노", "3나노", "2nm", "3nm", "GAA", "CoWoS",
-                "칩렛", "chiplet", "chiplets",
-                "첨단공정", "7세대", "검사장비", "후공정", "전공정", "backend",
-                "TSV", "본딩", "적층",
-                "lithography", "etching", "deposition", "node", "yield",
-                # 메모리 적층 구조/공정 (신규)
+                # 패터닝 잔여
+                "침지노광", "immersion", "OPC", "포토마스크", "photomask", "레티클", "reticle",
+                # 식각 잔여
+                "ALE", "원자층식각", "RIE", "건식식각", "dry etch", "플라즈마식각", "plasma etch",
+                # 증착·박막
+                "증착", "deposition", "ALD", "원자층증착", "CVD", "PVD", "PECVD",
+                "선택적증착", "selective deposition", "SiGe", "실리콘게르마늄",
+                # 단위공정 (이온주입·에피·CMP·평탄화)
+                "슬러리", "slurry", "평탄화", "planarization", "CMP", "화학기계연마",
+                "이온주입", "ion implant", "implantation", "에피택시", "epitaxy", "epitaxial",
+                # 트랜지스터/도핑/열처리
+                "FinFET", "핀펫", "게이트스택", "gate stack", "일함수", "work function",
+                "도핑", "doping", "도펀트", "어닐", "annealing", "RTA", "급속열처리", "접합",
+                # 계측·검사
+                "metrology", "계측", "overlay", "오버레이", "OCD", "CD-SEM",
+                "e-beam", "전자빔", "검사장비", "defect inspection", "결함검사", "yield",
+                # 소재
+                "포토레지스트", "photoresist", "high-k", "하이k", "low-k",
+                "precursor", "전구체", "MoS2",
+                "GaN", "SiC", "compound semiconductor", "화합물반도체", "소부장",
+                # 공정 구분
+                "FEOL", "MOL", "BEOL", "DTCO",
+                # 메모리 구조 잔여
+                "10나노급", "peripheral", "QLC", "TLC",
+                "웨이퍼본딩", "wafer-on-wafer", "백그라인딩",
                 "베이스다이", "베이스 다이", "코어다이", "코어 다이", "버퍼다이", "버퍼 다이",
-                "웨이퍼본딩", "백그라인딩",
-                # DRAM 미세화 (신규)
-                "4F2", "10나노급", "수직 D램", "수직D램",
-                # NAND 적층 (신규)
-                "200단", "300단", "400단", "더블스택", "트리플스택", "셀온페리", "채널홀",
-                "QLC", "TLC",
-                # 차세대/뉴메모리 (신규)
-                "MRAM", "PCRAM", "ReRAM", "FeRAM", "강유전체", "뉴로모픽",
-                # HBM 단수 (신규). ⚠ 뒤가 한글이라 '12단계' 등 오매칭 가능 — bucket_hits 모니터링
-                "12단", "16단", "20단",
-                # 신소재/차세대 (신규, 변별력 높은 고유어만)
-                "2D 반도체", "2D반도체",
-                # 영문 보강 (SemiEngineering·TrendForce 발굴, 함정문장 오매칭 검증 완료)
-                # 노드 약칭 N2/N3/N5/N7·18A는 'Route N3'/'page 18A'/'train N700' 오매칭으로 제외 (2nm/3nm가 커버)
-                "co-packaged optics", "UCIe", "interposer", "microbump", "2.5D", "3D IC",
-                "high-NA", "metrology", "defect inspection",
-                "backside power", "BSPDN", "nanosheet", "CFET", "sub-2nm",
-                "GaN", "SiC", "compound semiconductor", "base die",
+                # 첨단 패키징 브랜드 (구체어만 medium; 일반어 '패키징'은 domain)
+                "칩렛", "chiplet", "chiplets", "TSV",
+                "CoWoS", "SoIC", "Foveros", "EMIB",
+                "팬아웃", "fan-out", "FOWLP", "FOPLP", "재배선", "RDL",
+                "유리기판", "glass substrate", "패널레벨", "panel-level",
+                "언더필", "underfill", "워피지", "warpage",
+                "interposer", "microbump", "2.5D", "3D IC", "UCIe",
+                "co-packaged optics", "CPO", "silicon photonics", "실리콘포토닉스",
+                "base die",
             },
-            "weak": set(),
+            "weak": set(),  # 범용 배경어는 domain으로 이동 — 배수 안 받게
         },
         # ── 사건·액션 ──────────────────────────────────────────
         "event": {
@@ -104,6 +158,7 @@ KEYWORDS = {
             "strong": set(),
             "medium": {  # +2
                 "양산", "수주", "증설", "투자", "인수",
+                "점유율", "시장점유율", "market share",  # 시장 지표 (6/25 추가)
                 "수출규제", "export control", "보조금", "subsidy",
                 "칩스법", "CHIPS Act",
                 # 영문 보강 (구 단위로만 — 일반어 order/investment 단독은 제외)
@@ -142,6 +197,7 @@ KEYWORDS = {
 
 # 가중치 매핑
 WEIGHTS = {
+    "critical": 5,   # 차세대 공정/소자/메모리 (strong 위 신설, 6/25)
     "strong": 3,
     "medium": 2,
     "weak": 1,
@@ -150,10 +206,22 @@ WEIGHTS = {
 }
 
 
+# 버킷별 가중치 — filter.py 가 버킷 capped 점수에 곱해 합산 (6/25).
+# tech를 비즈니스 버킷(product/entity/event)보다 무겁게 둬서, 같은 cap이라도
+# 기술 기사가 메모리 시장 뉴스를 점수로 넘어서게 한다. (cap은 그대로, '배수'로 해결)
+BUCKET_WEIGHTS = {
+    "entity": 1.0,
+    "product": 1.0,
+    "tech": 1.3,
+    "event": 1.0,
+    "domain": 1.0,
+}
+
+
 # 버킷별 상한 (KEYWORDS 각 버킷의 "cap" 키가 우선. 누락 시 폴백/참고용)
 BUCKET_CAPS = {
     "entity": 5,
-    "product": 7,
+    "product": 5,
     "tech": 10,
     "event": 5,
     "domain": 2,
@@ -183,14 +251,83 @@ ALIASES = {
     "키옥시아": {"키옥시아", "Kioxia"},
     # ── 신규 ──
     "DRAM": {"DRAM", "D램", "디램"},
-    "하이브리드본딩": {"본딩", "하이브리드본딩", "하이브리드 본딩", "hybrid bonding"},
+    "하이브리드본딩": {"하이브리드본딩", "하이브리드 본딩", "hybrid bonding"},
     "PIM": {"PIM", "프로세싱인메모리"},
     "베이스다이": {"베이스다이", "베이스 다이", "base die"},
     "코어다이": {"코어다이", "코어 다이"},
     "버퍼다이": {"버퍼다이", "버퍼 다이"},
-    "수직D램": {"수직D램", "수직 D램"},
+    "수직D램": {"수직D램", "수직 D램", "3D DRAM", "3D D램"},
     "2D반도체": {"2D 반도체", "2D반도체"},
     # 사건어 영문 (구 단위) — 같은 사건 1회.
     "양산": {"양산", "mass production", "volume production"},
     "증설": {"증설", "capacity expansion"},
+    # ── 전공정 보강 (6/25) — 국문/영문 표면형 1회 접기 ──
+    "GAA": {"GAA", "게이트올어라운드", "gate-all-around"},
+    "nanosheet": {"nanosheet", "나노시트"},
+    "backside_power": {"backside power", "BSPDN", "후면전력공급", "후면전력"},
+    "HKMG": {"HKMG", "high-k metal gate", "하이k메탈게이트"},
+    "RibbonFET": {"RibbonFET", "리본펫"},
+    "PowerVia": {"PowerVia", "파워비아"},
+    "forksheet": {"forksheet", "포크시트"},
+    "FinFET": {"FinFET", "핀펫"},
+    "이온주입": {"이온주입", "ion implant", "implantation"},
+    "에피택시": {"에피택시", "epitaxy", "epitaxial"},
+    "CMP": {"CMP", "화학기계연마"},
+    "다중패터닝": {"다중패터닝", "멀티패터닝", "multi-patterning", "SADP", "SAQP"},
+    "펠리클": {"펠리클", "pellicle"},
+    "포토마스크": {"포토마스크", "photomask", "레티클", "reticle"},
+    "ALE": {"ALE", "원자층식각"},
+    "건식식각": {"건식식각", "dry etch"},
+    "플라즈마식각": {"플라즈마식각", "plasma etch"},
+    "고종횡비": {"고종횡비", "high aspect ratio"},
+    "ALD": {"ALD", "원자층증착"},
+    "선택적증착": {"선택적증착", "selective deposition"},
+    "SiGe": {"SiGe", "실리콘게르마늄"},
+    "슬러리": {"슬러리", "slurry"},
+    "평탄화": {"평탄화", "planarization"},
+    "게이트스택": {"게이트스택", "gate stack"},
+    "일함수": {"일함수", "work function"},
+    "도핑": {"도핑", "doping", "도펀트"},
+    "어닐": {"어닐", "annealing", "RTA", "급속열처리"},
+    "metrology": {"metrology", "계측"},
+    "overlay": {"overlay", "오버레이"},
+    "e-beam": {"e-beam", "전자빔"},
+    "결함검사": {"결함검사", "defect inspection"},
+    "high-k": {"high-k", "하이k"},
+    "전구체": {"전구체", "precursor"},
+    "화합물반도체": {"화합물반도체", "compound semiconductor"},
+    "웨이퍼본딩": {"웨이퍼본딩", "wafer-on-wafer"},
+    # ── 첨단 패키징 (후공정) 표면형 ──
+    "팬아웃": {"팬아웃", "fan-out", "FOWLP", "FOPLP"},
+    "RDL": {"재배선", "RDL"},
+    "유리기판": {"유리기판", "glass substrate"},
+    "패널레벨": {"패널레벨", "panel-level"},
+    "언더필": {"언더필", "underfill"},
+    "워피지": {"워피지", "warpage"},
+    "CPO": {"co-packaged optics", "CPO"},
+    "실리콘포토닉스": {"실리콘포토닉스", "silicon photonics"},
+    # ── 노드: 전체를 한 세트로 1회 카운트 (2나노·3나노 같이 나와도 +1) ──
+    "노드": {"3나노", "3nm", "2나노", "2nm", "1.4나노", "1.4nm",
+            "1나노", "1nm", "0.7나노", "0.7nm", "sub-2nm", "옹스트롬", "angstrom"},
+    # ── DRAM 세대: 1a~1d 한 세트로 1회 ──
+    "DRAM세대": {"1a", "1b", "1c", "1d"},
+    # ── DRAM 셀 구조 ──
+    "새들핀": {"새들핀", "saddle-fin", "saddle fin"},
+    "매립게이트": {"매립게이트", "buried word line", "buried gate"},
+    "캐패시터리스": {"캐패시터리스", "capacitorless"},
+    # ── 단수: NAND/HBM 적층 단수 전체를 한 세트로 1회 (128단·232단 같이 나와도 +1) ──
+    "단수": {"128단", "176단", "200단", "232단", "236단", "238단", "280단",
+            "300단", "321단", "400단", "430단", "1000단",
+            "8단", "12단", "16단", "20단", "24단",
+            "8-Hi", "12-Hi", "16-Hi", "20-Hi", "24-Hi"},
+    # ── 기업 (국문/영문 1회) ──
+    "난야": {"난야", "Nanya"}, "윈본드": {"윈본드", "Winbond"},
+    "솔리다임": {"솔리다임", "Solidigm"},
+    "웨스턴디지털": {"웨스턴디지털", "Western Digital"}, "샌디스크": {"샌디스크", "SanDisk"},
+    "글로벌파운드리": {"글로벌파운드리", "GlobalFoundries"}, "라피더스": {"라피더스", "Rapidus"},
+    "어드밴테스트": {"어드밴테스트", "Advantest"}, "신에츠": {"신에츠", "Shin-Etsu"},
+    "섬코": {"섬코", "SUMCO"},
+    "미디어텍": {"미디어텍", "MediaTek"}, "마벨": {"마벨", "Marvell"},
+    "시높시스": {"시높시스", "Synopsys"}, "케이던스": {"케이던스", "Cadence"},
+    "시장점유율": {"점유율", "시장점유율", "market share"},
 }

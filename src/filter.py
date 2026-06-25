@@ -16,11 +16,13 @@ from config.settings import (
     NEG_FLOOR,
     ENGLISH_FEEDS,
     ENGLISH_QUOTA,
+    TECH_QUOTA,
+    TITLE_DEDUP_SIM,
 )
-from config.keywords import KEYWORDS, WEIGHTS, ALIASES, BUCKET_CAPS
+from config.keywords import KEYWORDS, WEIGHTS, ALIASES, BUCKET_CAPS, BUCKET_WEIGHTS
 
-# 가점 tier 순회 순서. strong을 먼저 둬야 같은 canon이 묶였을 때 높은 가중치로 카운트된다.
-_POS_TIERS = ("strong", "medium", "weak")
+# 가점 tier 순회 순서. 높은 tier를 먼저 둬야 같은 canon이 묶였을 때 높은 가중치로 카운트된다.
+_POS_TIERS = ("critical", "strong", "medium", "weak")
 
 # 별칭 → 대표값 역매핑. 별칭에 없는 키워드는 자기 자신이 대표.
 _ALIAS2CANON = {alias: canon for canon, group in ALIASES.items() for alias in group}
@@ -31,8 +33,42 @@ def _canon(word: str) -> str:
 
 
 def _is_english_feed(item: dict) -> bool:
-    """영문 피드(GoogleNews_EN/SemiEngineering/BlocksAndFiles) 출처인지."""
+    """영문 피드(GoogleNews_EN/SemiEngineering/BlocksAndFiles/EETimes) 출처인지."""
     return item.get("rss_source") in ENGLISH_FEEDS
+
+
+def _is_tech_led(item: dict) -> bool:
+    """tech 버킷이 최상위(가중치 적용 전 capped 점수 기준)인 '공정/기술 주도' 기사인지."""
+    b = item.get("score_detail", {}).get("buckets", {})
+    if not b:
+        return False
+    mx = max(b.values())
+    return mx > 0 and b.get("tech", 0) == mx
+
+
+def _norm_title(t: str) -> str:
+    """제목 정규화: 끝 ' - 매체명' 제거 + 기호/공백 제거 + 소문자."""
+    t = re.sub(r'\s*[-–—|]\s*[^-–—|]+$', '', t)   # 끝 ' - 매체명'
+    return re.sub(r'[^\w가-힣]+', '', t).lower()
+
+
+def _title_trigrams(t: str) -> set:
+    n = _norm_title(t)
+    return {n[i:i + 3] for i in range(len(n) - 2)} if len(n) >= 3 else {n}
+
+
+def dedupe_by_title(items: list[dict], threshold: float = TITLE_DEDUP_SIM) -> list[dict]:
+    """점수 내림차순 가정. 정규화 제목 trigram Jaccard >= threshold면 거의 동일한
+    재배포 복사본 → 최고점 1건만 남긴다. (패러프레이즈는 임계 미달로 통과 → LLM이 선별)."""
+    kept = []
+    reps = []
+    for it in items:
+        tg = _title_trigrams(it["title"])
+        if any(len(tg & rt) and len(tg & rt) / len(tg | rt) >= threshold for rt in reps):
+            continue
+        kept.append(it)
+        reps.append(tg)
+    return kept
 
 
 def filter_by_time(items: list[dict]) -> list[dict]:
@@ -66,6 +102,10 @@ def _kw_pattern(word: str) -> "re.Pattern":
     - 한쪽 끝이 한글이면 그쪽 경계 없음 → 'SK하이닉스가'의 '하이닉스', 'DDR5메모리'의 '메모리' 매칭.
     - 'HBM4'는 뒤에 글자 'E' 오면 차단 → 'HBM4E' 안 걸림(별도 키워드).
     """
+    # DRAM 세대코드(1a~1d)는 단독이면 '1 billion(1b)'·'1D'·'1A' 등과 오매칭 →
+    # 뒤에 나노/nm/D램/DRAM 컨텍스트가 와야 매칭(공정 기사만 잡음). 예: '1c D램'·'1cnm'.
+    if re.fullmatch(r'1[a-d]', word):
+        return re.compile(r'(?<![A-Za-z0-9])' + word + r'\s*(?:나노|nm|디램|D램|DRAM)', re.IGNORECASE)
     left = r'(?<![A-Za-z0-9])' if word[0].isascii() and word[0].isalnum() else ''
     right = r'(?![A-Za-z])' if word[-1].isascii() and word[-1].isalnum() else ''
     return re.compile(left + re.escape(word) + right, re.IGNORECASE)
@@ -147,7 +187,11 @@ def score_item(item: dict, field: str) -> dict:
                 counted_negative.add(canon)
     neg = max(neg, NEG_FLOOR)
 
-    score = round(sum(buckets.values()) + neg, 2)
+    # 버킷별 가중치 적용 — tech를 비즈니스 버킷보다 무겁게 (BUCKET_WEIGHTS).
+    # buckets 딕트는 표시·호환용으로 capped 원값 유지, 합산에만 가중치를 곱한다.
+    score = round(
+        sum(v * BUCKET_WEIGHTS.get(b, 1.0) for b, v in buckets.items()) + neg, 2
+    )
     return {
         "score": score,
         "buckets": buckets,
@@ -182,6 +226,9 @@ def score_and_filter(items: list[dict], field: str) -> tuple[list[dict], list[di
     # 점수 내림차순 정렬
     items.sort(key=lambda x: x["score"], reverse=True)
 
+    # 제목 거의 동일한 재배포 복사본 제거 (최고점 1건만; 정렬 후라 최고점이 대표로 남음)
+    items = dedupe_by_title(items)
+
     passed = [it for it in items if it["score"] >= PYTHON_SCORE_THRESHOLD]
     selected = passed[:TOP_N_FOR_EXTRACT]
 
@@ -202,6 +249,30 @@ def score_and_filter(items: list[dict], field: str) -> tuple[list[dict], list[di
             drop_n = min(len(promote), len(korean))
             demote_urls = {it["url"] for it in korean[-drop_n:]} if drop_n else set()
             selected = [it for it in selected if it["url"] not in demote_urls] + promote
+            selected.sort(key=lambda x: x["score"], reverse=True)
+            selected = selected[:TOP_N_FOR_EXTRACT]
+
+    # ── tech 쿼터 ──────────────────────────────────────────────
+    # top-N에 'tech 주도' 기사 자리를 TECH_QUOTA개 보장. 시장 뉴스가 product/entity로
+    # 자리를 채워 공정 기사가 밀리는 걸 방어. 영문 쿼터는 보존(영문도 tech도 아닌 최저점만 밀어냄).
+    tech_in = [it for it in selected if _is_tech_led(it)]
+    need = TECH_QUOTA - len(tech_in)
+    if need > 0:
+        sel_urls = {it["url"] for it in selected}
+        tech_pool = [
+            it for it in items
+            if _is_tech_led(it) and it["url"] not in sel_urls and it["score"] > 0
+        ]
+        promote = tech_pool[:need]
+        # tech도 영문도 아닌 기사(점수순 정렬 상태)에서 최저점부터 밀어내 영문 쿼터 보존
+        demotable = [
+            it for it in selected
+            if not _is_tech_led(it) and not _is_english_feed(it)
+        ]
+        if promote and demotable:
+            drop_n = min(len(promote), len(demotable))
+            demote_urls = {it["url"] for it in demotable[-drop_n:]}
+            selected = [it for it in selected if it["url"] not in demote_urls] + promote[:drop_n]
             selected.sort(key=lambda x: x["score"], reverse=True)
             selected = selected[:TOP_N_FOR_EXTRACT]
 

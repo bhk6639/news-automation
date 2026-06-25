@@ -64,6 +64,15 @@ SOURCES = {
             "url": "https://www.kipost.net/rss/allArticle.xml",
             "type": "rss",
         },
+        {
+            # 해외/소자·EDA·공정 (영문). 기술 비중 보강용 (6/25 추가).
+            # content:encoded 본문 제공하나 발췌형(중앙 ~200자, 최대 ~1100자) — SemiEng처럼 풀본문은 아님.
+            # 헤드라인에 EUV/lithography 등 tech 용어가 박혀 점수에 유리. 볼륨 작음(~10건).
+            # 영문이라 settings.ENGLISH_FEEDS에도 등록해야 쿼터·truncate(1000) 처리됨.
+            "name": "EETimes",
+            "url": "https://www.eetimes.com/feed/",
+            "type": "rss",
+        },
         # TrendForce 제거 — news RSS(/feed, /feed_v2 둘 다)가 2026-04-16에 멈춤(죽은 피드).
         # 영문 메모리 뉴스는 GoogleNews_EN + BlocksAndFiles로 대체.
     ],
