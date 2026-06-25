@@ -1,0 +1,1309 @@
+{
+  "generated_at": "2026-06-24T03:06:51.236496+09:00",
+  "field": "반도체",
+  "field_date": "2026-06-24",
+  "stats": {
+    "collected_total": 350,
+    "after_resolve": 350,
+    "after_time_filter": 240,
+    "after_dedup": 238,
+    "after_score_filter": 10,
+    "extracted_success": 10,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "strong": [
+      "1a",
+      "1b",
+      "1c",
+      "1d",
+      "AI accelerator",
+      "AI chip",
+      "AI 반도체",
+      "AI반도체",
+      "AMAT",
+      "ASML",
+      "Applied Materials",
+      "CXL",
+      "DDR5",
+      "DRAM",
+      "D램",
+      "EUV",
+      "GDDR",
+      "HBM",
+      "HBM3E",
+      "HBM4",
+      "HBM4E",
+      "Kioxia",
+      "LPDDR",
+      "Lam Research",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "PIM",
+      "TSMC",
+      "Tokyo Electron",
+      "high bandwidth memory",
+      "hybrid bonding",
+      "hynix",
+      "낸드",
+      "도쿄일렉트론",
+      "디램",
+      "램리서치",
+      "마이크론",
+      "매스리플로우",
+      "시스템반도체",
+      "어플라이드",
+      "엔비디아",
+      "키옥시아",
+      "프로세싱인메모리",
+      "하닉",
+      "하이닉스",
+      "하이브리드 본딩",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "12단",
+      "16단",
+      "2.5D",
+      "200단",
+      "20단",
+      "2D 반도체",
+      "2D반도체",
+      "2nm",
+      "2나노",
+      "300단",
+      "3D IC",
+      "3nm",
+      "3나노",
+      "400단",
+      "4F2",
+      "7세대",
+      "BSPDN",
+      "CFET",
+      "CHIPS Act",
+      "CoWoS",
+      "DDR6",
+      "FeRAM",
+      "GAA",
+      "GaN",
+      "MRAM",
+      "PCRAM",
+      "QLC",
+      "ReRAM",
+      "Samsung",
+      "SiC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "advanced packaging",
+      "backend",
+      "backside power",
+      "base die",
+      "capacity expansion",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "co-packaged optics",
+      "compound semiconductor",
+      "defect inspection",
+      "deposition",
+      "etching",
+      "export control",
+      "foundry",
+      "high-NA",
+      "interposer",
+      "lithography",
+      "mass production",
+      "metrology",
+      "microbump",
+      "nanosheet",
+      "node",
+      "packaging",
+      "photoresist",
+      "sub-2nm",
+      "subsidy",
+      "volume production",
+      "yield",
+      "강유전체",
+      "검사장비",
+      "고대역폭",
+      "노광",
+      "뉴로모픽",
+      "더블스택",
+      "메모리",
+      "백그라인딩",
+      "버퍼 다이",
+      "버퍼다이",
+      "베이스 다이",
+      "베이스다이",
+      "보조금",
+      "본딩",
+      "삼성",
+      "삼성전자",
+      "삼전",
+      "셀온페리",
+      "소부장",
+      "수주",
+      "수직 D램",
+      "수직D램",
+      "수출규제",
+      "식각",
+      "양산",
+      "웨이퍼본딩",
+      "인수",
+      "인텔 파운드리",
+      "적층",
+      "전공정",
+      "증설",
+      "증착",
+      "채널홀",
+      "첨단공정",
+      "칩렛",
+      "칩스법",
+      "코어 다이",
+      "코어다이",
+      "투자",
+      "트리플스택",
+      "파운드리",
+      "패키징",
+      "포토레지스트",
+      "한미반도체",
+      "후공정"
+    ],
+    "weak": [
+      "AMD",
+      "Broadcom",
+      "Intel",
+      "Qualcomm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "반도체",
+      "브로드컴",
+      "웨이퍼",
+      "인텔",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "삼성전자, AI 반도체 병목 줄일 'PIM' 활용법 제시…메모리 내부서 연산 실행 - 더구루",
+      "date": "2026-06-23",
+      "source": "더구루",
+      "url": "https://www.theguru.co.kr/news/article.html?no=103469",
+      "summary": "삼성전자, AI 반도체 병목 줄일 'PIM' 활용법 제시…메모리 내부서 연산 실행 더구루",
+      "body": "[더구루=정예린 기자] 삼성전자가 인공지능(AI) 반도체의 데이터 처리 지연 문제를 줄일 PIM(Processing-in-Memory) 기술 활용법을 제시했다. 데이터를 메모리 밖으로 반복해서 옮기지 않고 고대역폭메모리(HBM) 내부에서 일부 연산을 처리하는 구조를 고도화해 차세대 AI 메모리 시장에서 기술 주도권을 강화할 전망이다.\n23일 업계에 따르면 삼성전자와 이탈리아 볼로냐대학교 공동 연구팀은 지난 8일(현지시간)부터 닷새간 볼로냐에서 열린 '리스크파이브(RISC-V) 서밋 유럽 2026'에서 'AME-PIM: RISC-V 매트릭스 확장 및 HBM-PIM을 통한 메모리 병목 현상 해결'이라는 제목의 논문을 발표했다. 연구팀은 삼성전자의 HBM-PIM 플랫폼 '아쿠아볼트-XL(Aquabolt-XL)'에서 RISC-V의 AI 행렬 연산 명령을 실행하는 모델을 검증했다.\nAI 반도체는 방대한 데이터를 메모리에서 꺼내 중앙처리장치(CPU)나 그래픽처리장치(GPU)로 보내 계산한 뒤 결과를 다시 저장한다. 생성형 AI처럼 처리해야 할 데이터가 커질수록 연산장치의 속도보다 데이터를 옮기는 과정이 전체 성능과 전력 효율을 좌우한다.\n연구진이 병목을 줄이기 위해 꺼",
+      "score": 10.0,
+      "score_raw": 21.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 7.5,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "AI반도체",
+            "메모리"
+          ],
+          "tech": [
+            "PIM"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "AI반도체",
+          "메모리",
+          "PIM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AI반도체",
+          "메모리",
+          "PIM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[단독] 삼전닉스, 호남에 200조 이상씩 투자…반도체 전공정 팹도 짓는다 - 한겨레",
+      "date": "2026-06-23",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/marketing/1264884.html",
+      "summary": "[단독] 삼전닉스, 호남에 200조 이상씩 투자…반도체 전공정 팹도 짓는다 한겨레",
+      "body": "광주·전남 지역에 반도체 공장을 새로 짓는 방안을 검토 중인 삼성전자와 에스케이(SK)하이닉스가 투자 규모를 수백조원대로 대폭 확대한 것으로 확인됐다. 그동안 해당 지역에 신설을 검토해온 패키징(후공정) 공장뿐만 아니라, 반도체 전공정 팹(생산라인)을 짓는 방안이 유력하게 거론되면서 삼성전자가 용인 반도체 클러스터에 추진 중이던 팹 가운데 일부를 호남 지역에 대신 지을 가능성도 큰 것으로 알려졌다.\n23일 한겨레 취재를 종합하면, 두 회사는 이달 말 발표되는 대규모 지방 투자 계획과 관련해 호남권에 수백조원을 투자하는 쪽으로 의견을 모으는 것으로 파악됐다. 삼성전자는 최소 200조원 이상을, 하이닉스는 삼성전자를 웃도는 규모의 투자를 검토 중이다. 투자가 현실화한다면 수백조원 규모의 호남 반도체 클러스터가 구축되는 것이다.\n투자 규모가 대폭 확대된 만큼, 애초 검토된 반도체 후공정을 담당하는 패키징 공장에 더해 핵심 제조공정인 팹까지 짓는 안이 유력하게 추진되고 있다. 그동안 호남 지역 사회에선 패키징 시설 유치를 넘어 팹을 직접 유치해야 한다는 목소리가 꾸준히 이어져왔다. 후공정은 전력, 용수, 인재 부담이 덜한 대신 투자 규모도 작기 때문이다. 하이닉스가",
+      "score": 8.5,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [
+            "전공정"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "공정",
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "팹",
+          "공정",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "팹",
+          "공정",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이재용, 삼성 HBM 천안 패키징 현장 점검 - 경향신문",
+      "date": "2026-06-23",
+      "source": "경향신문",
+      "url": "https://www.khan.co.kr/article/202606232044015",
+      "summary": "이재용, 삼성 HBM 천안 패키징 현장 점검 경향신문",
+      "body": "하이닉스와 경쟁 상황서 공급력·기술 리더십 강조…내일 청와대 방문\n이재용 삼성전자 회장이 23일 충남 천안사업장을 찾아 고대역폭메모리(HBM) 생산 현장을 점검했다. SK하이닉스와의 주도권 다툼이 치열한 HBM 분야에서 삼성전자의 공급 경쟁력과 기술 리더십을 강조하려는 행보로 보인다.\n이 회장은 이날 천안사업장 C1·C2 라인을 찾아 방진복을 착용하고 HBM 패키지 생산라인을 둘러보며 생산 및 품질 경쟁력 현황을 점검했다. 천안은 삼성전자 HBM 후공정과 첨단 패키징을 담당하는 거점이다. 이 회장의 천안사업장 방문은 2023년 2월 이후 약 3년 만이다.\n삼성 측은 이 회장의 현장 방문이 글로벌 인공지능(AI) 시장 성장으로 HBM 수요가 급증하고 있는 가운데 생산 경쟁력과 공급 대응체계를 살피기 위한 것이라고 밝혔다. 이 회장은 경영진으로부터 사업장 운영 현황과 생산 계획, 기술개발 진행 상황 등에 대한 설명도 들었다.\n삼성전자는 올 1분기 기준 SK하이닉스가 약 58%(카운터포인트리서치)를 점유한 것으로 알려진 HBM 시장에서 주도권을 확보하기 위해 잇따라 차세대 제품 출시·공급에 나서고 있다. 지난 2월 6세대 HBM4를 양산 출하한 데 이어 3개월 만",
+      "score": 8.5,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "패키징"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "패키징"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "패키징"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성·SK, 용인 줄여 호남 전공정 팹 투자설 '일파만파' - 디일렉",
+      "date": "2026-06-23",
+      "source": "디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58513",
+      "summary": "삼성·SK, 용인 줄여 호남 전공정 팹 투자설 '일파만파' 디일렉",
+      "body": "삼성전자와 SK하이닉스가 호남 지역에 반도체 전공정 공장까지 포함한 수백조원 규모의 투자를 단행할 것으로 알려지면서 파문이 일고 있다. 양사가 용인에 추진하던 공장 일부를 호남으로 옮길 수 있다는 가능성이 제기됐기 때문이다.\n23일 업계에 따르면 삼성전자와 SK하이닉스는 정부의 국가균형발전 정책에 따라 호남권에 반도체 메가 클러스터를 조성할 예정이다. 당초 거론됐던 후공정 패키징 공장장을 넘어 전공정 생산 공장까지 포함하며, 투자 규모가 수백조원으로 확대된 것으로 알려졌다. 업계에서는 삼성전자가 200조원 이상, SK하이닉스가 그 보다 많은 투자를 발표할 것이라는 전망이 나왔다.\n현재 양사가 검토한 반도체 공장 설립 부지로는 광주 북구와 전라남도 장성군 일대에 조성되는 첨단3지구, 미래차국가산단, 빛그린산업단지, 광산구 제1전투비행단 탄약고 부지 등이 언급된다. 4곳의 용수와 전력 공급, 교통, 주거 환경(정주 요건) 등 요건 파악을 마친 것으로 전해진다.\n호남은 용인 대비 부지와 용수, 전력 인프라가 풍부하다. 특히 광주는 반도체 후공정 테스트 외주(OSAT) 기업인 앰코 등 후방 생태계가 조성된 지역이다.\n양사 경영진은 이와 관련, 오는 29일 이재명 대",
+      "score": 8.5,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [
+            "전공정"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "공정",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "팹",
+          "공정"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "팹",
+          "공정"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망 - 한국경제",
+      "date": "2026-06-23",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/202606232712i",
+      "summary": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망 한국경제",
+      "body": "- \n                                                            \n                                                            기사 스크랩\n- \n                                                            \n                                                            댓글\n- \n                                                            \n                                                            공유\n- \n                                                            \n                                                            글자크기\n- \n                                                            \n                      ",
+      "score": 7.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "한미반도체"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "한미반도체",
+          "HBM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "한미반도체",
+          "HBM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성 ‘파워풀 HBM4’, AI반도체 헤게모니 쥐다 - 에너지경제신문",
+      "date": "2026-06-23",
+      "source": "에너지경제신문",
+      "url": "https://m.ekn.kr/view.php?key=20260623026445754",
+      "summary": "삼성 ‘파워풀 HBM4’, AI반도체 헤게모니 쥐다 에너지경제신문",
+      "body": "출시 4개월만에 매출 10억달러 돌파, 연말 100억달러 이상 전망\n차세대 메모리 선점으로 ‘SK하이닉스 HBM 주도권’ 반격 신호탄 \nGPU·ASIC 빅테크 AI칩 개발로 HBM 수요 2029년 3배이상 증가\n2분기 영업익 86조 초과 예상…SK, HBM4 양산 준비 경쟁 예고\n                                        삼성전자의 차세대 고대역폭메모리(HBM4) 매출이 출시 4개월 만에 10억달러(약 1조5400억원)를 돌파했다. 차세대 AI 반도체 시장 주도권 경쟁에서 삼성전자가 반격의 신호탄을 쏘아 올리면서 국내 반도체 산업 전반에도 훈풍이 확산되고 있다.\n23일 업계에 따르면, 삼성전자는 지난 2월 세계 최초로 HBM4를 양산 출하한 이후 최근 누적 매출 10억달러를 넘어섰다.\n현재 공급 확대 속도를 감안하면 이달 말 기준 누적 매출이 12억달러(약 1조8500억원)를 웃돌 것으로 시장은 내다본다. 이는 신규 메모리 제품의 양산 첫해 매출로는 전례를 찾기 어려운 큰 규모라는 평가이다.\n삼성전자 HBM4가 출시 직후부터 빠르게 공급을 늘리면서 HBM 시장에서 삼성전자의 점유율도 덩달아 커지고 있는 것으로 분석된다. 특히, 연",
+      "score": 7.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "AI반도체",
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "AI반도체",
+          "HBM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AI반도체",
+          "HBM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, HBM4 매출 1조5000억 돌파…이재용 천안行 'AI 반도체 승부수' - 세종의소리",
+      "date": "2026-06-23",
+      "source": "세종의소리",
+      "url": "https://www.sjsori.com/news/articleView.html?idxno=86949",
+      "summary": "삼성전자, HBM4 매출 1조5000억 돌파…이재용 천안行 'AI 반도체 승부수' 세종의소리",
+      "body": "출하 4개월 만에 10억달러 기록\nASIC 고객사 확보 효과…연내 15조원 매출 기대\n이재용 회장, 천안 생산라인 직접 점검\n\t\t삼성전자가 차세대 인공지능(AI) 메모리인 HBM4(6세대 고대역폭메모리) 시장에서 압도적인 성장세를 이어가고 있다. 세계 최초 양산에 성공한 HBM4가 출하 4개월 만에 매출 10억달러(약 1조5000억원)를 돌파하며 AI 반도체 시장 주도권 확보에 속도를 내고 있다. 이재용 회장도 HBM 핵심 생산거점인 천안사업장을 직접 찾아 현장 경영에 나섰다.\n3일 반도체 업계에 따르면 삼성전자의 HBM4 매출은 최근 10억달러를 넘어선 것으로 파악됐다. 지난 2월 세계 최초로 양산 출하를 시작한 이후 불과 4개월 만에 거둔 성과다. 업계에서는 6월 말 기준 누적 매출이 12억달러를 웃돌 것으로 보고 있다.\nHBM4 성장의 배경에는 글로벌 AI 투자 확대가 자리하고 있다. 생성형 AI 확산으로 데이터센터 구축 경쟁이 치열해지면서 고성능 메모리 수요가 급증하고 있기 때문이다. 시장조사업계는 올해 HBM 시장 규모가 전년 대비 58% 증가한 546억달러에 달할 것으로 전망하고 있다.\n특히 최근에는 엔비디아 중심의 GPU 시장을 넘어 주문형 반도",
+      "score": 7.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "AI반도체",
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "AI반도체",
+          "HBM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AI반도체",
+          "HBM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Samsung's next-generation AI memory chip sales top $1B after launch: Report - Anadolu Ajansı",
+      "date": "2026-06-23",
+      "source": "Anadolu Ajansı",
+      "url": "https://www.aa.com.tr/en/science-technology/samsungs-next-generation-ai-memory-chip-sales-top-1b-after-launch-report/3975184",
+      "summary": "Samsung's next-generation AI memory chip sales top $1B after launch: Report Anadolu Ajansı",
+      "body": "Samsung's next-generation AI memory chip sales top $1B after launch: Report\nSouth Korean chipmaker expected to see HBM4 revenue exceed $1.2B by end-June, according to Yonhap\nMucahithan Avcioglu\n23 June 2026•Update: 23 June 2026\nISTANBUL\nSamsung Electronics' sales of sixth-generation high bandwidth memory chips, known as HBM4, have surpassed $1 billion just four months after launch, Yonhap reported Tuesday, citing industry sources.\nThe milestone came after the South Korean technology giant became the first company in the world to begin mass production and shipments of HBM4 chips in February. Industry sources expect Samsung's HBM4 revenue to exceed $1.2 billion by the end of June.\nThe company has rapidly expanded shipments of the advanced memory chips since launch, strengthening its position in the fast-growing high bandwidth memory market.\nHBM chips are a critical component for artificial intelligence systems, enabling faster data processing and higher bandwidth for advanced computing w",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "1b"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "1b"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "1b"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "After Earning Major Profits From HBM, SK Hynix Now Plans To Prioritize DDR5 “General-Purpose DRAM” Production - Wccftech",
+      "date": "2026-06-23",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/after-earning-major-profits-from-hbm-sk-hynix-now-plans-to-prioritize-ddr5-dram-production/",
+      "summary": "After Earning Major Profits From HBM, SK Hynix Now Plans To Prioritize DDR5 “General-Purpose DRAM” Production Wccftech",
+      "body": "SK Hynix is planning to return to general-purpose DRAM, such as DDR5, after securing record revenue from HBM memory.\nSK Hynix Reportedly Finds No Reason To Accelerate Its HBM Production, Will Instead Focus on DDR5 Memory As Shortages Get Severe In The General-Purpose DRAM Segment\nHBM has been the main driver for the big three DRAM manufacturers for the last couple of months due to increased demand from AI firms. This has led to record profits for Samsung, Micron, and SK Hynix. At the same time, these companies stopped focusing production on general-purpose DRAM solutions such as DDR5. But now that each of these companies has established a strong foothold in the HBM segment, they are now planning to go back to the general-purpose DRAM segment.\nAs per a report by Chosun Biz, it is reported that HBM now accounts to 40% of SK Hynix's total revenue. This has led them to adjust the expansion of their 6th Generation High-Bandwidth Memory (HBM4). Now HBM4 is going to be a key product for AI ch",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "DDR5",
+            "DRAM",
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "DDR5",
+          "DRAM",
+          "HBM"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "DDR5",
+          "DRAM",
+          "HBM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "MU, SNDK, DRAM Fall Sharply From Record Highs: Korean Market Crashes 10% Crash On SK Hynix, Samsung Pullback - Yahoo Finance",
+      "date": "2026-06-23",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mu-sndk-dram-fall-sharply-091518569.html",
+      "summary": "MU, SNDK, DRAM Fall Sharply From Record Highs: Korean Market Crashes 10% Crash On SK Hynix, Samsung Pullback Yahoo Finance",
+      "body": "MU, SNDK, DRAM Fall Sharply From Record Highs: Korean Market Crashes 10% Crash On SK Hynix, Samsung Pullback\n-  The Roundhill Memory ETF (DRAM) was down 13%, amid a broader selloff in U.S. markets. \n-  MU, SNDK, and DRAM closed at record highs on Monday. \n-  The retail sentiment from DRAM shifted to ‘bullish’ from ‘neutral.’ \nU.S. memory chip stocks tumbled from record highs in Tuesday’s premarket trading, caught in a broader tech selloff that began Monday and spilled over into Asian markets overnight.\nSanDisk shares dropped 9.3%, while Micron stock declined 8.4%. Seagate and Western Digital shares declined over 7% each, and the Roundhill Memory ETF (DRAM) was down 13%.\nSouth Korea’s Kospi closed 10% lower on Tuesday, with SK Hynix and Samsung Electronics both sliding more than 12%. At one point, the trading was suspended for 20 minutes, a measure to avoid a runaway slide in the market.\nIn fact, artificial intelligence-linked stocks tumbled across Japan and European markets.\nSK Hynix, ",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "[한마당] 반도체 셔세권 - 국민일보",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782186004",
+      "source": "국민일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "하루 새 '910포인트' 폭락한 코스피‥반도체 반등 가능할까? - MBC 뉴스",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832331_37004.html",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "전력 품질이 반도체 수율 개선 열쇠, 슈나이더 일렉트릭 '에코스트럭처'가 해답될까…2026 이노베이션 데이 - 전기신문",
+      "url": "https://www.electimes.com/news/articleViewAmp.html?idxno=369459",
+      "source": "전기신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "LG화학, R&D에 15조 투입…반도체·모빌리티·로봇 소재 집중 육성 - 로봇신문",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=47059",
+      "source": "로봇신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 성과급에 ‘집값 상승 전망’ 5개월 만에 최고 - 동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20260623/134168421/2",
+      "source": "동아일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[창간14주년-반도체 그후] 바이오도 결국 제조업이다 - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=305437",
+      "source": "스트레이트뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "'반도체 매도 확산'에 나스닥 선물 하락 - MTN 머니투데이방송",
+      "url": "https://news.mtn.co.kr/news-detail/2026062321592292140",
+      "source": "MTN 머니투데이방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 팹마저 호남 몰아주나…민선 9기 출범 전 추경호 ‘대표 공약’ 무산 우려 - v.daum.net",
+      "url": "https://v.daum.net/v/20260623205547735",
+      "source": "v.daum.net",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "팹",
+          "반도체"
+        ],
+        "summary_hits": [
+          "팹",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "김정관 “새 반도체 단지 필요…전남광주시에 반도체 이슈 진행 중” - 서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/2026/06/23/20260623500281",
+      "source": "서울신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "충남교육청, ‘미래 반도체 기술 인재 요람’ 충남반도체마이스터고 기숙사 준공 - 금산중앙신문방송",
+      "url": "http://www.geumsan-news.com/news/articleView.html?idxno=31738",
+      "source": "금산중앙신문방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[단독]\"반도체 공장, 군 공항 종전부지·빛그린산단 적극 검토\" - KBC광주방송",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202606230068",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘9천피’ 다시 시동…반도체 쏠림 완화, 다양한 업종 상승 열기 - 한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1263826.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"나노 전문인력 양성사업은 강력한 무기\" 반도체 인재 전쟁 속 러브콜의 비결은? - 헬로디디",
+      "url": "https://www.hellodd.com/news/articleView.html?idxno=112214",
+      "source": "헬로디디",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] 호남 반도체 클러스터, 지역 균형발전 이정표 되도록 - 한겨레",
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1264979.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용인시장, ‘반도체 산단 공론화’에 반발…“국책사업 흔들기 용납 못해” - 한겨레",
+      "url": "https://www.hani.co.kr/arti/area/capital/1264989.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“슈나이더 일렉트릭 코리아, AI 시대 반도체 제조 혁신 방향 제시했다” - 에너지데일리",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200727",
+      "source": "에너지데일리",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[단독] \"반도체급으로 키운다\"…이재명 정부가 찍은 다음 산업은 - 아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026062318551814500",
+      "source": "아시아경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이 대통령 “반도체·주식 성장 속 자산 양극화…청년 소외감 뼈아파” - 한겨레",
+      "url": "https://www.hani.co.kr/arti/politics/bluehouse/1264975.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이 대통령 \"반도체에 버금가는 K-산업의 새로운 엔진 육성해야\" - 대한민국 정책브리핑",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966983",
+      "source": "대한민국 정책브리핑",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“반도체 호황 지속되는 한 코스피 1만보다 더 갈 것” - 조선비즈 - Chosunbiz",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/06/24/ME2WIMJUGU4TANZWGYZWGNRSGE/?outputType=amp",
+      "source": "Chosunbiz",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}

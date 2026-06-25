@@ -1,0 +1,1229 @@
+{
+  "generated_at": "2026-06-25T03:06:13.460531+09:00",
+  "field": "반도체",
+  "field_date": "2026-06-25",
+  "stats": {
+    "collected_total": 350,
+    "after_resolve": 350,
+    "after_time_filter": 244,
+    "after_dedup": 243,
+    "after_score_filter": 10,
+    "extracted_success": 8,
+    "extracted_failed": 2
+  },
+  "keywords_snapshot": {
+    "strong": [
+      "1a",
+      "1b",
+      "1c",
+      "1d",
+      "AI accelerator",
+      "AI chip",
+      "AI 반도체",
+      "AI반도체",
+      "AMAT",
+      "ASML",
+      "Applied Materials",
+      "CXL",
+      "DDR5",
+      "DRAM",
+      "D램",
+      "EUV",
+      "GDDR",
+      "HBM",
+      "HBM3E",
+      "HBM4",
+      "HBM4E",
+      "Kioxia",
+      "LPDDR",
+      "Lam Research",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "PIM",
+      "TSMC",
+      "Tokyo Electron",
+      "high bandwidth memory",
+      "hybrid bonding",
+      "hynix",
+      "낸드",
+      "도쿄일렉트론",
+      "디램",
+      "램리서치",
+      "마이크론",
+      "매스리플로우",
+      "시스템반도체",
+      "어플라이드",
+      "엔비디아",
+      "키옥시아",
+      "프로세싱인메모리",
+      "하닉",
+      "하이닉스",
+      "하이브리드 본딩",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "12단",
+      "16단",
+      "2.5D",
+      "200단",
+      "20단",
+      "2D 반도체",
+      "2D반도체",
+      "2nm",
+      "2나노",
+      "300단",
+      "3D IC",
+      "3nm",
+      "3나노",
+      "400단",
+      "4F2",
+      "7세대",
+      "BSPDN",
+      "CFET",
+      "CHIPS Act",
+      "CoWoS",
+      "DDR6",
+      "FeRAM",
+      "GAA",
+      "GaN",
+      "MRAM",
+      "PCRAM",
+      "QLC",
+      "ReRAM",
+      "Samsung",
+      "SiC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "advanced packaging",
+      "backend",
+      "backside power",
+      "base die",
+      "capacity expansion",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "co-packaged optics",
+      "compound semiconductor",
+      "defect inspection",
+      "deposition",
+      "etching",
+      "export control",
+      "foundry",
+      "high-NA",
+      "interposer",
+      "lithography",
+      "mass production",
+      "metrology",
+      "microbump",
+      "nanosheet",
+      "node",
+      "packaging",
+      "photoresist",
+      "sub-2nm",
+      "subsidy",
+      "volume production",
+      "yield",
+      "강유전체",
+      "검사장비",
+      "고대역폭",
+      "노광",
+      "뉴로모픽",
+      "더블스택",
+      "메모리",
+      "백그라인딩",
+      "버퍼 다이",
+      "버퍼다이",
+      "베이스 다이",
+      "베이스다이",
+      "보조금",
+      "본딩",
+      "삼성",
+      "삼성전자",
+      "삼전",
+      "셀온페리",
+      "소부장",
+      "수주",
+      "수직 D램",
+      "수직D램",
+      "수출규제",
+      "식각",
+      "양산",
+      "웨이퍼본딩",
+      "인수",
+      "인텔 파운드리",
+      "적층",
+      "전공정",
+      "증설",
+      "증착",
+      "채널홀",
+      "첨단공정",
+      "칩렛",
+      "칩스법",
+      "코어 다이",
+      "코어다이",
+      "투자",
+      "트리플스택",
+      "파운드리",
+      "패키징",
+      "포토레지스트",
+      "한미반도체",
+      "후공정"
+    ],
+    "weak": [
+      "AMD",
+      "Broadcom",
+      "Intel",
+      "Qualcomm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "반도체",
+      "브로드컴",
+      "웨이퍼",
+      "인텔",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "삼성·SK, 용인 줄여 호남 전공정 팹 투자설 '일파만파'",
+      "date": "2026-06-24",
+      "source": "THELEC_반도체",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58513",
+      "summary": "삼성전자와 SK하이닉스가 호남 지역에 반도체 전공정 공장까지 포함한 수백조원 규모의 투자를 단행할 것으로 알려지면서 파문이 일고 있다. 양사가 용인에 추진하던 공장 일부를 호남으로 옮길 수 있다는 가능성이 제기됐기 때문이다.23일 업계에 따르면 삼성전자와 SK하이닉스는 정부의 국가균형발전 정책에 따라 호남권에 반도체 메가 클러스터를 조성할 예정이다. 당초 거론됐던 후공정 패키징 공장장을 넘어 전공정 생산 공장까지 포함하며, 투자 규모가 수백조원으로 확대된 것으로 알려졌다. 업계에서는 삼성전자가 200조원 이상, SK하이닉스가 그 보",
+      "body": "삼성전자와 SK하이닉스가 호남 지역에 반도체 전공정 공장까지 포함한 수백조원 규모의 투자를 단행할 것으로 알려지면서 파문이 일고 있다. 양사가 용인에 추진하던 공장 일부를 호남으로 옮길 수 있다는 가능성이 제기됐기 때문이다.\n23일 업계에 따르면 삼성전자와 SK하이닉스는 정부의 국가균형발전 정책에 따라 호남권에 반도체 메가 클러스터를 조성할 예정이다. 당초 거론됐던 후공정 패키징 공장장을 넘어 전공정 생산 공장까지 포함하며, 투자 규모가 수백조원으로 확대된 것으로 알려졌다. 업계에서는 삼성전자가 200조원 이상, SK하이닉스가 그 보다 많은 투자를 발표할 것이라는 전망이 나왔다.\n현재 양사가 검토한 반도체 공장 설립 부지로는 광주 북구와 전라남도 장성군 일대에 조성되는 첨단3지구, 미래차국가산단, 빛그린산업단지, 광산구 제1전투비행단 탄약고 부지 등이 언급된다. 4곳의 용수와 전력 공급, 교통, 주거 환경(정주 요건) 등 요건 파악을 마친 것으로 전해진다.\n호남은 용인 대비 부지와 용수, 전력 인프라가 풍부하다. 특히 광주는 반도체 후공정 테스트 외주(OSAT) 기업인 앰코 등 후방 생태계가 조성된 지역이다.\n하지만 전문 인력 확보가 어려운데다, 소재 부품 ",
+      "score": 10.0,
+      "score_raw": 21.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 9.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [],
+          "tech": [
+            "전공정",
+            "패키징",
+            "후공정"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "공정",
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "팹",
+          "공정"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "후공정",
+          "전공정",
+          "패키징",
+          "투자",
+          "반도체",
+          "공정"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[단독] 삼전닉스, 호남에 200조 이상씩 투자…반도체 전공정 팹도 짓는다 - 한겨레",
+      "date": "2026-06-24",
+      "source": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/marketing/1264884.html",
+      "summary": "[단독] 삼전닉스, 호남에 200조 이상씩 투자…반도체 전공정 팹도 짓는다 한겨레",
+      "body": "광주·전남 지역에 반도체 공장을 새로 짓는 방안을 검토 중인 삼성전자와 에스케이(SK)하이닉스가 투자 규모를 수백조원대로 대폭 확대한 것으로 확인됐다. 그동안 해당 지역에 신설을 검토해온 패키징(후공정) 공장뿐만 아니라, 반도체 전공정 팹(생산라인)을 짓는 방안이 유력하게 거론되면서 삼성전자가 용인 반도체 클러스터에 추진 중이던 팹 가운데 일부를 호남 지역에 대신 지을 가능성도 큰 것으로 알려졌다.\n23일 한겨레 취재를 종합하면, 두 회사는 이달 말 발표되는 대규모 지방 투자 계획과 관련해 호남권에 수백조원을 투자하는 쪽으로 의견을 모으는 것으로 파악됐다. 삼성전자는 최소 200조원 이상을, 하이닉스는 삼성전자를 웃도는 규모의 투자를 검토 중이다. 투자가 현실화한다면 수백조원 규모의 호남 반도체 클러스터가 구축되는 것이다.\n투자 규모가 대폭 확대된 만큼, 애초 검토된 반도체 후공정을 담당하는 패키징 공장에 더해 핵심 제조공정인 팹까지 짓는 안이 유력하게 추진되고 있다. 그동안 호남 지역 사회에선 패키징 시설 유치를 넘어 팹을 직접 유치해야 한다는 목소리가 꾸준히 이어져왔다. 후공정은 전력, 용수, 인재 부담이 덜한 대신 투자 규모도 작기 때문이다. 하이닉스가",
+      "score": 8.5,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [
+            "전공정"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "공정",
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "반도체",
+          "팹",
+          "공정"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "전공정",
+          "투자",
+          "반도체",
+          "팹",
+          "공정"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "뉴욕증시 개장 전 특징주, AI 반도체 반등 시동…마이크론·ARM·샌디스↑ VS 세레브라스·페덱스↓ - 뉴스핌",
+      "date": "2026-06-24",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20260624001248",
+      "summary": "뉴욕증시 개장 전 특징주, AI 반도체 반등 시동…마이크론·ARM·샌디스↑ VS 세레브라스·페덱스↓ 뉴스핌",
+      "body": "AI 핵심 요약\nbeta- 뉴욕증시에서 24일 마이크론 실적 앞두고 메모리와 AI 관련주가 반등했다.\n- 마이크론·샌디스크·ARM·KB홈·테이크투·웬디스 등은 실적·목표가 상향·밈주 열풍 속에 상승세를 보였다.\n- 세레브라스·워딩턴·페덱스 등은 실적 부진과 수익성 악화 전망으로 두자릿수 등 큰 폭 하락을 기록했다.\n!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.\n[서울=뉴스핌] 고인원 기자= 24일(현지시간) 뉴욕 증시 개장 전 거래에서는 마이크론(MU) 실적 발표를 앞두고 메모리 반도체주를 중심으로 반등세가 나타나는 가운데 실적과 투자의견, 밈주 열풍 등에 따라 종목별 주가가 크게 엇갈리고 있다.\n전날 반도체주 급락으로 기술주 전반이 큰 폭의 조정을 받은 이후 투자자들은 메모리 업종과 AI 관련주의 반등 여부를 주시하고 있다. 반면 실적 부진과 수익성 악화 전망을 내놓은 기업들은 큰 폭의 하락세를 나타냈다.\n▶ 상승 종목\n◆ 마이크론(MU)\n마이크론은 개장 전 거래에서 2~3% 상승했다. 전날 13% 급락한 이후 저가 매수세가 유입된 데다 이날 장 마감 후 실적 발표를 앞두고 투자자들의 기대가 다시 높아진 영향이다.\n팩트셋에 따르면 시장은 주당순이",
+      "score": 7.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "마이크론",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "마이크론",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자·하이닉스, 전남광주 반도체 투자…대통령실 “마무리 단계” 공식 확인 - v.daum.net",
+      "date": "2026-06-24",
+      "source": "v.daum.net",
+      "url": "https://v.daum.net/v/20260624203552427",
+      "summary": "삼성전자·하이닉스, 전남광주 반도체 투자…대통령실 “마무리 단계” 공식 확인 v.daum.net",
+      "body": "삼성전자·하이닉스, 전남광주 반도체 투자…대통령실 “마무리 단계” 공식 확인\n강시장 “반도체 종합세트 올 것”\n대통령실이 삼성전자와 SK하이닉스사의 광주·전남 반도체 종합 클러스터 투자계획<6월 22일 광주일보 1면>이 마무리 단계라고 공식 확인했다.\n전공정 팹(생산라인)까지 포함되는 첫 비수도권 반도체 종합단지가 전남광주통합시에 들어선다는 점에서 호남이 대한민국의 새로운 반도체 핵심 거점으로 도약할 것으로 기대를 모은다.\n김용범 청와대 정책실장은 24일 서울 중구 프레스센터에서 열린 관훈클럽 초청 토론회에서 “호남과 충청에 K-반도체의 새 터전을 만드는 작업이 마무리 단계”라며 “투자 계획이 막바지에 이르렀다”고 밝혔다.\n정부와 양사는 25일 이재용 삼성 회장의 이재명 대통령 비공개 면담으로 투자 규모를 확정할 것으로 알려졌다. 이어 29일 주요 대기업 최고경영자(CEO) 간담회를 거쳐 30일 최태원 SK 회장이 광주·전남 반도체 클러스터 구상 발표를 하는 방식으로 일정을 조율했다.\n반도체 투자 공식 발표 시점은 7월 1일 전남광주통합특별시 출범과 맞춰 이달 30일께 진행될 예정인 것으로 전해졌다.\n양사의 투자 규모는 200조원을 웃돌 것으로 추정된다. 전",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "투자",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "국힘, '삼전닉스' 호남 투자설에 \"반도체마저 정치 제물로\" 비판 - 연합뉴스",
+      "date": "2026-06-24",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20260624153200001",
+      "summary": "국힘, '삼전닉스' 호남 투자설에 \"반도체마저 정치 제물로\" 비판 연합뉴스",
+      "body": "삼성전자 출신 고동진 \"전형적 관치경제 모습…기업 발목잡기 말아야\"\n(서울=연합뉴스) 이정현 기자 = 국민의힘은 24일 정부가 호남 등에 제2 반도체 클러스터 조성을 검토하는 것과 관련, \"대한민국 미래 먹거리인 반도체 산업마저 선거용 정치공학의 도구로 전락시키고 있다\"고 비판했다.\n박성훈 수석대변인은 이날 논평을 내고 \"만약 이재명 정권이 지방균형발전이라는 포장지로 기업의 투자 방향을 사실상 유도하거나 압박하고 있다면 이는 대한민국 반도체 산업을 정치의 제물로 바치는 최악의 관치경제이자 국가 경쟁력을 스스로 갉아먹는 심각한 자해행위\"라고 비판했다.\n이어 \"반도체 공장이 어디에 들어설지는 대통령이 아니라 기업이 결정해야 하고, 정권의 임기와 총선 일정이 아니라 글로벌 공급망과 기술 경쟁이 결정해야 한다\"며 \"이재명 대통령은 국가의 명운이 걸린 전략산업마저 지역 안배와 표 계산의 대상으로 삼으려는 위험한 도박을 즉각 중단하라\"고 촉구했다.\n삼성전자에서 IM부문장 겸 대표이사 사장을 지낸 고동진 의원은 페이스북에 이번 투자설과 관련, 김용범 청와대 정책실장을 거론하며 \"반도체 투자 입지는 엄연히 기업의 경영 판단 영역인데 정부 정책실장이 정부의 치적인 것처럼 공",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "투자",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK Hynix Targets $29B Nasdaq Offering – DRAM Jumps Over 4% Ahead Of Micron's Report - Yahoo Finance",
+      "date": "2026-06-24",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-targets-29b-nasdaq-100300698.html",
+      "summary": "SK Hynix Targets $29B Nasdaq Offering – DRAM Jumps Over 4% Ahead Of Micron's Report Yahoo Finance",
+      "body": "-  SK Hynix will issue 17.79 million new shares to back a Nasdaq listing of ADRs on July 10. \n-  DRAM, which holds SK Hynix stock among its top three holdings, rose 4.2% in Wednesday’s premarket session. \n-  Investors were positioning ahead of Micron’s Q3 report, due after U.S. market hours today. \nSouth Korean memory chip giant SK Hynix is looking to raise 45.45 trillion won ($29.4 billion) through a share offering to U.S. investors next month, marking a major expansion push as the memory industry enjoys one of its strongest upcycles on record.\nSK Hynix will issue 17.79 million new shares to back a listing of ADRs on the Nasdaq market on July 10. The company said cash proceeds will be used to build a chip factory in the city of Yongin, an advanced packaging fab in Cheongju and purchase chipmaking equipment such as an Extreme Ultraviolet Scanner.\nSK Hynix’s US Listing Next Week\nThe U.S. listing would give SK Hynix direct access to American capital markets and offer U.S. investors a bro",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Micron",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "Micron",
+          "하이닉스",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "Micron",
+          "하이닉스",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Kioxia Holdings executive pay surges amid AI chip demand - Crypto Briefing",
+      "date": "2026-06-24",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/kioxia-executive-pay-surges-ai-chip-demand/",
+      "summary": "Kioxia Holdings executive pay surges amid AI chip demand Crypto Briefing",
+      "body": "Kioxia Holdings executive pay surges amid AI chip demand\nJapanese memory chip giant revamps compensation structure after stock rockets 660% on insatiable AI storage appetite\nWhen your stock price increases twenty-fold, the old pay structure stops making sense. That’s the situation Kioxia Holdings found itself in, prompting the Japanese NAND flash memory giant to overhaul its executive compensation from a fixed, capped system to one that’s variable, uncapped, and directly tied to the company’s skyrocketing share price.\nThe revision replaces previously capped Restricted Stock Units (RSUs) and Performance Share Units (PSUs) with a new framework where payouts float with the stock price at the time of grant.\nThe numbers behind the pay overhaul\nKioxia’s stock has climbed roughly 660% year-to-date as of early June 2026. The company’s market capitalization briefly punched through the ¥30 trillion mark, approximately $188 billion, vaulting Kioxia into the upper echelon of Japan’s most valuable ",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "키옥시아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "키옥시아",
+          "AI반도체"
+        ],
+        "summary_hits": [
+          "키옥시아",
+          "AI반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Micron Slides More Than 13% Ahead of Earnings as AI Chip Rally Faces Test - bloomingbit",
+      "date": "2026-06-24",
+      "source": "bloomingbit",
+      "url": "https://en.bloomingbit.io/feed/news/114927",
+      "summary": "Micron Slides More Than 13% Ahead of Earnings as AI Chip Rally Faces Test bloomingbit",
+      "body": "Summary\n- Blockbeats reported that Micron Technology shares fell more than 13% on June 23 ahead of the company’s fiscal third-quarter earnings release.\n- Recent concerns over memory chips, the AI sector, and valuations have deepened the correction in global semiconductor stocks, the report said.\n- Micron’s earnings could mark a turning point for sentiment across the semiconductor sector tied to the AI investment boom, AI data-center demand, and HBM supply shortages.\nForecast Trend Report by Period\nShares of US memory-chip maker Micron Technology fell sharply ahead of its earnings report.\nBlockbeats and other outlets reported on June 24 that Micron shares dropped more than 13% on June 23. The selloff came ahead of the company’s fiscal third-quarter results for March through May, due later on June 24.\nThe decline appeared to reflect a broader correction in global semiconductor stocks more than concerns about Micron’s earnings. Shares of major memory-chip makers including Samsung Electron",
+      "score": 6.0,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 7,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Micron"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "Micron",
+          "AI반도체"
+        ],
+        "summary_hits": [
+          "Micron",
+          "AI반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "Qualcomm Explores Custom Chip Deal With ByteDance Amid Diversification Push - Electronics For You BUSINESS",
+      "url": "https://www.electronicsforyou.biz/industry-buzz/qualcomm-explores-custom-chip-deal-with-bytedance-amid-diversification-push/",
+      "source": "Electronics For You BUSINESS",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "퀄컴, 아태 지역 QAIPI 2026 선정 스타트업 발표...한국 5곳",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58591",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"지방 반도체 단지 곧 발표...용인도 그대로 진행\" - YTN",
+      "url": "https://www.ytn.co.kr/_ln/0101_202606242159267284",
+      "source": "YTN",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“용인 반도체 이전 아니다…호남에 새 클러스터 짓는 것” - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25439648",
+      "source": "중앙일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "호남·충청 반도체클러스터 가시화‥부동산은 \"닥치고 공급\" - MBC 뉴스",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832615_37004.html",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"반도체 유리기판, '유리급 기판'도 선택지\" - 지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20260625024011",
+      "source": "지디넷코리아",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"제2 반도체 클러스터\" 곧 윤곽…용인 다음은 어디 - JTBC",
+      "url": "https://news.jtbc.co.kr/article/NB12304887",
+      "source": "JTBC",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘600조 반도체’ 통합특별시 선물 보따리 ‘두근두근’ - 드림투데이",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=670475",
+      "source": "드림투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "호남에 반도체? 국힘 “정치 제물로 바치는 자해 행위” - 문화일보",
+      "url": "https://www.munhwa.com/article/11598029",
+      "source": "문화일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "金총리 \"AI발 반도체 막대한 부, 기본소득과 연계 고민\" - v.daum.net",
+      "url": "https://v.daum.net/v/20260624223901500",
+      "source": "v.daum.net",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"2040년 반도체 수요 2배 될 것\"‥광주·전남 수백조 원 들여 '팹' 짓는다 - MBC 뉴스",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832616_37004.html?xtr_cate=LK&xtr_ref=r11&xtr_kw=N&xtr_area=k&xtr_cp=c4",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] 호남 반도체 클러스터, 국가 경제 선순환으로 이어져야 - v.daum.net",
+      "url": "https://v.daum.net/v/20260625013217334",
+      "source": "v.daum.net",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "취업 남방한계선 평택인데…“반도체 인재 호남 올까요” - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25439646",
+      "source": "중앙일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] 수십 년 간 ‘지방 불가’ 외치다 갑자기 호남으로 간다는 반도체 - 조선일보",
+      "url": "https://www.chosun.com/opinion/editorial/2026/06/25/MUVH55M32FD7ZP2RBGXI7NH4VM/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 공장 24시간 돌려야하는데… \"호남 전력 인프라로는 쉽지 않아\" - 조선일보",
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/25/2T475HXWVJFXZO7JNAAAJGDDGI/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] 반도체 광주·전남 클러스터… 인재·부품 생태계 확보돼야 - 서울신문",
+      "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/06/25/20260625027004",
+      "source": "서울신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "정치논리에 휘둘린 반도체 클러스터···호남·충청 조성이 '3중고'인 이유 - 여성경제신문",
+      "url": "https://www.womaneconomy.co.kr/news/articleViewAmp.html?idxno=255428",
+      "source": "여성경제신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "김용범 “호남 반도체 클러스터 곧 발표…용인 시설 옮기는 것 아냐” - 동아일보",
+      "url": "https://www.donga.com/news/Politics/article/all/20260624/134171992/1",
+      "source": "동아일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "강원대, 국내 첫 국방반도체학과 신설…방사청과 협약 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20260624151800062",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[기고]반도체 성공을 뒷받침하는 전력산업의 묵묵한 헌신 - 경향신문",
+      "url": "https://www.khan.co.kr/article/202606242028015",
+      "source": "경향신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": [
+    {
+      "title": "삼성전자, HBM 생산 능력 절반 HBM4에 할당 - 조선일보",
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/25/OFWC7FWEFNAIFM72PHM2T27IC4/",
+      "source": "조선일보",
+      "score": 12.0,
+      "reason": "no_body"
+    },
+    {
+      "title": "삼성전자, HBM 생산능력 절반 HBM4에 배치 - 조선일보",
+      "url": "https://www.chosun.com/economy/tech_it/2026/06/24/Q4SZW36SVRDUZGWS6CSPWU2RGU/",
+      "source": "조선일보",
+      "score": 12.0,
+      "reason": "no_body"
+    }
+  ]
+}
