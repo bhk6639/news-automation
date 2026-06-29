@@ -7,5 +7,14 @@
     "total": 151,
     "summary_empty_count": 42,
     "empty": false
+  },
+  {
+    "ran_at": "2026-06-30T03:30:36.351935+09:00",
+    "window_start": "2026-06-23",
+    "window_end": "2026-06-29",
+    "prev_briefing_date": "2026-06-22",
+    "total": 42,
+    "summary_empty_count": 11,
+    "empty": false
   }
 ]
