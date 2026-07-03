@@ -19,7 +19,19 @@ SOURCES = {
     "반도체": [
         {
             "name": "GoogleNews_반도체",
-            "url": google_news_rss("반도체 OR HBM OR 파운드리 OR 메모리반도체"),
+            "url": google_news_rss("반도체"),  # OR 잉여어 제거, 순수 catch-all (기술어는 아래 버킷이 담당)
+            "type": "google_news",
+        },
+        {
+            # 기술어 부스터 (2026-07 추가): broad '반도체'가 100 cap에서 자른 고가치
+            # 공정·메모리 기사를 별도 100 cap으로 건짐. 정치 홍수(호남 반도체 등)가 broad를
+            # 덮는 날 실제 반도체 뉴스를 파이프라인에 살려두는 안전판.
+            # 공정어(EUV·노광·식각·증착·CMP)+메모리어(HBM·D램·낸드·CXL)+선단(GAA·첨단패키징)만.
+            # ⚠ '반도체장비/반도체소재/소부장'은 넣지 말 것 — '반도체'로 퍼져 정치기사를 끌어옴(실측 검증됨).
+            "name": "GoogleNews_기술",
+            "url": google_news_rss(
+                "EUV OR 노광 OR 식각 OR 증착 OR CMP OR HBM OR D램 OR DRAM OR 낸드 "
+                "OR NAND OR CXL OR 하이브리드본딩 OR GAA OR 첨단패키징"),
             "type": "google_news",
         },
         {

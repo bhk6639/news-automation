@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 진단용 임시 스크립트 (2026-07 RSS 절단/버킷 점검 — 로컬 전용, 저장소 미반입)
+cap_test.py
+cap_order_test.py
+cap_bucket_test.py
+cap_tech_test.py
+cap_bucket_v2.py
+cap_techbucket_final.py
+naver_test.py
+run_cap_test.bat
+cap_test_out.txt
+test_new_sources.py
