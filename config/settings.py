@@ -32,6 +32,9 @@ ENGLISH_FEEDS = {"GoogleNews_EN", "SemiEngineering", "BlocksAndFiles", "EETimes"
 # 딥테크(공정·기술) 전용 영문 매체. 낚시성 제목이라 점수는 낮아도 신호가 높아,
 # 영문 쿼터 자리를 채울 때 GoogleNews_EN 시황보다 우선 배정한다. (P1, 2026-08-13)
 DEEPTECH_FEEDS = {"SemiEngineering", "EETimes"}
+# 아그리게이터/JS 렌더로 본문 추출이 늘 실패하는 호스트 — resolve 단계에서 드롭.
+# MSN(ko-kr)은 원매체 재게시라 원문이 자기 매체로 따로 들어옴 + no_body라 살려도 요약 불가. (8/13)
+BLOCKED_HOSTS = {"msn.com"}
 ENGLISH_QUOTA = 3
 
 # tech 쿼터 (filter.py score_and_filter) — 6/25

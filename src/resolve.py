@@ -5,6 +5,14 @@ Google News RSS 리다이렉트 링크를 실제 언론사 URL로 변환.
 from googlenewsdecoder import gnewsdecoder
 from urllib.parse import urlparse
 
+from config.settings import BLOCKED_HOSTS
+
+
+def _is_blocked_host(url: str) -> bool:
+    """아그리게이터/JS렌더로 본문이 늘 비는 호스트인지 (BLOCKED_HOSTS)."""
+    host = urlparse(url).netloc.lower()
+    return any(host == b or host.endswith("." + b) for b in BLOCKED_HOSTS)
+
 
 def resolve_url(url: str) -> str | None:
     """Google News 링크를 디코딩해서 최종 URL 반환. 실패하면 None."""
@@ -12,13 +20,15 @@ def resolve_url(url: str) -> str | None:
         return None
 
     if "news.google.com" not in url:
-        return url
+        return None if _is_blocked_host(url) else url
 
     try:
         decoded = gnewsdecoder(url, interval=1)
         if decoded.get("status"):
             final_url = decoded["decoded_url"]
             if "google.com" in urlparse(final_url).netloc:
+                return None
+            if _is_blocked_host(final_url):
                 return None
             return final_url
         return None
