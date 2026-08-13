@@ -44,6 +44,7 @@ KEYWORDS = {
                 "동진쎄미켐", "솔브레인", "원익IPS", "주성엔지니어링", "피에스케이",
                 "이오테크닉스", "HPSP", "SK실트론", "케이씨텍", "네패스", "하나마이크론",
                 "넥스틴", "파크시스템스", "에스앤에스텍", "JSR", "도쿄오카",
+                "퓨리오사", "FuriosaAI", "Furiosa",  # 국내 AI반도체 팹리스 (P3, 8/13)
             },
             "weak": {  # +1
                 "인텔", "Intel", "AMD", "퀄컴", "Qualcomm", "브로드컴", "Broadcom",
@@ -63,6 +64,7 @@ KEYWORDS = {
             },
             "medium": {  # +2
                 "메모리", "고대역폭", "DDR6",  # DDR6만 신규 (LPDDR/GDDR가 6/7세대 접미사 이미 잡음)
+                "ASIC",  # 맞춤형 반도체 (P3, 8/13)
             },
             "weak": set(),
         },
@@ -79,9 +81,11 @@ KEYWORDS = {
                 "1a", "1b", "1c", "1d",
                 # DRAM 구조·미세화
                 "4F2", "수직D램", "수직 D램", "3D DRAM", "3D D램",
-                "BCAT", "새들핀", "saddle-fin", "saddle fin",
+                "BCAT", "VCAT", "VCT", "새들핀", "saddle-fin", "saddle fin",
                 "매립게이트", "buried word line", "buried gate", "RCAT",
                 "IGZO", "캐패시터리스", "capacitorless",
+                # DRAM 커패시터 미세화 — 셀 커패시턴스 타깃 (8/13)
+                "25fF", "10fF", "5fF", "4fF",
                 # NAND 적층 단수 (촘촘)
                 "128단", "176단", "200단", "232단", "236단", "238단", "280단",
                 "300단", "321단", "400단", "430단", "1000단",
@@ -92,6 +96,7 @@ KEYWORDS = {
                 # 차세대 메모리
                 "CXL", "PIM", "프로세싱인메모리",
                 "MRAM", "PCRAM", "ReRAM", "FeRAM", "강유전체", "뉴로모픽",
+                "STT-MRAM", "SOT-MRAM", "FeFET", "셀렉터", "selector",  # (8/13)
                 # 차세대 소재
                 "2D 반도체", "2D반도체",
             },
@@ -112,15 +117,29 @@ KEYWORDS = {
                 # HBM 적층 공정
                 "MR-MUF", "매스리플로우",
                 "하이브리드본딩", "하이브리드 본딩", "hybrid bonding",
+                # 박막공정 (증착 계열 — 사용자 우선순위: 공정/양산 특히 박막. 8/13 medium→strong 승격)
+                "박막", "박막공정", "thin film", "thin-film",
+                "증착", "deposition", "ALD", "원자층증착", "CVD", "PVD", "PECVD",
+                "선택적증착", "selective deposition",
+                # 차세대 박막·소재 (8/13)
+                "AS-ALD", "AS ALD", "바텀업", "bottom-up", "컴포멀리티", "conformality",
+                "몰리브덴", "molybdenum", "Ru", "루테늄", "ruthenium", "TiN",
+                "ONO", "ZAZ", "MIM",
+                # 증착·식각·본딩 차세대 (8/13 추가)
+                "스퍼터링", "sputtering", "PEALD", "MOCVD", "LPCVD", "HDP-CVD", "FCVD", "flowable CVD",
+                "갭필", "gap-fill", "gapfill",
+                "크라이오식각", "cryo etch", "극저온식각", "선택비", "selectivity", "bowing", "보우잉",
+                "CTF", "charge trap", "차지트랩", "스트링스택", "스트링 스택", "string stacking",
+                "Cu-Cu", "구리직접접합", "다이렉트본딩", "direct bonding", "W2W", "D2W",
+                "칩온웨이퍼", "chip-on-wafer",
             },
             "medium": {  # +2
                 # 패터닝 잔여
                 "침지노광", "immersion", "OPC", "포토마스크", "photomask", "레티클", "reticle",
                 # 식각 잔여
                 "ALE", "원자층식각", "RIE", "건식식각", "dry etch", "플라즈마식각", "plasma etch",
-                # 증착·박막
-                "증착", "deposition", "ALD", "원자층증착", "CVD", "PVD", "PECVD",
-                "선택적증착", "selective deposition", "SiGe", "실리콘게르마늄",
+                # 박막 소재 (증착 공정어는 strong으로 이동 — 8/13)
+                "SiGe", "실리콘게르마늄",
                 # 단위공정 (이온주입·에피·CMP·평탄화)
                 "슬러리", "slurry", "평탄화", "planarization", "CMP", "화학기계연마",
                 "이온주입", "ion implant", "implantation", "에피택시", "epitaxy", "epitaxial",
@@ -129,7 +148,7 @@ KEYWORDS = {
                 "도핑", "doping", "도펀트", "어닐", "annealing", "RTA", "급속열처리", "접합",
                 # 계측·검사
                 "metrology", "계측", "overlay", "오버레이", "OCD", "CD-SEM",
-                "e-beam", "전자빔", "검사장비", "defect inspection", "결함검사", "yield",
+                "e-beam", "전자빔", "검사장비", "defect inspection", "결함검사", "yield", "수율",
                 # 소재
                 "포토레지스트", "photoresist", "high-k", "하이k", "low-k",
                 "precursor", "전구체", "MoS2",
@@ -144,8 +163,12 @@ KEYWORDS = {
                 "칩렛", "chiplet", "chiplets", "TSV",
                 "CoWoS", "SoIC", "Foveros", "EMIB",
                 "팬아웃", "fan-out", "FOWLP", "FOPLP", "재배선", "RDL",
-                "유리기판", "glass substrate", "패널레벨", "panel-level",
-                "언더필", "underfill", "워피지", "warpage",
+                "유리기판", "glass substrate", "글래스기판", "글래스 기판", "패널레벨", "panel-level",
+                "언더필", "underfill", "워피지", "warpage", "와피지", "웨이퍼보우", "웨이퍼 보우", "wafer bow",
+                # 공정 품질·소재·결함 보강 (8/13). 심(한글)은 관심/중심 등 과발화로 제외 — seam/void 영문만
+                "습식식각", "wet etch", "신뢰성", "reliability", "번인", "burn-in",
+                "특수가스", "specialty gas", "마스크블랭크", "mask blank", "블랭크마스크",
+                "몰딩", "molding", "몰드", "EMC", "seam", "void",
                 "interposer", "microbump", "2.5D", "3D IC", "UCIe",
                 "co-packaged optics", "CPO", "silicon photonics", "실리콘포토닉스",
                 "base die",
@@ -155,14 +178,18 @@ KEYWORDS = {
         # ── 사건·액션 ──────────────────────────────────────────
         "event": {
             "cap": 5,
-            "strong": set(),
+            "strong": {  # +3 — 양산·램프업 (사용자 우선순위: 공정/양산. 8/13 medium→strong)
+                "양산", "volume production", "mass production", "램프업", "ramp-up",
+            },
             "medium": {  # +2
-                "양산", "수주", "증설", "투자", "인수",
+                "수주", "증설", "투자", "인수",
                 "점유율", "시장점유율", "market share",  # 시장 지표 (6/25 추가)
                 "수출규제", "export control", "보조금", "subsidy",
-                "칩스법", "CHIPS Act",
+                "칩스법", "CHIPS Act", "가동률",
+                # 생산 조정·양산 지표 (8/13)
+                "감산", "production cut", "웨이퍼투입", "웨이퍼 투입", "wafer starts", "웨이퍼인풋",
                 # 영문 보강 (구 단위로만 — 일반어 order/investment 단독은 제외)
-                "volume production", "mass production", "capex", "capacity expansion",
+                "capex", "capacity expansion",
             },
             "weak": set(),
         },
@@ -175,6 +202,7 @@ KEYWORDS = {
             },
             "weak": {  # +1
                 "반도체", "semiconductor", "팹", "fab", "웨이퍼", "wafer", "공정",
+                "AI서버", "AI 서버", "AI server",  # 배경어 (P3, 8/13)
             },
         },
         # ── 감점 (버킷 밖) ─────────────────────────────────────
@@ -260,6 +288,8 @@ ALIASES = {
     "2D반도체": {"2D 반도체", "2D반도체"},
     # 사건어 영문 (구 단위) — 같은 사건 1회.
     "양산": {"양산", "mass production", "volume production"},
+    "램프업": {"램프업", "ramp-up"},
+    "수율": {"수율", "yield"},
     "증설": {"증설", "capacity expansion"},
     # ── 전공정 보강 (6/25) — 국문/영문 표면형 1회 접기 ──
     "GAA": {"GAA", "게이트올어라운드", "gate-all-around"},
@@ -282,6 +312,36 @@ ALIASES = {
     "고종횡비": {"고종횡비", "high aspect ratio"},
     "ALD": {"ALD", "원자층증착"},
     "선택적증착": {"선택적증착", "selective deposition"},
+    "증착": {"증착", "deposition"},
+    "박막": {"박막", "박막공정", "thin film", "thin-film"},
+    "AS-ALD": {"AS-ALD", "AS ALD"},
+    "바텀업": {"바텀업", "bottom-up", "bottom up"},
+    "컴포멀리티": {"컴포멀리티", "conformality"},
+    "몰리브덴": {"몰리브덴", "molybdenum"},
+    "Ru": {"Ru", "루테늄", "ruthenium"},
+    "웨이퍼보우": {"웨이퍼보우", "웨이퍼 보우", "wafer bow"},
+    "셀커패시턴스": {"25fF", "10fF", "5fF", "4fF"},
+    "퓨리오사": {"퓨리오사", "FuriosaAI", "Furiosa"},
+    "AI서버": {"AI서버", "AI 서버", "AI server"},
+    "스퍼터링": {"스퍼터링", "sputtering"},
+    "갭필": {"갭필", "gap-fill", "gapfill", "gap fill"},
+    "FCVD": {"FCVD", "flowable CVD"},
+    "크라이오식각": {"크라이오식각", "크라이오 식각", "cryo etch", "극저온식각"},
+    "선택비": {"선택비", "selectivity"},
+    "bowing": {"bowing", "보우잉"},
+    "CTF": {"CTF", "charge trap", "차지트랩"},
+    "스트링스택": {"스트링스택", "스트링 스택", "string stacking"},
+    "Cu-Cu": {"Cu-Cu", "구리직접접합", "다이렉트본딩", "direct bonding"},
+    "칩온웨이퍼": {"칩온웨이퍼", "chip-on-wafer"},
+    "셀렉터": {"셀렉터", "selector"},
+    "습식식각": {"습식식각", "wet etch"},
+    "신뢰성": {"신뢰성", "reliability"},
+    "번인": {"번인", "burn-in"},
+    "특수가스": {"특수가스", "specialty gas"},
+    "마스크블랭크": {"마스크블랭크", "mask blank", "블랭크마스크"},
+    "몰딩": {"몰딩", "molding", "몰드"},
+    "감산": {"감산", "production cut"},
+    "웨이퍼투입": {"웨이퍼투입", "웨이퍼 투입", "wafer starts", "웨이퍼인풋", "wafer input"},
     "SiGe": {"SiGe", "실리콘게르마늄"},
     "슬러리": {"슬러리", "slurry"},
     "평탄화": {"평탄화", "planarization"},
@@ -300,10 +360,10 @@ ALIASES = {
     # ── 첨단 패키징 (후공정) 표면형 ──
     "팬아웃": {"팬아웃", "fan-out", "FOWLP", "FOPLP"},
     "RDL": {"재배선", "RDL"},
-    "유리기판": {"유리기판", "glass substrate"},
+    "유리기판": {"유리기판", "glass substrate", "글래스기판", "글래스 기판"},
     "패널레벨": {"패널레벨", "panel-level"},
     "언더필": {"언더필", "underfill"},
-    "워피지": {"워피지", "warpage"},
+    "워피지": {"워피지", "warpage", "와피지"},
     "CPO": {"co-packaged optics", "CPO"},
     "실리콘포토닉스": {"실리콘포토닉스", "silicon photonics"},
     # ── 노드: 전체를 한 세트로 1회 카운트 (2나노·3나노 같이 나와도 +1) ──
