@@ -15,6 +15,7 @@ from config.settings import (
     DROPPED_KEEP,
     NEG_FLOOR,
     ENGLISH_FEEDS,
+    DEEPTECH_FEEDS,
     ENGLISH_QUOTA,
     TECH_QUOTA,
     TITLE_DEDUP_SIM,
@@ -242,6 +243,10 @@ def score_and_filter(items: list[dict], field: str) -> tuple[list[dict], list[di
             it for it in items
             if _is_english_feed(it) and it["url"] not in sel_urls and it["score"] > 0
         ]
+        # 딥테크 피드(SemiEngineering/EETimes) 우선: 낚시성 제목이라 점수는 낮지만
+        # 시황 영문(GoogleNews_EN)보다 먼저 영문 쿼터 자리를 차지하게 한다.
+        # 안정 정렬 → 그룹 내부는 기존 점수순 유지 (False=딥테크가 앞).
+        eng_pool.sort(key=lambda it: it.get("rss_source") not in DEEPTECH_FEEDS)
         promote = eng_pool[:need]
         if promote:
             # 영문 자리만큼 점수 낮은 한글(비영문) 기사를 뺀다

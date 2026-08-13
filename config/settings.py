@@ -29,6 +29,9 @@ MIN_BODY_LENGTH = 300
 # 이렇게 latest.json까지 살아남아야 본문을 읽는 클로드 루틴이 최종 판단할 수 있다.
 # (실제 노션 상위 5 보장은 데일리 프롬프트의 '영문 쿼터' 규칙이 담당)
 ENGLISH_FEEDS = {"GoogleNews_EN", "SemiEngineering", "BlocksAndFiles", "EETimes"}
+# 딥테크(공정·기술) 전용 영문 매체. 낚시성 제목이라 점수는 낮아도 신호가 높아,
+# 영문 쿼터 자리를 채울 때 GoogleNews_EN 시황보다 우선 배정한다. (P1, 2026-08-13)
+DEEPTECH_FEEDS = {"SemiEngineering", "EETimes"}
 ENGLISH_QUOTA = 3
 
 # tech 쿼터 (filter.py score_and_filter) — 6/25
