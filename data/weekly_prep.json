@@ -1,216 +1,158 @@
 {
-  "generated_at": "2026-08-18T03:30:24.752982+09:00",
+  "generated_at": "2026-08-25T03:30:23.889258+09:00",
   "window": {
-    "today": "2026-08-18",
-    "window_start": "2026-08-11",
-    "window_end": "2026-08-17",
-    "prev_briefing_date": "2026-08-10"
+    "today": "2026-08-25",
+    "window_start": "2026-08-18",
+    "window_end": "2026-08-24",
+    "prev_briefing_date": "2026-08-17"
   },
   "empty": false,
   "pages": [
     {
-      "page_id": "3b915d7e-f6ef-8100-8a80-edbee3f79844",
-      "page_url": "https://app.notion.com/p/8-11-HBM-CXL-AI-3b915d7ef6ef81008a80edbee3f79844",
-      "headline": "8/11 HBM 부족하면 'CXL'로…삼성·하이닉스 AI 메모리 영토 넓힌다 - 머니투데이",
-      "date": "2026-08-11",
-      "link": "https://www.mt.co.kr/amp/industry/2026/08/11/2026081115180086395",
-      "summary": "AI 추론 확산으로 GPU 메모리 부족 문제가 심화되면서 CXL 메모리가 HBM의 용량 한계를 보완할 대안으로 주목받고 있다. 삼성·SK하이닉스·마이크론은 FMS 2026에서 CXL 스위치를 통한 대규모 공유 메모리 풀 구성 기술을 공개했다.",
+      "page_id": "3c015d7e-f6ef-8105-a7f8-f0bcb384c608",
+      "page_url": "https://app.notion.com/p/8-18-SK-27-3c015d7ef6ef8105a7f8f0bcb384c608",
+      "headline": "8/18 SK하이닉스, 美 첨단 패키징 팹 27일 착공…메모리 전공정 투자 열어놔",
+      "date": "2026-08-18",
+      "link": "https://www.newswhoplus.com/news/articleView.html?idxno=67107",
+      "summary": "SK하이닉스가 오는 27일 인디애나주에서 38억7000만달러 규모의 첨단 패키징 공장 착공식을 열고 2028년 하반기 HBM 생산거점 구축에 속도를 낸다. 최태원 회장은 여건이 갖춰지면 미국 내 메모리 전공정 팹 건설도 가능하다고 밝혀 투자 범위 확대가 주목된다.",
       "summary_empty": false,
+      "categories": [
+        "메모리",
+        "파운드리"
+      ]
+    },
+    {
+      "page_id": "3c015d7e-f6ef-810b-978d-c5404c8d0300",
+      "page_url": "https://app.notion.com/p/8-18-3c015d7ef6ef810b978dc5404c8d0300",
+      "headline": "8/18 美, 삼전닉스 반도체 유치 압박? 정부 \"기업, 메모리 美투자 계획 없어\"",
+      "date": "2026-08-18",
+      "link": "https://www.seoul.co.kr/news/economy/2026/08/18/20260818500247",
+      "summary": "미국이 15% 관세 합의 파기 가능성을 거론하며 한국 기업의 대미 메모리 투자를 압박하는 가운데, 김정관 산업부 장관이 러트닉 미 상무장관과 대미투자 1호 프로젝트를 막판 조율 중이다. 정부는 메모리 반도체 전공정의 대미 투자 계획이 없다는 입장을 유지하고 있다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "글로벌"
+      ]
+    },
+    {
+      "page_id": "3c015d7e-f6ef-8133-a1dc-c6c8c4819790",
+      "page_url": "https://app.notion.com/p/8-18-AI-HBM-43-3c015d7ef6ef8133a1dcc6c8c4819790",
+      "headline": "8/18 AI 투자, HBM 넘어 소부장으로…43조 설비투자 효과 확산",
+      "date": "2026-08-18",
+      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=315834",
+      "summary": "삼성·SK가 상반기 반도체 설비에 43.2조원을 투자하며 전년 대비 35% 증가했고, 수혜 범위가 후공정 장비에서 전공정·소재 업체로 확산되고 있다. 유진테크 수주잔고 증가와 솔브레인 반도체 소재 매출 19% 성장이 대표적 사례로 꼽혔다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "장비소재"
+      ]
+    },
+    {
+      "page_id": "3c015d7e-f6ef-8172-8a30-d27e5e0f5fb0",
+      "page_url": "https://app.notion.com/p/8-18-5-2-77-SK-3c015d7ef6ef81728a30d27e5e0f5fb0",
+      "headline": "8/18 낸드 5개사 2분기 매출 77% 급증, 삼성전자와 SK하이닉스 점유율 격차 좁혀져",
+      "date": "2026-08-18",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=445018",
+      "summary": "",
+      "summary_empty": true,
       "categories": [
         "메모리"
       ]
     },
     {
-      "page_id": "3b915d7e-f6ef-8108-80fd-fdd3e9ce588a",
-      "page_url": "https://app.notion.com/p/8-11-HBM-12-8-SK-3b915d7ef6ef810880fdfdd3e9ce588a",
-      "headline": "8/11 HBM 12단서 8단 후퇴 검토…삼성·SK하이닉스 수율이 판 가른다 - 글로벌이코노믹",
-      "date": "2026-08-11",
-      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/202608101555456998fbbec65dfb_1",
-      "summary": "엔비디아가 루빈 울트라 가속기의 HBM 사양을 12단 외 8단·10단도 검토하면서 삼성전자·SK하이닉스의 고적층 수율 경쟁이 더욱 중요해졌다. 트렌드포스는 HBM 공급 부족이 지속되는 가운데 공급사가 가격 결정력을 유지할 것으로 전망했다.",
-      "summary_empty": false,
+      "page_id": "3c015d7e-f6ef-8195-8550-e3554dad0b0b",
+      "page_url": "https://app.notion.com/p/8-18-1300-8-AI-3c015d7ef6ef81958550e3554dad0b0b",
+      "headline": "8/18 한미반도체 1300억 투자해 역대 최대 규모 8공장 짓는다, AI 반도체 장비 증설",
+      "date": "2026-08-18",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=444955",
+      "summary": "",
+      "summary_empty": true,
       "categories": [
-        "메모리"
+        "장비소재"
       ]
     },
     {
-      "page_id": "3b915d7e-f6ef-8109-bd80-f6a626a233f1",
-      "page_url": "https://app.notion.com/p/8-11-HBM-CXL-3b915d7ef6ef8109bd80f6a626a233f1",
-      "headline": "8/11 차세대 HBM 'CXL' 뜨는데…엔비디아가 견제하는 이유 [헤럴딥-칩칩팹팹] - 헤럴드경제",
-      "date": "2026-08-11",
-      "link": "https://mbiz.heraldcorp.com/article/10837273",
-      "summary": "삼성·SK하이닉스가 FMS 2026에서 CXL을 AI 서버 메모리 용량 한계 보완 기술로 제시하며 KV캐시 오프로딩 등 LLM 활용 성과를 공개했다. CXL 확산이 엔비디아 GPU 생태계 의존도를 낮출 수 있어 엔비디아가 개방형 메모리 기술 확산을 견제하고 있음이 알려졌다.",
+      "page_id": "3c015d7e-f6ef-81c4-88db-efe956497673",
+      "page_url": "https://app.notion.com/p/8-18-Controlling-Voltage-Droop-In-2-5D-PIM-Chiplet-Architectures-Washington-St-UW-Madison-3c015d7ef6ef81c488dbefe956497673",
+      "headline": "8/18 Controlling Voltage Droop In 2.5D PIM Chiplet Architectures (Washington St., UW-Madison)",
+      "date": "2026-08-18",
+      "link": "https://semiengineering.com/controlling-voltage-droop-in-2-5d-pim-chiplet-architectures-washington-st-uw-madison/",
+      "summary": "워싱턴주립대·위스콘신대 연구팀이 2.5D PIM 칩렛 아키텍처의 전압 드룹을 LSTM 기반 PDN 예측으로 동적 제어하는 ReVolt 프레임워크를 발표했다. ReVolt는 칩렛별 공급 전압 궤적을 실시간 예측해 전압 위반을 사전 완화하고 ML 추론 정확도를 개선한다.",
       "summary_empty": false,
       "categories": [
-        "메모리"
+        "설계"
       ]
     },
     {
-      "page_id": "3b915d7e-f6ef-8171-8392-e9b76151eda8",
-      "page_url": "https://app.notion.com/p/8-11-HBM4-80-6-3b915d7ef6ef81718392e9b76151eda8",
-      "headline": "8/11 삼성전자 HBM4 수율 80% 돌파…양산 6개월 만에 목표 달성 - 지디넷코리아",
-      "date": "2026-08-11",
-      "link": "https://zdnet.co.kr/view/?no=20260811213914",
-      "summary": "삼성전자 HBM4 수율이 트렌드포스 기준 80%까지 올라 연말 목표를 양산 6개월 만에 조기 달성했다. 삼성은 3분기 HBM4 매출을 전 분기 대비 3배 이상 늘리고 연내 HBM 시장 점유율을 DRAM 점유율(38%) 수준까지 끌어올린다는 계획이다.",
+      "page_id": "3c015d7e-f6ef-81f7-a2e2-cff8849b3bf7",
+      "page_url": "https://app.notion.com/p/8-18-Chip-Industry-Technical-Paper-Roundup-Aug-18-3c015d7ef6ef81f7a2e2cff8849b3bf7",
+      "headline": "8/18 Chip Industry Technical Paper Roundup: Aug. 18",
+      "date": "2026-08-18",
+      "link": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-18/",
+      "summary": "2D CFET·PIM 칩렛·리소그래피 결함 예측 등 7편의 최신 반도체 공정 및 설계 기술 논문이 공개됐다. GAA 기반 2D CFET의 A2 노드 최적 아키텍처 분석과 3D IC 고장 분석, SiC 웨이퍼 슬라이싱 기술 등이 포함됐다.",
       "summary_empty": false,
       "categories": [
-        "메모리"
+        "장비소재",
+        "설계",
+        "파운드리"
       ]
     },
     {
-      "page_id": "3b815d7e-f6ef-81e9-b11f-d6f7eebc4a8b",
-      "page_url": "https://app.notion.com/p/8-11-TSMC-Reboots-1-4nm-Chip-Fab-Plan-As-Local-Resistance-Evaporates-HotHardware-3b815d7ef6ef81e9b11fd6f7eebc4a8b",
-      "headline": "8/11 TSMC Reboots 1.4nm Chip Fab Plan As Local Resistance Evaporates - HotHardware",
-      "date": "2026-08-11",
-      "link": "https://hothardware.com/news/tsmc-reboots-14nm-chip-fab-plan-as-local-resistance-evaporates",
-      "summary": "TSMC가 2023년 주민 반발로 포기했던 타오위안 룽탄 과학단지 Phase 3 확장을 재추진해 부지 확보에 성공했다. 국가과학기술위원회 승인 아래 1.4nm 팹 2개동 건설이 예정돼 TSMC의 첨단 노드 생산 역량이 강화될 전망이다.",
+      "page_id": "3c115d7e-f6ef-8108-bd96-d3b653c5969e",
+      "page_url": "https://app.notion.com/p/8-19-TSMC-advances-chipmaking-with-A16-and-new-backside-power-technology-Sammy-Fans-3c115d7ef6ef8108bd96d3b653c5969e",
+      "headline": "8/19 TSMC advances chipmaking with A16 and new backside power technology - Sammy Fans",
+      "date": "2026-08-19",
+      "link": "https://www.sammyfans.com/2026/08/18/tsmc-advances-chipmaking-with-a16-and-new-backside-power-technology/",
+      "summary": "TSMC가 후면전력공급 기술을 적용한 A16 공정을 개발했으며, 2026년 4분기 양산을 목표로 하고 있다. A16은 기존 대비 8~10% 성능 향상을 제공하며, 기존 칩 설계 재사용이 가능해 설계 비용 절감이 기대된다.",
       "summary_empty": false,
       "categories": [
         "파운드리"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-816a-baa9-d54afea4d054",
-      "page_url": "https://app.notion.com/p/8-12-2D-GAA-CFETs-Need-Contact-And-Parasitic-Co-Optimization-At-A2-Node-imec-SemiEngineering-3bb15d7ef6ef816abaa9d54afea4d054",
-      "headline": "8/12 2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec) - SemiEngineering",
-      "date": "2026-08-12",
-      "link": "https://semiengineering.com/2d-gaa-cfets-need-contact-and-parasitic-co-optimization-at-a2-node-imec/",
-      "summary": "임에크(imec) 연구진이 A2 노드용 2D GAA CFET에서 컨택 저항과 기생 성분을 함께 최적화해야 소자 성능을 확보할 수 있다고 분석했다. 초미세 로직 노드에서 구조와 재료의 공동 설계 필요성을 짚은 기술 논문이다.",
-      "summary_empty": false,
-      "categories": [
-        "기술 심화"
-      ]
-    },
-    {
-      "page_id": "3bb15d7e-f6ef-81a7-a4b9-f4870dd1018e",
-      "page_url": "https://app.notion.com/p/8-12-Defect-Prediction-in-Optical-Lithography-EUVL-and-NIL-National-Taiwan-University-SemiEngi-3bb15d7ef6ef81a7a4b9f4870dd1018e",
-      "headline": "8/12 Defect Prediction in Optical Lithography, EUVL, and NIL (National Taiwan University) - SemiEngineering",
-      "date": "2026-08-12",
-      "link": "https://semiengineering.com/defect-prediction-in-optical-lithography-euvl-and-nil-national-taiwan-university/",
-      "summary": "대만국립대(NTU) 연구진이 광학 리소그래피와 EUV 리소그래피, 나노임프린트(NIL) 공정의 결함을 예측하는 방법을 제시했다. 패터닝 미세화가 진행될수록 커지는 결함 관리 부담을 계측·예측 기법으로 줄이려는 접근이다.",
-      "summary_empty": false,
-      "categories": [
-        "기술 심화"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-8120-a3b1-e86f55369316",
-      "page_url": "https://app.notion.com/p/8-12-SK-27-2028-HBM-3ba15d7ef6ef8120a3b1e86f55369316",
-      "headline": "8/12 SK하이닉스 美 인디애나 27일 착공식...2028년 HBM 양산 - 조선일보",
-      "date": "2026-08-12",
-      "link": "https://www.chosun.com/economy/tech_it/2026/08/12/VFUZFXKKG5FNRETINQX6VICQ6E/",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-812c-a399-f86f8ece3269",
-      "page_url": "https://app.notion.com/p/8-12-1-High-NA-EUV-TSMC-3ba15d7ef6ef812ca399f86f8ece3269",
-      "headline": "8/12 삼성, 1나노 공정에 'High-NA EUV' 장비 검토…TSMC는 유예 - 글로벌이코노믹",
-      "date": "2026-08-12",
-      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/202608120839519431fbbec65dfb_1",
-      "summary": "삼성전자는 1나노 이하 공정부터 High-NA EUV 장비를 본격 도입하는 로드맵을 발표하며 미세화 경쟁에서 TSMC와 차별화를 꾀하고 있다. 인텔은 이미 1나노급 공정에 해당 장비를 적용한 반면, TSMC는 연구개발 단계에 그쳐 삼성의 전략적 선택이 파운드리 시장 경쟁 변수로 부상했다.",
-      "summary_empty": false,
-      "categories": [
-        "파운드리",
-        "장비소재"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-8144-a881-e0379fdb322c",
-      "page_url": "https://app.notion.com/p/8-12-Tsmc-boosts-AI-capacity-with-42-trillion-won-push-into-2nm-packaging-CHOSUNBIZ-3ba15d7ef6ef8144a881e0379fdb322c",
-      "headline": "8/12 Tsmc boosts AI capacity with 42 trillion-won push into 2nm, packaging - CHOSUNBIZ",
-      "date": "2026-08-12",
-      "link": "https://biz.chosun.com/en/en-it/2026/08/12/WFHNU44VLJDG5MQJBRNSDZ52HU/?outputType=amp",
-      "summary": "TSMC는 AI 칩 수요 대응을 위해 약 294억 달러(42조원)를 투자해 2나노 첨단 공정 및 패키징 생산 능력을 확대할 계획을 이사회에서 승인했다. 올해 연간 설비투자 전망치를 600~640억 달러로 상향 조정했으며, 이 중 70~80%를 첨단 공정에 집중 투자한다.",
-      "summary_empty": false,
-      "categories": [
-        "파운드리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-8152-ade9-f06a8a6f6a33",
-      "page_url": "https://app.notion.com/p/8-12-9-QLC-Investing-com-3ba15d7ef6ef8152ade9f06a8a6f6a33",
-      "headline": "8/12 키옥시아 및 샌디스크, 9세대 QLC 낸드 플래시 기술 공개 - Investing.com 한국어",
-      "date": "2026-08-12",
-      "link": "https://kr.investing.com/news/company-news/article-93CH-2058376",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-816c-a483-d3f50fa67a7d",
-      "page_url": "https://app.notion.com/p/8-12-TSMC-AI-42-2-Chosunbiz-3ba15d7ef6ef816ca483d3f50fa67a7d",
-      "headline": "8/12 TSMC, AI 수요 대응에 42조원 투자… 2나노·첨단 패키징 확대 - 조선비즈 - Chosunbiz",
-      "date": "2026-08-12",
-      "link": "https://biz.chosun.com/it-science/ict/2026/08/12/BMKX4QUOENCMJEM5KVXJS3Y3XY/",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "파운드리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-8185-9c41-f1ff27558d6c",
-      "page_url": "https://app.notion.com/p/8-12-Co-Packaged-Optics-Reshape-AI-Chip-Supply-Chains-Astute-Group-3ba15d7ef6ef81859c41f1ff27558d6c",
-      "headline": "8/12 Co-Packaged Optics Reshape AI Chip Supply Chains - Astute Group",
-      "date": "2026-08-12",
-      "link": "https://www.astutegroup.com/news/general/co-packaged-optics-reshape-ai-chip-supply-chains/",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "장비소재"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-818f-95c7-fbef92b5ea67",
-      "page_url": "https://app.notion.com/p/8-12-Micron-Joins-1-Trillion-Club-AI-Chip-Boom-Sends-Semiconductor-Stocks-Soaring-Clayton-Carpent-3ba15d7ef6ef818f95c7fbef92b5ea67",
-      "headline": "8/12 Micron Joins $1 Trillion Club | AI Chip Boom Sends Semiconductor Stocks Soaring Clayton Carpenter (1uA5MJA58r) - Mshale",
-      "date": "2026-08-12",
-      "link": "https://mshale.com/a93afefd/27ca39ec8S7A1fU_VvA",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-8191-86d0-c43424d60cdb",
-      "page_url": "https://app.notion.com/p/8-12-IPS-3ba15d7ef6ef819186d0c43424d60cdb",
-      "headline": "8/12 원익IPS, '증착·식각·열처리' 풀라인업 무기…반도체 전공정 리더로 - 블로터",
-      "date": "2026-08-12",
-      "link": "https://www.bloter.net/news/articleViewAmp.html?idxno=670707",
-      "summary": "원익IPS는 증착·식각·열처리 전공정 풀라인업을 갖춘 토탈 솔루션으로 단일 공정 특화 경쟁사들과 차별화하며 반도체 전공정 시장 리딩을 목표로 하고 있다. 3D 낸드 고단화와 파운드리 미세화 가속에 따라 PECVD 장비 등 원익IPS 핵심 제품의 가치가 높아지고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "장비소재"
-      ]
-    },
-    {
-      "page_id": "3ba15d7e-f6ef-81d8-aa53-eb1f4b88430a",
-      "page_url": "https://app.notion.com/p/8-12-HBM-CXL-3ba15d7ef6ef81d8aa53eb1f4b88430a",
-      "headline": "8/12 HBM 빈틈, CXL로… 메모리 '용량 전쟁' - 머니투데이",
-      "date": "2026-08-12",
-      "link": "https://www.mt.co.kr/industry/2026/08/12/2026081119442167576",
-      "summary": "AI 추론 확산으로 GPU 메모리 용량 한계가 부각되면서, 삼성·SK하이닉스·마이크론이 CXL 기술을 통해 AI 서버 메모리 효율을 높이는 경쟁에 나섰다. 삼성전자 연구진은 CXL 메모리가 HBM의 용량 한계를 보완할 수 있다는 논문을 공개하며 초기 시장 선점 경쟁이 본격화되고 있다.",
+      "page_id": "3c115d7e-f6ef-810c-b0dc-e31f727413d2",
+      "page_url": "https://app.notion.com/p/8-19-SK-40-CXL-3c115d7ef6ef810cb0dce31f727413d2",
+      "headline": "8/19 SK하이닉스 자사주 40조 매입…'꿈의 칩' CXL 메모리도 공개 - 서울경제",
+      "date": "2026-08-19",
+      "link": "https://www.sedaily.com/article/20081009",
+      "summary": "SK하이닉스가 D램과 낸드 SSD를 결합한 하이브리드 메모리를 공개했으며, 기존 D램 전용 방식 대비 원가를 78% 절감할 수 있다. 64GB D램과 1TB SSD 2개 구성으로 1TB D램 대비 성능 70% 유지, D램 사용량은 16분의 1로 축소된다.",
       "summary_empty": false,
       "categories": [
         "메모리"
       ]
     },
     {
-      "page_id": "3ba15d7e-f6ef-81fb-958a-d9186a4407db",
-      "page_url": "https://app.notion.com/p/8-12-SK-27-2028-HBM-ziksir-com-3ba15d7ef6ef81fb958ad9186a4407db",
-      "headline": "8/12 SK하이닉스, 인디애나 팹 27일 착공식…2028년 HBM 양산 목표 - ziksir.com",
-      "date": "2026-08-12",
-      "link": "https://www.ziksir.com/news/articleViewAmp.html?idxno=142986",
-      "summary": "SK하이닉스는 27일 미국 인디애나 웨스트라피엣에서 38.7억 달러 규모 첨단 패키징 팹 착공식을 개최하고 2028년 하반기 HBM 양산을 목표로 공사를 본격화한다. 미국 정부는 칩스법에 따라 최대 4.5억 달러 보조금과 5억 달러 대출을 지원하며, 착공식에 젠슨 황과 최태원이 참석 가능성이 있다.",
+      "page_id": "3c115d7e-f6ef-8128-b064-e36ef09662b3",
+      "page_url": "https://app.notion.com/p/8-19-6-AI-3c115d7ef6ef8128b064e36ef09662b3",
+      "headline": "8/19 삼성전자, 아산에 6조 원 AI 반도체 공장 다음 달 착공 - 티제이비",
+      "date": "2026-08-19",
+      "link": "https://www.tjb.co.kr/news06/bodo/view/id/102616",
+      "summary": "삼성전자가 충남 아산 온양캠퍼스에 6조 원을 투입해 HBM 등 AI 반도체 생산을 위한 신규 공장을 다음 달 착공한다. 충남도의 도시계획위원회 심의가 통과되며 착공 일정이 당초보다 1개월 이상 앞당겨졌다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c115d7e-f6ef-8131-8661-c5a2312b326d",
+      "page_url": "https://app.notion.com/p/8-19-AMD-AI-SK-HBM-3c115d7ef6ef81318661c5a2312b326d",
+      "headline": "8/19 구글 AMD와 차기 AI 반도체 협력 전망, 삼성전자와 SK하이닉스 HBM도 수혜 커지나 - 비즈니스포스트",
+      "date": "2026-08-19",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=445048",
+      "summary": "",
+      "summary_empty": true,
+      "categories": [
+        "글로벌",
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c115d7e-f6ef-816a-9518-c0fdad73764c",
+      "page_url": "https://app.notion.com/p/8-19-SK-NAND-54-2-StorageReview-com-3c115d7ef6ef816a9518c0fdad73764c",
+      "headline": "8/19 SK하이닉스와 솔리디짐, NAND 시장 점유율 분할: 국내 54조 원 규모, 중국 다롄 제2공장 재가동 보도 - StorageReview.com",
+      "date": "2026-08-19",
+      "link": "https://www.storagereview.com/ko/news/sk-hynix-and-solidigm-split-the-nand-map-54-trillion-won-at-home-a-reported-dalian-fab-2-restart-in-china",
+      "summary": "SK하이닉스와 솔리디짐이 성숙 낸드 생산(중국)과 차세대 AI 스토리지용 첨단 낸드 생산(한국)을 이원화하는 전략을 추진하고 있다. 다롄 팹2 재가동 시 중국 내 생산량이 약 50% 증가하며, 국내에는 M17 팹을 통한 고층 고밀도 낸드 생산 전용 시설이 구축된다.",
       "summary_empty": false,
       "categories": [
         "메모리",
@@ -218,191 +160,279 @@
       ]
     },
     {
-      "page_id": "3b915d7e-f6ef-8123-a65b-db42d8f8e6ce",
-      "page_url": "https://app.notion.com/p/8-12-CXMT-Hits-90-Yield-on-17nm-DDR5-Chips-Wccftech-3b915d7ef6ef8123a65bdb42d8f8e6ce",
-      "headline": "8/12 CXMT Hits 90% Yield on 17nm DDR5 Chips - Wccftech",
-      "date": "2026-08-12",
-      "link": "https://wccftech.com/cxmt-hits-90-yield-on-17nm-ddr5-chips-closing-the-gap-with-micron-others-report/",
-      "summary": "중국 메모리 업체 CXMT가 17나노 DDR5 칩에서 90% 수율을 달성하며 마이크론 등 선두 업체와의 격차를 빠르게 좁히고 있다. CXMT 칩을 채택한 에이서·아수스 등 PC 업체가 늘어나며 중국 메모리의 시장 침투가 가속화되고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3bb15d7e-f6ef-810b-af97-e964cbc647bd",
-      "page_url": "https://app.notion.com/p/8-13-TSM-TSMC-Achieves-99-Yield-in-AI-Chip-CoWoS-Packaging-GuruFocus-3bb15d7ef6ef810baf97e964cbc647bd",
-      "headline": "8/13 TSM: TSMC Achieves 99% Yield in AI Chip CoWoS Packaging - GuruFocus",
-      "date": "2026-08-13",
-      "link": "https://www.gurufocus.com/news/9029674/tsm-tsmc-achieves-99-yield-in-ai-chip-cowos-packaging",
+      "page_id": "3c115d7e-f6ef-817c-bbfa-c7558d6d63a7",
+      "page_url": "https://app.notion.com/p/8-19-iPhone-18-Pro-s-A20-Pro-Chip-Could-Be-Apple-s-First-SoC-Built-on-TSMC-s-2nm-Process-Tipped-to--3c115d7ef6ef817cbbfac7558d6d63a7",
+      "headline": "8/19 iPhone 18 Pro's A20 Pro Chip Could Be Apple's First SoC Built on TSMC's 2nm Process, Tipped to Deli... - Gadgets 360",
+      "date": "2026-08-19",
+      "link": "https://www.gadgets360.com/mobiles/news/iphone-18-pro-performance-improvement-apple-a20-pro-chipset-tipped-specifications-features-11929853",
       "summary": "",
       "summary_empty": true,
       "categories": [
+        "설계",
         "파운드리"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-810c-bb93-e3260e5f7f93",
-      "page_url": "https://app.notion.com/p/8-13-CXMT-DDR5-SK-3bb15d7ef6ef810cbb93e3260e5f7f93",
-      "headline": "8/13 CXMT, DDR5 승인 뚫었다…삼성·SK '범용 감산' 전략 흔들 - 글로벌이코노믹",
-      "date": "2026-08-13",
-      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/202608130941251131fbbec65dfb_1",
-      "summary": "중국 CXMT가 나노급 공정 기반 DDR5 생산에서 목표 수율을 달성하며 에이서·에이수스 등 PC OEM의 채택을 확보해 범용 메모리 시장 진입을 가속하고 있다. EUV 장비 없이 구형 공정만으로 DDR5를 양산한 CXMT의 부상은 삼성·SK하이닉스의 레거시 감산 전략 수정 여부를 핵심 쟁점으로 부각시킨다.",
+      "page_id": "3c115d7e-f6ef-8199-a6c6-fad54a54e7be",
+      "page_url": "https://app.notion.com/p/8-19-Rapidus-Says-Its-2nm-Chips-Will-Cost-10-000-Less-Than-TSMC-s-Startup-Fortune-3c115d7ef6ef8199a6c6fad54a54e7be",
+      "headline": "8/19 Rapidus Says Its 2nm Chips Will Cost $10,000 Less Than TSMC's - Startup Fortune",
+      "date": "2026-08-19",
+      "link": "https://startupfortune.com/rapidus-says-its-2nm-chips-will-cost-10000-less-than-tsmcs/",
+      "summary": "라피더스가 2027년 양산 예정인 2nm급 웨이퍼를 약 2만 달러에 제공하겠다고 밝혔으며, TSMC의 3만 달러 대비 약 1만 달러 저렴하다. 다만 수율, 고객 확보, 양산 일정 등 실질적 과제가 여전히 남아 있어 경쟁력 입증이 관건이다.",
       "summary_empty": false,
       "categories": [
-        "메모리",
+        "파운드리",
         "글로벌"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-811d-89c1-cf35a3200a27",
-      "page_url": "https://app.notion.com/p/8-13-CXL-DDR4-25-3bb15d7ef6ef811d89c1cf35a3200a27",
-      "headline": "8/13 메타, CXL 기술로 구형 DDR4 메모리 재활용… 서버 25% 감축 - 글로벌이코노믹",
-      "date": "2026-08-13",
-      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/202608130552321101fbbec65dfb_1",
-      "summary": "메타는 CXL 기술로 퇴역 서버의 구형 DDR4 메모리를 재활용해 동일 작업 처리 기준 서버 수량을 최대 25% 줄이는 시스템을 데이터센터에 적용했다. 수직 통합 역량이 있는 메타와 달리 일반 기업은 모듈 호환성·오류 제어 등 기술 장벽으로 동일한 방식 적용이 어렵다.",
+      "page_id": "3c215d7e-f6ef-8116-a923-cdd8442172f9",
+      "page_url": "https://app.notion.com/p/8-20-AI-AI-3c215d7ef6ef8116a923cdd8442172f9",
+      "headline": "8/20 \"우주에서도 AI 반도체는 살아남아야 한다\"..... 전북대, 강유전체 AI 반도체 '방사선 열화' 원인 첫 규명 - 특허뉴스",
+      "date": "2026-08-20",
+      "link": "http://www.e-patentnews.com/15260",
+      "summary": "전북대 연구팀이 중성자 방사선에 의한 강유전체 AI 반도체 성능 저하 메커니즘을 세계 최초로 규명했다. 우주·항공 환경에서 안정적으로 동작하는 차세대 AI 반도체 설계 방향을 제시한 연구다.",
+      "summary_empty": false,
+      "categories": [
+        "설계",
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c215d7e-f6ef-8143-b664-da66102f9702",
+      "page_url": "https://app.notion.com/p/8-20-Synopsys-Updates-CXL-IP-Portfolio-for-AI-Era-Infrastructure-3c215d7ef6ef8143b664da66102f9702",
+      "headline": "8/20 Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
+      "date": "2026-08-20",
+      "link": "https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
+      "summary": "Synopsys가 AI 인프라의 메모리 병목을 해소하기 위한 CXL 4.0 IP 포트폴리오를 업데이트했다. 더 빠르고 유연한 분산 컴퓨팅 아키텍처 구현을 지원하는 것이 목표다.",
+      "summary_empty": false,
+      "categories": [
+        "설계",
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c215d7e-f6ef-81a7-aac3-d9c5948ec8fb",
+      "page_url": "https://app.notion.com/p/8-20-DOE-PNNL-CXL-3c215d7ef6ef81a7aac3d9c5948ec8fb",
+      "headline": "8/20 프라임마스, 美 DOE 지원 PNNL '아바코' 참여⋯ \"마이크론과 CXL 메모리 인프라 구축\" - 브릿지경제",
+      "date": "2026-08-20",
+      "link": "https://www.viva100.com/article/20260820501335?site_preference=normal",
+      "summary": "프라임마스가 미국 PNNL의 AI·HPC용 차세대 컴퓨팅 프로젝트 아바코에 참여해 CXL 메모리 인프라를 구축한다. 스위치 없이 여러 호스트가 메모리를 공유하는 SLiM 기술이 핵심으로 적용될 예정이다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "설계"
+      ]
+    },
+    {
+      "page_id": "3c215d7e-f6ef-81df-b9d9-fb7e1bd408ed",
+      "page_url": "https://app.notion.com/p/8-20-HBM-SK-CPO-AI-IT-3c215d7ef6ef81dfb9d9fb7e1bd408ed",
+      "headline": "8/20 HBM 다음은 '빛'… SK하이닉스, CPO로 AI 시스템 공략 - IT조선",
+      "date": "2026-08-20",
+      "link": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092168475",
+      "summary": "SK하이닉스가 AI 클러스터의 대역폭 장벽을 해소할 광 인터커넥트 기술 CPO 로드맵을 네이처 일렉트로닉스에 게재했다. 광 송수신기를 프로세서와 동일 패키지에 집적해 칩 간 데이터 전송을 빛으로 대체하는 방식이다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "장비소재"
+      ]
+    },
+    {
+      "page_id": "3c215d7e-f6ef-81f0-80d6-c5825901edb2",
+      "page_url": "https://app.notion.com/p/8-20-100TB-CXL-DOE-v-daum-net-3c215d7ef6ef81f080d6c5825901edb2",
+      "headline": "8/20 프라임마스, 마이크론과 100TB급 CXL 메모리 구현…美DOE 프로젝트 참여 - v.daum.net",
+      "date": "2026-08-20",
+      "link": "https://v.daum.net/v/20260820223037013",
+      "summary": "국내 팹리스 프라임마스가 마이크론과 협력해 100TB급 CXL 기반 풀드 메모리 솔루션을 개발한다. 미국 에너지부 지원 HPC 프로젝트에 참여하며 내년 말 2억달러 매출을 목표로 한다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "설계"
+      ]
+    },
+    {
+      "page_id": "3c315d7e-f6ef-815f-825b-f3747dd9be67",
+      "page_url": "https://app.notion.com/p/8-21-HBM-100-3c315d7ef6ef815f825bf3747dd9be67",
+      "headline": "8/21 美마이크론, HBM 다음 기술에 도전…100억달러 투자,차세대 메모리 연구거점 구축",
+      "date": "2026-08-21",
+      "link": "http://www.seouleconews.com/news/articleView.html?idxno=93228",
+      "summary": "마이크론이 향후 10년간 100억달러를 투입해 미국 아이다호주 보이시에 차세대 메모리 전문 연구허브 '마이크론 리서치 랩'을 설립한다고 발표했다. 연구 범위는 HBM 이후 차세대 메모리를 비롯해 고성능 연산 아키텍처, 첨단 패키징, 미래 제조공정까지 포함한다.",
       "summary_empty": false,
       "categories": [
         "메모리"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-812d-a649-e40f308db4d5",
-      "page_url": "https://app.notion.com/p/8-13-AMEC-KIPOST-3bb15d7ef6ef812da649e40f308db4d5",
-      "headline": "8/13 中 AMEC, 청두 연구개발·생산기지 구축 가속도…식각장비 넘어 박막증착 장비로 본격 사업 확장 - KIPOST",
-      "date": "2026-08-13",
-      "link": "https://www.kipost.net/news/articleView.html?idxno=340588",
-      "summary": "중국 반도체 장비사 AMEC는 청두에 연구개발·생산기지를 구축하며 사업 확장을 가속화하고 있다. 기존 식각장비 중심에서 박막증착 장비까지 사업 영역을 확대하며 자립적 반도체 장비 생태계 구축에 나선다.",
+      "page_id": "3c315d7e-f6ef-8168-8ebc-d6e6cee814f9",
+      "page_url": "https://app.notion.com/p/8-21-90-D-3c315d7ef6ef81688ebcd6e6cee814f9",
+      "headline": "8/21 [위클리 디지털포스트] 수율 90%로 삼성 다 따라잡았다?... D램 '숫자의 함정'",
+      "date": "2026-08-21",
+      "link": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60383",
+      "summary": "중국 CXMT가 D램 수율 90% 달성을 주장하며 삼성을 따라잡았다는 주장이 나왔으나, 높은 D램 가격이 CXMT의 원가 열세를 감추고 있다는 분석이 제기됐다. 수율 수치만으로 경쟁력을 판단하는 것은 '숫자의 함정'일 수 있다는 지적이다.",
       "summary_empty": false,
+      "categories": [
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c315d7e-f6ef-8179-8f2d-dfe71c138353",
+      "page_url": "https://app.notion.com/p/8-21-SAIT-AI-3c315d7ef6ef81798f2ddfe71c138353",
+      "headline": "8/21 삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현",
+      "date": "2026-08-21",
+      "link": "https://www.etnews.com/20260821000219",
+      "summary": "삼성 SAIT·GIST·MIT 연구진은 루테늄 박막에 미량 탄소를 첨가해 결정 방향을 99% 이상 정렬, 초미세 배선 저항을 획기적으로 낮추는 기술을 개발했다. 이 기술이 반도체 공정에 적용되면 AI·HPC용 칩의 신호 전달 속도 향상과 전력 손실 감소에 기여할 것으로 기대된다.",
+      "summary_empty": false,
+      "categories": [
+        "파운드리",
+        "장비소재"
+      ]
+    },
+    {
+      "page_id": "3c315d7e-f6ef-81a2-898d-d58b15b0776d",
+      "page_url": "https://app.notion.com/p/8-21-EUV-ASML-Mshale-3c315d7ef6ef81a2898dd58b15b0776d",
+      "headline": "8/21 EUV 없어도 된다고?! 중국 자체 반도체 장비 양산에 ASML 주가 급락한 진짜 이유 - Mshale",
+      "date": "2026-08-21",
+      "link": "https://mshale.com/f7c42d0e/c4e5baedZLN9rm9ZcWE",
+      "summary": "",
+      "summary_empty": true,
       "categories": [
         "장비소재",
         "글로벌"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-81d7-805a-d392283cb499",
-      "page_url": "https://app.notion.com/p/8-13-YMTC-3-SK-3bb15d7ef6ef81d7805ad392283cb499",
-      "headline": "8/13 중국 YMTC 낸드플래시 사상 첫 3위 올라, 공격적 증설로 삼성전자·SK하이닉스 맹추격 - 비즈니스포스트",
-      "date": "2026-08-13",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=444700",
-      "summary": "",
-      "summary_empty": true,
+      "page_id": "3c315d7e-f6ef-81bc-b819-d698a1a78f2f",
+      "page_url": "https://app.notion.com/p/8-21-CXL-JBOM-2800-3c315d7ef6ef81bcb819d698a1a78f2f",
+      "headline": "8/21 프라임마스, CXL 솔루션 'JBOM'으로 2800억원 매출 도전",
+      "date": "2026-08-21",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61173",
+      "summary": "팹리스 기업 프라임마스는 서버 하나에서 100TB 이상 메모리를 지원하는 CXL 기반 풀드 메모리 솔루션 'JBOM'을 4분기 양산하고 내년 말까지 2억달러 매출을 목표로 한다. 회사는 CXL 컨트롤러 SoC '팔콘'을 자체 설계하며 마이크론 등과 긴밀히 협력하고 있다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리",
+        "설계"
+      ]
+    },
+    {
+      "page_id": "3c315d7e-f6ef-81de-88ea-f9231fb75cd0",
+      "page_url": "https://app.notion.com/p/8-21-Forget-2nm-TSMC-reports-claim-it-s-surging-ahead-for-1-6nm-chips-Android-Central-3c315d7ef6ef81de88eaf9231fb75cd0",
+      "headline": "8/21 Forget 2nm: TSMC reports claim it's surging ahead for 1.6nm chips - Android Central",
+      "date": "2026-08-21",
+      "link": "https://www.androidcentral.com/phones/2nm-chips-who-reports-say-tsmc-is-racing-toward-1-6nm-production-in-q4",
+      "summary": "TSMC가 2nm 대비 밀도 8%, 성능 10%, 전력효율 15% 향상된 1.6nm 공정 개발을 완료했다는 해외 보도가 나왔다. 이 공정은 AI·고성능 컴퓨팅용 A16 칩을 대상으로 하며 2026년 4분기 양산이 예정된 것으로 알려졌다.",
+      "summary_empty": false,
+      "categories": [
+        "파운드리"
+      ]
+    },
+    {
+      "page_id": "3c415d7e-f6ef-8134-b28c-c5dc646d50f0",
+      "page_url": "https://app.notion.com/p/8-22-Samsung-s-HBM4-Yield-Hits-80-in-Race-to-Challenge-SK-Hynix-s-AI-Memory-Lead-Startup-Fortune-3c415d7ef6ef8134b28cc5dc646d50f0",
+      "headline": "8/22 Samsung's HBM4 Yield Hits 80% in Race to Challenge SK Hynix's AI Memory Lead - Startup Fortune",
+      "date": "2026-08-22",
+      "link": "https://startupfortune.com/samsungs-hbm4-yield-hits-80-in-race-to-challenge-sk-hynixs-ai-memory-lead/",
+      "summary": "삼성전자 HBM4 수율이 2월 양산 개시 시점의 60% 미만에서 약 80%로 상승했다는 보도가 나왔다. Nvidia Vera Rubin·AMD MI400용 HBM4 시장에서 SK하이닉스와의 경쟁 변수로 꼽힌다.",
+      "summary_empty": false,
+      "categories": [
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c415d7e-f6ef-8140-8436-d4754d6ccd12",
+      "page_url": "https://app.notion.com/p/8-22-3-YMTC-IPO-360-v-daum-net-3c415d7ef6ef81408436d4754d6ccd12",
+      "headline": "8/22 '삼전닉스' 추격하는 中 반도체… 낸드 3위 YMTC도 IPO 속도[투자360] - v.daum.net",
+      "date": "2026-08-22",
+      "link": "https://v.daum.net/v/20260822120510172",
+      "summary": "중국 낸드플래시 업체 양쯔메모리(YMTC)가 과창판 상장을 통해 330억위안(약 6조8000억원) 조달을 추진 중이다. CXMT에 이은 중국 메모리 업체 IPO 행렬은 과창판 역대 세 번째 규모로, 삼성·SK하이닉스 추격을 가속화할 전망이다.",
+      "summary_empty": false,
       "categories": [
         "메모리",
         "글로벌"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-81ee-894e-d05a2c18c601",
-      "page_url": "https://app.notion.com/p/8-13-SDI-SOH-3bb15d7ef6ef81ee894ed05a2c18c601",
-      "headline": "8/13 삼성SDI, 반도체 미세공정용 SOH 강화…식각 저항성·평탄화 높인다 - 엠투데이",
-      "date": "2026-08-13",
-      "link": "https://www.autodaily.co.kr/news/articleViewAmp.html?idxno=546588",
-      "summary": "삼성SDI는 AI·HPC 확산으로 심화되는 반도체 미세 공정 수요에 대응해 SOH(Spin-On Hardmask)의 식각 저항성·막강도·평탄화 성능을 강화한 제품 포트폴리오를 확보했다. SOH는 스핀 코팅 방식으로 웨이퍼에 도포돼 식각 중 패턴을 보호하며, 가스 방식인 ACL과 달리 고두께 형성과 깊은 회로 구현에 유리한 액체 소재 기반 코팅이다.",
+      "page_id": "3c415d7e-f6ef-8166-82d7-d241b2cac8b9",
+      "page_url": "https://app.notion.com/p/8-22-GIST-MIT-Ru-5-v-daum-net-3c415d7ef6ef816682d7d241b2cac8b9",
+      "headline": "8/22 GIST-삼성-MIT, Ru에 탄소원자 5개 첨가로 반도체 배선 \"저항 혁명\" - v.daum.net",
+      "date": "2026-08-22",
+      "link": "https://v.daum.net/v/20260822214237853",
+      "summary": "GIST·삼성전자·MIT 공동 연구팀이 루테늄(Ru) 배선에 탄소 원자를 첨가해 전기저항을 최대 45% 낮추는 데 성공했다. 2nm급 초미세 배선과 3D 구조에도 적용 가능한 금속 결정 정밀 정렬 기술이 핵심이다.",
       "summary_empty": false,
       "categories": [
         "장비소재"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-8191-b16b-d25e9d6025a9",
-      "page_url": "https://app.notion.com/p/8-13-3bb15d7ef6ef8191b16bd25e9d6025a9",
-      "headline": "8/13 차세대 공정·메모리 기술 뉴스 모음",
-      "date": "2026-08-13",
-      "link": null,
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "기술 심화"
-      ]
-    },
-    {
-      "page_id": "3bc15d7e-f6ef-8163-a1d3-ca92065ce4d9",
-      "page_url": "https://app.notion.com/p/8-14-CXMT-D-2-P-3bc15d7ef6ef8163a1d3ca92065ce4d9",
-      "headline": "8/14 中 매체 \"CXMT 최신 D램 수율, 삼성과 2%P 격차\" - 아시아경제",
-      "date": "2026-08-14",
-      "link": "https://view.asiae.co.kr/article/2026081409064935177",
-      "summary": "중국 IT매체에 따르면 CXMT의 17nm DDR5 D램 수율이 90%를 돌파해 삼성전자 동세대 제품과의 격차가 2%p로 줄었다. 현재 CXMT는 PC용 D램에 집중하고 있으나 HBM 등 고부가 메모리 수율까지 높이면 메모리 빅3에 직접적 위협이 될 수 있다.",
+      "page_id": "3c415d7e-f6ef-8178-bfa1-dee580a5c628",
+      "page_url": "https://app.notion.com/p/8-22-8-HBM-e-3c415d7ef6ef8178bfa1dee580a5c628",
+      "headline": "8/22 한미반도체, 8공장 구축 속도···HBM 넘어 시스템반도체 패키징 공략 - 시사저널e",
+      "date": "2026-08-22",
+      "link": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=423203",
+      "summary": "한미반도체가 인천 주안국가산단 내 공장을 매입해 1300억원을 투자하는 8공장 구축을 결정했다. HBM용 TC 본더 외에 하이브리드 본더 등 시스템반도체 첨단 패키징 장비로 사업을 확장하며 2027년 2분기 가동을 목표로 한다.",
       "summary_empty": false,
       "categories": [
-        "메모리",
-        "글로벌"
+        "장비소재",
+        "메모리"
       ]
     },
     {
-      "page_id": "3bc15d7e-f6ef-8164-a711-eb1afeba8462",
-      "page_url": "https://app.notion.com/p/8-14-3-2-HBM-1-S-3bc15d7ef6ef8164a711eb1afeba8462",
-      "headline": "8/14 '3나노'보다 무서운 화웨이의 우회로…삼성, 2나노·HBM·1나노로 '넘을 벽' 여러 개 세운다 - S저널",
-      "date": "2026-08-14",
-      "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=43035",
-      "summary": "화웨이는 EUV 제재를 피해 회로 입체 배치와 신호 이동거리 단축 등 타우 스케일링 설계 혁신으로 선폭 미세화의 대안을 모색하고 있다. SMIC는 DUV 장비 활용도를 극한으로 끌어올리며 화웨이를 지원하고, 삼성은 2나노·HBM·1나노 기술 우위로 방어 전략을 펼친다.",
+      "page_id": "3c415d7e-f6ef-818f-80a6-dcfabf13fe30",
+      "page_url": "https://app.notion.com/p/8-22-1-6-TSMC-4-3c415d7ef6ef818f80a6dcfabf13fe30",
+      "headline": "8/22 1.6나노 반도체 개발 마친 TSMC, 4분기부터 양산 - 콕스뉴스",
+      "date": "2026-08-22",
+      "link": "https://www.coxnews.co.kr/news/articleView.html?idxno=5814",
+      "summary": "TSMC가 A16 공정 개발·검증을 완료하고 2026년 4분기부터 1.6나노급 반도체 양산에 돌입할 예정이다. 후면전력공급(BSPDN) 설계 덕분에 기존 2nm 대비 속도 8~10%, 전력효율 15~20% 개선이 이뤄진다.",
       "summary_empty": false,
       "categories": [
-        "파운드리",
-        "메모리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3bc15d7e-f6ef-81aa-8525-d8987a1eabc1",
-      "page_url": "https://app.notion.com/p/8-14-AI-SK-HBM-3bc15d7ef6ef81aa8525d8987a1eabc1",
-      "headline": "8/14 엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 - 비즈니스포스트",
-      "date": "2026-08-14",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=444814",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리",
-        "설계"
-      ]
-    },
-    {
-      "page_id": "3bc15d7e-f6ef-81b2-9162-c6aca0bfd20c",
-      "page_url": "https://app.notion.com/p/8-14-CXMT-DDR5-90-D-EBN-Investing-com-3bc15d7ef6ef81b29162c6aca0bfd20c",
-      "headline": "8/14 中 CXMT 'DDR5 수율 90%'…삼전·하닉 범용 D램 방어선 흔드나 EBN - Investing.com 한국어",
-      "date": "2026-08-14",
-      "link": "https://m.kr.investing.com/news/stock-market-news/article-2061708?ampMode=1",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3bc15d7e-f6ef-81b6-8386-e84a4ae93152",
-      "page_url": "https://app.notion.com/p/8-14-Samsung-May-Push-HBM-Base-Dies-to-Cutting-Edge-2nm-Extending-Its-Own-4nm-HBM4-Roadmap-Wccfte-3bc15d7ef6ef81b68386e84a4ae93152",
-      "headline": "8/14 Samsung May Push HBM Base Dies to Cutting-Edge 2nm, Extending Its Own 4nm HBM4 Roadmap - Wccftech",
-      "date": "2026-08-14",
-      "link": "https://wccftech.com/samsung-may-push-hbm-base-dies-to-cutting-edge-2nm-extending-its-own-4nm-hbm4-roadmap/",
-      "summary": "삼성이 HBM 메모리용 베이스 다이를 2nm 공정으로 제조하는 방안을 검토 중이며, 건설 예정인 R&D 시설 생산라인을 활용할 계획이다. AI 컴퓨팅 수요 확대에 따라 HBM 내 베이스 다이의 설계·공정 역할이 갈수록 중요해지고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리",
         "파운드리"
       ]
     },
     {
-      "page_id": "3bc15d7e-f6ef-81d1-99cb-c690cb28c4db",
-      "page_url": "https://app.notion.com/p/8-14-Google-Reportedly-Confirms-Tensor-G6-Chip-Is-Built-on-TSMC-s-3nm-Process-Not-2nm-as-Rumoured--3bc15d7ef6ef81d199cbc690cb28c4db",
-      "headline": "8/14 Google Reportedly Confirms Tensor G6 Chip Is Built on TSMC's 3nm Process, Not 2nm as Rumoured - Gadgets 360",
-      "date": "2026-08-14",
-      "link": "https://www.gadgets360.com/mobiles/news/google-pixel-11-tensor-g6-chipset-3nm-tsmc-process-report-11908942",
-      "summary": "",
-      "summary_empty": true,
+      "page_id": "3c515d7e-f6ef-8185-96d1-de59d084be9b",
+      "page_url": "https://app.notion.com/p/8-23-2-1-500-3c515d7ef6ef818596d1de59d084be9b",
+      "headline": "8/23 \"2나노 양산에 사활\"… 日, 반도체 기업 '라피더스'에 1,500억 엔 추가 출자 - 글로벌이코노믹",
+      "date": "2026-08-23",
+      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/2026082301293996970c8c1c064d_1",
+      "summary": "일본 정부가 자국 내 2나노 반도체 양산을 위해 라피더스에 1,500억 엔 규모의 추가 직접 출자를 결정했다. 기존 보조금·지분 포함 총 공적 지원액은 약 3조 엔으로 불어나며, 총 5조 엔 양산 자금 조달을 목표로 한다.",
+      "summary_empty": false,
       "categories": [
         "파운드리",
-        "설계"
+        "글로벌"
       ]
     },
     {
-      "page_id": "3bc15d7e-f6ef-81e3-80af-c359253217cb",
-      "page_url": "https://app.notion.com/p/8-14-SK-ebn-co-kr-3bc15d7ef6ef81e380afc359253217cb",
-      "headline": "8/14 SK하이닉스, 美 패키징 공장 착공…북미 '메모리 팹' 투자도 열어뒀다 - ebn.co.kr",
-      "date": "2026-08-14",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1720400",
-      "summary": "SK하이닉스가 인디애나주에 38억7000만달러를 투자해 HBM 등 AI 메모리용 첨단 패키징 생산시설을 착공하며 2028년 하반기 양산을 목표로 한다. 업계는 이번 투자가 향후 북미 메모리 팹 건설의 교두보가 될지 주목하며 최태원·젠슨 황의 착공식 참석 가능성도 거론된다.",
+      "page_id": "3c515d7e-f6ef-819f-b604-dd58326a19a5",
+      "page_url": "https://app.notion.com/p/8-23-AI-Chosunbiz-3c515d7ef6ef819fb604dd58326a19a5",
+      "headline": "8/23 \"엔비디아, 韓 AI 반도체 기업 리벨리온과 협력 논의\"…젠슨 황·박성현 대표 회동 - 조선비즈 - Chosunbiz",
+      "date": "2026-08-23",
+      "link": "https://biz.chosun.com/it-science/ict/2026/08/23/JTWZUPWPMVAKBHBDKVIWQB7MGM/",
+      "summary": "",
+      "summary_empty": true,
+      "categories": [
+        "설계",
+        "글로벌"
+      ]
+    },
+    {
+      "page_id": "3c515d7e-f6ef-81c9-9393-e7bd9fe72ddd",
+      "page_url": "https://app.notion.com/p/8-23-HBM-TSMC-IT-3c515d7ef6ef81c99393e7bd9fe72ddd",
+      "headline": "8/23 'HBM 묶어 파는' 삼성 파운드리, TSMC 틈새 뚫고 흑자 시동 - IT조선",
+      "date": "2026-08-23",
+      "link": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092168625",
+      "summary": "삼성전자 파운드리가 4나노 SF4 공정 단가를 최대 15% 인상하며 TSMC 수요 초과분을 흡수하고 있다. HBM과 파운드리를 묶는 턴키 전략이 대형 고객사의 호응을 얻으며 2027년 흑자 전환 기대가 높아지고 있다.",
+      "summary_empty": false,
+      "categories": [
+        "파운드리",
+        "메모리"
+      ]
+    },
+    {
+      "page_id": "3c515d7e-f6ef-81ca-91e6-cfbc34eaf7c6",
+      "page_url": "https://app.notion.com/p/8-23-Nvidia-to-Raise-AI-Chip-Prices-at-Least-15-as-Memory-Surge-Boosts-Samsung-SK-Hynix-Leverage--3c515d7ef6ef81ca91e6cfbc34eaf7c6",
+      "headline": "8/23 Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage - bloomingbit",
+      "date": "2026-08-23",
+      "link": "https://en.bloomingbit.io/feed/news/118925",
+      "summary": "엔비디아는 내년 초 출하분부터 AI 칩 가격을 15% 이상 인상할 계획이며, 2분기 서버 D램 계약가격은 전 분기 대비 53~58% 급등했다. 삼성전자·SK하이닉스의 메모리 협상력 강화로 수익성 기대가 높아지는 한편, AI 데이터센터 투자 둔화 우려도 제기된다.",
       "summary_empty": false,
       "categories": [
         "메모리",
@@ -410,197 +440,24 @@
       ]
     },
     {
-      "page_id": "3bc15d7e-f6ef-81e4-a392-c476a90bec5b",
-      "page_url": "https://app.notion.com/p/8-14-3bc15d7ef6ef81e4a392c476a90bec5b",
-      "headline": "8/14 삼전·하닉 수천조 투자 시작된다··· 돈 먼저 들어갈 소부장은 - 그린포스트코리아",
-      "date": "2026-08-14",
-      "link": "https://www.greenpostkorea.co.kr/news/articleViewAmp.html?idxno=307285",
-      "summary": "삼성전자는 2026~2040년 2030조원, SK하이닉스는 용인·청주·호남 등 약 1100조원 규모의 AI 메모리 생산벨트 투자 계획을 발표했다. 신규 공장 투자 초기에는 전공정 장비 업체가, 이후 양산량 증가 시점에는 후공정·부품 업체가 매출 수혜를 받을 전망이다.",
+      "page_id": "3c515d7e-f6ef-81e8-8d4a-de40cca611ba",
+      "page_url": "https://app.notion.com/p/8-23-EUV-3c515d7ef6ef81e88d4ade40cca611ba",
+      "headline": "8/23 EUV 노광장비 핵심 부품 조기 마모…단일 공급망 의존이 반도체 생산을 멈춘다 - 한국공공정책신문",
+      "date": "2026-08-23",
+      "link": "http://knpp.co.kr/news/538169",
+      "summary": "EUV 노광장비 핵심 부품의 마모율이 예상보다 빠르게 진행되며 일부 파운드리가 생산량을 조절하는 사태가 발생했다. 사실상 ASML에 의존하는 단일 공급망 구조로 인해 특정 부품 결함이 팹 전체 가동률을 크게 떨어뜨리는 리스크가 부각됐다.",
       "summary_empty": false,
       "categories": [
         "장비소재"
       ]
     },
     {
-      "page_id": "3bb15d7e-f6ef-813b-a441-eacb8ae84dcc",
-      "page_url": "https://app.notion.com/p/8-14-Tensor-G6-Chip-in-Google-Pixel-11-Uses-3nm-Process-Debunking-2nm-Rumors-Android-Headlines-3bb15d7ef6ef813ba441eacb8ae84dcc",
-      "headline": "8/14 Tensor G6 Chip in Google Pixel 11 Uses 3nm Process, Debunking 2nm Rumors - Android Headlines",
-      "date": "2026-08-14",
-      "link": "https://www.androidheadlines.com/2026/08/google-pixel-11-tensor-g6-3nm-tsmc-chip-details.html",
-      "summary": "구글 픽셀11 시리즈의 Tensor G6 칩은 루머와 달리 TSMC 2nm가 아닌 최신 강화 3nm 공정을 사용한다고 구글 하드웨어 부사장이 직접 확인했다. Tensor G6는 3nm 노드에서도 전 세대 대비 속도·카메라 처리·로컬 AI 성능 전반에서 의미 있는 개선을 이뤘다.",
-      "summary_empty": false,
-      "categories": [
-        "파운드리",
-        "설계"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-811e-bb8f-d4f2ada0660f",
-      "page_url": "https://app.notion.com/p/8-15-TSMC-2-3bd15d7ef6ef811ebb8fd4f2ada0660f",
-      "headline": "8/15 TSMC, 패키징 공급난 심화…삼성 2나노 턴키로 반격",
-      "date": "2026-08-15",
-      "link": "https://www.choicestock.co.kr/stock/news_view/175824?bu=",
-      "summary": "TSMC 패키징 공급 부족이 심화되는 가운데 삼성전자가 2나노 턴키 전략으로 고객 확보에 나서고 있다. TSMC는 2분기 순이익이 전년 대비 78% 급증하는 강한 실적을 기록하며 파운드리 시장 지배력을 유지하고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "파운드리"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-8126-a73e-ded6043cdca5",
-      "page_url": "https://app.notion.com/p/8-15-D-95-HBM-3bd15d7ef6ef8126a73eded6043cdca5",
-      "headline": "8/15 마이크론, 범용 D램 마진 95% 전망…HBM 수익성 앞선다",
-      "date": "2026-08-15",
-      "link": "https://www.g-enews.com/article/Global-Biz/2026/08/202608150853098439fbbec65dfb_1",
-      "summary": "스위스 투자은행 보고서에 따르면 마이크론 범용 D램 총마진은 2027년까지 95% 수준에 이를 전망이다. HBM 생산 확대가 범용 D램 공급을 줄이는 역설로 인해 범용 D램 가격·마진이 비정상적으로 상승하고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-8182-b307-e76d8b310fe1",
-      "page_url": "https://app.notion.com/p/8-15-SK-D-HBM-Brossard-MMqseL6zPw-3bd15d7ef6ef8182b307e76d8b310fe1",
-      "headline": "8/15 SK하이닉스 용인 반도체 클러스터 '속도' D램·HBM '폭발적' 확대 Brossard (MMqseL6zPw)",
-      "date": "2026-08-15",
-      "link": "https://mshale.com/805e7523/9095bd479rlbWMrZ5iE",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-8188-b2dc-d718cf157ecc",
-      "page_url": "https://app.notion.com/p/8-15-Samsung-s-global-DRAM-market-share-hit-nearly-40-so-far-this-year-3bd15d7ef6ef8188b2dcd718cf157ecc",
-      "headline": "8/15 Samsung's global DRAM market share hit nearly 40% so far this year",
-      "date": "2026-08-15",
-      "link": "https://www.sammobile.com/news/samsungs-global-dram-market-share-hit-nearly-40-so-far-this-year/",
-      "summary": "삼성전자의 올 상반기 글로벌 D램 시장점유율이 39.4%로 전년 동기 대비 5.4%p 상승하며 40%에 근접했다. AI 수요에 따른 공급 제약 속에서 D램 가격이 급등하며 삼성의 가격 결정력이 강화되고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-81ad-aeae-c0eec9192cd2",
-      "page_url": "https://app.notion.com/p/8-15-YMTC-3-47-3bd15d7ef6ef81adaeaec0eec9192cd2",
-      "headline": "8/15 中 YMTC, 키옥시아 제치고 낸드 첫 3위… 삼성·닉스 47% '양강'은 그대로",
-      "date": "2026-08-15",
-      "link": "https://www.thepublic.kr/news/articleView.html?idxno=315016",
-      "summary": "2026년 2분기 글로벌 낸드 시장에서 중국 YMTC가 14% 점유율로 처음 3위에 올라 일본 키옥시아를 추월했다. YMTC는 267단 3D 낸드를 양산하며 물량을 빠르게 늘렸으나, 삼성·하이닉스 합산 47% 양강 구도는 유지됐다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-81b4-bf17-ca3f369018c7",
-      "page_url": "https://app.notion.com/p/8-15-89-110-AI-3bd15d7ef6ef81b4bf17ca3f369018c7",
-      "headline": "8/15 반도체로 89조 번 삼성…110조 투자 어디로 향하나 [삼성 AI 투자지도①]",
-      "date": "2026-08-15",
-      "link": "https://www.kukinews.com/article/view/kuk202608050195",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3bd15d7e-f6ef-81e0-920a-df345c376a2d",
-      "page_url": "https://app.notion.com/p/8-15-3bd15d7ef6ef81e0920adf345c376a2d",
-      "headline": "8/15 삼성전자, 천안·온양 범용 메모리 후공정 물량…'베트남 이전'",
-      "date": "2026-08-15",
-      "link": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224378713393&redirect=Dlog",
-      "summary": "삼성전자가 천안·온양 범용 메모리 후공정 일부를 베트남으로 이전하고 국내 설비를 HBM 중심으로 전환할 계획이다. 베트남 타이응우옌성에 15억 달러 규모 1단계 투자로 내년 11월 가동 목표의 후공정 공장을 건설 중이다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리",
-        "파운드리"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-8102-9282-ec9438746c0c",
-      "page_url": "https://app.notion.com/p/8-16-21-3be15d7ef6ef81029282ec9438746c0c",
-      "headline": "8/16 인텔 21조 유상증자…삼성전자, 메모리 고객 얻고 파운드리 경쟁자 얻다 - 자본시장뉴스",
-      "date": "2026-08-16",
-      "link": "https://www.jabon.co.kr/news/articleView.html?idxno=6027",
-      "summary": "인텔이 150억 달러(약 21조 원) 규모의 유상증자를 발표하며 반도체 생산시설·장비 투자와 파운드리 확장에 나선다. 삼성전자에는 메모리 수요 확대와 파운드리 경쟁 심화라는 양면 효과가 예상된다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리",
-        "파운드리"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-811a-b546-e73e98264a8c",
-      "page_url": "https://app.notion.com/p/8-16-HBM4-biz-3be15d7ef6ef811ab546e73e98264a8c",
-      "headline": "8/16 전영현 \"갈 길 멀다, 자만 말라\"…HBM4 성공에도 삼성 반도체 '긴장'[biz-플러스] - 네이트",
-      "date": "2026-08-16",
-      "link": "https://news.nate.com/view/20260816n05892",
-      "summary": "전영현 삼성전자 DS부문장이 HBM4 경쟁력 회복에도 '아직 갈 길이 멀다'며 내부에 자만 자제를 강조했다. 삼성전자는 HBM3·3E에서 점유율 17%로 추락했다가 HBM4를 앞세워 SK하이닉스 추월에 성공했다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-8128-b7bc-c2fb655ea648",
-      "page_url": "https://app.notion.com/p/8-16-TSMC-Key-Player-in-AI-Semiconductor-Growth-Intellectia-AI-3be15d7ef6ef8128b7bcc2fb655ea648",
-      "headline": "8/16 TSMC: Key Player in AI Semiconductor Growth - Intellectia AI",
-      "date": "2026-08-16",
-      "link": "https://intellectia.ai/news/tsmc-key-player-in-ai-semiconductor-growth",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "파운드리",
-        "글로벌"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-812c-98f1-f6d7b2922137",
-      "page_url": "https://app.notion.com/p/8-16-3be15d7ef6ef812c98f1f6d7b2922137",
-      "headline": "8/16 반도체 잡음 활용해 다종 신호 처리하는 '뉴로모픽 확률 뉴런' 개발 - 기계신문",
-      "date": "2026-08-16",
-      "link": "http://www.mtnews.net/news/articleView.html?idxno=25671",
-      "summary": "KAIST 김경민 교수팀이 반도체 소자의 내재 잡음을 정보처리 자원으로 전환하는 '확률 뉴런(PPN)' 반도체 기술을 개발했다. 루테늄 기반 멤리스터 저항값 프로그래밍만으로 특정 주파수 신호에 반응하는 인공 뉴런 발화 확률을 능동 조절하는 데 성공했다.",
-      "summary_empty": false,
-      "categories": [
-        "설계"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-813d-906d-e7fa3ca76a2a",
-      "page_url": "https://app.notion.com/p/8-16-AI-1-36-3be15d7ef6ef813d906de7fa3ca76a2a",
-      "headline": "8/16 AI서버 1대 메모리만 '36억'…삼전닉스가 웃는 이유[이슈속으로] - 머니투데이 - 머니투데이",
-      "date": "2026-08-16",
-      "link": "https://www.mt.co.kr/amp/industry/2026/08/16/2026081416184426163",
-      "summary": "엔비디아 차세대 AI 서버랙 VR200 NVL72 한 대의 부품원가는 834만 달러로 전 세대 대비 2배 수준이다. 메모리(HBM·LPDDR) 탑재량 증가로 AI 인프라에서 메모리 반도체가 핵심 비용 항목으로 부상하고 있다.",
-      "summary_empty": false,
-      "categories": [
-        "메모리"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-81b4-a40d-f7d34bd373ad",
-      "page_url": "https://app.notion.com/p/8-16-2-ASML-EUV-Starmer-News-gYg2lVOcJM-Mshale-3be15d7ef6ef81b4a40df7d34bd373ad",
-      "headline": "8/16 2억 달러짜리 반도체 복사기, ASML EUV 장비는 어떻게 칩을 찍어낼까 Starmer News (gYg2lVOcJM) - Mshale",
-      "date": "2026-08-16",
-      "link": "https://mshale.com/a6bebf01/75e542a8LHBCVToDkLQ",
-      "summary": "",
-      "summary_empty": true,
-      "categories": [
-        "장비소재"
-      ]
-    },
-    {
-      "page_id": "3be15d7e-f6ef-81c8-93c8-d3522e18025b",
-      "page_url": "https://app.notion.com/p/8-16-China-s-YMTC-Overtakes-Kioxia-for-No-3-in-NAND-and-It-s-Just-Getting-Started-3be15d7ef6ef81c893c8d3522e18025b",
-      "headline": "8/16 China's YMTC Overtakes Kioxia for No. 3 in NAND — and It's Just Getting Started - 헤럴드경제",
-      "date": "2026-08-16",
-      "link": "https://mbiz.heraldcorp.com/article/10841922",
-      "summary": "YMTC가 2026년 2분기 낸드플래시 출하량 기준 키옥시아를 제치고 처음으로 글로벌 3위를 기록했다. 중국 CXMT(D램)에 이어 YMTC(낸드)까지 메모리 시장에서 중국 기업의 전방위 부상이 이어지고 있다.",
+      "page_id": "3c515d7e-f6ef-81d6-b98d-d626cdb38d00",
+      "page_url": "https://app.notion.com/p/8-24-AI-15-3c515d7ef6ef81d6b98dd626cdb38d00",
+      "headline": "8/24 메모리 품귀에 엔비디아마저 손들었다… \"AI서버 값 15% 인상\" - 국민일보",
+      "date": "2026-08-24",
+      "link": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000005365",
+      "summary": "엔비디아가 HBM·서버 D램 품귀로 원가 부담이 커지자 내년 초 출하분부터 AI 서버 가격을 15% 이상 인상하기로 했다. AI 가속기에 필수적인 HBM과 서버 D램을 과점하는 삼성·SK하이닉스·마이크론의 협상력이 강화됐다.",
       "summary_empty": false,
       "categories": [
         "메모리",
@@ -608,6 +465,6 @@
       ]
     }
   ],
-  "total": 48,
-  "summary_empty_count": 15
+  "total": 36,
+  "summary_empty_count": 6
 }
