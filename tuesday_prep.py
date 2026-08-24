@@ -152,13 +152,18 @@ def aggregate(win):
             for kw in hits_of(detail, "negative_hits"):
                 neg_counter[kw] += 1
 
-    # 현재(최신 파일) 키워드 스냅샷 기준 죽은 키워드 탐지
+    # 현재(최신 파일) 키워드 스냅샷 기준 죽은 키워드 탐지.
+    # critical 포함 — 없으면 차세대 공정/메모리 tier가 탐지 대상에서 통째로 빠진다.
+    # 옛 JSON(critical 키 없음)은 .get으로 빈 리스트가 되어 그대로 동작한다.
+    # ⚠️ save.keywords_snapshot이 canon으로 접어 저장하므로 kw_counter(canon 집계)와
+    #    같은 축에서 비교된다. 스냅샷이 표면형이던 옛 JSON은 별칭이 dead로 잡히니
+    #    (하닉/hynix/D램 등) 그 구간 결과는 참고만 할 것.
     latest_doc = data[-1][1] if data else {}
     snapshot = latest_doc.get("keywords_snapshot", {})
     snapshot_pos = []
-    for tier in ("strong", "medium", "weak"):
+    for tier in ("critical", "strong", "medium", "weak"):
         snapshot_pos.extend(snapshot.get(tier, []))
-    dead_keywords = sorted([kw for kw in snapshot_pos if kw_counter.get(kw, 0) == 0])
+    dead_keywords = sorted({kw for kw in snapshot_pos if kw_counter.get(kw, 0) == 0})
 
     keyword_usage = [
         {"keyword": kw, "hits": cnt} for kw, cnt in kw_counter.most_common()

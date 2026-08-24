@@ -13,25 +13,40 @@ from config.settings import (
     ENGLISH_FEEDS,
     SCORE_REF,
 )
-from config.keywords import KEYWORDS
+from config.keywords import KEYWORDS, ALIASES
 
 
 KST = timezone(timedelta(hours=9))
 
-_POS_TIERS = ("strong", "medium", "weak")
+# critical 포함 필수 — 빠지면 차세대 공정/메모리 키워드(EUV·노드·단수·CXL 등)가
+# 스냅샷에서 통째로 사라져, 소비처의 죽은 키워드 탐지가 그 tier를 영영 못 본다.
+_POS_TIERS = ("critical", "strong", "medium", "weak")
+_SNAP_TIERS = _POS_TIERS + ("neg_strong", "neg_weak")
+
+# 별칭 → 대표값(canon) 역매핑. filter._ALIAS2CANON과 같은 규칙.
+_ALIAS2CANON = {alias: canon for canon, group in ALIASES.items() for alias in group}
 
 
 def keywords_snapshot(field: str) -> dict:
-    """버킷 구조를 평탄한 tier별 키워드 목록으로 펼침.
-    tuesday_prep 등 'strong/medium/weak/neg_strong/neg_weak' 평탄 스냅샷을 읽는 소비처 호환."""
-    snap = {t: set() for t in ("strong", "medium", "weak", "neg_strong", "neg_weak")}
+    """버킷 구조를 평탄한 tier별 목록으로 펼치되 canon(대표값)으로 접어 저장.
+
+    canon으로 접는 이유:
+      score_detail의 hits는 canon으로 기록된다(filter.score_item). 그래서 소비처가
+      집계하는 keyword_usage도 canon 단위다. 스냅샷만 표면형으로 두면 canon이 아닌
+      별칭(하닉/hynix/D램/176단 …)은 실제로 아무리 많이 걸려도 usage와 매칭되지 않아
+      영원히 '죽은 키워드'로 보인다. 두 축을 canon으로 맞춰야 dead 판정이 성립한다.
+
+    tuesday_prep 등 평탄 스냅샷을 읽는 소비처 호환.
+    (옛 JSON에는 critical 키가 없으므로 소비처는 .get 접근을 유지할 것)
+    """
+    snap = {t: set() for t in _SNAP_TIERS}
     for bucket, sub in KEYWORDS[field].items():
         if bucket == "negative":
             for cat, words in sub.items():
-                snap[cat] |= set(words)
+                snap[cat] |= {_ALIAS2CANON.get(w, w) for w in words}
         else:
             for tier in _POS_TIERS:
-                snap[tier] |= set(sub.get(tier, ()))
+                snap[tier] |= {_ALIAS2CANON.get(w, w) for w in sub.get(tier, ())}
     return {k: sorted(v) for k, v in snap.items()}
 
 
