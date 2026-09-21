@@ -1,147 +1,144 @@
 {
-  "generated_at": "2026-09-15T03:30:34.157855+09:00",
+  "generated_at": "2026-09-22T03:30:29.351049+09:00",
   "window": {
-    "today": "2026-09-15",
-    "window_start": "2026-09-09",
-    "window_end": "2026-09-15",
+    "today": "2026-09-22",
+    "window_start": "2026-09-16",
+    "window_end": "2026-09-22",
     "days": 7,
     "found_dates": [
-      "2026-09-09",
-      "2026-09-10",
-      "2026-09-11",
-      "2026-09-12",
-      "2026-09-13",
-      "2026-09-14",
-      "2026-09-15"
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
     ],
     "missing_dates": []
   },
   "empty": false,
   "stats_trend": [
     {
-      "date": "2026-09-09",
+      "date": "2026-09-16",
+      "collected_total": 432,
+      "after_score_filter": 15,
+      "extracted_success": 14,
+      "extracted_failed": 1
+    },
+    {
+      "date": "2026-09-17",
+      "collected_total": 458,
+      "after_score_filter": 15,
+      "extracted_success": 14,
+      "extracted_failed": 1
+    },
+    {
+      "date": "2026-09-18",
       "collected_total": 459,
       "after_score_filter": 15,
       "extracted_success": 14,
       "extracted_failed": 1
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-19",
       "collected_total": 459,
       "after_score_filter": 15,
-      "extracted_success": 14,
-      "extracted_failed": 1
+      "extracted_success": 15,
+      "extracted_failed": 0
     },
     {
-      "date": "2026-09-11",
-      "collected_total": 390,
+      "date": "2026-09-20",
+      "collected_total": 372,
       "after_score_filter": 15,
       "extracted_success": 14,
       "extracted_failed": 1
     },
     {
-      "date": "2026-09-12",
-      "collected_total": 434,
+      "date": "2026-09-21",
+      "collected_total": 392,
       "after_score_filter": 15,
       "extracted_success": 14,
       "extracted_failed": 1
     },
     {
-      "date": "2026-09-13",
-      "collected_total": 348,
-      "after_score_filter": 15,
-      "extracted_success": 14,
-      "extracted_failed": 1
-    },
-    {
-      "date": "2026-09-14",
-      "collected_total": 367,
-      "after_score_filter": 15,
-      "extracted_success": 13,
-      "extracted_failed": 2
-    },
-    {
-      "date": "2026-09-15",
-      "collected_total": 424,
-      "after_score_filter": 15,
-      "extracted_success": 13,
-      "extracted_failed": 2
+      "date": "2026-09-22",
+      "collected_total": 442,
+      "after_score_filter": 9,
+      "extracted_success": 9,
+      "extracted_failed": 0
     }
   ],
   "stats_avg": {
-    "collected_total": 411.6,
-    "after_score_filter": 15.0,
-    "extracted_success": 13.7,
-    "extracted_failed": 1.3
+    "collected_total": 430.6,
+    "after_score_filter": 14.1,
+    "extracted_success": 13.4,
+    "extracted_failed": 0.7
   },
   "dropped_candidates": [
     {
-      "title": "Smart City Expo 2026 speeds up towards urban solutions that yield real impact",
-      "source": "KIPOST",
+      "title": "A look at DapuStor’s combined SLC and QLC SSD",
+      "source": "BlocksAndFiles",
       "score": 3.9,
-      "date": "2026-09-09",
+      "date": "2026-09-22",
       "title_hits": [
-        "수율"
+        "QLC"
       ],
       "summary_hits": [],
       "negative_hits": []
     },
     {
-      "title": "Axcelis to Build New Manufacturing Facility in Pyeongtaek, Korea",
-      "source": "KIPOST",
+      "title": "Scaling Thermal Analysis From Transistors To Data Centers",
+      "source": "SemiEngineering",
       "score": 3.6,
-      "date": "2026-09-10",
+      "date": "2026-09-16",
       "title_hits": [],
       "summary_hits": [
-        "이온주입",
+        "chiplet",
         "semiconductor"
       ],
       "negative_hits": []
     },
     {
-      "title": "가온전선, 캐나다 전력시장 첫 진출…북미 사업 확대",
-      "source": "KIPOST",
-      "score": 3.0,
-      "date": "2026-09-10",
+      "title": "Moving Test Data Faster",
+      "source": "SemiEngineering",
+      "score": 3.6,
+      "date": "2026-09-17",
       "title_hits": [],
       "summary_hits": [
-        "수주",
-        "반도체"
+        "신뢰성",
+        "semiconductor"
       ],
       "negative_hits": []
     },
     {
-      "title": "액셀리스, 한국 평택에 신규 제조 시설 건설",
-      "source": "KIPOST",
-      "score": 3.0,
-      "date": "2026-09-10",
+      "title": "Driving Power Delivery Innovations For The AI Data Center",
+      "source": "SemiEngineering",
+      "score": 3.6,
+      "date": "2026-09-18",
       "title_hits": [],
       "summary_hits": [
-        "투자",
-        "반도체"
+        "신뢰성",
+        "semiconductor"
       ],
       "negative_hits": []
     },
     {
-      "title": "HBM 품귀에 中 AI칩 가격 급등…화웨이 신제품 두달 만에 50%↑ - 뉴스1",
-      "source": "뉴스1",
-      "score": 3.0,
-      "date": "2026-09-11",
-      "title_hits": [
-        "HBM"
-      ],
+      "title": "From Silicon To Systems: Heterogeneous Integration As The Engine Of AI Performance",
+      "source": "SemiEngineering",
+      "score": 3.6,
+      "date": "2026-09-18",
+      "title_hits": [],
       "summary_hits": [
-        "HBM"
+        "chiplet",
+        "semiconductor"
       ],
-      "negative_hits": [
-        "급등"
-      ]
+      "negative_hits": []
     },
     {
-      "title": "한화자산운용, 글로벌HBM ETF, 한 달 11.67%↑…상장 후 950% - 메가경제",
-      "source": "메가경제",
+      "title": "한화자산운용, ‘HBM 업사이클’ 겨냥 ETF 2종 출시 - 메트로신문",
+      "source": "메트로신문",
       "score": 3.0,
-      "date": "2026-09-11",
+      "date": "2026-09-16",
       "title_hits": [
         "HBM"
       ],
@@ -153,55 +150,21 @@
       ]
     },
     {
-      "title": "Hanwha's Global HBM Chip ETF Returns 950% Since Listing - Seoul Economic Daily",
-      "source": "Seoul Economic Daily",
-      "score": 3.0,
-      "date": "2026-09-11",
-      "title_hits": [
-        "HBM"
-      ],
-      "summary_hits": [
-        "HBM"
-      ],
-      "negative_hits": [
-        "ETF"
-      ]
-    },
-    {
-      "title": "中 CXMT, 2분기 영업이익률 82%… 범용 D램 가격 급등 수혜 - 조선비즈 - Chosunbiz",
-      "source": "Chosunbiz",
-      "score": 3.0,
-      "date": "2026-09-12",
-      "title_hits": [
-        "DRAM"
-      ],
-      "summary_hits": [
-        "DRAM"
-      ],
-      "negative_hits": [
-        "급등"
-      ]
-    },
-    {
-      "title": "주문 쏟아지는 중국산 AI칩… HBM 부족에 가격 급등 - v.daum.net",
-      "source": "v.daum.net",
-      "score": 3.0,
-      "date": "2026-09-12",
-      "title_hits": [
-        "HBM"
-      ],
-      "summary_hits": [
-        "HBM"
-      ],
-      "negative_hits": [
-        "급등"
-      ]
-    },
-    {
-      "title": "MegazoneCloud Begins Building Hanmi Pharmaceutical's Quality Assurance AI Agent with 'AIR Studio'",
+      "title": "상해전기, 2026년 상반기 매출 16.6% 성장... 신규 수주액 1003억 9000만 위안 기록",
       "source": "KIPOST",
       "score": 3.0,
-      "date": "2026-09-12",
+      "date": "2026-09-16",
+      "title_hits": [
+        "수주"
+      ],
+      "summary_hits": [],
+      "negative_hits": []
+    },
+    {
+      "title": "EUCLYD Raises Over €200 Million to Break the AI Efficiency Wall",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-16",
       "title_hits": [],
       "summary_hits": [
         "삼성전자"
@@ -209,42 +172,119 @@
       "negative_hits": []
     },
     {
-      "title": "허드베이 미네랄스(TSX:HBM) 주가는 445% 급등했음에도 불구하고 적정 수준에 거래되고 있는 것으로 보인다 - simplywall.st",
-      "source": "simplywall.st",
+      "title": "[이슈] 'HBM ETF' 상장 후 950%↑…한화운용, 이번엔 국내 밸류체인 정조준 - paxetv.com",
+      "source": "paxetv.com",
       "score": 3.0,
-      "date": "2026-09-13",
+      "date": "2026-09-17",
       "title_hits": [
         "HBM"
       ],
       "summary_hits": [
         "HBM"
-      ],
-      "negative_hits": [
-        "급등"
-      ]
-    },
-    {
-      "title": "DRAM ETF 자금 유출 급증···메모리주, 여전히 약세장에 갇혔다 - Benzinga",
-      "source": "Benzinga",
-      "score": 3.0,
-      "date": "2026-09-15",
-      "title_hits": [
-        "메모리",
-        "DRAM"
-      ],
-      "summary_hits": [
-        "메모리",
-        "DRAM"
       ],
       "negative_hits": [
         "ETF"
       ]
     },
     {
-      "title": "버티던 삼성도 가격 올린다…갤럭시 S25 이어 S26까지 인상 압박 - 아주경제",
+      "title": "[한지연의 B스토리]빚더미 회사에서 AI 심장으로…3년만에 2636% 급등한 SK하이닉스 - 아주경제",
       "source": "아주경제",
       "score": 3.0,
-      "date": "2026-09-15",
+      "date": "2026-09-17",
+      "title_hits": [
+        "하이닉스"
+      ],
+      "summary_hits": [
+        "하이닉스"
+      ],
+      "negative_hits": [
+        "급등"
+      ]
+    },
+    {
+      "title": "[오늘의 특징주] HBM 다음은 광통신·RF株...큐라티스·미투온 상한가 - ppss.kr",
+      "source": "ppss.kr",
+      "score": 3.0,
+      "date": "2026-09-17",
+      "title_hits": [
+        "HBM"
+      ],
+      "summary_hits": [
+        "HBM"
+      ],
+      "negative_hits": [
+        "상한가"
+      ]
+    },
+    {
+      "title": "글로벌테크놀로지, 일반 청약 실시",
+      "source": "THELEC_반도체",
+      "score": 3.0,
+      "date": "2026-09-17",
+      "title_hits": [],
+      "summary_hits": [
+        "투자",
+        "팹"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "Axera and Aptiv Bring M57-Powered Driver Assistance to Europe-Bound Vehicles",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-17",
+      "title_hits": [],
+      "summary_hits": [
+        "양산"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "삼성전자, '2026 기후산업국제박람회'서 일상부터 산업까지 맞춤형 에너지 솔루션 선보여",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-17",
+      "title_hits": [
+        "삼성전자"
+      ],
+      "summary_hits": [
+        "삼성전자"
+      ],
+      "negative_hits": [
+        "가전"
+      ]
+    },
+    {
+      "title": "Tech Week Singapore 2026: Government and Tech Leaders Explore the Next Frontier of Technology and Infrastructure",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-18",
+      "title_hits": [],
+      "summary_hits": [
+        "Nvidia"
+      ],
+      "negative_hits": []
+    },
+    {
+      "title": "삼성전자, 필리핀 복합단지 개발사업에 통합 운영 솔루션 공급 협력",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-18",
+      "title_hits": [
+        "삼성전자"
+      ],
+      "summary_hits": [
+        "삼성전자"
+      ],
+      "negative_hits": [
+        "가전"
+      ]
+    },
+    {
+      "title": "삼성전자, One UI 9 공식 버전 업데이트 시작",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-18",
       "title_hits": [
         "삼성전자"
       ],
@@ -256,295 +296,259 @@
       ]
     },
     {
-      "title": "Should Standards Trump Innovation?",
-      "source": "EETimes",
-      "score": 2.6,
-      "date": "2026-09-12",
-      "title_hits": [],
-      "summary_hits": [
-        "신뢰성"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "앤시스 품은 시높시스, 칩부터 시스템까지 설계 통합 - 디일렉",
-      "source": "디일렉",
-      "score": 2.5,
-      "date": "2026-09-09",
+      "title": "삼성전자, 가전 테크세미나 개최…지역 맞춤형 AI 가전 선봬",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-18",
       "title_hits": [
-        "시높시스"
+        "삼성전자"
       ],
       "summary_hits": [
-        "시높시스"
+        "삼성전자"
       ],
-      "negative_hits": []
+      "negative_hits": [
+        "가전"
+      ]
     },
     {
-      "title": "Arm CEO Rene Haas Says Chip Shortages Are Slowing Down AI Cancer Research - Startup Fortune",
-      "source": "Startup Fortune",
-      "score": 2.5,
-      "date": "2026-09-09",
+      "title": "CXMT 주가 급등, 낸드 플래시 시장 진출 계획 때문? - Investing.com 한국어",
+      "source": "Investing.com 한국어",
+      "score": 3.0,
+      "date": "2026-09-19",
       "title_hits": [
-        "Arm"
+        "낸드"
       ],
       "summary_hits": [
-        "Arm"
+        "낸드"
       ],
-      "negative_hits": []
+      "negative_hits": [
+        "급등"
+      ]
     },
     {
-      "title": "Qualcomm's Snapdragon Price Hike Raises the Cost of Building a Wearable - Startup Fortune",
-      "source": "Startup Fortune",
-      "score": 2.5,
-      "date": "2026-09-09",
+      "title": "신한 SOL, 한국판 'DRAM ETF' 출격…글로벌 메모리 3대장 '승부수' - v.daum.net",
+      "source": "v.daum.net",
+      "score": 3.0,
+      "date": "2026-09-19",
       "title_hits": [
-        "퀄컴"
+        "메모리",
+        "DRAM"
       ],
       "summary_hits": [
-        "퀄컴"
+        "메모리",
+        "DRAM"
       ],
-      "negative_hits": []
+      "negative_hits": [
+        "ETF"
+      ]
     },
     {
-      "title": "MediaTek Helio G99+ arrives, but the biggest upgrade isn’t performance - Absolute Geeks",
-      "source": "Absolute Geeks",
-      "score": 2.5,
-      "date": "2026-09-09",
-      "title_hits": [
-        "미디어텍"
-      ],
-      "summary_hits": [
-        "미디어텍"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "Arm, 에이전트 AI 시대 준비...모바일·데이터센터 아우른다",
-      "source": "THELEC_반도체",
-      "score": 2.5,
-      "date": "2026-09-09",
-      "title_hits": [
-        "Arm"
-      ],
-      "summary_hits": [
-        "Arm"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "MediaTek Sticks With Older Packaging as Memory Risks Grow - culpium.com",
-      "source": "culpium.com",
-      "score": 2.5,
-      "date": "2026-09-10",
-      "title_hits": [
-        "미디어텍"
-      ],
-      "summary_hits": [
-        "미디어텍"
-      ],
-      "negative_hits": []
-    },
-    {
-      "title": "Why Broadcom Stock Rallied Tuesday Morning - The Globe and Mail",
+      "title": "What Lies Ahead of DRAM ETF as Memory Crisis May Intensify in 2027? - The Globe and Mail",
       "source": "The Globe and Mail",
-      "score": 2.5,
-      "date": "2026-09-10",
+      "score": 3.0,
+      "date": "2026-09-19",
       "title_hits": [
-        "브로드컴"
+        "DRAM"
       ],
       "summary_hits": [
-        "브로드컴"
+        "DRAM"
       ],
+      "negative_hits": [
+        "ETF"
+      ]
+    },
+    {
+      "title": "LS마린솔루션, 신안우이 해상풍력 1,569억원 수주…역대 최대",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-19",
+      "title_hits": [
+        "수주"
+      ],
+      "summary_hits": [],
       "negative_hits": []
     },
     {
-      "title": "Synopsys & ASTAR Join Forces to Advance Next-Gen Chip Packaging - Asia Business Outlook",
-      "source": "Asia Business Outlook",
-      "score": 2.5,
-      "date": "2026-09-10",
+      "title": "삼성전자, 교사 500명의 노하우 반영한 교육 솔루션 '갤럭시 클래스룸' 출시",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-19",
       "title_hits": [
-        "시높시스"
+        "삼성전자"
       ],
       "summary_hits": [
-        "시높시스"
+        "삼성전자"
       ],
-      "negative_hits": []
+      "negative_hits": [
+        "갤럭시"
+      ]
     },
     {
-      "title": "Intel Stock (NASDAQ:INTC) Slides Despite New Hopes for Memory Chips - TipRanks",
-      "source": "TipRanks",
-      "score": 2.5,
-      "date": "2026-09-12",
+      "title": "Chip ETF Holds Near $6.3B as TSMC's August Surge Meets a Looming Index Overhaul - AD HOC NEWS",
+      "source": "AD HOC NEWS",
+      "score": 3.0,
+      "date": "2026-09-21",
       "title_hits": [
-        "인텔"
+        "TSMC"
       ],
       "summary_hits": [
-        "인텔"
+        "TSMC"
       ],
-      "negative_hits": []
+      "negative_hits": [
+        "ETF"
+      ]
     },
     {
-      "title": "MU, SNDK, INTC, AMD, Other Chip Stocks Extend Slide – Retail Traders Still Buying The Memory Theme - Stocktwits",
-      "source": "Stocktwits",
-      "score": 2.5,
-      "date": "2026-09-13",
+      "title": "삼성전자, 미국 실리콘밸리서  '2026 테크 포럼'개최…AI비전과 사업전략 공유",
+      "source": "KIPOST",
+      "score": 3.0,
+      "date": "2026-09-21",
       "title_hits": [
-        "AMD"
+        "삼성전자"
       ],
       "summary_hits": [
-        "AMD"
+        "삼성전자"
       ],
-      "negative_hits": []
-    },
-    {
-      "title": "Intel Stock Forecast: Why Microsoft's 18A Order Could Be a Turning Point for INTC: Could Apple Be Next? - TradingKey",
-      "source": "TradingKey",
-      "score": 2.5,
-      "date": "2026-09-14",
-      "title_hits": [
-        "인텔"
-      ],
-      "summary_hits": [
-        "인텔"
-      ],
-      "negative_hits": []
+      "negative_hits": [
+        "DX부문"
+      ]
     }
   ],
   "keyword_usage": [
     {
       "keyword": "반도체",
-      "hits": 276
+      "hits": 186
     },
     {
       "keyword": "삼성전자",
-      "hits": 93
-    },
-    {
-      "keyword": "HBM",
-      "hits": 55
-    },
-    {
-      "keyword": "DRAM",
-      "hits": 54
-    },
-    {
-      "keyword": "EUV",
-      "hits": 35
+      "hits": 68
     },
     {
       "keyword": "하이닉스",
-      "hits": 32
+      "hits": 57
     },
     {
-      "keyword": "노드",
-      "hits": 25
+      "keyword": "HBM",
+      "hits": 50
     },
     {
-      "keyword": "ASML",
+      "keyword": "인텔",
+      "hits": 45
+    },
+    {
+      "keyword": "DRAM",
+      "hits": 33
+    },
+    {
+      "keyword": "양산",
+      "hits": 29
+    },
+    {
+      "keyword": "TSMC",
       "hits": 24
     },
     {
-      "keyword": "공정",
-      "hits": 22
+      "keyword": "낸드",
+      "hits": 24
     },
     {
       "keyword": "메모리",
       "hits": 22
     },
     {
-      "keyword": "TSMC",
-      "hits": 22
+      "keyword": "AI반도체",
+      "hits": 21
     },
     {
-      "keyword": "AI반도체",
-      "hits": 20
+      "keyword": "노드",
+      "hits": 21
     },
     {
       "keyword": "투자",
-      "hits": 19
+      "hits": 20
     },
     {
-      "keyword": "파운드리",
+      "keyword": "공정",
       "hits": 16
     },
     {
-      "keyword": "노광",
-      "hits": 14
-    },
-    {
-      "keyword": "인텔",
-      "hits": 14
-    },
-    {
-      "keyword": "시장점유율",
-      "hits": 14
-    },
-    {
-      "keyword": "high-NA",
-      "hits": 13
-    },
-    {
-      "keyword": "semiconductor",
-      "hits": 12
-    },
-    {
-      "keyword": "CoWoS",
-      "hits": 12
-    },
-    {
-      "keyword": "양산",
-      "hits": 10
-    },
-    {
-      "keyword": "수직D램",
-      "hits": 10
-    },
-    {
-      "keyword": "수율",
-      "hits": 9
-    },
-    {
-      "keyword": "팹",
-      "hits": 8
-    },
-    {
-      "keyword": "피에스케이",
-      "hits": 8
-    },
-    {
-      "keyword": "AMD",
-      "hits": 8
-    },
-    {
-      "keyword": "Arm",
-      "hits": 7
-    },
-    {
-      "keyword": "SiC",
-      "hits": 6
-    },
-    {
-      "keyword": "브로드컴",
-      "hits": 6
-    },
-    {
       "keyword": "CXL",
-      "hits": 6
+      "hits": 16
     },
     {
-      "keyword": "증설",
-      "hits": 6
-    },
-    {
-      "keyword": "퀄컴",
-      "hits": 5
-    },
-    {
-      "keyword": "시높시스",
-      "hits": 4
+      "keyword": "EUV",
+      "hits": 15
     },
     {
       "keyword": "미디어텍",
+      "hits": 14
+    },
+    {
+      "keyword": "semiconductor",
+      "hits": 14
+    },
+    {
+      "keyword": "솔리다임",
+      "hits": 14
+    },
+    {
+      "keyword": "팹",
+      "hits": 9
+    },
+    {
+      "keyword": "수율",
+      "hits": 8
+    },
+    {
+      "keyword": "소부장",
+      "hits": 6
+    },
+    {
+      "keyword": "수주",
+      "hits": 6
+    },
+    {
+      "keyword": "AMD",
+      "hits": 6
+    },
+    {
+      "keyword": "검사장비",
+      "hits": 6
+    },
+    {
+      "keyword": "PIM",
+      "hits": 6
+    },
+    {
+      "keyword": "high-NA",
+      "hits": 5
+    },
+    {
+      "keyword": "ASML",
+      "hits": 4
+    },
+    {
+      "keyword": "식각",
+      "hits": 4
+    },
+    {
+      "keyword": "증설",
+      "hits": 4
+    },
+    {
+      "keyword": "CoWoS",
+      "hits": 4
+    },
+    {
+      "keyword": "노광",
+      "hits": 4
+    },
+    {
+      "keyword": "시장점유율",
+      "hits": 4
+    },
+    {
+      "keyword": "fab",
       "hits": 4
     },
     {
@@ -552,23 +556,59 @@
       "hits": 4
     },
     {
-      "keyword": "하이브리드본딩",
-      "hits": 4
+      "keyword": "chiplet",
+      "hits": 3
     },
     {
-      "keyword": "인수",
-      "hits": 4
+      "keyword": "신뢰성",
+      "hits": 3
     },
     {
-      "keyword": "포토마스크",
+      "keyword": "Arm",
+      "hits": 3
+    },
+    {
+      "keyword": "네패스",
       "hits": 2
     },
     {
-      "keyword": "인텔 파운드리",
+      "keyword": "램리서치",
       "hits": 2
     },
     {
-      "keyword": "fab",
+      "keyword": "브로드컴",
+      "hits": 2
+    },
+    {
+      "keyword": "유리기판",
+      "hits": 2
+    },
+    {
+      "keyword": "마이크론",
+      "hits": 2
+    },
+    {
+      "keyword": "FeRAM",
+      "hits": 2
+    },
+    {
+      "keyword": "케이던스",
+      "hits": 2
+    },
+    {
+      "keyword": "수직D램",
+      "hits": 2
+    },
+    {
+      "keyword": "포토레지스트",
+      "hits": 2
+    },
+    {
+      "keyword": "워피지",
+      "hits": 2
+    },
+    {
+      "keyword": "몰딩",
       "hits": 2
     },
     {
@@ -576,121 +616,95 @@
       "hits": 2
     },
     {
-      "keyword": "낸드",
+      "keyword": "포토마스크",
       "hits": 2
     },
     {
-      "keyword": "CPO",
+      "keyword": "AI서버",
       "hits": 2
     },
     {
-      "keyword": "CMP",
+      "keyword": "lithography",
       "hits": 2
     },
     {
-      "keyword": "EMIB",
+      "keyword": "하이브리드본딩",
       "hits": 2
     },
     {
-      "keyword": "식각",
+      "keyword": "2.5D",
       "hits": 2
-    },
-    {
-      "keyword": "신뢰성",
-      "hits": 2
-    },
-    {
-      "keyword": "몰리브덴",
-      "hits": 2
-    },
-    {
-      "keyword": "엔비디아",
-      "hits": 2
-    },
-    {
-      "keyword": "foundry",
-      "hits": 2
-    },
-    {
-      "keyword": "언더필",
-      "hits": 2
-    },
-    {
-      "keyword": "감산",
-      "hits": 2
-    },
-    {
-      "keyword": "단수",
-      "hits": 2
-    },
-    {
-      "keyword": "셀렉터",
-      "hits": 2
-    },
-    {
-      "keyword": "TSV",
-      "hits": 2
-    },
-    {
-      "keyword": "한미반도체",
-      "hits": 2
-    },
-    {
-      "keyword": "시스템반도체",
-      "hits": 2
-    },
-    {
-      "keyword": "실리콘포토닉스",
-      "hits": 1
     },
     {
       "keyword": "BEOL",
-      "hits": 1
+      "hits": 2
+    },
+    {
+      "keyword": "EMC",
+      "hits": 2
+    },
+    {
+      "keyword": "파운드리",
+      "hits": 2
     },
     {
       "keyword": "GaN",
+      "hits": 2
+    },
+    {
+      "keyword": "NAND",
+      "hits": 2
+    },
+    {
+      "keyword": "wafer",
       "hits": 1
     },
     {
-      "keyword": "VCT",
+      "keyword": "언더필",
       "hits": 1
     },
     {
-      "keyword": "이온주입",
+      "keyword": "Nvidia",
       "hits": 1
     },
     {
-      "keyword": "수주",
+      "keyword": "엔비디아",
       "hits": 1
     },
     {
-      "keyword": "RDL",
+      "keyword": "ASIC",
       "hits": 1
     },
     {
-      "keyword": "FeRAM",
+      "keyword": "EMIB",
       "hits": 1
     },
     {
-      "keyword": "chiplet",
+      "keyword": "QLC",
+      "hits": 1
+    },
+    {
+      "keyword": "CPO",
+      "hits": 1
+    },
+    {
+      "keyword": "foundry",
       "hits": 1
     }
   ],
   "dead_keywords": [
     "10나노급",
-    "2.5D",
     "2D반도체",
     "3D IC",
     "4F2",
-    "AI서버",
     "ALD",
     "ALE",
     "AS-ALD",
-    "ASIC",
     "BCAT",
     "CD-SEM",
     "CFET",
     "CHIPS Act",
+    "CMP",
     "CTF",
     "CVD",
     "Cu-Cu",
@@ -699,7 +713,6 @@
     "DDR6",
     "DRAM세대",
     "DTCO",
-    "EMC",
     "FCVD",
     "FEOL",
     "FeFET",
@@ -721,19 +734,16 @@
     "MRAM",
     "Micron",
     "MoS2",
-    "NAND",
-    "Nvidia",
     "OCD",
     "ONO",
     "OPC",
     "PCRAM",
     "PEALD",
     "PECVD",
-    "PIM",
     "PVD",
     "PowerVia",
-    "QLC",
     "RCAT",
+    "RDL",
     "RIE",
     "ReRAM",
     "RibbonFET",
@@ -742,13 +752,16 @@
     "SMIC",
     "SOT-MRAM",
     "STT-MRAM",
+    "SiC",
     "SiGe",
     "SoIC",
     "TLC",
+    "TSV",
     "TiN",
     "UCIe",
     "UMC",
     "VCAT",
+    "VCT",
     "W2W",
     "ZAZ",
     "backside_power",
@@ -762,7 +775,6 @@
     "high-k",
     "immersion",
     "interposer",
-    "lithography",
     "low-k",
     "metrology",
     "microbump",
@@ -773,36 +785,33 @@
     "seam",
     "subsidy",
     "void",
-    "wafer",
     "가동률",
+    "감산",
     "강유전체",
     "갭필",
     "건식식각",
-    "검사장비",
     "게이트스택",
     "결함검사",
     "고대역폭",
     "고종횡비",
     "글로벌파운드리",
     "난야",
-    "네패스",
     "넥스틴",
     "뉴로모픽",
     "다중패터닝",
+    "단수",
     "더블스택",
     "도쿄오카",
     "도쿄일렉트론",
     "도핑",
     "동진쎄미켐",
     "라피더스",
-    "램리서치",
     "램프업",
     "마벨",
     "마스크블랭크",
-    "마이크론",
     "매립게이트",
     "매스리플로우",
-    "몰딩",
+    "몰리브덴",
     "바텀업",
     "박막",
     "백그라인딩",
@@ -816,31 +825,34 @@
     "선택비",
     "선택적증착",
     "섬코",
+    "셀렉터",
     "셀온페리",
     "셀커패시턴스",
-    "소부장",
-    "솔리다임",
     "솔브레인",
     "수출규제",
     "스트링스택",
     "스퍼터링",
     "슬러리",
     "습식식각",
+    "시높시스",
+    "시스템반도체",
     "신에츠",
+    "실리콘포토닉스",
     "어닐",
     "어드밴테스트",
     "어플라이드",
     "에스앤에스텍",
     "에피택시",
-    "워피지",
     "원익IPS",
     "웨스턴디지털",
     "웨이퍼보우",
     "웨이퍼본딩",
     "웨이퍼투입",
     "윈본드",
-    "유리기판",
     "이오테크닉스",
+    "이온주입",
+    "인수",
+    "인텔 파운드리",
     "일함수",
     "전구체",
     "접합",
@@ -853,9 +865,9 @@
     "칩온웨이퍼",
     "캐패시터리스",
     "컴포멀리티",
-    "케이던스",
     "케이씨텍",
     "코어다이",
+    "퀄컴",
     "크라이오식각",
     "키옥시아",
     "트리플스택",
@@ -865,60 +877,97 @@
     "팬아웃",
     "펠리클",
     "평탄화",
-    "포토레지스트",
     "퓨리오사",
     "플라즈마식각",
+    "피에스케이",
     "하나마이크론",
+    "한미반도체",
     "화합물반도체"
   ],
   "negative_usage": [
     {
-      "keyword": "급등",
-      "hits": 4
+      "keyword": "ETF",
+      "hits": 7
     },
     {
-      "keyword": "ETF",
+      "keyword": "가전",
       "hits": 3
     },
     {
+      "keyword": "급등",
+      "hits": 2
+    },
+    {
       "keyword": "갤럭시",
+      "hits": 2
+    },
+    {
+      "keyword": "DX부문",
+      "hits": 2
+    },
+    {
+      "keyword": "상한가",
       "hits": 1
     }
   ],
-  "passed_with_negative": [],
+  "passed_with_negative": [
+    {
+      "title": "한화운용, HBM·AI 소부장 ETF 2종 출격…반도체 투자라인 넓힌다 - biz.heraldcorp.com",
+      "source": "biz.heraldcorp.com",
+      "score": 5.89,
+      "date": "2026-09-16",
+      "negative_hits": [
+        "ETF"
+      ]
+    },
+    {
+      "title": "'아시아 AI 반도체 병목' 투자 ETF 홍콩 상장…'삼전닉스' 담는다 - MTN 머니투데이방송",
+      "source": "MTN 머니투데이방송",
+      "score": 5.36,
+      "date": "2026-09-17",
+      "negative_hits": [
+        "ETF"
+      ]
+    },
+    {
+      "title": "삼성전자, 플랙트그룹 HVAC 생산라인 착공",
+      "source": "KIPOST",
+      "score": 1.79,
+      "date": "2026-09-22",
+      "negative_hits": [
+        "DX부문"
+      ]
+    }
+  ],
   "extract_failed": {
-    "total": 9,
+    "total": 5,
     "by_reason": {
-      "fetch_fail": 8,
-      "no_body": 1
+      "fetch_fail": 3,
+      "no_body": 2
     },
     "by_source": {
-      "전자신문": 1,
-      "businesspost.co.kr": 1,
-      "storagereview.com": 1,
-      "Bisinfotech": 1,
-      "아시아경제": 1,
-      "simplywall.st": 1,
-      "finance.biggo.com": 1,
-      "Sammy Fans": 1,
-      "Chosunbiz": 1
+      "Cryptopolitan": 1,
+      "Chosunbiz": 1,
+      "chosun.com": 1,
+      "Benzinga": 1,
+      "easternherald.com": 1
     }
   },
   "selected_source_distribution": {
-    "SemiEngineering": 10,
-    "v.daum.net": 5,
-    "중소기업신문": 2,
-    "news.mtn.co.kr": 2,
-    "디지털데일리": 2,
+    "v.daum.net": 13,
+    "SemiEngineering": 7,
+    "EETimes": 5,
+    "THELEC_반도체": 5,
+    "글로벌이코노믹": 4,
+    "finance.biggo.com": 4,
+    "KIPOST": 4,
+    "연합뉴스": 3,
+    "핀포인트뉴스": 2,
     "지디넷코리아": 2,
-    "elec4": 2,
-    "전자신문": 2,
-    "Wccftech": 2,
-    "글로벌이코노믹": 2,
-    "네이버 프리미엄콘텐츠": 2,
-    "Stocktwits": 2,
-    "굿모닝베트남미디어": 1,
-    "한국일보": 1,
+    "시사저널e": 2,
+    "ebn.co.kr": 2,
+    "이투데이": 2,
+    "디지털데일리": 1,
     "뉴스핌": 1
   }
 }

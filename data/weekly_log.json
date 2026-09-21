@@ -115,5 +115,14 @@
     "total": 37,
     "summary_empty_count": 7,
     "empty": false
+  },
+  {
+    "ran_at": "2026-09-22T03:30:29.600149+09:00",
+    "window_start": "2026-09-15",
+    "window_end": "2026-09-21",
+    "prev_briefing_date": "2026-09-14",
+    "total": 36,
+    "summary_empty_count": 5,
+    "empty": false
   }
 ]
