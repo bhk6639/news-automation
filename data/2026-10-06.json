@@ -1,14 +1,19 @@
 {
-  "generated_at": "2026-10-06T23:46:49.953674+09:00",
+  "generated_at": "2026-10-06T03:00:00+09:00",
   "field": "반도체",
   "field_date": "2026-10-06",
+  "backfill": {
+    "window_start": "2026-10-05T03:00:00+09:00",
+    "window_end": "2026-10-06T03:00:00+09:00",
+    "run_at": "2026-10-07T01:56:24.298826+09:00"
+  },
   "stats": {
-    "collected_total": 435,
-    "after_resolve": 165,
-    "after_time_filter": 53,
-    "after_dedup": 53,
-    "after_score_filter": 12,
-    "extracted_success": 12,
+    "collected_total": 1063,
+    "after_resolve": 16,
+    "after_time_filter": 16,
+    "after_dedup": 16,
+    "after_score_filter": 3,
+    "extracted_success": 3,
     "extracted_failed": 0
   },
   "keywords_snapshot": {
@@ -313,573 +318,47 @@
   },
   "items": [
     {
-      "title": "CXL-Connected MRAM Address AI Storage Latency",
-      "date": "2026-10-06",
-      "source": "EETimes",
-      "url": "https://www.eetimes.com/cxl-connected-mram-address-ai-storage-latency/",
-      "summary": "Everspin’s demo shows how a 4-GB pool of persistent MRAM can serve as a new tier of storage between DRAM and NAND flash. The post CXL-Connected MRAM Address AI Storage Latency appeared first on EE Times.",
-      "body": "The memory bottleneck in AI systems gets a lot of attention, but storage latency is a growing pain point too. Everspin Technologies thinks it can address it with what it says is the industry’s first",
-      "score": 6.43,
-      "score_raw": 18.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 10,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM",
-            "NAND"
-          ],
-          "tech": [
-            "CXL",
-            "MRAM"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "MRAM",
-          "CXL"
-        ],
-        "summary_hits": [
-          "DRAM",
-          "NAND",
-          "MRAM",
-          "CXL"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Backside Clock Meshes Cut Skew and Power in 2nm Nanosheets (UCSC)",
-      "date": "2026-10-06",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/backside-clock-meshes-cut-skew-and-power-in-2nm-nanosheets-ucsc/",
-      "summary": "Researchers at the University of California, Santa Cruz published a technical paper titled “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology.” Abstract Excerpt: “Clock meshes are used in high-performance VLSI designs to minimize skew and tolerate on-chip variation, but they spend scarce routing resources on premium metal layers. Backside power... » read more The post Backside Clock Meshes Cut Skew and Power in 2nm Nanosheets (UCSC) appeared first on Semiconductor Engineering.",
-      "body": "Researchers at the University of California, Santa Cruz published a technical paper titled “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology.”\n\nAbstract Excerpt: “Clock meshes are used in high-performance VLSI designs to minimize skew and tolerate on-chip variation, but they spend scarce routing resources on premium metal layers. Backside power delivery creates a new option: it adds thick, low-resistance metal layers on the back of the wafer, and the power grid does not consume all of them. Flip-flops remain on the frontside; a backside mesh therefore cannot drive them directly, and every connection passes through a through-silicon via. We present the first design-space exploration of backside clock meshes, implemented in OpenROAD on GT2N, a 2 nm nanosheet technology.”\n\nFind the technical paper here. October 2026.\n\nAli, Wajid, Muhammad Hadir Khan, Dalton Gaddy, and Matthew Guthaus. “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPD",
-      "score": 5.0,
-      "score_raw": 14.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 10,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "backside_power",
-            "노드"
-          ],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [
-          "노드"
-        ],
-        "summary_hits": [
-          "backside_power",
-          "노드",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "헨켈, SEDEX 2026서 AI·HBM 위한 첨단 패키징 소재 솔루션 선보여",
-      "date": "2026-10-06",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342112",
-      "summary": "접착제 및 코팅 소재 글로벌 기업인 헨켈(Henkel)은 오는 14일부터 16일까지 열리는 ‘SEDEX 2026(제28회 반도체대전)’에 참가해 ‘Advanced Packaging for AI’를 주제로 AI, 고대역폭메모리(HBM), 고성능컴퓨팅(HPC) 시대에 요구되는 첨단 패키징 소재 기술을 선보인다. AI와 HPC의 연산 성능 요구가 높아지고 HBM 활용이 확대되면서 반도체 패키징 역시 더 높은 집적도와 복잡한 구조로 진화하고 있다. 2.5D·3D 패키징, 칩렛(chiplet), 이종집적(heterogeneous integr",
-      "body": "접착제 및 코팅 소재 글로벌 기업인 헨켈(Henkel)은 오는 14일부터 16일까지 열리는 ‘SEDEX 2026(제28회 반도체대전)’에 참가해 ‘Advanced Packaging for AI’를 주제로 AI, 고대역폭메모리(HBM), 고성능컴퓨팅(HPC) 시대에 요구되는 첨단 패키징 소재 기술을 선보인다.\nAI와 HPC의 연산 성능 요구가 높아지고 HBM 활용이 확대되면서 반도체 패키징 역시 더 높은 집적도와 복잡한 구조로 진화하고 있다. 2.5D·3D 패키징, 칩렛(chiplet), 이종집적(heterogeneous integration) 등 첨단 패키징 기술의 확산은 데이터 처리 성능 향상을 가능하게 하는 동시에 높은 열 밀도와 기계적 응력, 패키지 휨(warpage), 신뢰성 확보 및 양산 공정 안정성 등 새로운 기술 과제를 야기하고 있다. 이에 따라 이러한 복합적인 요구를 해결하는 첨단 소재의 역할도 더욱 중요해지고 있다.\n헨켈은 각 패키징 공정에서 요구되는 소재의 기능을 바탕으로 이러한 과제에 대응하고 있다. 언더필(underfill)은 미세 인터커넥트를 열·기계적 응력으로부터 보호해 신뢰성을 높이고, 인캡슐레이션(encapsulation) 및 몰",
-      "score": 4.93,
-      "score_raw": 13.8,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 6.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "HBM",
-            "고대역폭",
-            "메모리"
-          ],
-          "tech": [
-            "2.5D",
-            "chiplet",
-            "칩렛"
-          ],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "HBM"
-        ],
-        "summary_hits": [
-          "메모리",
-          "HBM",
-          "고대역폭",
-          "2.5D",
-          "칩렛",
-          "chiplet",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations",
-      "date": "2026-10-06",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations-2/",
-      "summary": "Part 2: Towards scalable sCFET standard cell architectures: split-gate devices, a 5T+1 CFET SRAM bit cell, and improved back-end-of-line routability. The post Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations appeared first on Semiconductor Engineering.",
-      "body": "Key takeaways:\n\nFrom the A7 logic technology node onwards, industry may likely transition to CFET-based transistor architectures which enable 4.5-track (4.5T) and below standard cells.\n\nProgress in CFET enablement is backed by two complementary R&D tracks, with imec pioneering many of the underlying innovations: the development of CFET-specific process modules, and a design-technology co-optimization (DTCO) exploration of scalable standard cell configurations.\n\nPart 1 of this two-part article presents two optimized CFET-specific modules: (1) a backside contact module; and (2) a gate-stack integration module that enables multiple threshold voltages in nanosheet and CFET devices.\n\nPart 2 covers imec’s latest CFET DTCO studies. A novel scalable architecture for sequential CFET is presented that enables split-gate and common-gate device options, key in advancing both the logic and SRAM scaling roadmaps. Another DTCO study presents improved routability at the back-end-of-line (BEOL) level t",
-      "score": 3.84,
-      "score_raw": 10.75,
+      "title": "IBM using Everspin MRAM in 5th gen FlashCore Modules",
+      "date": "2026-10-05",
+      "source": "BlocksAndFiles",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/05/ibm-using-everspin-mram-in-5th-gen-flashcore-modules/5300966",
+      "summary": "",
+      "body": "flash\nIBM using Everspin MRAM in 5th gen FlashCore Modules\nIBM’s gen 5 FlashCore Modules use Everspin MRAM instead of capacitors to protect against data loss from power failures.\nFlashCore Modules (FCMs) are IBM’s proprietary SSDs, with the gen 5 version being computational SSDs as they feature hardware compression, deduplication, die striping, and cyber-attack detection. The FCM5 uses QLC (4 bits/cell) NAND with an SLC (1 bit/cell) incoming write zone. There are five FCM5 raw capacity points; 6.6, 12.2, 26.4, 52.8 and 105.6 TB, with the maximum effective compressed capacities being 19.8, 36.6, 79.2, 158.4 and 316.8 TB.\nMagneto-resistive RAM (MRAM) stores bits in magnetic tunnel junctions rather than as charge levels, and is non-volatile like NAND, has DRAM-class access speed (10s of nanoseconds), is byte-addressable, and has very high endurance, unlike NAND. Everspin supplies a range of MRAM chips and an Everspin MRAM presentation at the SNIA Developer Conference in San Jose in Septem",
+      "score": 3.48,
+      "score_raw": 9.75,
       "score_detail": {
         "buckets": {
           "entity": 0.0,
           "product": 0.0,
           "tech": 7.5,
           "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "CFET"
-          ],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [
-          "CFET"
-        ],
-        "summary_hits": [
-          "CFET",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Chip Industry Technical Paper Roundup: Oct. 6",
-      "date": "2026-10-06",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
-      "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Paper Roundup: Oct. 6 appeared first on Semiconductor Engineering.",
-      "body": "New technical papers recently added to Semiconductor Engineering’s library:\n\nTechnical Paper\nResearch Organizations\n\nLow contact resistance and high current density in ballistic p-type transistors based on oxygen-doped WSe₂ monolayers\nHUST, PolyU, UC Santa Barbara, National University of Singapore\n\nDesign Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology\nUC Santa Cruz\n\nRAPID: Row-Parallel Arithmetic Processing in DRAM\nSyracuse University, FAU Erlangen-Nürnberg, TU Dresden\n\nCharacterizing High Bandwidth Flash for LLM Serving\nUC Berkeley, FuriosaAI\n\nA Formal Security Analysis of CAN XL\nGeorgia Tech, Qatar Computing Research Institute, Purdue University\n\nFrom Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering\nInfineon Technologies, TU Munich\n\nFind more semiconductor research papers here.\n\nThe post Chip Industry Technical Paper Roundup: Oct. 6 appeared first on Semiconductor Engineering.",
-      "score": 3.75,
-      "score_raw": 10.5,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 3.0,
-          "tech": 5.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM"
-          ],
-          "tech": [
-            "노드"
-          ],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "DRAM",
-          "노드",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "ICP DAS, 계측 및 제어 전시회 넥스트 2026에서 산업용 통신 및 신뢰성 있는 I/O 솔루션 선보여",
-      "date": "2026-10-06",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342110",
-      "summary": "신주, 2026년 10월 6일 /PRNewswire/ -- ICP DAS가 2026년 10월 21일부터 23일까지 일본 오사카 국제 컨벤션 센터(Osaka International Convention Center)에서 열리는 계측 및 제어 전시회 넥스트 2026(Measurement and Control Show NEXT 2026)에 참가한다고 발표했다. 방문객들은 40번 부스에서 ICP DAS 팀을 만나볼 수 있다. Image by ICP DAS 이 전시의 주요 관전 요소 중 하나는 산업용 통신 통합(Industria...",
-      "body": "신주, 2026년 10월 6일 /PRNewswire/ -- ICP DAS가 2026년 10월 21일부터 23일까지 일본 오사카 국제 컨벤션 센터(Osaka International Convention Center)에서 열리는 계측 및 제어 전시회 넥스트 2026(Measurement and Control Show NEXT 2026)에 참가한다고 발표했다. 방문객들은 40번 부스에서 ICP DAS 팀을 만나볼 수 있다.\n이 전시의 주요 관전 요소 중 하나는 산업용 통신 통합(Industrial Communication Integration)으로, ICP DAS의 산업용 통신 게이트웨이와 방대한 원격 I/O 포트폴리오를 선보인다. 이 게이트웨이들은 CAN 버스(CANbus), 프로피버스(PROFIBUS), 이더넷/IP(EtherNet/IP)를 포함한 다양한 산업 프로토콜과 모드버스(Modbus) RTU 또는 모드버스 TCP 사이의 통신을 구현해 사용자들이 서로 다른 통신 표준을 사용하는 장비와 시스템을 통합할 수 있도록 돕는다.\n게이트웨이와 더불어 ICP DAS는 산업용 응용 분야를 위해 설계된 300개가 넘는 원격 I/O 모듈도 제공한다. 이 포트폴리오는 RT",
-      "score": 3.71,
-      "score_raw": 10.4,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 8.0,
-          "event": 0.0,
           "domain": 0.0
         },
         "bucket_hits": {
           "entity": [],
           "product": [],
           "tech": [
-            "metrology",
-            "신뢰성"
+            "MRAM"
           ],
           "event": [],
           "domain": []
         },
         "title_hits": [
-          "metrology",
-          "신뢰성"
+          "MRAM"
         ],
-        "summary_hits": [
-          "metrology"
-        ],
+        "summary_hits": [],
         "negative_hits": []
       }
     },
     {
-      "title": "삼성전기, 글로벌 대기업과 2,900억 원 규모 AI 서버용 MLCC 공급계약 체결",
-      "date": "2026-10-06",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342114",
-      "summary": "삼성전기가 글로벌 대기업과 약 2,900억 원 규모의 AI서버용 MLCC 공급계약을 체결했다고 6일 밝혔다. 계약 기간은 2027년 1월 1일부터 2027년 12월 31일까지 1년간이다. 이번 체결된 계약은 올해 6번째(공시 기준) 장기공급계약이다.MLCC는 전기를 저장했다가 반도체에 안정적으로 공급해 원활한 동작을 돕고 부품 간 신호 간섭을 막아주는 핵심 부품이다. 특히 AI 서버용 MLCC는 고온·고전압 환경에서 24시간 가동을 견뎌야 하는 만큼 고용량·고신뢰성 특성이 동시에 요구된다.삼성전기는 AI 서버용 MLCC에 요구되는",
-      "body": "삼성전기가 글로벌 대기업과 약 2,900억 원 규모의 AI서버용 MLCC 공급계약을 체결했다고 6일 밝혔다. 계약 기간은 2027년 1월 1일부터 2027년 12월 31일까지 1년간이다. 이번 체결된 계약은 올해 6번째(공시 기준) 장기공급계약이다.\nMLCC는 전기를 저장했다가 반도체에 안정적으로 공급해 원활한 동작을 돕고 부품 간 신호 간섭을 막아주는 핵심 부품이다. 특히 AI 서버용 MLCC는 고온·고전압 환경에서 24시간 가동을 견뎌야 하는 만큼 고용량·고신뢰성 특성이 동시에 요구된다.\n삼성전기는 AI 서버용 MLCC에 요구되는 고용량·고신뢰성을 구현하는 기술력과 안정적인 생산능력을 바탕으로 글로벌 고객사의 수요 증가에 대응하고 있다. 이를 기반으로 AI서버용 MLCC 시장에서 입지를 지속 확장하고 있다.\n삼성전기는 현재 다수의 글로벌 기업과 MLCC 장기공급계약(LTA)를 체결한 상태며, 여러 글로벌 기업과 추가 논의 중인 공급계약에도 적극 대응할 계획이다.\n삼성전기는 올해 5월부터 이번 계약까지 실리콘 캐패시터와 AI서버용 MLCC, 인덕터에 대해 약 3조 9,000억 원 (공시기준) 규모의 장기공급계약을 연달아 체결했다. 장기공급계약을 통해 안정적",
-      "score": 3.43,
-      "score_raw": 9.6,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 2.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [
-            "신뢰성"
-          ],
-          "event": [],
-          "domain": [
-            "AI서버",
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "AI서버"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "신뢰성",
-          "반도체",
-          "AI서버"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Row-Parallel DRAM Computing Cuts Data-Reorganization Overhead (Syracuse, FAU, TU Dresden)",
-      "date": "2026-10-06",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
-      "summary": "Researchers at Syracuse University, Friedrich-Alexander-Universität Erlangen-Nürnberg, and TU Dresden published a technical paper titled “RAPID: Row-Parallel Arithmetic Processing in DRAM.” Abstract Excerpt: “Processing-using-memory (PUM) architectures perform computation directly within DRAM to reduce costly data movement between memory and processors. Because charge-sharing operations are confined to individual bitlines, existing DRAM-PUM architectures reorganize data into column-oriented, bit-serial... » read more The post Row-Parallel DRAM Computing Cuts Data-Reorganization Overhead (Syracuse, FAU, TU Dresden) appeared first on Semiconductor Engineering.",
-      "body": "Researchers at Syracuse University, Friedrich-Alexander-Universität Erlangen-Nürnberg, and TU Dresden published a technical paper titled “RAPID: Row-Parallel Arithmetic Processing in DRAM.”\n\nAbstract Excerpt: “Processing-using-memory (PUM) architectures perform computation directly within DRAM to reduce costly data movement between memory and processors. Because charge-sharing operations are confined to individual bitlines, existing DRAM-PUM architectures reorganize data into column-oriented, bit-serial representations. This organization is fundamentally incompatible with the row-oriented, word-parallel layouts used by conventional processors and accelerators, requiring expensive data-layout transformations whenever computation transitions between PUM and conventional execution. In this paper, we present RAPID, a Row-parallel Arithmetic Processing-In-DRAM architecture. RAPID augments the DRAM subarray with two lightweight extensions: migration cells that enable localized horizontal dat",
-      "score": 2.14,
-      "score_raw": 6.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [
-          "DRAM"
-        ],
-        "summary_hits": [
-          "DRAM",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "에비던트, 크레스트옵틱스 인수 완료",
-      "date": "2026-10-06",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342081",
-      "summary": "니덤, 메사추세츠, 2026년 10월 5일 /PRNewswire/ -- 에비던트(Evident)가 오늘 로마에 본사를 둔 스피닝 디스크 공초점 및 초고해상도 현미경용 첨단 광학 이미징 시스템 개발 및 제조업체인 크레스트옵틱스(CrestOptics S.p.A.) 인수를 완료했다고 발표했다. 이번 인수로 에비던트의 생명과학 이미징 포트폴리오를 확대하고 연구, 제약 및 바이오테크 분야를 위한 고속, 하이콘텐츠(high-content) 3D 이미징 역량도 강화된다. 2011년 설립된 크레스트옵틱스는 전 세계 주요 제조업체의 현미경...",
-      "body": "니덤, 메사추세츠, 2026년 10월 5일 /PRNewswire/ -- 에비던트(Evident)가 오늘 로마에 본사를 둔 스피닝 디스크 공초점 및 초고해상도 현미경용 첨단 광학 이미징 시스템 개발 및 제조업체인 크레스트옵틱스(CrestOptics S.p.A.) 인수를 완료했다고 발표했다. 이번 인수로 에비던트의 생명과학 이미징 포트폴리오를 확대하고 연구, 제약 및 바이오테크 분야를 위한 고속, 하이콘텐츠(high-content) 3D 이미징 역량도 강화된다.\n2011년 설립된 크레스트옵틱스는 전 세계 주요 제조업체의 현미경 플랫폼과 통합되는 공초점 회전 디스크 및 구조화 조명 현미경(structured illumination microscopy, SIM) 모듈을 설계하고 제조한다. 제품군에는 동급 최고 수준의 시야 전체에서 정밀한 광학 단층 촬영과 균일한 조명을 제공하는 X-Light 회전 디스크 공초점 시스템 제품군, 어느 실험실에서나 고성능 입문형 공초점 시스템을 사용할 수 있도록 지원하는 소형 광시야 및 회전 디스크 솔루션 CICERO, 그리고 광시야 시스템 수준의 접근성을 유지하면서 회절 한계를 뛰어넘는 이미징을 제공하는 Lattice SIM 초고해상",
-      "score": 1.79,
-      "score_raw": 5.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 5.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [
-            "인수"
-          ],
-          "domain": []
-        },
-        "title_hits": [
-          "인수"
-        ],
-        "summary_hits": [
-          "인수"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
-      "date": "2026-10-06",
+      "title": "GPT-Synopsys Combines IC Design EDA with Agentic AI",
+      "date": "2026-10-05",
       "source": "EETimes",
-      "url": "https://www.eetimes.com/kepler-aims-to-launch-energy-saving-replacement-for-hbm-in-2027/",
-      "summary": "Kepler targets 2027 production for 3D ferroelectric memory promising 5–10× better bandwidth per watt than HBM. The post Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027 appeared first on EE Times.",
-      "body": "Kepler Computing, founded in 2018, aims to start production of memories that address HBM and SRAM “bottlenecks” in AI chips by next year, company executives told EE Times. The company is ready to work",
-      "score": 1.79,
-      "score_raw": 5.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "HBM"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "HBM"
-        ],
-        "summary_hits": [
-          "HBM"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "딥엑스·두산로보틱스, 원전 제조 현장 위한 ‘AI 용접 솔루션’ 공동 개발",
-      "date": "2026-10-07",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342120",
-      "summary": "초저전력 AI 반도체 기업 딥엑스(대표 김녹원)는 두산로보틱스와 원자력발전소 제조 현장의 숙련 용접공 부족 문제를 해결하기 위해 인공지능(AI) 기반 지능형 용접 로봇 솔루션 개발에 협력한다고 6일 밝혔다.이번 사업은 산업통상부의 ‘2026년도 로봇산업기술개발사업’ 과제로 선정된 데 따른 것이다. 두산로보틱스, 딥엑스, 세이지(SAIGE), 국립창원대학교 산학협력단 등 4개 기관은 과제 수행을 위해 지난 7월 업무협약(MOU)을 체결하고 공동 기술 개발을 위한 협력 체계를 구축한 바 있다.이번 과제는 비전 AI와 협동로봇 기술을 결",
-      "body": "산업통상부 로봇산업기술개발사업 과제로 선정…세이지·창원대와 4자 협력\n초저전력 AI 반도체 기업 딥엑스(대표 김녹원)는 두산로보틱스와 원자력발전소 제조 현장의 숙련 용접공 부족 문제를 해결하기 위해 인공지능(AI) 기반 지능형 용접 로봇 솔루션 개발에 협력한다고 6일 밝혔다.\n이번 사업은 산업통상부의 ‘2026년도 로봇산업기술개발사업’ 과제로 선정된 데 따른 것이다. 두산로보틱스, 딥엑스, 세이지(SAIGE), 국립창원대학교 산학협력단 등 4개 기관은 과제 수행을 위해 지난 7월 업무협약(MOU)을 체결하고 공동 기술 개발을 위한 협력 체계를 구축한 바 있다.\n이번 과제는 비전 AI와 협동로봇 기술을 결합해 용접 공정을 지능화하는 것이 핵심이다. 용접 대상과 경로를 AI로 인식·보정하고, 용접 과정에서 수집되는 비전·열화상 데이터를 분석해 용접 상태와 이상 여부를 판단하는 기술을 개발한다. 이를 협동로봇과 결합해 실제 제조 현장에 적용 가능한 지능형 용접 솔루션으로 구현한다는 계획이다.\n주관연구개발기관인 두산로보틱스는 컨소시엄 총괄과 시스템 통합 아키텍처 설계를 맡아 협동로봇 용접 셀 개발, 미소 변위 보정 AI 및 실시간 용접기 제어 기술을 개발한다. 딥엑",
-      "score": 1.43,
-      "score_raw": 4.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 3.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "AI반도체"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "AI반도체",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "DIGITIMES Expands Global Tech Supply Chain Intelligence with Redesigned Intelligence Hub and New News Feed API",
-      "date": "2026-10-06",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342106",
-      "summary": "TAIPEI, Oct. 6, 2026 /PRNewswire/ -- The global technology supply chain is moving faster than ever. From semiconductor capacity shifts and changes in the AI chip supply chain to export controls and geopolitical developments, enterprises face a challenge that goes beyond information overload: getting...",
-      "body": "TAIPEI, Oct. 6, 2026 /PRNewswire/ -- The global technology supply chain is moving faster than ever. From semiconductor capacity shifts and changes in the AI chip supply chain to export controls and geopolitical developments, enterprises face a challenge that goes beyond information overload: getting relevant intelligence into decision-making processes fast enough to act.\nTo help enterprises respond more effectively to these changes, DIGITIMES announced two major intelligence service upgrades: a redesigned DIGITIMES Intelligence hub and the new DIGITIMES News Feed API, an enterprise data servic",
-      "score": 1.43,
-      "score_raw": 4.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 3.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "AI반도체"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "AI반도체",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    }
-  ],
-  "dropped_below_threshold": [
-    {
-      "title": "KT, ‘AI Festa 2026’ 참가…‘AI로 대한민국이 성장하는 이야기’ 선보인다",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342111",
-      "source": "KIPOST",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 3.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "삼성전자"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "삼성전자, '갤럭시 탭 S12 시리즈·스마트태그3' 국내 출시",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342104",
-      "source": "KIPOST",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "삼성전자"
-        ],
-        "summary_hits": [
-          "삼성전자"
-        ],
-        "negative_hits": [
-          "갤럭시"
-        ]
-      }
-    },
-    {
-      "title": "GIGABYTE AI TOP ATOM 64GB Unified Memory Version Expands Possibilities for Desktop AI Development",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342086",
-      "source": "KIPOST",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 3.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "Nvidia"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "Nvidia"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "퀄컴-화웨이, 5G부터 AI까지 특허 라이선스 체결",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=63260",
-      "source": "THELEC_반도체",
-      "score": 2.5,
+      "url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
+      "summary": "Synopsys joins OpenAI for a leap of faith in AI-native IC design by augmenting frontier models with EDA tools. The post GPT-Synopsys Combines IC Design EDA with Agentic AI appeared first on EE Times.",
+      "body": "AI integrations in EDA tools have mostly been internally developed models offered by EDA companies and fabs. In chip design workflows, agentic AI technologies currently connect general-purpose models to EDA",
+      "score": 0.89,
+      "score_raw": 2.5,
       "score_detail": {
         "buckets": {
           "entity": 2.5,
@@ -890,7 +369,7 @@
         },
         "bucket_hits": {
           "entity": [
-            "퀄컴"
+            "시높시스"
           ],
           "product": [],
           "tech": [],
@@ -898,17 +377,52 @@
           "domain": []
         },
         "title_hits": [
-          "퀄컴"
+          "시높시스"
         ],
         "summary_hits": [
-          "퀄컴"
+          "시높시스"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "아세안+3 경제, 기초여건 강화와 금융통합 심화를 통해 대외 충격에 대응하고 있어",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342088",
+      "title": "Trusted AI: Why Intelligence Alone Isn’t Enough",
+      "date": "2026-10-06",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/",
+      "summary": "See how trusted AI combines intelligence, domain expertise, and deterministic verification to boost confidence in semiconductor design. The post Trusted AI: Why Intelligence Alone Isn’t Enough appeared first on EE Times.",
+      "body": "Juan Rey, senior VP and general manager of Calibre and CTO of Siemens EDA, shares his perspective on building trust in artificial intelligence for engineering. In this AI Summit interview, Rey explores how",
+      "score": 0.36,
+      "score_raw": 1.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "국부펀드연구소, G20 정상회의와 함께 첫 I20 서밋 발표하며 미국에 5조 달러 자본 투입 목표",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342076",
       "source": "KIPOST",
       "score": 2.0,
       "score_detail": {
@@ -932,114 +446,6 @@
         "summary_hits": [
           "투자"
         ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Reducing Contact Resistance Pushes 2D Transistors Toward Advanced CMOS (HUST, PolyU, UCSB, NUS)",
-      "url": "https://semiengineering.com/reducing-contact-resistance-pushes-2d-transistors-toward-advanced-cmos-hust-polyu-ucsb-nus/",
-      "source": "SemiEngineering",
-      "score": 1.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Trusted AI: Why Intelligence Alone Isn’t Enough",
-      "url": "https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/",
-      "source": "EETimes",
-      "score": 1.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Dell upgrades AI Data Platform to serve better data, faster, to GPU AI compute",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/06/dell-upgrades-ai-data-platform-to-serve-better-data-faster-to-gpu-ai-compute/5301384",
-      "source": "BlocksAndFiles",
-      "score": 0.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Distant third HDD maker Toshiba spending $380 million to catch up",
-      "url": "https://www.blocksandfiles.com/disk/2026/10/06/distant-third-hdd-maker-toshiba-spending-380-million-to-catch-up/5301322",
-      "source": "BlocksAndFiles",
-      "score": 0.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [],
         "negative_hits": []
       }
     },
@@ -1069,8 +475,33 @@
       }
     },
     {
-      "title": "OCI N.V. statement regarding correspondence from the Dutch association for retail investors (VEB)",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342117",
+      "title": "Almost half a trillion dollars sucked up by memory industry",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/05/almost-half-a-trillion-dollars-sucked-up-by-memory-industry/5301040",
+      "source": "BlocksAndFiles",
+      "score": 0.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "EVIDENT Completes Acquisition of CrestOptics S.p.A.",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342079",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1094,8 +525,8 @@
       }
     },
     {
-      "title": "Dr. Oregonin Completes U.S. FDA Registration for OLTIS DENTAL-X, Unveiling Oral-Care Innovation Rooted in Trans-Pacific Alder Research",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342118",
+      "title": "CyberDSA 2026 Opens in Kuala Lumpur as Malaysia's AI Ambition Puts Cybersecurity, Trust and Sovereign Capability in Sharper Focus",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342080",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1119,8 +550,8 @@
       }
     },
     {
-      "title": "V-Key Announces Strategic Majority Investment in CloudsineAI to Advance AI Safety and Security for the AI Economy",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342119",
+      "title": "KT, 가을철 산불 대비한 재난 상황 통신 대응 체계 점검",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342077",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1144,8 +575,8 @@
       }
     },
     {
-      "title": "CHANDO Group Presents 20 Research Papers at IFSCC 2026 Congress in Perth",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342115",
+      "title": "Seatrium and Karpowership Extend Collaboration with Ninth FSRU Conversion",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342074",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1169,8 +600,8 @@
       }
     },
     {
-      "title": "LG전자, 유럽 첫 상용 SDV에 통합 콕핏 솔루션 공급",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342102",
+      "title": "Sovereign Wealth Fund Institute announces first I20 Summit alongside G20 Leaders' Summit, targets US$5tn capital deployment into US",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342075",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1194,8 +625,8 @@
       }
     },
     {
-      "title": "ICP DAS to Showcase Industrial Communication and Reliable I/O Solutions at Measurement and Control Show NEXT 2026",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342107",
+      "title": "CSL and Alentis announce global partnership to develop and commercialise lixudebart for rare kidney and liver diseases",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342073",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1219,8 +650,8 @@
       }
     },
     {
-      "title": "Toshiba Showcases Quantum-Safe Protection for Critical Infrastructure and Government Networks with SpeQtral and HPE",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342109",
+      "title": "로보파티, IROS에서 고성능 풀스택 오픈소스 휴머노이드 로봇 RP1 공개",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342072",
       "source": "KIPOST",
       "score": 0.0,
       "score_detail": {
@@ -1244,9 +675,9 @@
       }
     },
     {
-      "title": "LG TO SUPPLY INTEGRATED COCKPIT SOLUTION FOR RENAULT GROUP'S FIRST COMMERCIAL SDV",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342108",
-      "source": "KIPOST",
+      "title": "ACCESS GRANTED – Unlocking Building Safety and Security Controls with Audio",
+      "url": "https://www.eetimes.com/access-granted-unlocking-building-safety-and-security-controls-with-audio/",
+      "source": "EETimes",
       "score": 0.0,
       "score_detail": {
         "buckets": {
@@ -1269,34 +700,9 @@
       }
     },
     {
-      "title": "한국레노버, 홀트아동복지회에 5천만원 상당 IT 기기 후원…디지털 격차 해소 지원",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342113",
-      "source": "KIPOST",
-      "score": 0.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Fortune Most Powerful Women Asia 2026 Reveals Shifting Landscape of Business Power as Technology and Finance Lead",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342095",
-      "source": "KIPOST",
+      "title": "Electric Car Makers Need to Appeal to the ‘Other 90%’",
+      "url": "https://www.eetimes.com/electric-car-makers-need-to-appeal-to-the-other-90/",
+      "source": "EETimes",
       "score": 0.0,
       "score_detail": {
         "buckets": {
