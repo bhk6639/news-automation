@@ -3,3 +3,4 @@ requests
 googlenewsdecoder
 trafilatura
 lxml
+selectolax<1.0  # googlenewsdecoder 0.2.1이 selectolax.parser(Modest) 사용, 1.0에서 제거됨
