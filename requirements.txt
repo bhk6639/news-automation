@@ -1,6 +1,6 @@
 feedparser
 requests
-googlenewsdecoder
+googlenewsdecoder==0.1.7  # 0.2.1(9/20 배포)부터 디코딩 전부 실패 → 9/22~ Google News 기사 전량 누락
 trafilatura
 lxml
-selectolax<1.0  # googlenewsdecoder 0.2.1이 selectolax.parser(Modest) 사용, 1.0에서 제거됨
+selectolax<1.0  # googlenewsdecoder가 selectolax.parser(Modest) 사용, 1.0에서 제거됨
