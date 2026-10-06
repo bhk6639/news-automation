@@ -5,16 +5,16 @@
   "backfill": {
     "window_start": "2026-10-03T03:00:00+09:00",
     "window_end": "2026-10-04T03:00:00+09:00",
-    "run_at": "2026-10-07T01:46:33.193394+09:00"
+    "run_at": "2026-10-07T02:04:49.064622+09:00"
   },
   "stats": {
-    "collected_total": 1084,
-    "after_resolve": 2,
-    "after_time_filter": 2,
-    "after_dedup": 2,
-    "after_score_filter": 1,
-    "extracted_success": 1,
-    "extracted_failed": 0
+    "collected_total": 1158,
+    "after_resolve": 157,
+    "after_time_filter": 157,
+    "after_dedup": 157,
+    "after_score_filter": 15,
+    "extracted_success": 14,
+    "extracted_failed": 1
   },
   "keywords_snapshot": {
     "critical": [
@@ -318,82 +318,1246 @@
   },
   "items": [
     {
-      "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입",
+      "title": "ASML Stocks Surge 3.5% as Samsung Pulls High-NA Into DRAM - TradingView",
       "date": "2026-10-03",
-      "source": "THELEC_반도체",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=63219",
-      "summary": "삼성전자가 스마트폰 갤럭시S27 시리즈의 두뇌인 엑시노스 2700 양산을 시작했다. 생산 물량은 전작보다 10% 늘어난 것으로 파악됐다.2일 업계에 따르면 삼성전자는 최근 자체 애플리케이션 프로세서(AP) 엑시노스 2700의 전공정(파운드리) 양산라인을 가동했다. 생산량은 지난해 엑시노스 2600 대비 10% 이상 늘었다. 엑시노스 칩셋을 탑재하는 갤럭시 S27 시리즈 모델이 추가됐기 때문이다.반도체 업계 관계자는 \"지난달까지 모바일경험(MX) 사업부에서 엑시노스 2700의 탑재 비율을 정하지 못했으나, 현재는 갤럭시S27 기본·플",
-      "body": "삼성전자가 스마트폰 갤럭시S27 시리즈의 두뇌인 엑시노스 2700 양산을 시작했다. 생산 물량은 전작보다 10% 늘어난 것으로 파악됐다.\n2일 업계에 따르면 삼성전자는 최근 자체 애플리케이션 프로세서(AP) 엑시노스 2700의 전공정(파운드리) 양산라인을 가동했다. 생산량은 지난해 엑시노스 2600 대비 10% 이상 늘었다. 엑시노스 칩셋을 탑재하는 갤럭시 S27 시리즈 모델이 추가됐기 때문이다.\n반도체 업계 관계자는 \"지난달까지 모바일경험(MX) 사업부에서 엑시노스 2700의 탑재 비율을 정하지 못했으나, 현재는 갤럭시S27 기본·플러스·프로 모델에 탑재할 물량까지 정하고 전공정(웨이퍼) 양산에 돌입했다\"고 전했다. 소량 샘플 생산 단계를 넘어섰다는 뜻이다.\n삼성전자는 전공정을 마친 소자(디바이스) 웨이퍼와 최종 테스트는 외주 반도체패키지테스트(OSAT:Outsourced Semiconductor Assembly and Test) 업체에 맡긴다. 이후 패키징은 다시 자체적으로 수행한다. 통상 전공정 공장에 웨이퍼가 투입되면 최종 완제품까지 3~4개월이 소요된다.\n내년 출시될 삼성전자 갤럭시S27 시리즈에는 '프로' 모델이 추가된다. 기존에는 기본형과 플러스",
-      "score": 2.14,
-      "score_raw": 6.0,
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/news/gurufocus:e27ab295f094b:0-asml-stocks-surge-3-5-as-samsung-pulls-high-na-into-dram/",
+      "summary": "ASML Stocks Surge 3.5% as Samsung Pulls High-NA Into DRAM TradingView",
+      "body": "ASML Stocks Surge 3.5% as Samsung Pulls High-NA Into DRAM\nASML Holding ASML, the semiconductor-lithography equipment leader, deepened its Samsung (SSNLF) partnership around High-NA EUV and larger photomasks, while U.S. shares climbed approximately 3.5% to $1,870.48 at about 12:20 a.m. ET Friday. The September 8 agreement gives investors another reason to watch memory-chip manufacturing as a market for ASML's most advanced machines. The opportunity is bigger. The revenue still needs to follow.\nSamsung plans to bring High-NA EUV into high-volume DRAM production by 2028 and help develop a 12-inch photomask platform. ASML expects the larger format to lift manufacturing productivity, lower chipmaking costs and eliminate stitching constraints. For investors, the attraction is straightforward: adoption in memory could broaden demand for technology already aimed at leading-edge logic chips.\nThe valuation leaves little room for delays: the picture shows shares trading 47.7% above the roughly $1",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "ASML",
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "high-NA"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "ASML",
+          "DRAM",
+          "high-NA"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "ASML",
+          "DRAM",
+          "high-NA"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“메모리, 누가 고점이래? 소부장은 이제 시작”…AI가 투자 판도 바꾼다 [여의도란도란] - 매일경제 마켓",
+      "date": "2026-10-03",
+      "source": "매일경제 마켓",
+      "url": "https://stock.mk.co.kr/news/view/1169392",
+      "summary": "“메모리, 누가 고점이래? 소부장은 이제 시작”…AI가 투자 판도 바꾼다 [여의도란도란] 매일경제 마켓",
+      "body": "“메모리, 누가 고점이래? 소부장은 이제 시작”…AI가 투자 판도 바꾼다 [여의도란도란]\n입력 : 2026.10.03 09:32:26\n“삼성전자·SK하이닉스도 더 가고, 소부장도 더 간다”\n인공지능(AI) 발전 속도가 빨라지고 있다. AI가 학습에서 추론, 에이전트로 진화할수록 메모리 사용량이 늘어날 뿐 아니라 더 비싸고 만들기 어려운 고부가 제품 수요도 커진다. 메모리 반도체에서 물량 증가와 고부가화가 동시에 나타나고 있는 셈이다.\n그 가운데 국내 반도체 소재·부품·장비(소부장) 기업들은 메모리 업황 변화의 수혜를 누리는 ‘전성시대’의 초입에 들어섰다.\nPLUS AI반도체소부장액티브 상장지수펀드(ETF)를 운용하고 있는 김서영 한화자산운용 부장은 최근 매일경제와 만나 메모리 고점론을 일축하며 “소부장 기업들은 오히려 공급 호황을 맞았다”고 전했다.\n이어 김 부장은 AI가 소부장 기업들의 전통 수혜 공식도 바꾸고 있다고 진단했다.\n현재까지는 노광·식각·증착 등 전공정 장비 기업이 먼저 수혜를 받고 부품, 소재 기업이 뒤따르는 흐름이 일반적이었다.\n하지만 AI 반도체가 고용량·고성능화되면서 패키징과 테스트 등 후공정의 중요성이 커지고 있다는 것이다. 이들의 실",
+      "score": 5.89,
+      "score_raw": 16.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "소부장"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "소부장",
+          "투자"
+        ],
+        "summary_hits": [
+          "메모리",
+          "소부장",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트 - 지디넷코리아",
+      "date": "2026-10-03",
+      "source": "지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20261002134906",
+      "summary": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트 지디넷코리아",
+      "body": "미국 메모리 반도체 기업 마이크론 테크놀로지가 글로벌 D램 시장에서 2위 SK하이닉스를 점유율 1%포인트 차이로 추격했다. 인공지능(AI) 데이터센터용 메모리 수요가 급증하면서 매출이 빠르게 늘었고, 사상 최대 분기 실적을 기록하며 D램 2위 다툼이 본격화됐다.\n3일 시장조사업체 카운터포인트에 따르면 글로벌 D램 시장에서 마이크론은 매출 점유율 24%로 3위를 기록했다. 2위 SK하이닉스 점유율은 25%였다. 두 업체 점유율 격차는 1%포인트였다.\n삼성전자는 38%로 1위를 지켰다. 중국 창신메모리테크놀로지(CXMT)는 10%로 전년 동기(4%)보다 점유율을 2배 이상 높였다.\n마이크론의 추격은 2분기 속도가 붙었다. 카운터포인트는 \"마이크론의 2분기 D램 매출이 전년 동기보다 5배 늘었고, SK하이닉스와 격차를 좁혔다\"고 설명했다.\n마이크론은 최근 발표한 2026회계연도 4분기(6~8월) 실적에서 매출 542억 3000만 달러(약 73조 3400억원)를 기록하며 사상 최대 분기 실적을 올렸다. 이는 전년 동기 대비 379% 뛰었다.\n사업별로 데이터센터 부문 매출이 180억 달러(약 24조 3400억원)로 전 분기 대비 56% 증가했다. 전체 매출 대비 33",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론, SK하이닉스 턱밑까지 왔다…D램 점유율 격차 줄어든 배경은? - 뉴시스",
+      "date": "2026-10-03",
+      "source": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261002_0003812729",
+      "summary": "마이크론, SK하이닉스 턱밑까지 왔다…D램 점유율 격차 줄어든 배경은? 뉴시스",
+      "body": "마이크론, SK하이닉스 턱밑까지 왔다…D램 점유율 격차 줄어든 배경은?\n마이크론 D램 점유율 24%…닉스와 '1%p' 차이\n범용 D램 가격 상승 효과…\"마이크론 수혜 더 커\"\nD램 가격 추이·HBM4 공급 향방이 시장 좌우\n양사 간 D램 점유율 격차가 크게 줄면서 시장 지형에 변화가 올 지 주목되고 있다.\n인공지능(AI) 확산 속 범용 D램 가격 상승 폭이 고대역폭메모리(HBM)보다 커진 상황에서 상대적으로 D램 비중이 높은 마이크론이 수혜를 본 것이라는 분석이 나온다.\n3일 시장조사업체 카운터포인트리서치에 따르면 올해 2분기 D램 매출 기준 마이크론의 시장 점유율은 24%로 전분기(22%) 대비 2%포인트(p) 상승했다.\n반면 같은 기간 SK하이닉스의 점유율은 29%에서 25%로 하락했다.\n이로써 양사 간 점유율 격차는 7%p에서 1%p로 대폭 줄어들게 됐다.\n그동안 글로벌 D램 시장은 삼성전자 1위, SK하이닉스 2위, 마이크론 3위 구도가 장기간 이어져 왔다.\nSK하이닉스와 마이크론의 점유율 격차는 10%p 안팎으로 뚜렷했다.\n하지만 최근 마이크론의 성장세가 두드러지면서 이 같은 시장 구도에도 변화가 올 수 있다는 관측이 제기된다.\n현재 격차가 1%p에",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론, 2분기 D램 점유율 24%…SK하이닉스와 1%P 차이 삼성전자 38% 선두 유지… : 기업·산업 - 재경일보",
+      "date": "2026-10-03",
+      "source": "재경일보",
+      "url": "https://news.jkn.co.kr/post/1006240",
+      "summary": "마이크론, 2분기 D램 점유율 24%…SK하이닉스와 1%P 차이 삼성전자 38% 선두 유지… : 기업·산업 재경일보",
+      "body": "마이크론, SK하이닉스와 1%P 차이\n올해 2분기 글로벌 D램 시장에서 마이크론의 약진이 두드러졌다. 카운터포인트리서치 집계 결과 매출 기준 점유율은 삼성전자 38%, SK하이닉스 25%, 마이크론 24%로 나타났다. SK하이닉스와 마이크론의 격차는 1%포인트에 불과했다. 직전 분기와 비교하면 SK하이닉스의 점유율은 29%에서 25%로 4%포인트 낮아졌고, 마이크론은 22%에서 24%로 2%포인트 높아졌다. 삼성전자는 38%를 유지하며 3분기 연속 1위에 올랐다. 이번 수치는 D램 매출을 기준으로 한 것으로, 제품 가격과 고대역폭메모리(HBM) 등 고부가 제품 비중에 따라 출하량 기준 점유율과는 차이가 날 수 있다.\n사상 최대 실적 낸 마이크론\n마이크론의 시장 추격은 실적 개선과 맞물렸다. 마이크론은 최근 발표한 2026 회계연도 4분기(6~8월) 실적에서 매출 542억3천만달러를 기록하며 분기 기준 사상 최대 실적을 냈다. 매출총이익률도 86.8%로 직전 분기의 84.6%보다 2%포인트 넘게 상승했다. 카운터포인트리서치는 마이크론의 2분기 D램 매출이 전년 동기보다 5배 증가하면서 SK하이닉스와의 격차를 줄였다고 분석했다. AI 데이터센터용 메모리 수요와 ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "마이크론",
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "마이크론",
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론 '깜짝 실적'에 반도체株 들썩…삼전닉스 外 주목할 소부장은?[종목e슈] - 이데일리",
+      "date": "2026-10-03",
+      "source": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01807286645609312&mediaCodeNo=257",
+      "summary": "마이크론 '깜짝 실적'에 반도체株 들썩…삼전닉스 外 주목할 소부장은?[종목e슈] 이데일리",
+      "body": "3일 금융투자업계에 따르면 삼성전자(005930)는 지난 2일 정규장에서 27만6000원에 거래를 마쳤다. 전날 2.79% 상승한 데 이어 이날은 보합으로 마감했다. SK하이닉스(000660)는 2일 0.44% 오른 184만1000원에 장을 마쳤다. 지난 1일 3.21% 상승한 데 이어 오름세를 이어가면서 이틀간 누적 상승률은 3.66%를 기록했다.\n반면 일부 종목에서는 단기 급등에 따른 차익실현 움직임도 나타났다. 유진테크(084370)는 1일 10.92% 급등했지만 2일에는 4.90% 하락했고, 원익IPS(240810)도 같은 기간 9.13% 상승한 뒤 3.69% 내렸다. 피에스케이홀딩스(031980)와 파크시스템스(140860) 역시 1일 각각 8.62%, 9.11% 올랐으나 2일에는 소폭 하락했다. 반도체 업종 전반에 기대감이 확산된 가운데 종목별 주가 흐름은 차별화되는 모습이다.\n반도체주에 불을 붙인 것은 지난달 30일(현지시간) 발표된 마이크론의 2026회계연도 4분기 실적이다. 마이크론의 분기 매출은 전년 동기 대비 379% 증가한 542억3000만달러로 사상 최고치를 기록했다. 시장 예상치인 510억달러 수준을 웃도는 실적이다. 조정 주당순이익",
+      "score": 4.82,
+      "score_raw": 13.5,
       "score_detail": {
         "buckets": {
           "entity": 5,
           "product": 0.0,
-          "tech": 0.0,
-          "event": 5,
+          "tech": 5.0,
+          "event": 0.0,
           "domain": 2
         },
         "bucket_hits": {
           "entity": [
+            "마이크론",
             "삼성전자"
           ],
           "product": [],
-          "tech": [],
-          "event": [
-            "양산"
+          "tech": [
+            "소부장"
           ],
+          "event": [],
           "domain": [
-            "공정",
-            "반도체",
-            "파운드리"
+            "반도체"
           ]
         },
         "title_hits": [
           "삼성전자",
-          "양산"
+          "마이크론",
+          "소부장",
+          "반도체"
         ],
         "summary_hits": [
           "삼성전자",
-          "양산",
-          "반도체",
-          "공정",
-          "파운드리"
+          "마이크론",
+          "소부장",
+          "반도체"
         ],
-        "negative_hits": [
-          "갤럭시",
-          "스마트폰",
-          "모바일경험"
-        ]
+        "negative_hits": []
       }
-    }
-  ],
-  "dropped_below_threshold": [
+    },
     {
-      "title": "중국 최초의 현대식 대학, 131주년의 탁월함 기념",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342066",
-      "source": "KIPOST",
-      "score": 0.0,
+      "title": "금속유기화학기상증착 전구체 시장 2035년 전망: GaN·InP 에피택시 수요가 성장 견인 - IndexBox",
+      "date": "2026-10-03",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/metal-organic-cvd-precursors-market-forecast-to-2035-gan-and-inp-epitaxy-demand-drives-growth/",
+      "summary": "금속유기화학기상증착 전구체 시장 2035년 전망: GaN·InP 에피택시 수요가 성장 견인 IndexBox",
+      "body": "글로벌 금속유기화학기상증착 전구체 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\n금속유기화학기상증착 전구체 시장 2035년 전망: GaN·InP 에피택시 수요가 성장 견인\n개요\n글로벌 시장 조사기관 인덱스박스(IndexBox)의 최신 보고서에 따르면, 글로벌 금속유기화학기상증착 전구체 시장은 2026년을 맞아 한층 폭넓어진 수요 기반과 보다 규율 있는 조달 행태, 그리고 지역적으로 더욱 다변화된 공급 구조를 갖추게 되었습니다.\n글로벌 금속유기화학기상증착 전구체 시장은 전력전자, RF 프런트엔드, 광소자 분야에서 III-V 화합물 반도체 수요가 빠르게 늘어나면서 2035년까지 견조한 성장세를 이어갈 것으로 전망됩니다. 트라이메틸갈륨, 트라이에틸갈륨, 트라이메틸인듐, 트라이메틸알루미늄을 중심으로 한 이들 고순도 유기금속 화합물은 GaN, GaAs, InP 소자 제조의 대표적 에피택시 공정인 금속유기화학기상증착(MOCVD)에 쓰이는 핵심 기체 금속 공급원입니다",
+      "score": 4.64,
+      "score_raw": 13.0,
       "score_detail": {
         "buckets": {
           "entity": 0.0,
           "product": 0.0,
-          "tech": 0.0,
+          "tech": 10,
           "event": 0.0,
           "domain": 0.0
         },
         "bucket_hits": {
           "entity": [],
           "product": [],
+          "tech": [
+            "GaN",
+            "에피택시",
+            "전구체",
+            "증착"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "전구체",
+          "증착",
+          "GaN",
+          "에피택시"
+        ],
+        "summary_hits": [
+          "전구체",
+          "증착",
+          "GaN",
+          "에피택시"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "메모리 반도체 값 '나비 효과'···삼성 '갤럭시'도 천정부지 - 뉴스웨이",
+      "date": "2026-10-03",
+      "source": "뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026100215285821280",
+      "summary": "메모리 반도체 값 '나비 효과'···삼성 '갤럭시'도 천정부지 뉴스웨이",
+      "body": "삼성, 갤럭시S26 15만~27만원 인상갤럭시S27 시리즈 가격도 큰 폭 인상 전망애플 등 주요 제조사도 '칩플레이션' 직격탄\n'칩플레이션'이 장기화하면서 스마트폰 가격도 빠르게 오르고 있다. 가격 인상에 상대적으로 보수적인 태도를 보여온 삼성전자까지 기존 모델과 신제품 가격을 잇따라 올리는 모습이다. 메모리 반도체 가격 급등세가 이어지면서 내년 초 공개될 갤럭시S27 시리즈 역시 전작보다 큰 폭의 가격 인상이 불가피할 것이라는 전망이 나온다.\n3일 업계에 따르면 삼성전자는 지난 1일부터 갤럭시S26의 국내 출고가를 일제히 인상했다. 256GB 기준 일반 모델은 125만4000원에서 140만3600원으로, 플러스 모델은 145만2000원에서 160만1600원으로 각각 14만9600원 올랐다.\n최고급 모델인 울트라도 256GB 기준 179만7400원에서 194만7000원으로 같은 폭 인상됐다. 저장 용량이 커질수록 가격 인상 폭도 확대됐다. 울트라 1TB 모델은 약 27만원 오른 282만1500원으로 조정됐다.\n삼성전자가 출시된 지 얼마 지나지 않은 기존 스마트폰의 가격을 순차적으로 올리는 것은 이례적이다. 메모리 반도체 가격이 급등하면서 스마트폰 제조 원가 ",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "메모리",
+          "반도체"
+        ],
+        "negative_hits": [
+          "갤럭시"
+        ]
+      }
+    },
+    {
+      "title": "거세지는 中 범용칩 공세…삼전·닉스, '차세대 HBM'으로 격차 벌린다[초격차 코리아①] - 뉴시스",
+      "date": "2026-10-03",
+      "source": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261002_0003812872",
+      "summary": "거세지는 中 범용칩 공세…삼전·닉스, '차세대 HBM'으로 격차 벌린다[초격차 코리아①] 뉴시스",
+      "body": "거세지는 中 범용칩 공세…삼전·닉스, '차세대 HBM'으로 격차 벌린다[초격차 코리아①]\n中 CXMT 점유율 10%…\"범용 D램 공급 확대\"\n삼전·닉스, HBM4 등 차세대 칩 개발·양산 속도\n\"韓-中, 고성능 칩은 여전히 격차 있어\"\n\"장비 대체 기술·소부장 생태계 구축 예의주시해야\"\n대한민국 주력 산업이 초격차 기술을 앞세워 글로벌 시장 주도권을 지키기 위한 경쟁을 이어가고 있다. 반도체·자동차·배터리부터 철강·석유화학까지 중국 등 후발 주자의 저가 공세와 글로벌 공급망 재편에 맞서 경쟁력 강화에 나서는 국내 기업의 현주소를 짚어본다.\n[서울=뉴시스]이지용 기자 = 중국 반도체 기업들이 상대적으로 기술 장벽이 낮은 범용 메모리의 공급을 늘리면서 삼성전자와 SK하이닉스를 빠르게 추격하고 있다.\n하지만 고성능 맞춤형 제품인 '고대역폭메모리(HBM)'에서는 국내 기업들과의 격차가 여전히 상당한 것으로 분석된다.\n삼성전자와 SK하이닉스는 올해 6세대 'HBM4' 양산에 이어 7세대 'HBM4E', 8세대 'HBM5' 개발에 나서고 있는데, 차세대 제품을 앞세워 주도권을 지킬 수 있을 지 주목된다.\n3일 업계에 따르면 중국 1위 D램 기업 창신메모리(CXMT)의 ",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
           "tech": [],
           "event": [],
           "domain": []
         },
-        "title_hits": [],
-        "summary_hits": [],
+        "title_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“HBM 품귀 2028년까지 간다”…마이크론이 쏘아올린 ‘메모리 슈퍼사이클’ - 월요신문",
+      "date": "2026-10-03",
+      "source": "월요신문",
+      "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=318622",
+      "summary": "“HBM 품귀 2028년까지 간다”…마이크론이 쏘아올린 ‘메모리 슈퍼사이클’ 월요신문",
+      "body": "인공지능(AI) 데이터센터발 메모리 반도체 공급 부족이 2028년까지 이어질 가능성이 커지고 있다. 고대역폭메모리(HBM) 수요 급증이 최첨단 D램 생산능력을 빨아들이면서 서버용은 물론 PC·모바일 등에 사용되는 범용 D램까지 공급이 부족해지는 구조가 굳어지고 있어서다.\n특히 세계 3위 메모리 업체인 미국 마이크론이 2027년과 2028년의 수급 상황이 올해보다 오히려 더 빠듯해질 것이라는 전망을 내놓으면서 메모리 업황의 장기 호황, 이른바 ‘슈퍼사이클’ 기대에 다시 힘이 실리고 있다.\n3일 업계에 따르면 마이크론은 최근 발표한 2026회계연도 4분기 실적에서 매출 542억2900만달러를 기록했다. 전년 동기 113억1500만달러보다 약 4.8배 늘어난 사상 최대 수준이다. 조정 주당순이익(EPS)은 33.42달러였다. 이어 2027회계연도 1분기 매출 전망치로 615억달러(±15억달러)를 제시해 월가 전망치 약 570억달러도 크게 웃돌았다.\n실적보다 시장의 관심을 끈 것은 마이크론의 수급 전망이다. 산제이 메로트라 마이크론 최고경영자(CEO)는 실적 발표에서 “2027년과 2028년 메모리 및 스토리지 수급 상황은 2026년보다 훨씬 더 타이트해질 것”이라",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "마이크론",
+          "HBM",
+          "메모리"
+        ],
+        "summary_hits": [
+          "마이크론",
+          "HBM",
+          "메모리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성 독주 속 요동치는 D램…마이크론, 2위 '위협' 격돌 양상은? - 파이낸셜포스트",
+      "date": "2026-10-03",
+      "source": "파이낸셜포스트",
+      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=278658",
+      "summary": "삼성 독주 속 요동치는 D램…마이크론, 2위 '위협' 격돌 양상은? 파이낸셜포스트",
+      "body": "카운터포인트 조사…삼성 38%·SK 25%·마이크론 24%\nSK하이닉스·마이크론 1%P 차 살얼음판…다음 분기 격돌\n중국정부 지원 업은 CXMT, 범용시장 장악…영향력 확대\nAI·서버발 공급 부족…글로벌 메모리업계 장기호황 국면\n글로벌 D램 시장에서 삼성전자가 3분기 연속 독주 체제를 이어간 가운데 미국 마이크론이 2위 SK하이닉스를 1%포인트 차이로 맹추격했다. 중국 창신메모리테크놀로지(CXMT)도 사상 처음으로 두 자릿수 점유율에 진입하며 기존 '메모리 빅3' 구도를 위협하고 있다.\n지난 2일 시장조사업체 카운터포인트리서치에 따르면, 올해 2분기 글로벌 D램 시장(매출 기준) 점유율은 삼성전자가 38%로 1위를 기록했다.\n삼성전자는 지난해 4분기부터 3분기 연속 1위를 지켰으며 이전 분기 점유율(38%)과 동일한 수준을 유지했다. 범용 D램 수요 회복과 가격 상승 수혜를 입은 데다 고대역폭메모리(HBM) 분야에서도 공급을 확대한 영향으로 풀이된다. 업계에서는 3분기에도 메모리 가격의 추가 상승이 예상되면서 삼성전자의 실적이 더욱 개선될 것으로 내다봤다.\n2위와 3위 싸움은 격차가 1%포인트로 좁혀지며 살얼음판 승부로 치달았다. SK하이닉스가 점유율 25%",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "마이크론",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "마이크론",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론, SK하이닉스 턱밑 추격…D램 2위 경쟁 ‘초접전’ - 뉴스토마토",
+      "date": "2026-10-03",
+      "source": "뉴스토마토",
+      "url": "https://www.newstomato.com/readnews.aspx?no=1315617",
+      "summary": "마이크론, SK하이닉스 턱밑 추격…D램 2위 경쟁 ‘초접전’ 뉴스토마토",
+      "body": "[뉴스토마토 박창욱 기자] 글로벌 D램 시장 3위인 미국 마이크론이 2위 SK하이닉스를 턱밑까지 추격했습니다. 인공지능(AI) 확산으로 범용 D램 가격이 크게 오르면서 상대적으로 범용 D램 비중이 높은 마이크론이 수혜를 입은 것으로 분석됩니다.\n2026년 2분기 글로벌 D램 시장 점유율.(사진=카운터리서치)\n3일 시장조사업체 카운터포인트리서치에 따르면 올해 2분기 매출 기준 마이크론의 글로벌 D램 시장 점유율은 24%로 전분기 22%보다 2%포인트(p) 상승했습니다. 반면 같은 기간 SK하이닉스의 점유율은 29%에서 25%로 4%p 하락했습니다.\n이에 따라 양사의 점유율 격차는 1분기 7%p에서 2분기 1%p까지 좁혀졌습니다. 그동안 글로벌 D램 시장은 삼성전자가 1위, SK하이닉스가 2위, 마이크론이 3위를 차지하는 구도가 장기간 이어져 왔습니다.\n업계에서는 범용 D램 가격 상승이 양사의 점유율 격차 축소에 영향을 미친 것으로 보고 있습니다. 빅테크의 AI 데이터센터 투자가 확대되면서 서버용 D램을 비롯한 범용 제품 수요가 늘어난 데다 공급 부족까지 겹치면서 가격이 빠르게 상승하고 있기 때문입니다.\n특히 최근에는 범용 D램의 가격 상승 폭이 고대역폭메모리(",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "마이크론",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자 3분기 영업익 108조 전망…HBM이 실적 끌어올린다 - 핀포인트뉴스",
+      "date": "2026-10-04",
+      "source": "핀포인트뉴스",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492475",
+      "summary": "삼성전자 3분기 영업익 108조 전망…HBM이 실적 끌어올린다 핀포인트뉴스",
+      "body": "삼성전자가 메모리 반도체 호조에 힘입어 올해 3분기에도 견조한 실적을 이어갈 것으로 전망됐다.\n하나증권은 최근 보고서에서 환율 가정을 낮추면서 실적 추정치를 일부 조정했지만 HBM을 중심으로 한 메모리 출하 증가가 전체 실적을 뒷받침할 것 이라고 밝혔다.\n삼성전자의 3분기 매출액은 196조원으로 전년 동기 대비 127%, 전분기 대비 14% 증가할 것으로 전망됐다. 영업이익은 108조원으로 전년 동기보다 788%, 전분기보다 21% 늘어날 것으로 예상됐다.\n당초 전망보다 실적 추정치가 낮아진 것은 원·달러 환율 가정이 조정된 영향이다. 하나증권은 기존 1500원으로 적용했던 원·달러 환율 가정을 1415원으로 낮췄다. 환율 변수로 추정치를 조정했지만 반도체 사업을 중심으로 한 실적 개선 흐름 자체는 견조할 것으로 분석했다.\n핵심은 메모리 사업이다. 메모리 부문의 3분기 영업이익은 110조원에 달할 것으로 추정됐다. 전사 영업이익 전망치보다 메모리 사업의 영업이익이 더 큰 수준이다. 메모리 가격 상승과 HBM 중심의 출하 증가가 실적 개선을 이끌 것으로 예상된다.\nDRAM과 NAND 가격도 우호적인 흐름을 보일 것으로 전망됐다. 3분기 DRAM 가격은 전분기보",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Micron closes in on SK Hynix for No. 2 spot in global DRAM market - KED Global",
+      "date": "2026-10-03",
+      "source": "KED Global",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202610020004",
+      "summary": "Micron closes in on SK Hynix for No. 2 spot in global DRAM market KED Global",
+      "body": "SK Hynix clears $38 billion for new DRAM, NAND fabs\nConstruction underway at the Yongin Semiconductor Cluster as of June 29, 2026 (Courtesy of Yonhap) SK Hynix Inc.'s board on Friday approved 54.3 trillion won ($38 billion) in spending to build two new memory fabs, as the chipmaker accelerates capacity expansion to meet surging demand.Of the tot",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Micron",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "Micron",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "Micron",
+          "DRAM"
+        ],
         "negative_hits": []
       }
     }
   ],
-  "extract_failed": []
+  "dropped_below_threshold": [
+    {
+      "title": "Intel will raise PC chip prices 10% again on October 5, its third hike this year - Startup Fortune",
+      "url": "https://startupfortune.com/intel-will-raise-pc-chip-prices-10-again-on-october-5-its-third-hike-this-year/",
+      "source": "Startup Fortune",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Intel Stock Forecast: Why Microsoft's 18A Order Could Be a Turning Point for INTC: Could Apple Be Next? - TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261963400-intel-stock-forecast-microsoft-18a-orders-are-real-could-apple-be-next-tradingkey",
+      "source": "TradingKey",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Synopsys and OpenAI Partner on AI Model Designed for Chip Development - NewsAffinity",
+      "url": "https://newsaffinity.com/synopsys-and-openai-partner-on-ai-model-designed-for-chip-development/",
+      "source": "NewsAffinity",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "시높시스"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "시높시스"
+        ],
+        "summary_hits": [
+          "시높시스"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"이대로면 다 죽는다\"… 日 파워반도체 3사 통합 난항에 일본 정부 등판 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610031506308870e7e8286d56_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[이인호 시론] 반도체 호황이 안긴 ‘뜻밖의 선물’…곳간부터 채워라 - Daum",
+      "url": "https://v.daum.net/v/20261003130143458",
+      "source": "Daum",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "민형배 시장, 출범 100일 '산업 대전환' 선포...\"반도체 트라이앵글 구축\" - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=312474",
+      "source": "스트레이트뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "나스닥 +1.2%에 반도체 +2.4%, 금리 상승은 어떻게 따로 읽을까요? - 네이버 프리미엄콘텐츠",
+      "url": "https://contents.premium.naver.com/signals/signalnote/contents/261003064744630bc",
+      "source": "네이버 프리미엄콘텐츠",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄 - 연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261003033300008",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[주간 특산물] 용인의 ‘푸른 반도체’ 청경채… 전국 물량의 74% 생산 - 조선비즈 - Chosunbiz",
+      "url": "https://biz.chosun.com/topics/topics_social/2026/10/03/EUMJ5PL5HJCOPH4VVKVFYLQIL4/",
+      "source": "Chosunbiz",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "나스닥 1%, 美반도체지수 2% 상승…연휴 뒤 韓증시도 따라 웃을까 - 매일경제",
+      "url": "https://www.mk.co.kr/news/stock/12167729",
+      "source": "매일경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용인특례시 이상일 시장, 함평군에 반도체 산단 조성 행정 경험 공유 - 메트로신문",
+      "url": "https://www.metroseoul.co.kr/article/20261003500003",
+      "source": "메트로신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 초격차 이끌 ‘미래’…용인 클러스터 현장 가 보니 - JTBC",
+      "url": "https://news.jtbc.co.kr/video/ND10773411",
+      "source": "JTBC",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이상일 용인시장, 69만평 반도체 신도시 속도…“보상·이주 원활하게 챙길 것” - 필드뉴스",
+      "url": "http://www.fieldnews.kr/news/articleView.html?idxno=31989",
+      "source": "필드뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "'환경' 덜어낸 SK에코플랜트, 가벼워진 몸으로 반도체·AI 박차 - 미디어펜",
+      "url": "https://www.mediapen.com/news/view/1127681",
+      "source": "미디어펜",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "민형배 전남광주통합특별시장, 통합 100일 맞아 ‘반도체 트라이앵글’ 산업전략 제시 - 뉴데일리",
+      "url": "https://gj.newdaily.co.kr/site/data/html/2026/10/03/2026100300019.amp.html",
+      "source": "뉴데일리",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "충북, 첨단반도체기술융합관 개소... 185억 들인 반도체 지원시설 청주서 문열어 - 센트럴경제",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=106869",
+      "source": "센트럴경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 머니 업은 분당 제치고… 과천, 경기도 최고가 아파트 복귀 - 경인일보",
+      "url": "https://www.kyeongin.com/article/1771933",
+      "source": "경인일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "대기업은 반도체, 중소기업은?…수출 성적표 뜯어보니 - 이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2631910",
+      "source": "이투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용인시, 일본 구마모토시와 반도체·청소년 교류 확대 논의 - 동방일보",
+      "url": "https://www.dongbangilbo.co.kr/news/articleView.html?idxno=107738",
+      "source": "동방일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용인 반도체클러스터 공사 한창인데 \"방이 없어요\"…배후 주거지 '속도전' - Daum",
+      "url": "https://v.daum.net/v/20261003201700350",
+      "source": "Daum",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": [
+    {
+      "title": "Next Gen PSP 3 to feature 3nm TSMC N3P chip for power efficiency and slim design - GameGPU",
+      "url": "https://en.gamegpu.com/news/zhelezo/next-gen-psp-3-poluchit-3-nm-chip-tsmc-n3p-radi-energoeffektivnosti-i-slim-korpusa",
+      "source": "GameGPU",
+      "score": 18.0,
+      "reason": "fetch_fail"
+    }
+  ]
 }
