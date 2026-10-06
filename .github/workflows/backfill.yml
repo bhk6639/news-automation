@@ -1,0 +1,56 @@
+name: Backfill News (manual)
+
+# 누락일 수동 백필. 날짜별 job을 병렬 실행 → 결과 JSON을 모아 한 번에 커밋.
+# latest.json은 건드리지 않음 (정기 데일리 루틴 입력 보호).
+on:
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: '백필 날짜 JSON 배열 (KST 정기 실행일 = 파일명). 예: ["2026-10-04","2026-10-05"]'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        date: ${{ fromJSON(inputs.dates) }}
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-python@v5.5.0
+        with:
+          python-version: "3.13"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+      - run: python backfill.py ${{ matrix.date }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backfill-${{ matrix.date }}
+          path: data/${{ matrix.date }}.json
+
+  commit:
+    needs: backfill
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/download-artifact@v4
+        with:
+          path: _bf
+          pattern: backfill-*
+          merge-multiple: true
+      - name: Commit and push
+        run: |
+          ls _bf || exit 0
+          cp _bf/*.json data/
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "변경 없음, 스킵" || (
+            git commit -m "data: 백필 $(ls _bf | sed 's/.json//' | tr '\n' ' ')"
+            git pull --rebase && git push
+          )
