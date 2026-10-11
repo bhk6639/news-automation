@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T03:11:12.848308+09:00",
+  "generated_at": "2026-10-12T03:07:49.312810+09:00",
   "field": "반도체",
-  "field_date": "2026-10-11",
+  "field_date": "2026-10-12",
   "stats": {
-    "collected_total": 363,
-    "after_resolve": 363,
-    "after_time_filter": 219,
-    "after_dedup": 211,
+    "collected_total": 415,
+    "after_resolve": 415,
+    "after_time_filter": 255,
+    "after_dedup": 254,
     "after_score_filter": 15,
     "extracted_success": 15,
     "extracted_failed": 0
@@ -313,102 +313,59 @@
   },
   "items": [
     {
-      "title": "‘EUV 독점’ ASML, 삼성·SK하이닉스에 부품가격 10% 인상 통보 - 조세일보",
-      "date": "2026-10-10",
-      "source": "조세일보",
-      "url": "https://m.joseilbo.com/news/view.htm?newsid=577118&class2=&class=3",
-      "summary": "‘EUV 독점’ ASML, 삼성·SK하이닉스에 부품가격 10% 인상 통보 조세일보",
-      "body": "소모품부터 렌즈·반사경 등 주요 부품 대상\n2027년 1월 공급분부터 전 제품군 10% 인상\nAMAT·TEL 등 글로벌 장비업계 가격 조정 확산\n글로벌 반도체 노광장비 시장을 주도하는 네덜란드 ASML이 삼성전자와 SK하이닉스에 공급하는 장비 교체용 부품 가격을 일괄적으로 10% 인상한다. 인공지능(AI) 데이터센터 투자 확대에 따른 반도체 설비 증설과 장비 수요 증가가 맞물리면서 반도체 제조사의 비용 부담도 커질 전망이다. \n10일 반도체 전문매체 더일렉에 따르면 ASML 본사는 지난달 초 한국법인을 통해 삼성전자와 SK하이닉스에 부품 가격 인상 방침을 통보했다. 인상률은 10%로 내년 1월 공급분부터 적용될 예정이다.\n과거 원자재 가격 급등이나 특정 소재의 공급 차질이 발생했을 때 일부 부품 가격만 개별 조정하던 것과 달리 이번에는 전 제품군의 가격을 10% 일괄 인상하는 것이어서 이례적이라는 평가가 나온다.\n인상 대상은 ASML이 한국 시장에 공급하는 교체용 부품이다. 정기적으로 교체하는 소모품은 물론 정밀 구동장치와 렌즈·반사경 등 주요 광학계 부품도 포함되는 것으로 알려졌다.\nASML은 실리콘 웨이퍼에 미세한 회로 패턴을 형성하는 노광장비를 생산하는",
-      "score": 6.43,
-      "score_raw": 18.0,
+      "title": "삼성, 베트남에 반도체 투자 약 60억달러...메모리 검사·FC-BGA 확대 - 아세안데일리 뉴스",
+      "date": "2026-10-11",
+      "source": "아세안데일리 뉴스",
+      "url": "https://www.aseandaily.co.kr/news/articleView.html?idxno=1009164",
+      "summary": "삼성, 베트남에 반도체 투자 약 60억달러...메모리 검사·FC-BGA 확대 아세안데일리 뉴스",
+      "body": "계열사 투자액 91억5,000만달러 중 베트남에 약 60억달러 배정...웨이퍼 제조 아닌 검사·기판 생산",
+      "score": 6.07,
+      "score_raw": 17.0,
       "score_detail": {
         "buckets": {
           "entity": 5,
-          "product": 0.0,
-          "tech": 10,
-          "event": 0.0,
-          "domain": 0.0
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
         },
         "bucket_hits": {
           "entity": [
-            "ASML",
-            "삼성전자",
-            "하이닉스"
+            "삼성전자"
           ],
-          "product": [],
-          "tech": [
-            "EUV"
+          "product": [
+            "메모리"
           ],
-          "event": [],
-          "domain": []
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
         },
         "title_hits": [
-          "ASML",
           "삼성전자",
-          "하이닉스",
-          "EUV"
+          "메모리",
+          "투자",
+          "반도체"
         ],
         "summary_hits": [
-          "ASML",
           "삼성전자",
-          "하이닉스",
-          "EUV"
+          "메모리",
+          "투자",
+          "반도체"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "GlobalFoundries Lands $2 Billion TSMC Order, Establishing First US CoWoS Interposer Capacity - BigGo Finance",
-      "date": "2026-10-10",
-      "source": "BigGo Finance",
-      "url": "https://finance.biggo.com/news/9f84ddf4-ee2f-4eff-bb46-e947147917ff",
-      "summary": "GlobalFoundries Lands $2 Billion TSMC Order, Establishing First US CoWoS Interposer Capacity BigGo Finance",
-      "body": "GlobalFoundries Lands $2 Billion TSMC Order, Establishing First US CoWoS Interposer Capacity\nGlobalFoundries, the world's fifth-largest semiconductor foundry, has entered into a multi-year manufacturing agreement with TSMC valued at approximately $2 billion (~13.4 billion yuan) to supply silicon interposers—a critical component in TSMC's CoWoS advanced packaging ecosystem—from its US manufacturing base. This marks the first time such capacity has been established in the United States, signaling that AI chip supply chain localization is extending from wafer fabrication into packaging materials.\nAccording to disclosures from both companies, GlobalFoundries will expand capacity at its Malta, New York facility to provide manufacturing services for TSMC, with supply scope covering components including embedded deep-trench capacitors. Volume production ramp is expected to begin in the first half of 2028, with an initial agreement term of five years and a framework in place for future capacit",
-      "score": 6.43,
-      "score_raw": 18.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 10.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "TSMC",
-            "글로벌파운드리"
-          ],
-          "product": [],
-          "tech": [
-            "CoWoS",
-            "interposer"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "글로벌파운드리",
-          "TSMC",
-          "interposer",
-          "CoWoS"
-        ],
-        "summary_hits": [
-          "글로벌파운드리",
-          "TSMC",
-          "interposer",
-          "CoWoS"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "삼성전자, HBM 중심 후공정 재편…테스트 장비사 수주 ‘온기’ : 네이버 블로그 - Naver Blog",
-      "date": "2026-10-10",
-      "source": "Naver Blog",
-      "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224436905821&redirect=Dlog",
-      "summary": "삼성전자, HBM 중심 후공정 재편…테스트 장비사 수주 ‘온기’ : 네이버 블로그 Naver Blog",
-      "body": "이 블로그의 저작물은 별도\n표시가 없는 한 아래 조건에\n따라 사용 가능합니다\n- 저작자 명시 필수\n- 영리적 사용 불가\n- 내용 변경 불가\n                    1. 이전 주소로 공유된 글은\n3개월간 새로운 주소로 연결을 지원하며\n이후 언제든 연결이 끊길 수 있습니다.\n                \n                    2. 블로그 아이디는 한번 변경하면\n다시 변경이 불가능합니다.\n                \n변경하시겠습니까?\n                    블로그 아이디는 한번 정하면\n                    \n다시 변경이 불가능합니다.\n                \n이 아이디로 블로그를 만들까요?\n나중에 언제든지 변경할 수 있어요.\n선택한 주제의 글과 이웃을 추천받을 수 있어요.\n이웃을 맺으면 이웃새글에서 글을 받아볼 수 있어요.\n안녕하세요.\n이 포스트는 네이버 블로그에서 작성된 게시글입니다.\n자세한 내용을 보려면 링크를 클릭해주세요.\n감사합니다.\n작성하신 게시글에 사용이 제한된 문구가 포함되어 일시적으로 \n등록이 제한됩니다.\n이용자 분들이 홍보성 도배, 스팸 게시물로 불편을 겪지 않도록\n다음과 같은 경우 해당",
+      "title": "ASML, 14일 3분기 실적 발표…AI 반도체 투자 확대 성장 기대 - 더페어",
+      "date": "2026-10-12",
+      "source": "더페어",
+      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90276",
+      "summary": "ASML, 14일 3분기 실적 발표…AI 반도체 투자 확대 성장 기대 더페어",
+      "body": "[더페어] 박진식 기자 = 네덜란드 반도체 장비업체 ASML이 오는 14일 3분기 실적 발표를 앞둔 가운데 인공지능(AI) 반도체 수요 확대와 주요 반도체 제조업체들의 설비투자 증가가 향후 실적 성장으로 이어질지 주목된다.\n10일(현지시간) 미국 금융정보업체 바차트(Barchart)에 따르면 ASML 주가는 최근 52주 동안 약 90% 상승하며 시가총액 7000억 달러를 넘어섰다. 최근 사상 최고치에서 조정을 받고 있지만, AI 반도체 산업의 구조적인 성장에 힘입어 추가 상승 가능성이 있다는 분석이 나온다.\nASML은 반도체 미세공정에 필수적인 극자외선(EUV) 노광장비를 상용 공급하는 유일한 기업이다. 첨단 반도체 제조에 필요한 핵심 장비를 공급하고 있어 글로벌 반도체 기업들의 투자 확대에 따른 수혜가 예상된다.\nASML의 올해 상반기 매출은 181억 유로로 전년 동기 대비 17.5% 증가했다. 회사는 2026년 연간 매출 전망치를 430억~450억 유로로 제시했으며, 매출총이익률은 54~56%로 예상하고 있다.\n연간 매출 전망치의 중간값인 440억 유로를 달성하려면 하반기에 약 259억 유로의 매출을 기록해야 한다. 이는 상반기보다 약 43% 많은 수준으",
       "score": 6.07,
       "score_raw": 17.0,
       "score_detail": {
@@ -421,449 +378,53 @@
         },
         "bucket_hits": {
           "entity": [
-            "삼성전자"
+            "ASML"
           ],
           "product": [
-            "HBM"
+            "AI반도체"
           ],
           "tech": [],
           "event": [
-            "수주"
+            "투자"
           ],
-          "domain": [
-            "공정"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "HBM",
-          "수주",
-          "공정"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "HBM",
-          "수주",
-          "공정"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "[반도체포커스] 中 창신메모리, 연내 '4F²·하이브리드 본딩' 서버 D램 출시 추진 - 이코노미트리뷴",
-      "date": "2026-10-10",
-      "source": "이코노미트리뷴",
-      "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904110",
-      "summary": "[반도체포커스] 中 창신메모리, 연내 '4F²·하이브리드 본딩' 서버 D램 출시 추진 이코노미트리뷴",
-      "body": "중국 최대 D램 제조업체 창신메모리(CXMT)가 올해 안에 차세대 4F²(포에프스퀘어) 셀 구조와 하이브리드 본딩 기술을 적용한 서버용 D램을 출시하겠다는 계획을 공식화했다.\n삼성전자와 SK하이닉스가 이미 서버용 DDR5 시장을 선점한 가운데, 중국 업체가 차세대 D램의 핵심 기술인 셀 구조 혁신과 웨이퍼 접합 기술의 상용화를 동시에 추진하고 있다는 점에서 주목된다.\n특히 삼성전자도 올해 2월 관련 기술을 적용한 시제품을 공개했지만 본격적인 상용화에는 시간이 필요한 것으로 알려진 만큼, 창신메모리의 계획이 현실화될 경우 차세대 D램 제조 기술을 둘러싼 경쟁이 한층 치열해질 전망이다.\n◇ 창신메모리 사장, 연말 4F²·하이브리드 본딩 DDR5 출시 예고\n10일 중국 반도체 전문매체 과창판일보(科创板日报)와 IT즈자(IT之家) 등에 따르면 차오칸위(曹堪宇) 창신메모리 사장은 지난 9일부터 이틀간 열린 제4회 집적칩·칩렛 콘퍼런스에서 4F² D램 아키텍처와 하이브리드 본딩 등 첨단 기술을 결합한 차세대 DDR5 RDIMM 제품을 올해 말 출시할 예정이라고 밝혔다.\nDDR5 RDIMM은 서버에 주로 사용되는 메모리 모듈로, 흔히 서버용 D램으로 불린다. 일반 PC용",
-      "score": 5.98,
-      "score_raw": 16.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 7.5,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM",
-            "메모리"
-          ],
-          "tech": [
-            "하이브리드본딩"
-          ],
-          "event": [],
           "domain": [
             "반도체"
           ]
         },
         "title_hits": [
-          "DRAM",
-          "메모리",
-          "하이브리드본딩",
+          "ASML",
+          "AI반도체",
+          "투자",
           "반도체"
         ],
         "summary_hits": [
-          "DRAM",
-          "메모리",
-          "하이브리드본딩",
+          "ASML",
+          "AI반도체",
+          "투자",
           "반도체"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "티씨케이, 반도체 식각 SiC 포커스링 특허 정정...디에스테크노 상대 분쟁 - 지디넷코리아",
-      "date": "2026-10-10",
-      "source": "지디넷코리아",
-      "url": "https://zdnet.co.kr/view/?no=20261010213456",
-      "summary": "티씨케이, 반도체 식각 SiC 포커스링 특허 정정...디에스테크노 상대 분쟁 지디넷코리아",
-      "body": "반도체 소재·부품업체 티씨케이가 실리콘카바이드(SiC) 포커스링 특허 1건을 정정했다. 일반적으로 특허 무효화 가능성이 있을 때 특허권자는 특허 권리범위를 좁혀 정정한다. SiC 포커스링은 반도체 식각 공정에 사용하는 소모성 부품이다.\n티씨케이는 지난 2019년 디에스테크노를 상대로 서울중앙지방법원에 특허침해소송을 제기했다. 디에스테크노는 대응 차원에서 티씨케이 특허 4건을 상대로 특허심판원에 여러 심판을 청구했다. 특허 3건에 대한 특허성 판단은 끝났고, 나머지 특허 1건 특허성 판단은 진행 중이다.\n10일 업계에 따르면 특허심판원은 지난 7일 티씨케이의 '화학기상증착(CVD) 방식으로 형성된 SiC 구조체' 특허(등록번호 2117888, 아래 '888 특허) 정정 청구를 받아들였다. 일반적으로 특허가 정정되면 권리범위가 좁아지기 때문에 향후 분쟁에서 특허가 살아남을 가능성은 커지지만, 특허 침해를 입증하기는 어려워진다.\n디에스테크노는 티씨케이의 '888 특허가 무효라고 주장하지만, 2025년 7월 특허심판원은 유효라고 판단(심결)했다. 이에 앞서 특허심판원은 2023년 11월 '888 특허는 무효라고 심결했지만, 특허법원이 2024년 10월 해당 심결을 ",
-      "score": 5.36,
-      "score_raw": 15.0,
+      "title": "금속 하드마스크 소재 시장 2035년 전망: EUV·다중 패터닝 수요가 성장 견인 - IndexBox",
+      "date": "2026-10-11",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/metal-hard-mask-materials-market-forecast-to-2035-euv-and-multi-patterning-demand-drives-growth/",
+      "summary": "금속 하드마스크 소재 시장 2035년 전망: EUV·다중 패터닝 수요가 성장 견인 IndexBox",
+      "body": "글로벌 금속 하드마스크 소재 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\n금속 하드마스크 소재 시장 2035년 전망: EUV·다중 패터닝 수요가 성장 견인\n개요\n글로벌 금속 하드마스크 소재 시장에 관한 최신 IndexBox 보고서에 따르면, 시장은 2026년을 맞아 더욱 폭넓은 수요 기반과 규율 있는 조달 행태, 지역적으로 한층 다변화된 공급 구조를 갖추게 되었습니다.\n글로벌 금속 하드마스크 소재 시장은 첨단 반도체 패터닝을 가능하게 하는 핵심 기반으로, 수요는 최선단 로직 및 메모리 소자의 설계·검증 주기와 긴밀하게 연동됩니다. 업계가 EUV 리소그래피와 갈수록 복잡해지는 다중 패터닝 방식으로 전환하면서 하드마스크에 요구되는 성능 기준은 단순한 식각 선택비를 넘어 극도의 균일도, 낮은 결함도, 신규 기판 소재 및 3D 구조와의 호환성까지 포괄하게 되었습니다. 이에 따라 주요 공정 노드 출시와 생산능력 확장에 연동된 변동성 큰 수요 곡선이 형성됩니다.\n",
+      "score": 4.64,
+      "score_raw": 13.0,
       "score_detail": {
         "buckets": {
           "entity": 0.0,
           "product": 0.0,
           "tech": 10,
           "event": 0.0,
-          "domain": 2
+          "domain": 0.0
         },
         "bucket_hits": {
           "entity": [],
-          "product": [],
-          "tech": [
-            "SiC",
-            "식각"
-          ],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "식각",
-          "SiC",
-          "반도체"
-        ],
-        "summary_hits": [
-          "식각",
-          "SiC",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "한화투자 \"삼성전자, 2027년 실적 전망 상향…HBM4가 성장 중심으로 부상\" - 핀포인트뉴스",
-      "date": "2026-10-10",
-      "source": "핀포인트뉴스",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494052",
-      "summary": "한화투자 \"삼성전자, 2027년 실적 전망 상향…HBM4가 성장 중심으로 부상\" 핀포인트뉴스",
-      "body": "삼성전자의 내년 실적 성장 동력이 범용 메모리에서 고대역폭메모리(HBM)로 이동할 것이라는 전망이 나왔다.\n한화투자증권은 최근 보고서에서 삼성전자의 HBM4 판가 상승과 출하량 증가를 근거로 2027년 매출액과 영업이익 전망치를 기존 추정치보다 높여 잡았다고 밝혔다.\n삼성전자의 2027년 연간 매출액을 999조원, 영업이익을 606조원으로 추정했다. 매출액 전망치는 전년 대비 40% 증가한 수준으로 기존 추정치보다 5% 상향됐다. 영업이익은 전년 대비 65% 늘어날 것으로 예상됐으며, 기존 추정치보다 8% 높아졌다. 실적 전망을 높인 핵심 근거는 HBM4의 판매가격 상승과 출하량 확대다.\nHBM은 여러 개의 D램을 수직으로 쌓아 데이터 처리 속도와 대역폭을 높인 메모리 반도체다. 인공지능(AI) 연산에 필요한 대량의 데이터를 빠르게 주고받을 수 있어 AI 가속기와 고성능 컴퓨팅 시스템에 활용된다. AI 모델이 고도화되고 데이터 처리량이 늘어날수록 고성능 메모리의 중요성도 커질 수 있다.\nHBM4는 HBM 제품군의 차세대 규격으로, AI 반도체 성능 향상에 필요한 고대역폭 메모리 수요와 맞물려 주목받고 있다. 고성능 AI 시스템은 연산 능력뿐 아니라 데이터를 ",
-      "score": 5.36,
-      "score_raw": 15.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 5,
-          "tech": 0.0,
-          "event": 5.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [
-            "HBM"
-          ],
-          "tech": [],
-          "event": [
-            "투자"
-          ],
-          "domain": []
-        },
-        "title_hits": [
-          "삼성전자",
-          "HBM",
-          "투자"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "HBM",
-          "투자"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "ASML, 유지보수용 노광장비 부품값 10% 일괄 인상 - 디일렉",
-      "date": "2026-10-10",
-      "source": "디일렉",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=63515",
-      "summary": "ASML, 유지보수용 노광장비 부품값 10% 일괄 인상 디일렉",
-      "body": "세계 최대 반도체 장비 업체 ASML이 국내로 공급하는 교체용 장비 부품 가격을 일괄 10% 인상한다.\n극자외선(EUV)과 심자외선(DUV) 노광장비용 전 부품이 대상이다. 내년 1월 공급분부터 오른 가격이 적용된다.\n10일 업계에 따르면 ASML 본사는 지난달 초 한국법인을 통해 이 같은 인상안을 삼성과 SK에 보냈다. 양사 구매조직과 협의를 거쳐 인상이 확정됐다.\n정기적으로 구매하는 소모성 부품부터 고장이나 성능 저하에 따라 교체하는 주요 구성품까지 가격이 오른다. 노광장비에는 빛을 전달하는 렌즈와 반사경 등 광학계 부품과 광원, 정밀 구동장치 등 수많은 부품이 들어간다. 장비를 계속 가동하는 데 드는 비용이 오르게 된 것이다.\nASML은 그동안 원재료 가격이 크게 오르거나 특정 소재의 조달이 어려워졌을 때 해당 부품 가격만 개별 조정해온 것으로 알려졌다. 일괄 10% 인상은 이례적인 일이다.\n반도체 업계 관계자는 \"부품을 구성하는 요소 전반으로 가격이 오르기도 했지만 고객사가 돈을 버는 만큼 ASML도 마진을 더 가져가려는 측면도 있다\"라고 말했다.\nASML은 고객사에 설치된 장비를 대상으로 한 서비스와 부품, 업그레이드 매출을 따로 집계한다. 지난해 ",
-      "score": 5.27,
-      "score_raw": 14.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 7.5,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "ASML"
-          ],
-          "product": [],
-          "tech": [
-            "노광"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "ASML",
-          "노광"
-        ],
-        "summary_hits": [
-          "ASML",
-          "노광"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "ASML, 한국 노광장비 부품 가격 10% 인상… AI 확장에 장비업체 가격 결정력 강화되며 삼성전자와 SK하이닉스 압박 - TradingKey",
-      "date": "2026-10-10",
-      "source": "TradingKey",
-      "url": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262210027-asml-lithography-parts-price-hike-10-korea-samsung-sk-hynix-tradingkey",
-      "summary": "ASML, 한국 노광장비 부품 가격 10% 인상… AI 확장에 장비업체 가격 결정력 강화되며 삼성전자와 SK하이닉스 압박 TradingKey",
-      "body": "ASML, 한국 노광장비 부품 가격 10% 인상… AI 확장에 장비업체 가격 결정력 강화되며 삼성전자와 SK하이닉스 압박\nASML은 한국 시장에 공급하는 노광 장비 교체용 부품 가격을 2027년 1월 인도분부터 일률적으로 10% 인상할 예정이다. 이는 삼성전자와 SK하이닉스의 장비 유지보수 비용을 늘릴 것으로 보이며, AI 관련 설비 증설 속에서 반도체 장비 공급업체의 가격 결정력이 강화된 흐름을 반영한다. 다만, 부품가 인상이 전체 운영 비용의 동률 상승을 의미하지는 않는다. 한편, ASML의 애프터서비스 사업 매출은 2026년 30% 이상 성장할 가능성이 있다고 전망되나, 실제 이익 개선 폭은 비용 변동 등에 따라 달라질 수 있다.\nTradingKey - 국내 언론 매체 디일렉에 따르면, ASML(ASML)은 한국 시장에 공급하는 노광 장비 교체용 부품 가격을 일률적으로 10% 인상할 예정이다. 인상된 가격은 2027년 1월 인도분부터 적용되며 극자외선(EUV) 및 심자외선(DUV) 노광 장비의 모든 예비 부품에 적용된다.\n이번 가격 인상으로 삼성전자와 SK하이닉스의 장비 유지보수 비용이 늘어날 것으로 보이며, 또한 이는 AI 관련 설비 증설 흐름 속에서",
-      "score": 5.27,
-      "score_raw": 14.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 7.5,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "ASML",
-            "삼성전자",
-            "하이닉스"
-          ],
-          "product": [],
-          "tech": [
-            "노광"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "ASML",
-          "삼성전자",
-          "하이닉스",
-          "노광"
-        ],
-        "summary_hits": [
-          "ASML",
-          "삼성전자",
-          "하이닉스",
-          "노광"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "HBM 고객을 파운드리로…삼성전자, AMD와 협력 확대 모색 - 글로벌이코노믹",
-      "date": "2026-10-10",
-      "source": "글로벌이코노믹",
-      "url": "https://www.g-enews.com/article/Industry/2026/10/2026100810261240113084322ec9_1",
-      "summary": "HBM 고객을 파운드리로…삼성전자, AMD와 협력 확대 모색 글로벌이코노믹",
-      "body": "10일 반도체 업계에 따르면 리사 수 AMD 최고경영자(CEO)는 전날 서울 삼성전자 서초사옥에서 전영현 삼성전자 디바이스솔루션(DS)부문장 부회장과 만났다. 지난 3월 방한 이후 약 7개월 만이다.\n수 CEO는 회동에 앞서 열린 ‘AMD 게이머 데이’ 행사에서 삼성 파운드리와의 협력 가능성을 묻는 질문에 “파운드리를 비롯한 여러 영역에서 기회를 계속 살펴보고 있다”고 말했다. 앞서 공개한 파운드리 협력 논의가 이어지고 있음을 재확인한 것이다.\n양사는 올해 3월 차세대 AI 메모리와 컴퓨팅 기술 협력을 위한 업무협약(MOU)을 맺었다. 삼성은 AMD의 AI 가속기 ‘인스팅트 MI455X’에 들어가는 HBM4 우선 공급업체로 지정됐다. AI 서버 플랫폼 ‘헬리오스’와 6세대 에픽(EPYC) 서버 CPU에 활용할 고성능 DDR5 메모리도 협력 대상이다.\nAMD에는 늘어나는 AI 수요에 맞춰 생산능력을 확보하는 일이 시급하다. 로이터통신에 따르면 수 CEO는 지난 6일 대만에서 내년 반도체 공급을 크게 늘리겠다는 계획을 밝혔다. 앞으로 수년간 높은 수요가 예상되는 만큼 첨단 웨이퍼 생산능력이 더 필요하다는 설명이다.\n메모리 협력도 장기화하고 있다. 수 CEO는 전",
-      "score": 4.29,
-      "score_raw": 12.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 5,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "AMD",
-            "삼성전자"
-          ],
-          "product": [
-            "HBM"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "파운드리"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "AMD",
-          "HBM",
-          "파운드리"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "AMD",
-          "HBM",
-          "파운드리"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Samsung Used HBM4 Memory Supply Monopoly to Force AMD Into Foundry Talks - Tech Times",
-      "date": "2026-10-10",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/328853/20261009/samsung-used-hbm4-memory-supply-monopoly-force-amd-foundry-talks.htm",
-      "summary": "Samsung Used HBM4 Memory Supply Monopoly to Force AMD Into Foundry Talks Tech Times",
-      "body": "When Lisa Su landed in Seoul on October 7 for the second time in seven months, the publicly stated purpose was memory — locking in multi-year high-bandwidth memory supply for AMD's Helios AI rack platform, which requires 31 terabytes of HBM4 per system and cannot ship without it. The meetings that day with Samsung Device Solutions head Jun Young-hyun and SK Hynix CEO Kwak Noh-jung were also about something else: whether AMD's acute need for that memory had finally given Samsung Foundry the opening it needed to break into logic chip manufacturing that AMD had historically taken elsewhere.\nAccording to reporting by TrendForce and the Korean business outlet Chosun Biz, Samsung has explicitly used its position as AMD's primary HBM4 supplier as a negotiating instrument to advance discussions over manufacturing AMD's logic chips — CPU and GPU dies — on its advanced SF2P 2nm process. The TrendForce HBM4 foundry leverage report states the specific terms have not been disclosed, and no foundry ",
-      "score": 4.29,
-      "score_raw": 12.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 5,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "AMD",
-            "삼성전자"
-          ],
-          "product": [
-            "HBM"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "foundry"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "AMD",
-          "HBM",
-          "foundry"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "AMD",
-          "HBM",
-          "foundry"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "삼전보다 뜨거운 반도체 소부장 ＇860% 급등＇…＇천스닥＇ 희망 봤는데 - 한국경제TV",
-      "date": "2026-10-10",
-      "source": "한국경제TV",
-      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610100014",
-      "summary": "삼전보다 뜨거운 반도체 소부장 ＇860% 급등＇…＇천스닥＇ 희망 봤는데 한국경제TV",
-      "body": "최근 코스피가 부진한 흐름을 보이는 가운데 코스닥은 상대적으로 선방하고 있다. 반도체 소부장 종목이 급등하고 거래대금도 늘며 시장을 이끄는 모습이지만 펀더멘탈(기초여건) 개선이 뒷받침되지 않아 '1000선' 탈환은 어렵다는 전망도 나온다.\n10일 한국거래소에 따르면 이달 8일 코스닥은 거래일보다 6.16포인트(0.69%) 내린 892.27에 거래를 마쳤다. 최근 2거래일 연속 조정을 겪었지만 10월 들어 지수 상승률은 4.25%에 달한다. 7월 1일 이후 약 3개월 만에 종가 기준 900선을 회복하기도 했다.\n삼성전자 3분기 실적 발표(8일) 전후로 증시 전반에 경계감이 부각되며 다시 900선 아래로 떨어졌지만 코스피와 비교하면 선방 중이다.\n코스닥 지수의 월간 상승률은 8월과 9월 각각 15.91%, 2.59%다. 코스피 지수는 8월과 9월 각각 3.4%, 0.26% 오르는 데 그쳤고, 이달 들어서는 3.1% 내렸다.\n이 같은 상승세는 반도체 소부장주가 자리하고 있다. 현재 코스닥 시총 상위 10개 종목 가운데 주성엔지니어링을 비롯해 리노공업, 심텍, 원익IPS, 이오테크닉스 등 절반인 5곳이 반도체 장비·부품 기업으로 채워졌다.\n코스닥이 월간 기준 상승 ",
-      "score": 4.11,
-      "score_raw": 11.5,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 5.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [
-            "소부장"
-          ],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "소부장",
-          "반도체"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "소부장",
-          "반도체"
-        ],
-        "negative_hits": [
-          "급등"
-        ]
-      }
-    },
-    {
-      "title": "GlobalFoundries Wins $2B TSMC Pact to Build First US Interposer Supply for AI Chips - Tech Times",
-      "date": "2026-10-10",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/328850/20261009/globalfoundries-wins-2b-tsmc-pact-build-first-us-interposer-supply-ai-chips.htm",
-      "summary": "GlobalFoundries Wins $2B TSMC Pact to Build First US Interposer Supply for AI Chips Tech Times",
-      "body": "The most important component in an AI chip that most people have never heard of is finally getting a domestic manufacturing address.\nGlobalFoundries (GF) announced Wednesday it has signed a $2 billion, five-year manufacturing agreement with TSMC to produce silicon interposers at its Malta, New York fabrication facility — a deal both companies describe as establishing the first US-based supply of this component for TSMC's CoWoS advanced packaging ecosystem. Volume production is expected to begin ramping in the first half of 2028. The agreement carries an initial five-year term and includes a framework for future capacity expansion.\nThe critical caveat: producing interposers in New York is not the same as completing CoWoS packaging in New York. Interposers are an upstream input to the full CoWoS process — TSMC's packaging assembly lines, which bond the interposer to logic dies and high-bandwidth memory stacks, remain concentrated in Taiwan until TSMC's Arizona and Amkor's Arizona packagi",
-      "score": 4.11,
-      "score_raw": 11.5,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 5.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "TSMC",
-            "글로벌파운드리"
-          ],
-          "product": [],
-          "tech": [
-            "interposer"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "글로벌파운드리",
-          "TSMC",
-          "interposer"
-        ],
-        "summary_hits": [
-          "글로벌파운드리",
-          "TSMC",
-          "interposer"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI",
-      "date": "2026-10-10",
-      "source": "EETimes",
-      "url": "https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
-      "summary": "GlobalFoundries said strained-silicon FD-SOI can deliver 7-nm-class performance without EUV and open a new market for Europe. The post Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI appeared first on EE Times.",
-      "body": "GlobalFoundries today (Oct. 9) unveiled FDX Fusion in Dresden, a new generation of its fully depleted silicon-on-insulator (FD-SOI) technology aimed at physical AI. The bet is that the next big AI",
-      "score": 4.11,
-      "score_raw": 11.5,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 5.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "글로벌파운드리"
-          ],
           "product": [],
           "tech": [
             "EUV"
@@ -872,67 +433,146 @@
           "domain": []
         },
         "title_hits": [
-          "글로벌파운드리"
+          "EUV"
         ],
         "summary_hits": [
-          "글로벌파운드리",
           "EUV"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "엔비디아 커스텀 HBM 공개…삼성·SK하이닉스 승부처는? - 자본시장뉴스",
-      "date": "2026-10-10",
-      "source": "자본시장뉴스",
-      "url": "https://www.jabon.co.kr/news/articleView.html?idxno=7513",
-      "summary": "엔비디아 커스텀 HBM 공개…삼성·SK하이닉스 승부처는? 자본시장뉴스",
-      "body": "엔비디아가 메모리 제어 기능을 HBM 맨 아래 베이스 다이로 옮긴 커스텀 HBM 구조 NVHBM을 내놨다. 표준 HBM4E보다 메모리 대역폭을 최대 30% 높이고 HBM 전력은 최대 15% 줄인다는 설명이다.\n마이크론은 NVHBM 베이스 다이를 TSMC에 맡겨도 평균판매가격과 마진이 오른다고 밝혔다. 삼성전자와 SK하이닉스도 HBM4E 샘플을 내놓고 고객 맞춤 설계 경쟁에 들어갔다.\n자본시장은 대역폭 30% 개선이 메모리 3사의 HBM 판가 인상으로 이어질지 주목하고 있다.\n10일 반도체업계에 따르면 엔비디아는 지난 8월 자체 설계한 HBM 베이스 다이 구조인 NVHBM을 공개했다. 연산 칩에 있던 메모리 컨트롤러를 HBM 적층 맨 아래층으로 내리는 방식이다.\n◇NVHBM 대역폭 30% 확대\n엔비디아는 NVHBM이 표준 HBM4E보다 스택당 메모리 대역폭을 최대 30% 높이고 HBM 전력을 최대 15% 줄인다고 설명했다. 연산 칩에서 메모리 입출력 회로가 차지하던 패키지 면적은 최대 67% 줄고 그만큼 연산 칩 면적을 최대 25% 넓힐 수 있다.\n엔비디아는 1기가와트 규모 데이터센터에 2000와트급 가속기를 넣는다고 가정하면 메모리 전력 절감분으로 가속기를 ",
-      "score": 3.57,
-      "score_raw": 10.0,
+      "title": "[오늘의 경제뉴스] AI 반도체 증설에 세정용 황산 '귀한 몸'…고려아연·LS MnM이 뜬다 - 뉴스버스",
+      "date": "2026-10-12",
+      "source": "뉴스버스",
+      "url": "https://www.newsverse.kr/news/articleView.html?idxno=11637",
+      "summary": "[오늘의 경제뉴스] AI 반도체 증설에 세정용 황산 '귀한 몸'…고려아연·LS MnM이 뜬다 뉴스버스",
+      "body": "중국 상반기 황산 수출 65% 급감…국제 공급 부족 장기화\n고려아연·LS MnM, 제련 부산물 활용해 초고순도 황산 생산\n엔이에스머티리얼즈도 품질평가 통과…국산 공급망 확대\n반도체 슈퍼사이클과 국제 황산 공급난이 맞물리면서 국내 반도체용 초고순도 황산 생산기업들의 수혜가 주목된다. 반도체 생산 확대에 따라 세정용 황산 수요가 늘어나는 가운데 원료 수급 불안까지 이어지면서 안정적인 생산·공급 기반을 갖춘 기업들의 경쟁력이 부각될 수 있어서다. 특히 제련 부산물을 활용해 초고순도 황산까지 생산하는 고려아연과 LS MnM은 원료비 부담을 줄이면서 판매량을 늘릴 기회를 맞고 있다.\n원자재 가격 분석업체 프라이스피디아는 지난 5일 보고서에서 중국의 황산 수출 중단이 올해 말까지 이어질 것으로 예상했다. 중국은 올해 초 수출 물량을 제한한 데 이어 5월부터 사실상 수출을 중단했다. 중동발 유황 공급 차질에 중국산 황산의 수출 감소까지 겹쳐 국제시장의 공급 부족이 지속되고 있다는 분석이다.\n실제 올해 상반기 중국의 황산 수출량은 전년 동기보다 약 65% 줄었다. 한국과 일본의 수출량은 각각 약 39%, 35% 늘었지만 중국의 공급 감소를 완전히 대체하지 못했다. 황산 원",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [
+            "증설"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "AI반도체",
+          "증설",
+          "반도체"
+        ],
+        "summary_hits": [
+          "AI반도체",
+          "증설",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "로봇, 삼성닉스 반도체 수요처로 급부상...D램 수요, 2030년 20배로 - 생생비즈플러스",
+      "date": "2026-10-11",
+      "source": "생생비즈플러스",
+      "url": "https://www.livebiz.today/news/articleView.html?idxno=205490",
+      "summary": "로봇, 삼성닉스 반도체 수요처로 급부상...D램 수요, 2030년 20배로 생생비즈플러스",
+      "body": "카운터포인트리서치 \"로봇 1대당 D램 탑재량 19GB→39GB로 증가\" 전망\n삼성전자와 SK하이닉스 등 메모리 반도체 업계의 새로운 성장동력으로 로봇시장이 떠오르고 있다는 분석이 제기됐다.\n인공지능(AI) 데이터센터용 고대역폭메모리(HBM)에 이어 휴머노이드(인간형) 로봇에 쓰이는 D램이 가파르게 증가하고 있기 때문이다.\n로봇 업계에 따르면 휴머노이드 로봇이 카메라와 각종 센서로 수집한 정보를 실시간으로 분석해 움직임을 결정하는 데다가, 최근 AI 모델이 고도화되면서 이를 처리하는 데 필요한 메모리 용량도 증가하고 있다.\n11일 시장조사업체 카운터포인트리서치는 휴머노이드 로봇 산업 전체 D램 수요는 올해 약 8300테라비트(Tbit)에서 2030년 약 17만2000테라비트로 20배 이상 증가할 것으로 전망했다.\n로봇 보급이 확대되는 동시에 로봇 한 대에 탑재되는 메모리 용량도 증가하는 것.\n카운터포이트는 휴머노이드 로봇 한 대에 탑재되는 평균 D램 용량이 올해 19기가바이트(GB)에서 2030년 39GB로 두 배 이상 늘어날 것으로 예상했다.\n업계에는 로봇이 삼성전자와 SK하이닉스 메모리의 새로운 수요처가 될 것으로 보고 있다. 배터리로 구동되는 로봇은 전력",
+      "score": 4.29,
+      "score_raw": 12.0,
       "score_detail": {
         "buckets": {
           "entity": 5,
           "product": 5,
           "tech": 0.0,
           "event": 0.0,
-          "domain": 0.0
+          "domain": 2
         },
         "bucket_hits": {
           "entity": [
-            "삼성전자",
-            "엔비디아",
-            "하이닉스"
+            "삼성전자"
           ],
           "product": [
-            "HBM"
+            "DRAM"
           ],
           "tech": [],
           "event": [],
-          "domain": []
+          "domain": [
+            "반도체"
+          ]
         },
         "title_hits": [
-          "엔비디아",
           "삼성전자",
-          "하이닉스",
-          "HBM"
+          "DRAM",
+          "반도체"
         ],
         "summary_hits": [
-          "엔비디아",
           "삼성전자",
-          "하이닉스",
-          "HBM"
+          "DRAM",
+          "반도체"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "[AI 펀드매니저]②삼성전자·SK하이닉스·마이크론, HBM 경쟁의 승자는 누구인가:장애인인식개선신문 - 장애인인식개선신문",
-      "date": "2026-10-10",
-      "source": "장애인인식개선신문",
-      "url": "http://www.dpi1004.com/sub_read_amp.html?uid=17978",
-      "summary": "[AI 펀드매니저]②삼성전자·SK하이닉스·마이크론, HBM 경쟁의 승자는 누구인가:장애인인식개선신문 장애인인식개선신문",
-      "body": "AI FUND MANAGER SERIES | PART 02\n[AI 펀드매니저 ②] 삼성전자·SK하이닉스·마이크론, HBM 경쟁의 승자는 누구인가\n장기공급계약의 확대와 사상 최대 실적…수율·설비투자·현금흐름·주가 기대를 함께 읽어야 한다\n■ 30초 핵심 브리핑\n삼성전자와 SK하이닉스, 마이크론이 인공지능(AI) 반도체 수요 확대와 장기공급계약을 기반으로 높은 실적을 기록하고 있다.\nHBM 시장의 경쟁력은 시장점유율뿐 아니라 차세대 제품 인증, 양산 수율, 생산능력, 설비투자 효율, 고객별 수익성으로 판단해야 한다.\nSK하이닉스의 2026년 2분기 순이익에는 대규모 투자자산 관련 이익이 포함돼 있어 영업이익과 별도로 분석해야 한다.\n투자자는 사상 최대 실적이라는 제목보다 영업현금흐름과 잉여현금흐름, 기업가치에 이미 반영된 미래 실적의 수준을 확인해야 한다.\n인공지능(AI) 산업의 발전은 반도체 기업의 경쟁 질서를 재편하고 있다. GPU와 AI 가속기를 구동하는 고대역폭메모리(High Bandwidth Memory, HBM)가 핵심 전략 제품으로 부상하면서 반도체 기업의 기술력은 글로벌 AI 산업의 생산능력과 직결되고 있다.\n그러나 반도체 산업의 성장과 주식시장의",
+      "title": "AI 투자 확대 바람… ‘소부장’ 주가 승승장구 - 조선비즈 - Chosunbiz",
+      "date": "2026-10-12",
+      "source": "Chosunbiz",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/10/12/MRSTCYLFGA4GCOJRGAZDINDDGU/",
+      "summary": "AI 투자 확대 바람… ‘소부장’ 주가 승승장구 - 조선비즈 Chosunbiz",
+      "body": "국내 증시에서 소부장(소재·부품·장비) 종목이 강세를 보이고 있다. 반도체 생산에 필요한 각종 부품과 장비 업체에 이어 배터리 소재 기업 주가까지 상승세를 탔다. 반도체 대형주가 주춤하는 사이 글로벌 AI(인공지능) 투자 확대 기대가 소부장 주가를 밀어 올리고 있다는 분석이다.\n◇급등하는 소부장… ETF도 강세\n11일 한국거래소에 따르면 이달 들어 지난 8일까지 주성엔지니어링 주가는 11% 올랐다. 주성엔지니어링은 반도체 웨이퍼 위에 얇은 막을 입히는 '증착' 장비를 만드는 기업이다. 같은 기간 반도체 검사용 부품 업체 리노공업과 반도체 기판을 만드는 심텍도 각각 7.99%, 8.2% 상승했다. 배터리 소재인 양극재를 만드는 에코프로비엠도 12.29% 급등했다. 코스닥의 대표 소부장주들이 줄줄이 강세를 보였다.\n소부장주는 대형 반도체주가 부진한 흐름을 보이는 와중에도 상승세를 이어갔다. 삼성전자와 SK하이닉스는 이달 들어 지난 8일까지 각각 5.07%, 8.29% 하락했다. 외국인 투자자의 매도세가 낙폭을 키웠다. 외국인은 이달 들어 다섯 거래일 연속 삼성전자를 순매도(매도가 매수보다 많은 것)하며 약 1조2389억원을 팔아치웠다. 이에 지난 8일 기준 삼성",
+      "score": 4.11,
+      "score_raw": 11.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "소부장"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "소부장",
+          "투자"
+        ],
+        "summary_hits": [
+          "소부장",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘포스트 HBM’ 부상한 로봇용 D램…삼전닉스·마이크론, 휴머노이드 메모리 주목 - 서울신문",
+      "date": "2026-10-11",
+      "source": "서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/11/20261011500085",
+      "summary": "‘포스트 HBM’ 부상한 로봇용 D램…삼전닉스·마이크론, 휴머노이드 메모리 주목 서울신문",
+      "body": "휴머노이드 D램 수요 4년 후 20배 전망\n로봇 1대당 D램 탑재량 19→39GB 증가\n삼전닉스·마이크론 로봇 메모리 선점 경쟁\n중국 CXMT 저전력메모리 추격도 위협\n휴머노이드 산업 D램 수요 전망\n인공지능(AI) 데이터센터가 주도해온 반도체 수요 경쟁의 다음 격전지로 휴머노이드 로봇이 떠오르고 있다. 로봇의 ‘두뇌’ 역할을 하는 연산장치의 성능이 고도화하면서 로봇 한 대에 탑재되는 메모리 용량도 함께 늘어나는 추세다. 삼성전자와 SK하이닉스, 마이크론 등 국내외 반도체 기업들도 휴머노이드 시장의 성장 가능성에 주목하며 고대역폭메모리(HBM)를 이을 차세대 메모리 경쟁에 대비하고 있다.\n시장조사업체 카운터포인트리서치는 11일 ‘휴머노이드 로봇 인사이트 리포트’에서 휴머노이드의 연산장치용 D램 수요가 올해 8300테라비트(Tbit)에서 2030년에는 약 17만 2000Tbit로 20배 가까이 증가할 것으로 내다봤다.\n특히 로봇의 인공지능이 주변 환경 인식과 상황 판단, 동작 결정을 여러 단계로 나눠 처리하는 ‘계층형’ 방식에서 하나의 AI 모델이 이 과정을 통합적으로 수행하는 ‘엔드투엔드’ 방식으로 진화하고 있다. 이에 같은 기간 로봇 1대당 평균 D램 탑재",
       "score": 3.57,
       "score_raw": 10.0,
       "score_detail": {
@@ -946,8 +586,222 @@
         "bucket_hits": {
           "entity": [
             "마이크론",
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM",
+            "HBM",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "마이크론",
+          "삼성전자",
+          "HBM",
+          "DRAM",
+          "메모리"
+        ],
+        "summary_hits": [
+          "마이크론",
+          "삼성전자",
+          "HBM",
+          "DRAM",
+          "메모리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "전 세계 로봇이 D램 싹쓸이한다…삼전·하닉, '4년 뒤 20배' 대호황 예약 - 이코노미스트",
+      "date": "2026-10-11",
+      "source": "이코노미스트",
+      "url": "https://economist.co.kr/article/view/ecn202610110017",
+      "summary": "전 세계 로봇이 D램 싹쓸이한다…삼전·하닉, '4년 뒤 20배' 대호황 예약 이코노미스트",
+      "body": "IT 일반\n                                    전 세계 로봇이 D램 싹쓸이한다…삼전·하닉, '4년 뒤 20배' 대호황 예약\n                                    \n휴머노이드 로봇이 반도체 시장의 지형도를 다시 바꾸고 있다. 인공지능 데이터센터가 끌어올린 메모리 호황의 바통을 이어받아, 로봇이 삼성전자와 SK하이닉스의 새로운 핵심 수익원으로 거듭날 것이라는 분석이다.\n11일 시장조사기관 카운터포인트리서치는 전 세계 휴머노이드 로봇용 D램 수요가 2026년 8,300테라비트 수준에서 2030년 17만 2,000테라비트로 급증할 것으로 추산했다. 불과 4년 만에 20배가 넘는 기하급수적 팽창이다.\n이 같은 데이터 폭증의 배경에는 로봇 '두뇌'의 구조적 진화가 자리 잡고 있다. 시각과 촉각 정보를 통합해 곧바로 움직임을 제어하는 엔드투엔드 모델과 월드모델 기술이 본격 이식되면서 필요한 연산 처리량이 천문학적으로 늘어난 까닭이다. 단적으로 로봇 한 대에 장착되는 평균 D램 탑재량만 해도 2026년 19GB에서 2030년 39GB로 두 배 이상 불어난다.\n한편 실적 역시 매서운 상승세를 나타내고 있다. 삼성전자는 ",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
             "삼성전자",
             "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "삼성전자",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "삼성전자",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“4년 뒤 20배 폭증”…삼전닉스 '로봇 D램' 메모리 새 성장동력 떴다 - 전자신문",
+      "date": "2026-10-11",
+      "source": "전자신문",
+      "url": "https://www.etnews.com/20261011000072",
+      "summary": "“4년 뒤 20배 폭증”…삼전닉스 '로봇 D램' 메모리 새 성장동력 떴다 전자신문",
+      "body": "휴머노이드 로봇용 D램 수요가 5년 내 올해 대비 20배 증가할 것이란 전망이 나왔다.\n카운터포인트리서치는 휴머노이드 산업 전체 D램 수요가 올해 8300테라비트(Tb)에서 2030년 약 17만2000Tb로 20배 가까이 늘어날 것이라고 11일 밝혔다.\n고대역폭메모리(HBM)가 인공지능(AI) 데이터센터 수요로 급성장한데 이어 로봇이 삼성전자와 SK하이닉스에 새로운 메모리 수요처로 떠오르고 있다는 분석이다.\n로봇의 '브레인'은 카메라, 라이다(LiDAR), 촉각 센서 등에서 쏟아지는 정보를 실시간으로 처리해 행동으로 옮기는 연산 장치다. 모델 구조가 계층형에서, 멀티모달 입력을 하나의 표현 공간에서 통합 처리해 바로 행동으로 출력하는 엔드투엔드(end-to-end) 방식으로 전환되면서 메모리 요구량이 빠르게 늘고 있다.\n여기에 월드모델(World Model)까지 브레인에 적용되기 시작하면서, 모델 학습과 배포 양쪽에서 저장·연산 용량 수요가 크게 증가하고 있다. 카운터포인트에 따르면 로봇 1대에 들어가는 블렌디드 D램 용량은 2026년 19기가바이트(GB)에서 2030년 39GB로 늘어날 전망이다.\n연산칩 측면에서는 엔비디아 GPU 중심 수요가 모델 고도화에",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "메모리"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "메모리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "연간 영업익 300조 넘보는 삼성전자…D램·낸드 호황에 HBM4 가세 - 아시아투데이",
+      "date": "2026-10-11",
+      "source": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261011010002894",
+      "summary": "연간 영업익 300조 넘보는 삼성전자…D램·낸드 호황에 HBM4 가세 아시아투데이",
+      "body": "\"현재 공급 부족 현상 2028년까지 지속될 듯\"\n로봇용 D램 수요 증가 전망도…DX 개선은 숙제\n11일 금융정보업체 에프앤가이드에 따르면 삼성전자의 내년 연간 영업이익은 555조원 수준으로 관측된다. 올해 300조원을 무난히 넘길 것으로 관측되는 점을 감안 한다면 크게 증가하는 셈이다. 일각에서는 600조원을 넘길 것이라는 예측도 나와 당분간 삼성전자의 실적 경신은 계속될 것으로 보인다.\n이 같은 실적은 DS 부문이 계속해서 주도할 가능성이 높다. 이번 3분기 삼성전자는 연결 기준 매출 195조원, 영업이익 107조4000억원을 기록한 것으로 잠정 집계됐다. 전년 동기 대비 매출은 126.6%, 영업이익은 782.5% 증가한 수치다.\n정확한 부문별 실적은 오는 29일 발표되지만 이번 분기에도 DS 부문, 그중에서도 메모리사업부가 전체 실적 대부분을 담당했을 것이라는 분석이 우세하다. 눈여겨볼 대목은 범용 D램과 낸드의 가격 상승과 시장의 관심이 집중돼 있는 HBM4의 실적이다.\n삼성전자는 지난 분기 실적 발표 시 하반기를 전망하면서 서버 D램과 대용량저장장치(SSD), HBM의 수요 증가 속도가 빠를 것으로 예측한 바 있다. 하나증권은 3분기 D램 가격이 ",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM",
+            "HBM",
+            "낸드"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "DRAM",
+          "낸드"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "DRAM",
+          "낸드"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "로봇용 D램 수요, 2030년 20배로…삼성·SK 새 먹거리 부상 - 연합뉴스",
+      "date": "2026-10-11",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261011015200003",
+      "summary": "로봇용 D램 수요, 2030년 20배로…삼성·SK 새 먹거리 부상 연합뉴스",
+      "body": "로봇용 D램 수요, 2030년까지 20배 증가 전망\n로봇 1대당 D램 탑재량 19GB→39GB 예상\n삼성·SK 새 성장동력으로 로봇 부상\n전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.\n(서울=연합뉴스) 강태우 기자 = 휴머노이드(인간형) 로봇에 쓰이는 D램 수요가 2030년까지 약 20배 증가할 것이라는 전망이 나왔다.\n인공지능(AI) 데이터센터용 고대역폭메모리(HBM)에 이어 로봇이 삼성전자와 SK하이닉스 등 메모리 반도체 업계의 새로운 성장동력으로 떠오르고 있다는 분석이다.\n11일 시장조사업체 카운터포인트리서치에 따르면 휴머노이드 로봇 산업 전체 D램 수요는 올해 약 8천300테라비트(Tbit)에서 2030년 약 17만2천테라비트로 20배 이상 증가할 전망이다.\n이는 로봇 보급이 확대되는 동시에 로봇 한 대에 탑재되는 메모리 용량도 늘어나기 때문이다.\n실제로 휴머노이드 로봇 한 대에 탑재되는 평균 D램 용량은 올해 19기가바이트(GB)에서 2030년 39GB로 두 배 이상 늘어날 것으로 예상된다.\n휴머노이드 로봇은 카메라와 각종 센서로 수집한 정보를 실시간으로 분석해 움직임을 결정한다. 최근 AI 모델이 고도화되면서 이를 처리하는 데 필",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자 실적 100조의 명과 암…내년 HBM 1위 가능성 속 DX 적자 우려 - 글로벌이코노믹",
+      "date": "2026-10-11",
+      "source": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Industry/2026/10/20261008155623686127fa31d75c_1",
+      "summary": "삼성전자 실적 100조의 명과 암…내년 HBM 1위 가능성 속 DX 적자 우려 글로벌이코노믹",
+      "body": "다만, 역대급 호실적이라는 화려한 빛 뒤에는 완성품(DX) 부문의 원가 부담 및 적자 확대, 그리고 파운드리 등 비메모리 부문과 관련해서는 적자 확대 우려도 계속되고 있어 빛이 강한 만큼 그림자도 짙어지는 모습이다.\n11일 업계에 따르면 삼성전자는 올해 3분기에 영업이익 107조 4000억 원을 잠정 기록했다. 매출액은 195조 원으로 영업이익과 매출액 모두 4개 분기 연속 신기록이다.\n삼성전자의 한 분기 영업이익 100조 원 돌파는 우리나라 기업 중에서는 처음으로 기준을 전 세계로 넓혀봐도 사우디아라비아 국영기업 아람코 외에는 도달하지 못한 기록이다. 애플, 엔비디아 등 글로벌 빅테크에서는 최초의 기록이다.\n특히 시장의 관심은 고대역폭메모리(HBM) 주도권으로 쏠린다. 삼성전자는 올 2월 HBM4를 양산 출하했고, 2분기 HBM 점유율(매출 기준)은 33%까지 올라왔다. 엔비디아 차세대 가속기 '베라 루빈'용 HBM4는 누적 매출 10억 달러를 넘어선 것으로 파악됐으며, UBS는 내년 삼성전자의 비트 기준 점유율을 41%로 예상해 SK하이닉스(39%)를 처음 앞설 것으로 봤다.\n박준영 한화투자증권 연구원은 \"이미 업계 내 선두권으로 진입한 HBM4 기술력이",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
           ],
           "product": [
             "HBM"
@@ -957,15 +811,131 @@
           "domain": []
         },
         "title_hits": [
-          "마이크론",
           "삼성전자",
-          "하이닉스",
           "HBM"
         ],
         "summary_hits": [
-          "마이크론",
           "삼성전자",
+          "HBM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Applied Materials Faces Market Share Test as Global Chip Equipment Spending Surges 23% - 24/7 Wall St.",
+      "date": "2026-10-12",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/11/applied-materials-faces-market-share-test-as-global-chip-equipment-spending-surges-23/",
+      "summary": "Applied Materials Faces Market Share Test as Global Chip Equipment Spending Surges 23% 24/7 Wall St.",
+      "body": "Applied Materials Faces Market Share Test as Global Chip Equipment Spending Surges 23%\nGlobal chip equipment spending is surging toward $144 billion, yet one of the industry's biggest names is growing at a fraction of its rivals' pace, putting its long-term position in the market under serious pressure.\n- Worldwide wafer fabrication equipment spending is projected to increase 23.1% to $143.9 billion in 2026, following a record $116.9 billion in 2025\n- Applied Materials’ global equipment market share declined from 20.0% in 2024 to 17.9% in 2025, while Lam Research, KLA and ASML gained share\n- Applied Materials’ equipment revenue increased only 1.0% during the first half of 2026, compared with double-digit growth at its three major competitors, raising questions about its ability to recover market share\nApplied Materials Faces a Market Share Challenge\nThe global semiconductor equipment industry is experiencing another major expansion, supported by artificial intelligence infrastructure i",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "어플라이드"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "어플라이드",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "어플라이드",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "MU Stock Leads Memory Chip Rally Amid Iran Relief – DRAM Surges 6% As SK Hynix, Samsung Gain - Stocktwits",
+      "date": "2026-10-11",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mu-stock-leads-memory-chip-rally-amid-iran-relief-dram-surges-6-as-sk-hynix-samsung-gain/cZKfXv4R7dq",
+      "summary": "MU Stock Leads Memory Chip Rally Amid Iran Relief – DRAM Surges 6% As SK Hynix, Samsung Gain Stocktwits",
+      "body": "Micron stock rallied 8% in the premarket session on Monday, leading gains in the red-hot memory chip stocks, after U.S. President Donald Trump and Iranian officials announced a peace agreement expected to end months of conflict and reopen the strategically important Strait of Hormuz.\nSeagate stock gained 6%, while SanDisk and Western Digital stocks gained 5.6% each. The Roundhill Memory ETF (DRAM) advanced 6%, supported by gains in Korean memory giants SK Hynix and Samsung.\nSK Hynix shares gained 6.4% while Samsung stock rose 4.5% in Seoul on Monday. SK Hynix, Samsung, and Micron are the top three holdings of DRAM.\nWith the premarket move, Micron again breached the notionally crucial $1,000 market and was trading at $1,056. The stock has rallied 250% year to date, emerging as the main driver in interest in the memory chip space.\nA breakneck pace of AI data center buildout has driven incredible demand for memory components and chips, leading to shortages and price hikes. Major producers",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
           "하이닉스",
+          "삼성전자",
+          "DRAM"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "삼성전자",
+          "DRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "NVDA Reportedly Weighs Lower-Memory Rubin Ultra GPU Designs To Ease HBM Bottleneck — Why Retail Is Watching Micron - Stocktwits",
+      "date": "2026-10-11",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-reportedly-weighs-lower-memory-rubin-ultra-gpu-designs-to-ease-hbm-bottleneck-why-retail-is-watching-micron/cZoBEGYRJJl",
+      "summary": "NVDA Reportedly Weighs Lower-Memory Rubin Ultra GPU Designs To Ease HBM Bottleneck — Why Retail Is Watching Micron Stocktwits",
+      "body": "Nvidia Corp. (NVDA) is reportedly testing multiple versions of its next-generation Rubin Ultra graphics processing unit (GPU), including designs with less high-bandwidth memory (HBM) than originally planned, as it evaluates ways to navigate potential supply constraints. The move reflects broader pressure on the semiconductor industry as soaring AI demand has strained the availability of advanced memory chips.\nThe development has also sparked debate among Stocktwits retail traders over whether memory supplier Micron Technology (MU) could emerge as a key beneficiary if HBM shortages persist.\nNVDA shares were up 0.10% in Thursday afternoon trading at the time of writing.\nOver the past few weeks, Nvidia has been testing at least three versions of the Rubin Ultra GPU, some of which feature less memory than the company initially announced, reported The Information, citing people with knowledge of the trial. The company is considering the lower-memory designs in part because it may not be abl",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Micron"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "Micron",
+          "HBM"
+        ],
+        "summary_hits": [
+          "Micron",
           "HBM"
         ],
         "negative_hits": []
@@ -974,51 +944,13 @@
   ],
   "dropped_below_threshold": [
     {
-      "title": "삼전닉스 대신 방산·반도체 테마형으로…변화하는 레버리지 ETF 판도 - 매일경제",
-      "url": "https://www.mk.co.kr/news/stock/12172657",
-      "source": "매일경제",
-      "score": 3.0,
+      "title": "Qualcomm's CEO says AI firms want phones running 100-billion-parameter models by 2028 - Startup Fortune",
+      "url": "https://startupfortune.com/qualcomms-ceo-says-ai-firms-want-phones-running-100-billion-parameter-models-by-2028/",
+      "source": "Startup Fortune",
+      "score": 2.5,
       "score_detail": {
         "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "삼성전자",
-          "반도체"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "반도체"
-        ],
-        "negative_hits": [
-          "ETF",
-          "레버리지"
-        ]
-      }
-    },
-    {
-      "title": "Chip ETF Holds Near €100 as TSMC's Record Quarter Collides With an OpenAI Accounting Puzzle - AD HOC NEWS",
-      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/chip-etf-holds-near-100-as-tsmc-s-record-quarter-collides-with-an/70288642",
-      "source": "AD HOC NEWS",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
+          "entity": 2.5,
           "product": 0.0,
           "tech": 0.0,
           "event": 0.0,
@@ -1026,7 +958,7 @@
         },
         "bucket_hits": {
           "entity": [
-            "TSMC"
+            "퀄컴"
           ],
           "product": [],
           "tech": [],
@@ -1034,20 +966,18 @@
           "domain": []
         },
         "title_hits": [
-          "TSMC"
+          "퀄컴"
         ],
         "summary_hits": [
-          "TSMC"
+          "퀄컴"
         ],
-        "negative_hits": [
-          "ETF"
-        ]
+        "negative_hits": []
       }
     },
     {
-      "title": "[김대호 진단] 반도체 열전 (64) 시게이트 (Seagate) ...HDD 화려한 부황 - 글로벌이코노믹",
-      "url": "https://www.g-enews.com/article/Opinion/2026/10/202610070829432529906806b77b_1",
-      "source": "글로벌이코노믹",
+      "title": "“반도체 성과급, 소비 진작 효과 제한적” - 경향신문",
+      "url": "https://www.khan.co.kr/article/202610112010005",
+      "source": "경향신문",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1076,9 +1006,9 @@
       }
     },
     {
-      "title": "선착공 카드 꺼낸 최태원…‘호남 반도체 속도전’ 행정에 달렸다 - 진일보",
-      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000072215",
-      "source": "진일보",
+      "title": "반도체대전 역대 최대 규모로 14일 개막…“실리콘 지능 시대 연다” - 전자신문",
+      "url": "https://www.etnews.com/20261011000036",
+      "source": "전자신문",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1107,9 +1037,9 @@
       }
     },
     {
-      "title": "[시리즈 58] [박우열 칼럼] 원삼 아이들의 등굣길은 반도체 공사장의 부속시설이 아니다. - 경기남부저널",
-      "url": "http://www.gnjn.co.kr/news/articleViewAmp.html?idxno=127804",
-      "source": "경기남부저널",
+      "title": "\"반도체 사이클 예측 못해…호황 믿고 돈 풀면 위험\" - 한국경제",
+      "url": "https://www.hankyung.com/article/2026101144911",
+      "source": "한국경제",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1138,9 +1068,9 @@
       }
     },
     {
-      "title": "용인특례시, ‘제28회 반도체대전’ 참가 - 광교신문",
-      "url": "https://www.kgnews.net/news/articleViewAmp.html?idxno=422358",
-      "source": "광교신문",
+      "title": "민형배 \"취임 100일, 통합의 힘 확인...800조 반도체·군공항 현안 해결 속도\" | - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=312888",
+      "source": "스트레이트뉴스",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1169,9 +1099,9 @@
       }
     },
     {
-      "title": "조국 “반도체 호황에도 민생은 뒷걸음”…총선 전 민생·복지 ‘큰 승부’ 촉구 - 경기일보",
-      "url": "https://www.kyeonggi.com/article/20261010580098",
-      "source": "경기일보",
+      "title": "[중국 특징주] '광저우 제1호 반도체' 캔세미, 13일 창업판 상장 - 뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261012000001",
+      "source": "뉴스핌",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1200,9 +1130,9 @@
       }
     },
     {
-      "title": "꿈을 반도체로 설계하다... 충북반도체고 신입생 입학 설명회 성료 : 네이버 블로그 - Naver Blog",
-      "url": "https://blog.naver.com/PostView.naver?blogId=cbe_news&logNo=224435015984&redirect=Dlog",
-      "source": "Naver Blog",
+      "title": "이창용 “반도체 호황, 10년 간다지만… 조기 종료 걱정” - 조선비즈 - Chosunbiz",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/11/JLB7I2EZUVCC7MERDUVAZ7G3CQ/",
+      "source": "Chosunbiz",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1231,9 +1161,9 @@
       }
     },
     {
-      "title": "SK 최태원, 호남 반도체 속도 강조···착공 난제 여전 - 시사저널e",
-      "url": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=424232",
-      "source": "시사저널e",
+      "title": "최태원 “미국·중국 반도체 공장 늘리는데…한국도 서둘러야” - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25468739",
+      "source": "중앙일보",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1262,9 +1192,9 @@
       }
     },
     {
-      "title": "＂내년에도 반도체일 줄＂…이익 증가율 1위 전망 업종[주식R] - 한국경제TV",
-      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610110001",
-      "source": "한국경제TV",
+      "title": "“호남권 클러스터 속도감 있게 추진”..최태원 SK그룹 회장, 전남광주 반도체 단지 방문 - 데일리카",
+      "url": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=62788",
+      "source": "데일리카",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1293,9 +1223,9 @@
       }
     },
     {
-      "title": "조국 “반도체 메가 프로젝트 옆에 민생·복지 나란히 세워야” - 아시아투데이",
-      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261010010002721",
-      "source": "아시아투데이",
+      "title": "반도체 성과급 66% 뛰었지만…예정처 “소비 진작 효과는 제한적” - 경향신문",
+      "url": "https://www.khan.co.kr/article/202610111644001",
+      "source": "경향신문",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1324,9 +1254,9 @@
       }
     },
     {
-      "title": "민주당 안성시지역위원회, ‘SK반도체 방류수 대책위원회’ 출범 - 기호일보",
-      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3037074",
-      "source": "기호일보",
+      "title": "[포토뉴스] 중흥그룹, 전남광주 반도체·인재육성 100억 기탁 - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=312890",
+      "source": "스트레이트뉴스",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1355,9 +1285,9 @@
       }
     },
     {
-      "title": "'좋을 때 나쁠 때를 준비해야'…반도체 호황에 대한 이창용의 진단 - 이데일리",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03280006645611608&mediaCodeNo=257",
-      "source": "이데일리",
+      "title": "로봇·반도체 올인 현대모비스…‘밑 빠진 독ʼ 되나 - 한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=202610090059563773dd55077bc2_18",
+      "source": "한국금융신문",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1386,9 +1316,9 @@
       }
     },
     {
-      "title": "‘호남 반도체’ 직접 챙긴 최태원…“가장 빠르게 짓겠다” - 투데이신문",
-      "url": "https://www.ntoday.co.kr/news/articleViewAmp.html?idxno=129966",
-      "source": "투데이신문",
+      "title": "최태원 \"전남광주 반도체, 용인보다 더 커질 수도...최고 속도로 착공\" - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=312891",
+      "source": "스트레이트뉴스",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1417,9 +1347,9 @@
       }
     },
     {
-      "title": "최태원 SK그룹 회장 “광주 반도체 공장, 최대한 빠른 속도로 건설” - 비즈월드",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=148524",
-      "source": "비즈월드",
+      "title": "호남 반도체 불확실성 걷히나…광주 간 최태원, 조기 착공 의지 - 한겨레",
+      "url": "https://www.hani.co.kr/arti/area/honam/1281806.html",
+      "source": "한겨레",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1448,9 +1378,133 @@
       }
     },
     {
-      "title": "‘호남 반도체 팹’ 부지 찾은 최태원 “용수·전력 늦어도 착공” - 뉴스토마토",
-      "url": "https://www.newstomato.com/ReadNews.aspx?no=1316179",
-      "source": "뉴스토마토",
+      "title": "충북 반도체의 힘 … 실물경기 개선세 유지 - 충청타임즈",
+      "url": "https://www.cctimes.kr/news/articleView.html?idxno=931404",
+      "source": "충청타임즈",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘전남광주 통합 100일’ 반도체·민생체감 등 성과·과제 뚜렷 - 무등일보",
+      "url": "https://www.mdilbo.com/detail/759492",
+      "source": "무등일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "임창휘 경기도의원 “반도체 물길 감내 광주에 상생책을” - 인천일보",
+      "url": "http://www.incheonilbo.com/news/articleView.html?idxno=1333830",
+      "source": "인천일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[영상]최태원 SK그룹 회장, “광주 반도체공장 최대한 빠른 속도로 건설” - m.ngtv.tv",
+      "url": "http://m.ngtv.tv/news/articleView.html?idxno=125916",
+      "source": "m.ngtv.tv",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“반도체 팹 10기 집적… ‘한국의 실리콘밸리’ 용인 만들 것” - 동아일보",
+      "url": "https://www.donga.com/news/Society/article/all/20261011/134819584/1",
+      "source": "동아일보",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1482,102 +1536,9 @@
       }
     },
     {
-      "title": "편의점 넘어 ‘반도체 소재’ 키우는 BGF…구조 개편으로 ‘3개 축’ 성장 채비 - 쿠키뉴스",
-      "url": "https://www.kukinews.com/article/view/kuk202610080143",
-      "source": "쿠키뉴스",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "반도체 팔다가 화장품 1조6000억원 파는 스타트업... 김성운 창업자의 '반도체와 화장품의 공통점' - 조선일보",
-      "url": "https://www.chosun.com/economy/industry-company/2026/10/10/GFHINJFZJZGDDG6BEYYPJWNKKQ/",
-      "source": "조선일보",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "광주 찾은 최태원 회장 “호남권 반도체 클러스터 속도감 있게 추진” - 뉴스메카",
-      "url": "https://www.newsmc.net/news/articleView.html?idxno=69280",
-      "source": "뉴스메카",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "광주 부지 찾은 최태원 회장, \"호남반도체, 가장 빨리 최대한 짓겠다\"(동영상) - 4차산업행정뉴스",
-      "url": "http://m.4ihjnews.com/view.php?idx=42488&referer=",
-      "source": "4차산업행정뉴스",
+      "title": "최태원 \"반도체는 결국 속도전\"…중국 추격 속 생산능력 확대 필요성 강조 - www.sisaworld.kr",
+      "url": "https://www.sisaworld.kr/news/articleView.html?idxno=25913",
+      "source": "www.sisaworld.kr",
       "score": 2.0,
       "score_detail": {
         "buckets": {
