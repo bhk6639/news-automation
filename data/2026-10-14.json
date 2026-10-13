@@ -1,0 +1,1602 @@
+{
+  "generated_at": "2026-10-14T03:13:44.058341+09:00",
+  "field": "반도체",
+  "field_date": "2026-10-14",
+  "stats": {
+    "collected_total": 464,
+    "after_resolve": 464,
+    "after_time_filter": 353,
+    "after_dedup": 348,
+    "after_score_filter": 15,
+    "extracted_success": 15,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "삼성전자 'HBM5·CXL' 새 AI 메모리 전략 공개 - 인천일보",
+      "date": "2026-10-13",
+      "source": "인천일보",
+      "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1334039",
+      "summary": "삼성전자 'HBM5·CXL' 새 AI 메모리 전략 공개 인천일보",
+      "body": "美 OCP 2026 글로벌 행사서 발표\nAMD와 용량 확장 기술 공동 시연\nD램·낸드 시장 선두…경쟁사 압도\n삼성전자가 'OCP Global Summit 2026'에서 AI 인프라의 성능을 높이기 위한 기술 전략과 글로벌 파트너 협업 성과를 공개했다. 이 행사는 전세계 데이터센터·서버·인공지능 인프라 기업들이 차세대 컴퓨팅 기술과 산업 표준을 논의하는 국제 기술 행사다.\n13일 인천일보 취재를 종합하면 삼성전자는 ▲HBM5·Custom HBM 등 고성능 메모리 ▲CXL 기반 메모리 확장 기술 ▲차세대 SSD를 활용한 데이터 저장·관리 기술을 공개했다.\n이와 함께 AMD와 서버의 메모리 용량을 확장하는 CXL 기반 기술을 공동 시연하고, 'Groq LPU'웨이퍼와 'NVIDIA Groq 3 LPX' 시스템 등을 전시하며 글로벌 AI 기업과의 협업 성과를 소개했다. NVIDIA Groq 3 LPX는 AI 추론에 특화된 반도체인 LPU를 여러 개 연결해 데이터 처리 속도를 높이는 시스템이다.\n삼성전자는 실제 AI 환경에서 메모리·스토리지 기술을 검증하는 개방형 협력 전략도 제시했다. 'Samsung MAX Lab'은 고객사와 함께 기술을 평가하고 시스템 환경에 맞",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AI 병목현상 ‘메모리 월’ 돌파 경쟁…삼성·SK, 차세대 CXL 기술로 승부수 - 동아일보",
+      "date": "2026-10-13",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/amp/all/20261013/134834043/1",
+      "summary": "AI 병목현상 ‘메모리 월’ 돌파 경쟁…삼성·SK, 차세대 CXL 기술로 승부수 동아일보",
+      "body": "12일(현지시간) 미국 실리콘밸리에서 열린 ‘OCP Global Summit 2026’에서 삼성전자 DS부문 메모리사업부 AE팀 심호준 상무가 발표하고 있다. (사진=삼성전자 제공). 2026.10.13 뉴시스\n광고 로드중\n삼성전자와 SK하이닉스가 미국에서 열린 글로벌 데이터센터 기술 행사에서 인공지능(AI) 인프라의 병목 현상인 ‘메모리 월’을 넘어서기 위한 차세대 메모리 전략을 나란히 내놨다. 고대역폭메모리(HBM)를 넘어 컴퓨트 익스프레스 링크(CXL)과 솔리드스테이트드라이브(SSD) 등 메모리 계층 전반으로 주도권 다툼이 번지는 모습이다.\n13일 삼성전자와 SK하이닉스는 12일(현지 시간) 미국 캘리포니아주 새너제이에서 개막한 ‘OCP 글로벌 서밋 2026’에 참가해 차세대 AI 메모리 청사진을 발표했다.\n현재 메모리 업계는 AI 칩의 연산 속도를 메모리가 따라가지 못해 전체 시스템 성능이 떨어지는 한계, 이른바 ‘메모리 월’에 직면해 있다. 양사는 이 문제를 해결할 공통의 열쇠로 CXL 기술을 내세웠다. CXL은 중앙처리장치(CPU)나 그래픽처리장치(GPU) 등 연산장치와 메모리 등을 고속으로 연결하는 기술이다. 특히 여러 서버가 메모리 자원을 공동",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼전 ‘HBM5-CXL-SSD’ 닉스 ‘메모리 중심 랙’ - 동아일보",
+      "date": "2026-10-14",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20261013/134836011/2",
+      "summary": "삼전 ‘HBM5-CXL-SSD’ 닉스 ‘메모리 중심 랙’ 동아일보",
+      "body": "美테크행사서 ‘메모리 월’ 돌파 경쟁\n삼전, 속도-용량-저장 세 갈래 해법에\n닉스, 랙 전체가 함께 쓰는 ‘메모리 풀’\n삼성전자와 SK하이닉스가 미국에서 열린 글로벌 데이터센터 기술 행사에서 인공지능(AI) 인프라의 병목 현상인 ‘메모리 월’을 넘어서기 위한 차세대 메모리 전략을 나란히 내놨다. 고대역폭메모리(HBM)를 넘어 컴퓨트 익스프레스 링크(CXL)와 솔리드스테이트드라이브(SSD) 등 메모리 계층 전반으로 주도권 다툼이 번지는 모습이다.\n13일 삼성전자와 SK하이닉스는 12일(현지 시간) 미국 캘리포니아주 새너제이에서 개막한 ‘OCP 글로벌 서밋 2026’에 참가해 차세대 AI 메모리 청사진을 발표했다.\n현재 메모리 업계는 AI 칩의 연산 속도를 메모리가 따라가지 못해 전체 시스템 성능이 떨어지는 한계, 이른바 ‘메모리 월’에 직면해 있다. 양 사는 이 문제를 해결할 공통의 열쇠로 CXL 기술을 내세웠다. CXL은 중앙처리장치(CPU)나 그래픽처리장치(GPU) 등 연산장치와 메모리 등을 고속으로 연결하는 기술이다. 특히 여러 서버가 메모리 자원을 공동으로 사용하는 ‘메모리 풀링(Pooling)’이 가능해, 남는 메모리를 낭비 없이 효율적으로 나눠 쓸 ",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, 'OCP 글로벌 서밋 2026'서 HBM5·CXL 중심 차세대 메모리 전략 공개 - 한국경제",
+      "date": "2026-10-13",
+      "source": "한국경제",
+      "url": "https://www.hankyung.com/article/202610139190i",
+      "summary": "삼성전자, 'OCP 글로벌 서밋 2026'서 HBM5·CXL 중심 차세대 메모리 전략 공개 한국경제",
+      "body": "- \n                                                            \n                                                            기사 스크랩\n- \n                                                            \n                                                            댓글\n- \n                                                            \n                                                            공유\n- \n                                                            \n                                                            글자크기\n- \n                                                            \n                      ",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, 美 OCP서 차세대 AI 메모리 전략 공개…AMD와 CXL 기술 공동 시연 - 더구루",
+      "date": "2026-10-13",
+      "source": "더구루",
+      "url": "https://www.theguru.co.kr/news/article.html?no=108161",
+      "summary": "삼성전자, 美 OCP서 차세대 AI 메모리 전략 공개…AMD와 CXL 기술 공동 시연 더구루",
+      "body": "[더구루=정예린 기자] 삼성전자가 인공지능(AI) 시스템 전반의 성능을 높이기 위한 차세대 메모리·스토리지 기술 전략을 공개했다. 글로벌 빅테크 기업들과 공동 설계·기술 검증을 확대해 고부가 AI 메모리 시장에서 경쟁력을 강화할 것으로 기대된다.\n삼성전자는 13일 미국 캘리포니아주 새너제이에서 지난 12일(현지시간) 개막한 '오픈컴퓨트프로젝트(OCP) 글로벌 서밋 2026'에서 차세대 메모리·스토리지 제품과 AI 시스템 최적화 솔루션을 선보였다고 밝혔다. 지난해에 이어 최고 등급인 다이아몬드 스폰서로 참가해 '아키텍팅 AI 시스템즈-이노베이션즈 투게더(Architecting AI Systems - Innovations. Together.)'를 주제로 기술 혁신 전략과 글로벌 협업 성과를 소개했다.\n올해 행사에서는 △HBM5·맞춤형 HBM(Custom HBM) 등 고성능 메모리 △컴퓨트익스프레스링크(CXL) 기반 메모리 확장 △차세대 솔리드스테이트드라이브(SSD)를 활용한 데이터 저장·관리 등 3대 기술 방향을 제시했다. 미국 반도체 기업 AMD와 CXL 메모리 확장 솔루션을 공동 시연하고, AI 반도체 기업 그록(Groq)의 언어처리장치(LPU) 웨이퍼와 엔",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD",
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "AMD",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AMD",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, HBM 넘어 CXL·SSD까지…AI 메모리·스토리지 혁신 전략 공개 - 아시아경제",
+      "date": "2026-10-13",
+      "source": "아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026101309234883779",
+      "summary": "삼성전자, HBM 넘어 CXL·SSD까지…AI 메모리·스토리지 혁신 전략 공개 아시아경제",
+      "body": "삼성전자, HBM 넘어 CXL·SSD까지…AI 메모리·스토리지 혁신 전략 공개\nAMD와 CXL 기반 메모리 확장 기술 공동 시연\n심호준 상무 \"속도·용량 확장·데이터 관리가 핵심\"\n메모리·스토리지·소프트웨어 최적화로 글로벌 협력\n삼성전자가 차세대 고대역폭메모리(HBM)와 컴퓨트 익스프레스 링크(CXL) 기반 메모리 확장 기술, 기업용 솔리드스테이트드라이브(SSD) 등을 앞세워 인공지능(AI) 인프라 시장 공략을 강화한다. 개별 메모리 제품의 성능 개선을 넘어 메모리와 스토리지, 소프트웨어를 아우르는 시스템 최적화 전략으로 글로벌 AI 기업과의 협력을 확대한다는 구상이다.\n삼성전자는 12일(현지시간) 미국에서 개막한 'OCP 글로벌 서밋 2026'에 최고 등급인 다이아몬드 스폰서로 참가해 차세대 메모리·스토리지 기술과 글로벌 파트너 협업 성과를 공개했다고 밝혔다. 'AI 시스템 설계-혁신, 함께'를 주제로 HBM5와 맞춤형 HBM, CXL 기반 메모리 확장 기술, 차세대 SSD 등을 선보였다.\n이번 전시에서는 AMD와 CXL 기반 메모리 확장 솔루션을 공동 시연하고, 그록(Groq)의 언어처리장치(LPU) 웨이퍼와 엔비디아의 그록 3 LPX 시스템 등을 공개했",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, OCP서 AI 메모리 청사진 제시…AMD와 CXL 기술 시연 - 글로벌이코노믹",
+      "date": "2026-10-13",
+      "source": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Industry/2026/10/202610130929254889139bf6e4b2_1",
+      "summary": "삼성전자, OCP서 AI 메모리 청사진 제시…AMD와 CXL 기술 시연 글로벌이코노믹",
+      "body": "삼성전자는 지난해에 이어 올해도 최고 등급인 다이아몬드 스폰서로 참가했다. 올해 주제는 'AI 시스템 설계: 혁신, 함께(Architecting AI Systems - Innovations. Together.)'다. 삼성전자는 HBM5와 맞춤형 HBM 같은 고성능 메모리, CXL 기반 메모리 확장 기술, 차세대 SSD를 활용한 데이터 저장·관리 기술을 선보였다.\n심호준 삼성전자 AE팀 상무는 12일 이 행사의 경영진 세션에서 'AI 시대를 위한 혁신 확장'을 주제로 발표했다. 심 상무는 AI 모델이 커지고, AI가 답을 만들어내는 추론 과정에서 처리해야 하는 데이터와 KV 캐시(AI가 이전 계산 결과를 임시로 저장해 두는 공간) 용량이 늘면서 메모리의 데이터 전송 속도(대역폭)뿐 아니라 용량 확장과 데이터 저장·관리 기술도 중요해졌다고 설명했다.\n삼성전자는 이에 대응하는 기술 방향으로 △속도(Speed) △메모리 확장성(Memory Expansion) △데이터 영속성(Persistence) 등 세 가지를 제시했다. 속도 부문에서는 HBM5와 고객 맞춤형 HBM, 메모리 안에서 일부 연산을 처리하는 PIM 등으로 데이터 처리 속도와 연산 효율을 높인다. 메모리",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD",
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "AMD",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AMD",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, AI 시대 메모리 전략 공개…HBM·CXL·차세대 SSD 공략 - 직썰",
+      "date": "2026-10-13",
+      "source": "직썰",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=149206",
+      "summary": "삼성전자, AI 시대 메모리 전략 공개…HBM·CXL·차세대 SSD 공략 직썰",
+      "body": "[직썰 / 김태형 기자] 삼성전자가 인공지능(AI) 모델 대형화에 따른 메모리 수요 확대에 대응해 고대역폭메모리(HBM), 메모리 확장 기술, 차세대 저장장치를 아우르는 메모리 전략을 공개했다. AMD와는 컴퓨트익스프레스링크(CXL) 기반 메모리 확장 솔루션을 공동 시연하며 AI 인프라 시장 공략에 나선다.\n심호준 삼성전자 DS부문 메모리사업부 AE팀 상무는 12일(현지시간) 미국 캘리포니아주 새너제이에서 열린 ‘OCP 글로벌 서밋’에서 메모리 전략의 핵심 축으로 속도·확장성·데이터 영속성을 제시했다.\nAI 모델이 대형화하고 추론 과정에서 활용하는 KV캐시 용량이 늘면서 메모리 대역폭뿐 아니라 용량 확장과 데이터 저장 성능의 중요성도 커지고 있다는 설명이다.\n삼성전자는 속도 향상을 위해 차세대 HBM5와 맞춤형 HBM, 연산칩 위에 메모리를 적층하는 zHBM, 메모리 내부에서 연산을 수행하는 PIM 기술을 준비하고 있다.\n메모리 확장 분야에서는 CXL과 이를 활용한 CMM-D 기반 기술로 데이터 관리 효율을 높이고, 저장장치 분야에서는 차세대 기업용 솔리드스테이트드라이브(SSD)를 통해 대규모 AI 데이터의 저장 용량과 성능을 강화할 계획이다.\n행사 전시장에",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, 'AI 메모리' 판 넓힌다…HBM 넘어 CXL·SSD까지 - 뉴스1",
+      "date": "2026-10-13",
+      "source": "뉴스1",
+      "url": "https://www.news1.kr/industry/general-industry/6317675",
+      "summary": "삼성전자, 'AI 메모리' 판 넓힌다…HBM 넘어 CXL·SSD까지 뉴스1",
+      "body": "'속도·메모리 확장성·데이터 영속성' 3대 전략 제시",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, HBM5·CXL 차세대 기술 공개…AI 인프라 시장 공략 - 스페셜경제",
+      "date": "2026-10-13",
+      "source": "스페셜경제",
+      "url": "https://www.speconomy.com/news/articleView.html?idxno=418872",
+      "summary": "삼성전자, HBM5·CXL 차세대 기술 공개…AI 인프라 시장 공략 스페셜경제",
+      "body": "스페셜경제=강민철 기자 | 삼성전자가 차세대 메모리와 저장장치 기술을 앞세워 인공지능(AI) 인프라 시장 공략을 강화한다. 데이터 처리 속도를 높이는 동시에 메모리 용량과 저장·관리 효율을 개선하는 데 초점을 맞췄다.\n삼성전자는 미국 실리콘밸리에서 12일(현지시간) 개막한 ‘오픈컴퓨트프로젝트(OCP) 글로벌 서밋 2026’에서 관련 기술 전략을 공개했다고 13일 밝혔다. 데이터센터와 인프라 기술을 공유하는 이번 행사에서 글로벌 파트너들과의 협업 성과도 소개했다.\n핵심 기술은 8세대 고대역폭메모리인 HBM5와 고객 맞춤형 커스텀 HBM, 컴퓨트익스프레스링크(CXL) 기반 메모리 확장 솔루션이다. 차세대 솔리드스테이트드라이브(SSD)를 활용해 대규모 데이터를 저장하고 관리하는 기술도 함께 선보였다.\n심호준 삼성전자 AE팀 상무는 AI 시스템 성능을 높이려면 메모리 대역폭뿐 아니라 용량 확장과 데이터 저장·관리 기술도 중요하다고 설명했다. 이에 대응할 기술 방향으로 속도와 메모리 확장성, 데이터 영속성 등 세 가지를 제시했다.\n삼성전자는 AMD와 CXL 기반 메모리 확장 솔루션을 공동 시연했다. AI 추론 과정에서 늘어나는 메모리 수요에 대응하고, 여러 시스템이 ",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, HBM5 넘어 CXL·SSD까지…AI 메모리 시장 공략 - 뉴스저널리즘",
+      "date": "2026-10-13",
+      "source": "뉴스저널리즘",
+      "url": "https://www.ngetnews.com/news/articleView.html?idxno=554396",
+      "summary": "삼성전자, HBM5 넘어 CXL·SSD까지…AI 메모리 시장 공략 뉴스저널리즘",
+      "body": "삼성전자가 인공지능(AI) 반도체 경쟁력을 높이기 위해 차세대 고대역폭메모리(HBM)부터 메모리 확장 기술과 저장장치까지 사업 영역을 넓힌다. AI 모델의 대형화로 데이터 처리 속도뿐 아니라 메모리 용량과 저장 효율이 중요해지면서 기술 개발 범위를 확대하는 전략이다. AMD와 공동으로 메모리 확장 기술을 선보이며 글로벌 반도체 기업과의 협력도 강화한다.\n13일 삼성전자에 따르면 심호준 삼성전자 DS부문 상무는 12일(현지시각) 미국 캘리포니아주 새너제이컨벤션센터에서 열린 '오픈컴퓨트프로젝트(OCP) 글로벌 서밋 2026'에서 차세대 메모리 전략을 발표했다. AI 인프라의 성능 개선을 위한 기술 개발 방향으로 속도·확장성·영속성 등 3가지를 제시했다.\n이 같은 전략은 AI 추론 과정에서 빠르게 늘어나는 메모리 수요에 대응하기 위한 것이다. 대규모 AI 모델은 연산 과정에서 처리해야 할 데이터가 많고 이전 연산 정보를 임시로 보관하는 KV캐시 용량도 증가한다. 메모리의 데이터 처리 속도를 높이는 것만으로는 AI 인프라의 성능을 개선하는 데 한계가 있어 용량 확장과 저장 기술을 함께 발전시켜야 한다는 판단이다.\n우선 데이터 처리 속도를 높이기 위해 차세대 '고대역",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, OCP서 HBM5·CXL 메모리 기술 공개⋯ AMD와 공동 시연도 - 브릿지경제",
+      "date": "2026-10-13",
+      "source": "브릿지경제",
+      "url": "https://www.viva100.com/article/20261013500487",
+      "summary": "삼성전자, OCP서 HBM5·CXL 메모리 기술 공개⋯ AMD와 공동 시연도 브릿지경제",
+      "body": "삼성전자가 고대역폭메모리 8세대(HBM5)와 커스텀 HBM 등 차세대 고성능 메모리 기술과 컴퓨트익스프레스링크(CXL) 기반 메모리 확장 솔루션을 앞세워 인공지능(AI) 인프라 시장 공략에 나선다.\n삼성전자는 12일(현지시간) 미국에서 개막한 ’OCP 글로벌 서밋 2026’에서 AI 인프라 성능 향상을 위한 차세대 메모리·스토리지 기술 전략과 글로벌 파트너사와의 협업 성과를 공개한다. 이곳에서 AMD와 CXL 기반 메모리 확장 기술을 공동 시연하고, 차세대 솔리드스테이트드라이브(SSD)를 활용한 데이터 저장·관리 기술도 선보일 예정이다.\n이번 행사에서 삼성전자가 제시할 혁신은 △HBM5·커스텀 HBM 등 고성능 메모리 △CXL 기반 메모리 확장 기술 △차세대 SSD 기반 데이터 저장·관리 기술을 중심으로 AI 인프라 고도화 기술 등이다.\n심호준 삼성전자 AE팀 상무는 이날 이그제큐티브 세션 발표를 통해 “시장 수요에 대응하기 위해서는 속도와 메모리 확장성, 데이터 영속성이 중요하다“고 강조했다.\nAI 모델이 대형화하고 추론 과정에서 처리해야 하는 데이터와 키·값 캐시(KV Cache) 용량이 증가하면서 메모리 대역폭뿐 아니라 용량 확장과 데이터 저장·관리 기",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD",
+            "삼성전자"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "AMD",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AMD",
+          "HBM",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Deterministic Nucleation Enables Controlled Growth of 2D Semiconductors (KAIST, TDS, Hanyang et al.)",
+      "date": "2026-10-13",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/deterministic-nucleation-enables-controlled-growth-of-2d-semiconductors-kaist-tds-hanyang-et-al/",
+      "summary": "Researchers at KAIST, TDS Innovation, Hanyang University, UNIST, et al. published a technical paper titled “Spatially deterministic nucleation of 2D semiconductors by etching flux.” Abstract Excerpt: “Nucleation control is fundamental to semiconductor deposition, governing when, where and how crystalline materials form. Conventional strategies can regulate nucleation density and, through area-selective growth, confine deposition to designated... » read more The post Deterministic Nucleation Enables Controlled Growth of 2D Semiconductors (KAIST, TDS, Hanyang et al.) appeared first on Semiconductor Engineering.",
+      "body": "Researchers at KAIST, TDS Innovation, Hanyang University, UNIST, et al. published a technical paper titled “Spatially deterministic nucleation of 2D semiconductors by etching flux.”\n\nAbstract Excerpt:\n\n“Nucleation control is fundamental to semiconductor deposition, governing when, where and how crystalline materials form. Conventional strategies can regulate nucleation density and, through area-selective growth, confine deposition to designated regions. However, they generally do not determine where an individual nucleus forms within the growth regions, leaving even single-nucleation events spatially stochastic and limiting deterministic construction of crystalline materials. Here we report etching-flux-mediated single-centred nucleation of two-dimensional (2D) semiconductors to deterministically localize a single nucleation event.”\n\nFind the technical paper here. October 2026.\n\nPark, J., Kim, J., Kang, S. et al. Spatially deterministic nucleation of 2D semiconductors by etching flux. ",
+      "score": 3.14,
+      "score_raw": 8.8,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 6.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "etching",
+            "증착"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "증착",
+          "etching",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash)",
+      "date": "2026-10-13",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/carbon-dot-interface-enables-ultrathin-high-%ce%ba-dielectrics-on-2d-semiconductors-uiuc-netl-argonne-monash/",
+      "summary": "Researchers at the University of Illinois Urbana-Champaign, National Energy Technology Laboratory, Argonne National Laboratory, and Monash University published a technical paper titled “Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer.” Abstract Excerpt: “This atomically thin assembly forms a van der Waals interfacial layer that enables deposition... » read more The post Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash) appeared first on Semiconductor Engineering.",
+      "body": "Researchers at the University of Illinois Urbana-Champaign, National Energy Technology Laboratory, Argonne National Laboratory, and Monash University published a technical paper titled “Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer.”\n\nAbstract Excerpt: “This atomically thin assembly forms a van der Waals interfacial layer that enables deposition of ultrathin high-κ oxides.”\n\nFind the technical paper here. October 2026.\n\nWong, S., An, F., Wu, Y. et al. Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer. Nat Commun 17, 10362 (2026). https://doi.org/10.1038/s41467-026-78053-3. Creative Commons License.\n\nThe post Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash) appeared first on Semiconductor Engineering.",
+      "score": 1.75,
+      "score_raw": 4.9,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 3.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "증착"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "증착",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle",
+      "date": "2026-10-13",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
+      "summary": "Low-volume production sits between research and mass manufacturing. Europe needs an industrial model to fill the gap. The post Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle appeared first on EE Times.",
+      "body": "Europe has no shortage of semiconductor research. The harder problem often begins after the prototype works.\n\nA company may need an advanced packaging process for a specialized product, but only at volumes",
+      "score": 1.07,
+      "score_raw": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 3.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [
+            "양산"
+          ],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "양산"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "中 CXMT D램 시장 도전장에 일본·대만 증시 급락[Asia오전] - 머니투데이 - 머니투데이",
+      "url": "https://www.mt.co.kr/amp/world/2026/10/13/2026101311441256228",
+      "source": "머니투데이",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "DRAM"
+        ],
+        "summary_hits": [
+          "DRAM"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "中 CXMT 추격에 삼전·하이닉스 급락…증권가 \"AI 우려·외인 매도까지 겹쳐\" - 인포스탁데일리",
+      "url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=218365",
+      "source": "인포스탁데일리",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’ - The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+      "source": "The Guardian",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "브로드컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "브로드컴"
+        ],
+        "summary_hits": [
+          "브로드컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "인텔, AI 추론용 GPU 'D-시리즈' 공개",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63633",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AMD, CPU 중심 AI 랙 '헬리온' 공개…에이전틱 AI 겨냥",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63596",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "AMD"
+        ],
+        "summary_hits": [
+          "AMD"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "퀄컴, 차세대 AI 통신 솔루션 4종 공개...네트워크 X 2026서 시연",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63594",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"수급·中반도체 추격 우려\"…美금리·빅테크 실적 주목 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/MYH20261013019500038",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 덕에 경제 수치 좋지만… 기업 절반은 이자도 못 벌었다 - 국민일보",
+      "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000022297",
+      "source": "국민일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "외국인 4조 폭탄 던졌는데… 개미들은 반도체 저가 매수 배수진 - 조선비즈 - Chosunbiz",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/10/13/536LPQFAWJB3JEPRMW3GRG2B3I/",
+      "source": "Chosunbiz",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체·로봇 기술 AI로 통합…산업현장 적용 가속 - 연합뉴스TV",
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261013230200xLr",
+      "source": "연합뉴스TV",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[논설위원의 단도직입] “반도체 씹어먹고 살 건가요…농업이 무너지면 식량안보도 없어요” - 경향신문",
+      "url": "https://www.khan.co.kr/article/202610132026005",
+      "source": "경향신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[인베스팅프로] 반도체 쇼크 속 10월 ’한국 저평가 가치주’ 15선… 평균 상승여력 27%, 3종목 무료 공개 - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2123915",
+      "source": "Investing.com 한국어",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "산업부 내 '반도체혁신성장지원단' 신설…서남권 클러스터 등 속도 - 한국방송뉴스",
+      "url": "https://www.ikbn.news/news/article.html?no=215924",
+      "source": "한국방송뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "산업부, 반도체 메가프로젝트 전담국 ‘반도체혁신성장지원단’ 출범 - 지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20261013231255",
+      "source": "지디넷코리아",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘서남권 800조’ 속도 낼까…‘반도체 차르’ 밑 전담조직 둔다 - 한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1282124.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이상일 용인시장 “반도체 클러스터 성공, 교통망·근로자 숙소가 열쇠” - 아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026101319395205542",
+      "source": "아시아경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] ‘코스피 6000’ 들락날락… 반도체 호황 이후 대비하란 경고 - 서울신문",
+      "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/10/14/20261014027007",
+      "source": "서울신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "뉴욕증시 프리뷰, 中 반도체 공세에 나스닥 선물 하락…美 은행 실적도 엇갈려 - 뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261013001313",
+      "source": "뉴스핌",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "2년 일찍 생산?‥중국 반도체 무서운 추격 - MBC 뉴스",
+      "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6857730_36989.html",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261013171600061",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}
