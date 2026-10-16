@@ -1,0 +1,1551 @@
+{
+  "generated_at": "2026-10-17T03:17:53.184376+09:00",
+  "field": "반도체",
+  "field_date": "2026-10-17",
+  "stats": {
+    "collected_total": 465,
+    "after_resolve": 465,
+    "after_time_filter": 344,
+    "after_dedup": 332,
+    "after_score_filter": 15,
+    "extracted_success": 14,
+    "extracted_failed": 1
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "엑시나, OCP 서밋서 AI 추론용 CXL 메모리 기술 공개…SK하이닉스와 협력 - 디지털데일리",
+      "date": "2026-10-16",
+      "source": "디지털데일리",
+      "url": "https://www.ddaily.co.kr/page/view/2026101612002085159",
+      "summary": "엑시나, OCP 서밋서 AI 추론용 CXL 메모리 기술 공개…SK하이닉스와 협력 디지털데일리",
+      "body": "엑시나, OCP 서밋서 AI 추론용 CXL 메모리 기술 공개…SK하이닉스와 협력",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스, CXL·연산 메모리로 AI 데이터 병목 잡는다…차세대 서버 기술 공개 - 녹색경제신문",
+      "date": "2026-10-16",
+      "source": "녹색경제신문",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=352288",
+      "summary": "SK하이닉스, CXL·연산 메모리로 AI 데이터 병목 잡는다…차세대 서버 기술 공개 녹색경제신문",
+      "body": "CXL·MARS·CMM-Ax 공개…데이터 병목·전력 부담 완화",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스, ‘메모리 중심 AI 랙’ 공개…CXL·HBF로 AI 병목 해법 제시 - 라이센스뉴스",
+      "date": "2026-10-16",
+      "source": "라이센스뉴스",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209758",
+      "summary": "SK하이닉스, ‘메모리 중심 AI 랙’ 공개…CXL·HBF로 AI 병목 해법 제시 라이센스뉴스",
+      "body": "라이센스뉴스 = 백성요 기자 | SK하이닉스가 여러 서버가 메모리 자원을 공유하는 ‘메모리 중심 AI 랙’과 고대역폭 플래시(HBF)를 앞세워 AI 추론 환경의 데이터 이동 병목을 줄이겠다는 전략을 공개했다. AI가 처리해야 하는 데이터가 늘면서 연산기 성능뿐 아니라 메모리 활용 방식이 AI 인프라 경쟁력의 핵심으로 떠오르고 있다는 점에 주목했다.\nSK하이닉스는 지난 12일부터 15일까지 미국 캘리포니아주 새너제이에서 열린 ‘OCP 글로벌 서밋 2026’에서 CXL 기반 차세대 메모리 솔루션과 MARS(Memory-Centric AI Rack System)를 선보였다고 16일 밝혔다.\nMARS는 CPU·GPU 중심의 기존 서버 구조에서 메모리를 각 서버에 고정하는 대신, 랙 단위로 메모리 풀을 구성해 여러 서버가 필요한 만큼 공유하는 시스템이다. CXL 기술을 기반으로 메모리와 연산 자원을 연결하고, 대용량 데이터의 이동·재사용 효율을 높이는 것이 핵심이다.\nSK하이닉스는 다중 대화형 AI 추론에서 MARS 기반 KV 캐시 공유 구조를 적용하면, 캐시를 다시 계산하는 방식과 비교해 첫 토큰 응답 시간(TTFT)을 최대 3~5배 개선할 수 있다고 제시했다. 이",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스, 'OCP 글로벌 서밋'서 AI 메모리 혁신...2세대 CXL 모듈 공개 - CWN",
+      "date": "2026-10-16",
+      "source": "CWN",
+      "url": "https://www.cwn.kr/news/articleView.html?idxno=59552",
+      "summary": "SK하이닉스, 'OCP 글로벌 서밋'서 AI 메모리 혁신...2세대 CXL 모듈 공개 CWN",
+      "body": "[CWN 강현빈 기자] SK하이닉스가 미국에서 열린 글로벌 기술 행사에서 차세대 인공지능(AI) 메모리 솔루션을 공개하며 데이터센터의 성능과 전력 효율을 높이기 위한 기술 개발 방향을 제시했다.\n16일 SK하이닉스는 지난 12일부터 15일(현지시간)까지 미국 캘리포니아주 새너제이 컨벤션센터에서 개최된 'OCP 글로벌 서밋 2026'에 참가해 차세대 메모리 기술과 서버 시스템을 선보였다고 밝혔다.\nOCP 글로벌 서밋은 반도체와 서버, 데이터센터 등 정보기술(IT) 분야의 글로벌 기업들이 참여해 차세대 인프라 기술과 산업 표준을 논의하는 연례 행사다. 올해는 AI 기술 발전에 따른 데이터 처리 성능과 인프라 효율성 향상이 주요 주제로 다뤄졌다.\nSK하이닉스는 전시 공간을 주력 메모리 제품을 소개하는 구역과 미래형 서버 시스템을 시연하는 구역으로 나눠 운영했다. 특히 시스템 시연 공간에서는 CMM-DDR5, MARS, CMM-Ax 등 세 가지 차세대 기술을 집중적으로 소개했다.\nCMM-DDR5는 컴퓨트 익스프레스 링크(CXL) 기술을 기반으로 여러 서버가 메모리 자원을 공유하고 필요에 따라 활용할 수 있도록 설계된 제품이다. 이를 통해 서버별 메모리 활용도를 높이",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Marvell Technology(MRVL), 6채널 CXL 메모리 공개하고 AI 데이터센터 네트워킹 협력 넓혔다 - Simply Wall Street",
+      "date": "2026-10-16",
+      "source": "Simply Wall Street",
+      "url": "https://simplywall.st/ko/stocks/us/semiconductors/nasdaq-mrvl/marvell-technology/news/fb3d570e5823b1da/amp",
+      "summary": "Marvell Technology(MRVL), 6채널 CXL 메모리 공개하고 AI 데이터센터 네트워킹 협력 넓혔다 Simply Wall Street",
+      "body": "Marvell Technology(NasdaqGS:MRVL)가 2세대 Structera X CXL 메모리 익스팬더를 공개해 고대역 AI 인퍼런스 메모리 수요에 대응했다.\n새 Structera X 제품은 업계 최초 6채널 CXL 3.2 메모리 익스팬더로 소개되며, 더 큰 AI 모델과 빠른 응답 시간을 지원하도록 설계됐다.\nMarvell은 Aviz Networks와의 협력 범위를 넓혀, 자사 이더넷 스위칭 포트폴리오 전반에 상용 수준 SONiC 기반 네트워킹 솔루션을 제공하기로 했다.\n이 Structera X CXL 3.2 메모리 익스팬더 출시와 Aviz 협력 확대는 이후 투자 점검 사항과 함께 따져볼 만한 변화다. We have also spotted 알아둘 만한 경고 신호 2가지가 Marvell Technology에 있는 것으로 확인했습니다.\nAI 인프라 흐름을 더 폭넓게 보고 싶다면 같은 영역에 있는 다른 종목들도 함께 확인해 보자 AI 인프라 관련 주식 92개.\nMarvell Technology는 미국을 포함한 여러 국가에서 데이터 센터부터 네트워크 엣지까지 이어지는 데이터 인프라용 반도체를 공급하며, 이번 AI 데이터 센터용 메모리와 네트워킹 관련 발표",
+      "score": 7.32,
+      "score_raw": 20.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마벨"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "마벨",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "마벨",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, JEDEC서 “AI 메모리 표준화 한계” 토로",
+      "date": "2026-10-16",
+      "source": "THELEC_반도체",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63772",
+      "summary": "삼성전자가 차세대 인공지능(AI) 메모리 표준화에 한계가 있다고 토로했다. 고객 맞춤형 설계가 고대역폭메모리(HBM)의 베이스 다이를 넘어 D램 코어 안으로 들어오면서 메모리 업체가 관리하기 어려운 수준이 됐다는 것이다.황가람 삼성전자 반도체(DS)부문 메모리사업부 상품기획팀 박사는 15일 서울 강남 코엑스에서 열린 반도체대전(SEDEX) 2026 부대 행사 2026 국제반도체표준협의회(JEDEC) 포럼에서 “LPDDR 기반 프로세싱 인 메모리(LPDDR-PIM)와 z고대역폭메모리(zHBM)에는 고객 맞춤형 기능이 많다”며 \"실제",
+      "body": "삼성전자가 차세대 인공지능(AI) 메모리 표준화에 한계가 있다고 토로했다. 고객 맞춤형 설계가 고대역폭메모리(HBM)의 베이스 다이를 넘어 D램 코어 안으로 들어오면서 메모리 업체가 관리하기 어려운 수준이 됐다는 것이다.\n황가람 삼성전자 반도체(DS)부문 메모리사업부 상품기획팀 박사는 15일 서울 강남 코엑스에서 열린 반도체대전(SEDEX) 2026 부대 행사 2026 국제반도체표준협의회(JEDEC) 포럼에서 “LPDDR 기반 프로세싱 인 메모리(LPDDR-PIM)와 z고대역폭메모리(zHBM)에는 고객 맞춤형 기능이 많다”며 \"실제 제품을 제조할 때 메모리 업체가 관리하기는 매우 어렵다\"고 말했다. 이어 \"다른 메모리 업체도 동일할 것\"이라고 했다.\n표준은 서로 다른 제품이 공통 규격에 동작하도록 정한 기준이다. 기존 D램은 이 기준에 따라 만들었다. 그러나 D램에 없던 연산 기능이 들어가면서 사정이 달라졌다. 대표적 예가 LPDDR-PIM이다. LPDDR-PIM은 저전력 D램 내부에 연산 기능을 탑재한 구조다. 황 박사는 연내 LPDDR6-PIM 표준이 정립되기를 기대한다고 했다.\nzHBM은 표준화가 더 어렵다. zHBM은 삼성전자가 제시한 HBM 구조다.",
+      "score": 7.18,
+      "score_raw": 20.1,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 7.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM",
+            "HBM",
+            "LPDDR",
+            "고대역폭",
+            "메모리"
+          ],
+          "tech": [
+            "PIM",
+            "베이스다이"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "고대역폭",
+          "HBM",
+          "LPDDR",
+          "메모리",
+          "DRAM",
+          "베이스다이",
+          "PIM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[반도체포커스] EUV 강자 ASML, 하이브리드 본딩까지 넘보나…TSMC·인텔 시장 정조준 - 이코노미트리뷴",
+      "date": "2026-10-16",
+      "source": "이코노미트리뷴",
+      "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904159",
+      "summary": "[반도체포커스] EUV 강자 ASML, 하이브리드 본딩까지 넘보나…TSMC·인텔 시장 정조준 이코노미트리뷴",
+      "body": "[이코노미트리뷴 = 김용현 기자] 세계 최대 반도체 노광장비 기업 ASML이 차세대 반도체 패키징 기술인 하이브리드 본딩 장비 시장에 진출할 가능성이 제기됐다.\n노광장비 사업에서 축적한 초정밀 정렬·오염 제어 기술을 기반으로 기존 장비업체들이 선점한 시장에 진입하려는 움직임으로 풀이된다.\n16일 반도체 전문 분석업체 세미애널리시스(SemiAnalysis)에 따르면 ASML은 2022년 12월부터 2024년 11월까지 하이브리드 본딩 관련 특허군 27개를 출원한 것으로 분석됐다.\n세미애널리시스는 ASML이 개별 반도체 칩을 웨이퍼에 직접 접합하는 D2W(Die-to-Wafer) 방식의 하이브리드 본딩 장비를 우선 개발할 가능성이 높다고 평가했다.\n관련 특허에는 반도체 칩을 독립적인 홀더에 올려 트랙을 따라 이동시키면서 검사·세정·플라즈마 활성화·정렬·접합 공정을 수행하는 내용이 담겼다. 공정별 장비 가동률을 높이는 동시에 ASML의 정밀 정렬·오염 제어 기술을 활용해 접합 수율을 개선할 수 있다는 분석이다.\n이 같은 움직임은 ASML의 첨단 패키징 사업 확대 전략과도 맞물린다. ASML은 지난해 3분기 첫 첨단 패키징용 노광장비인 '트윈스캔(TWINSCAN) ",
+      "score": 7.14,
+      "score_raw": 20.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "ASML",
+            "TSMC",
+            "인텔"
+          ],
+          "product": [],
+          "tech": [
+            "EUV",
+            "하이브리드본딩"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "인텔",
+          "ASML",
+          "TSMC",
+          "EUV",
+          "하이브리드본딩",
+          "반도체"
+        ],
+        "summary_hits": [
+          "인텔",
+          "ASML",
+          "TSMC",
+          "EUV",
+          "하이브리드본딩",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "엑시나, 'OCP 글로벌 서밋'서 CXL 메모리 기반 AI 추론 기술 시연 - 머니투데이 - 머니투데이",
+      "date": "2026-10-16",
+      "source": "머니투데이",
+      "url": "https://www.mt.co.kr/future/2026/10/16/2026101609474885020",
+      "summary": "엑시나, 'OCP 글로벌 서밋'서 CXL 메모리 기반 AI 추론 기술 시연 - 머니투데이 머니투데이",
+      "body": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.]\n인공지능(AI) 메모리 인프라 반도체 팹리스 기업 엑시나가 지난 12~15일(현지시간) 미국 캘리포니아주 산호세 컨벤션센터에서 열린 'OCP 글로벌 서밋 2026'에 참가해 AI 추론용 메모리 인프라 기술을 선보였다고 16일 밝혔다. OCP 글로벌 서밋은 전 세계 주요 클라우드, 데이터센터, 반도체 기업들이 모여 차세대 컴퓨팅 인프라 표준과 기술을 논의하는 행사다.\n엑시나는 이번 행사에서 CXL(컴퓨트익스프레스링크) 기반 메모리 솔루션 'MX1'을 활용한 AI 추론 시연(데모) 2종을 공개했다. 구체적으로 △여러 AI 추론 서버가 CXL 메모리 풀을 통해 'KV 캐시(답변 생성에 재사용하는 데이터)'를 공유해 데이터 중복 저장과 이동을 줄이는 기술 △메모리에서 직접 연산을 수행하는 데이터 인접 연산(NDP) 기능으로 검색증강생성(RAG) 속도를 높이는 기술을 각각 선보였다.\n글로벌 메모리 선도 기업들과의 협력 성과도 주요하게 다뤄졌다. 엑시나는 SK하이닉스와 협력해 MX1의 데이터 확장 기능인 '인피니트메모리'를 활용한 CXL 하이브리드 ",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AI 추론 병목, 메모리에서 해법 찾는다...엑시나, CXL 기반 ‘MX1’ 선보여 - 더에이아이",
+      "date": "2026-10-16",
+      "source": "더에이아이",
+      "url": "https://www.newstheai.com/news/articleView.html?idxno=21734",
+      "summary": "AI 추론 병목, 메모리에서 해법 찾는다...엑시나, CXL 기반 ‘MX1’ 선보여 더에이아이",
+      "body": "MX1으로 AI 추론 서버 간 KV 캐시 공유 및 RAG 벡터 검색 가속 시연\nSK와 CXL 하이브리드 메모리 검증...삼성과 에이전틱 AI 아키텍처 발표\nOCP 세션·토론 참여...메모리 풀링과 데이터 인접 연산 기술 소개\n엑시나는 12일부터 15일(현지시간)까지 미국 산호세에서 열린 ‘OCP 글로벌 서밋 2026’에서 CXL 기반 메모리 솔루션 ‘MX1’을 활용한 AI 추론 기술을 시연했다고 16일 밝혔다.\n엑시나는 행사 부스에서 두 가지 AI 추론 데모를 공개했다. 첫 번째는 CXL 메모리 풀을 활용해 여러 추론 서버가 KV 캐시를 공유하는 기술이다. KV 캐시는 AI 모델이 앞서 처리한 입력 정보를 저장해 후속 토큰 생성에 활용하는 데이터다. 서버마다 KV 캐시를 개별적으로 저장하는 대신 공유 메모리에 모으면 중복 저장을 줄이고, 서버 간 데이터 이동 부담도 낮출 수 있다. 엑시나는 이를 통해 AI 추론 환경에서 메모리 자원을 보다 유연하게 활용하는 방안을 제시했다.\n두 번째는 MX1의 데이터 인접 처리(NDP) 기능을 이용한 벡터 검색 가속이다. 검색증강생성(RAG)은 외부 데이터 검색 결과를 생성형 AI의 답변에 활용하는 기술로, 관련 문서를 찾는",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Exynas Collaborates with SK Hynix on AI Memory Technology… Unveils CXL-Based Inference Solution at 'OCP Global Summit' - 벤처스퀘어",
+      "date": "2026-10-16",
+      "source": "벤처스퀘어",
+      "url": "https://www.venturesquare.net/en/1120590/",
+      "summary": "Exynas Collaborates with SK Hynix on AI Memory Technology… Unveils CXL-Based Inference Solution at 'OCP Global Summit' 벤처스퀘어",
+      "body": "As the use of generative artificial intelligence (AI) expands, the factors determining the performance of AI infrastructure are also changing. With the increase in the amount of data that AI models must process, not only computational performance but also memory capacity, latency due to data movement, and power consumption have emerged as critical challenges. In particular, attention is being focused on technologies that reduce memory bottlenecks that occur during the AI inference process, such as when reusing previously processed information or searching for necessary information from externa",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "엑시나, OCP 글로벌 서밋서 AI 추론용 CXL 메모리 기술 공개 - 스타트업엔(StartupN)",
+      "date": "2026-10-16",
+      "source": "스타트업엔(StartupN)",
+      "url": "https://www.startupn.kr/news/articleViewAmp.html?idxno=60245",
+      "summary": "엑시나, OCP 글로벌 서밋서 AI 추론용 CXL 메모리 기술 공개 스타트업엔(StartupN)",
+      "body": "반도체 팹리스 기업 엑시나(XCENA)가 미국에서 열린 ‘OCP 글로벌 서밋 2026’에서 인공지능(AI) 추론 환경의 메모리 병목을 줄이기 위한 차세대 메모리 기술을 선보였다. SK하이닉스, 삼성전자 등 글로벌 반도체 기업과의 기술 협력도 공개했다.\n엑시나는 지난 12일부터 15일까지(현지시간) 미국 캘리포니아주 산호세 컨벤션센터에서 열린 이번 행사에 참가해 CXL(Compute Express Link) 기반 메모리 솔루션 ‘MX1’을 활용한 AI 추론 기술을 시연했다고 16일 밝혔다.\n이번 전시에서는 AI 추론 서버 간 KV 캐시를 공유하는 기술과 검색증강생성(RAG)의 벡터 검색을 가속하는 기술 등 두 가지 데모를 공개했다.\nKV 캐시 공유 기술은 AI가 앞서 처리한 정보를 저장해 답변 생성에 재사용하는 데이터를 여러 추론 서버가 공동으로 활용하도록 설계됐다. 서버마다 캐시를 개별 저장하는 대신 CXL 메모리 풀에 데이터를 모아 공유하는 방식이다. 중복 저장을 줄이고 서버 간 데이터 이동 부담을 낮출 수 있다는 설명이다.\nMX1의 데이터 인접 프로세싱(NDP) 기능을 활용한 RAG 벡터 검색 시연도 진행했다. 대규모 데이터를 호스트 프로세서로 반복 전송",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Chip Industry Week In Review",
+      "date": "2026-10-16",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appeared first on Semiconductor Engineering.",
+      "body": "Manufacturing and process technology\n\nGlobalFoundries will operate two new fabs in Malta, New York, under a U.S.-Japan initiative involving up to $21B in investment. The first fab is expected to come online in 2029. GF also unveiled an FD-SOI roadmap for physical AI.\n\nApplied Materials unveiled its $5B EPIC Center, a 600,000-s.f. semiconductor process and equipment R&D facility in Silicon Valley.\n\nInfineon and Wolfspeed inked a new multi-year supply agreement for 200mm SiC wafers.\n\nNikon introduced a new lithography system for advanced packaging, offering 1.5 µm line-and-space resolution and 40% higher throughput than its predecessor, at 72 panels per hour. The maskless system supports large substrates and RDL patterning, with availability planned for April 2027.\n\nPackaging and test\n\nFormFactor and Teradyne will co-develop semiconductor test technologies for HBM, advanced packaging, silicon photonics, and HPC. Teradyne also agreed to invest $300M in FormFactor. Teradyne also introduced",
+      "score": 4.82,
+      "score_raw": 13.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 2.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "ASML",
+            "TSMC"
+          ],
+          "product": [],
+          "tech": [
+            "EUV"
+          ],
+          "event": [],
+          "domain": [
+            "fab",
+            "semiconductor"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "ASML",
+          "TSMC",
+          "EUV",
+          "semiconductor",
+          "fab"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Japan Offers GlobalFoundries $21B for U.S. Fab Expansion",
+      "date": "2026-10-16",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
+      "summary": "Japan’s $21B offer to GlobalFoundries would add two New York fabs and lift U.S. chip capacity 10%; see why analysts warn on state support. The post Japan Offers GlobalFoundries $21B for U.S. Fab Expansion appeared first on EE Times.",
+      "body": "Japan has offered up to $21 billion to GlobalFoundries to expand its existing U.S. semiconductor complex in an unprecedented public-private partnership between the two nations and the fifth-largest chip",
+      "score": 2.5,
+      "score_raw": 7.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "글로벌파운드리"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "fab"
+          ]
+        },
+        "title_hits": [
+          "글로벌파운드리",
+          "fab"
+        ],
+        "summary_hits": [
+          "글로벌파운드리",
+          "fab"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Taiwan’s AI Ambitions Run into Talent Gap",
+      "date": "2026-10-16",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
+      "summary": "AMD’s David Wang told EE Times that while Taiwan has huge opportunities in rack-scale AI, physical AI, and AI PC markets, the sticking point may well be talent. The post Taiwan’s AI Ambitions Run into Talent Gap appeared first on EE Times.",
+      "body": "TAIPEI, Taiwan — At EE Times Taiwan’s iTechCon conference, a panel discussion with industry experts and government officials identified talent as a major challenge to Taiwan’s opportunity in AI.",
+      "score": 0.36,
+      "score_raw": 1.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 1.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "AMD"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "인텔, 피지컬 AI 실물 시연",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63812",
+      "source": "THELEC_반도체",
+      "score": 3.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "QUICK SPARK: DRAM ETF Extends Losing Streak, But CEO Sees Long-Term Upside - Benzinga",
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62399978/quick-spark-dram-etf-extends-losing-streak-but-ceo-sees-long-term-upside",
+      "source": "Benzinga",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "DRAM"
+        ],
+        "summary_hits": [
+          "DRAM"
+        ],
+        "negative_hits": [
+          "ETF"
+        ]
+      }
+    },
+    {
+      "title": "퀄컴 \"휴머노이드는 고도화된 자동차\" - 디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63836",
+      "source": "디일렉",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AMD 데이비드 왕: 대만 AI 성장에는 인재와 첨단 패키징이 필요 - 뉴스 및 통계 - IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/amds-david-wang-taiwans-ai-opportunity-hinges-on-talent-and-advanced-packaging/",
+      "source": "IndexBox",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "AMD"
+        ],
+        "summary_hits": [
+          "AMD"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Gaonchips Joins Arm’s Physical AI Partnership to Support Chip Design and Production - THE ELEC, Korea Electronics Industry Media",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14648",
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Arm"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "Arm"
+        ],
+        "summary_hits": [
+          "Arm"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "인텔, CPU 최적화 AI 추론 소프트웨어 선봬",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63815",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "400억 유로 팹 꿈꾸던 유럽, 韓 반도체 유치 대신 손잡기 택한 속사정 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610161556594029fbbec65dfb_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"美없었으면 한국도 대만도 반도체 성공 못했다\" - 디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63829",
+      "source": "디일렉",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 배우러, 폴리텍대 다시 가는 직장인들 - 조선일보",
+      "url": "https://www.chosun.com/national/labor/2026/10/17/2CXQ2JZZH5A7BBLZQGVNS5DJ5M/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "원자 바꿔 반도체 소재 자유자재로... 차세대 초고성능 소자 구현 - 헬로티",
+      "url": "https://www.hellot.net/news/article.html?no=115536",
+      "source": "헬로티",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 주식, 단기 반등 예상되지만 2000년 유사 패턴은 추가 하락 시사 - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2129841",
+      "source": "Investing.com 한국어",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 거점 오산, 첨단 자족도시로 도약 - YTN",
+      "url": "https://www.ytn.co.kr/_ln/0115_202610161925496386",
+      "source": "YTN",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "광주 광산구, 반도체 클러스터 부지 도로 '반도체로' 명명 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261016139200054",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "'세계가 반도체 패권 전쟁 중인데...' 기업 압박하는 국힘 - KBC광주방송",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202610160076",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“반도체 팹세권이 끌어올렸다”…전남광주 전셋값 한 달 만에 상승 반전 - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000074124",
+      "source": "진일보 | 전남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "대만, 美 대중국 반도체 수출 규제 동참…AI 칩 밀수 형사처벌 추진 - 블루밍비트",
+      "url": "https://bloomingbit.io/feed/news/122355",
+      "source": "블루밍비트",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[김대호 인물] 애플 터너스 (Ternus) \"중국 반도체 위험한 선택\" - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610160843515451906806b77b_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "르네사스, 피지컬 AI 전담팀 출범…휴머노이드 반도체 공략 본격화 - 디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=63834",
+      "source": "디일렉",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "도이체방크, AI 수익화 우려가 유럽 반도체 주식 매수 기회 창출 - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2129874",
+      "source": "Investing.com 한국어",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[김대호 진단] 반도체 열전 (65) 이지노모도(味の素)... 다시마 국물 조미료의 무서운 변신 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Opinion/2026/10/20261008111335820906806b77b_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": [
+    {
+      "title": "SK하이닉스, HBM 16단처럼 쌓은 43년…’초심 3부작’ 공개 By EBN - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2129084",
+      "source": "Investing.com 한국어",
+      "score": 23.0,
+      "reason": "fetch_fail"
+    }
+  ]
+}
