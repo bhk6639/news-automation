@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-23T03:15:57.720880+09:00",
+  "generated_at": "2026-10-24T03:07:41.713601+09:00",
   "field": "반도체",
-  "field_date": "2026-10-23",
+  "field_date": "2026-10-24",
   "stats": {
-    "collected_total": 392,
-    "after_resolve": 392,
-    "after_time_filter": 319,
-    "after_dedup": 314,
+    "collected_total": 365,
+    "after_resolve": 364,
+    "after_time_filter": 280,
+    "after_dedup": 278,
     "after_score_filter": 15,
-    "extracted_success": 15,
-    "extracted_failed": 0
+    "extracted_success": 14,
+    "extracted_failed": 1
   },
   "keywords_snapshot": {
     "critical": [
@@ -313,12 +313,12 @@
   },
   "items": [
     {
-      "title": "[단독]마이크론 “4F² D램은 신화일 뿐” 공식 포기… '3D D램·웨이퍼 본딩' 집중 승부수 - 전자신문",
-      "date": "2026-10-22",
-      "source": "전자신문",
-      "url": "https://www.etnews.com/20261022000027",
-      "summary": "[단독]마이크론 “4F² D램은 신화일 뿐” 공식 포기… '3D D램·웨이퍼 본딩' 집중 승부수 전자신문",
-      "body": "미국 메모리 반도체 기업 마이크론 테크놀로지가 차세대 D램 미세화의 핵심 관문으로 꼽히는 '4F²(4F 스퀘어)' 셀 구조 도입을 공식 포기했다. 무리하게 4F²를 도입하는 대신 기존 '6F²' 구조를 연장하고, '웨이퍼 본딩'과 '3차원(3D) 적층'으로 이어지는 기술 경로에 집중해 한국 경쟁사들과의 격차를 뒤집겠다는 승부수로 풀이된다.\n마이크론은 21일(현지시간) 개최한 기술 웨비나에서 향후 10년의 메모리 개발 노선을 담은 다세대 기술 로드맵을 공개하며 이 같은 방침을 밝혔다.이날 발표에서 가장 큰 파장을 일으킨 대목은 차세대 D램 구조에 대한 마이크론의 판정이다.\n현재 삼성전자와 SK하이닉스는 10나노 이하(0a·0b 나노급) 공정의 물리적 한계를 돌파하기 위해 수직 채널 트랜지스터(VCT) 기반의 '4F²' 구조를 연구 중이다. 기존 6F² 구조를 4F²로 줄여 칩 면적을 축소하고 집적도를 높이는 전략이다.\n마이크론은 이날 발표 자료에서 “20년 이상 4F²를 연구했으나 실행 가능한 스케일링 경로가 없다”고 명시한 데 이어, 발표자로 나선 스콧 드보어 마이크론 사장 겸 최고기술·제품책임자(CTPO)“4F² 스케일링에는 근본적인 문제들이 있다”며 6F",
+      "title": "Japan targets 2nm medical AI chip with IBM design, Rapidus eyed for foundry - digitimes",
+      "date": "2026-10-23",
+      "source": "digitimes",
+      "url": "https://www.digitimes.com/news/a20261023PD230/medical-2nm-ibm-rapidus-design.html",
+      "summary": "Japan targets 2nm medical AI chip with IBM design, Rapidus eyed for foundry digitimes",
+      "body": "Access denied\nSorry, unusual traffic from your computer network.\nYour IP (20.168.124.179) has been blocked temporarily.\nTo provide quality services to our members, DIGITIMES blocks IPs if large volume of traffic coming from a single IP address.\nPlease do not republish, publicly broadcast or publicly transmit content from this website without written permission from DIGITIMES Inc. Please contact us if you have any questions.",
       "score": 8.93,
       "score_raw": 25.0,
       "score_detail": {
@@ -331,61 +331,60 @@
         },
         "bucket_hits": {
           "entity": [
-            "마이크론"
+            "라피더스"
           ],
           "product": [
-            "DRAM"
+            "AI반도체"
           ],
           "tech": [
-            "수직D램"
+            "노드"
           ],
           "event": [],
           "domain": [
-            "웨이퍼"
+            "foundry"
           ]
         },
         "title_hits": [
-          "마이크론",
-          "DRAM",
-          "수직D램",
-          "웨이퍼"
+          "라피더스",
+          "AI반도체",
+          "노드",
+          "foundry"
         ],
         "summary_hits": [
-          "마이크론",
-          "DRAM",
-          "수직D램",
-          "웨이퍼"
+          "라피더스",
+          "AI반도체",
+          "노드",
+          "foundry"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "SK하이닉스, 반도체의 날 5관왕 영예…HBM·321단 낸드 기술력 인정 - 중앙이코노미뉴스",
-      "date": "2026-10-22",
-      "source": "중앙이코노미뉴스",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=557336",
-      "summary": "SK하이닉스, 반도체의 날 5관왕 영예…HBM·321단 낸드 기술력 인정 중앙이코노미뉴스",
-      "body": "권재순 부사장 동탑산업훈장 등 5개 포상\nHBM 양산·1cnm D램·321단 낸드 성과 인정\nM15X 조기 가동·공정 혁신·소부장 국산화 기여\n[중앙이코노미뉴스 윤남웅] SK하이닉스가 고대역폭메모리(HBM)와 차세대 D램, 고적층 낸드플래시 분야에서 축적한 기술 경쟁력을 인정받아 '반도체의 날' 기념식에서 5개 포상을 수상했다. 세계 최초 HBM 양산 체계 구축과 321단 낸드 양산, 반도체 공정 혁신 등 인공지능(AI) 메모리 시장을 선도하기 위한 기술개발 성과가 높은 평가를 받았다.\n22일 SK하이닉스는 전날 서울 그랜드 인터컨티넨탈 파르나스에서 열린 '제19회 반도체의 날' 기념식에서 동탑산업훈장과 산업통상부장관 표창 3개, 한국반도체산업협회장상 등 총 5개 포상을 받았다고 밝혔다.\n반도체의 날은 1994년 국내 반도체 수출액이 100억달러를 돌파한 것을 기념해 제정된 행사다. 산업통상부와 한국반도체산업협회는 매년 산업 발전에 기여한 기업 관계자와 기술인력을 선정해 포상하고 있다.\n이번 시상식에서는 권재순 SK하이닉스 부사장이 동탑산업훈장을 수훈했다. 김보연·박형윤 팀장과 이승철 TL은 산업통상부장관 표창을, 성문수 팀장은 한국반도체산업협회장상을 받았다",
-      "score": 8.93,
-      "score_raw": 25.0,
+      "title": "[반도체 머니맵] 삼성·SK·TSMC가 줄 서는 노광장비...ASML은 어떻게 돈 버나 - www.ppss.kr",
+      "date": "2026-10-23",
+      "source": "www.ppss.kr",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=317098",
+      "summary": "[반도체 머니맵] 삼성·SK·TSMC가 줄 서는 노광장비...ASML은 어떻게 돈 버나 www.ppss.kr",
+      "body": "웨이퍼 위 회로 패턴 새기는 핵심 공정\nEUV·DUV가 미세화 경쟁 좌우\n삼성전자와 SK하이닉스, TSMC가 첨단 반도체 생산능력을 늘리면 함께 주목받는 기업이 있다. 네덜란드 반도체 장비업체 ASML이다.\nASML이 만드는 노광장비는 웨이퍼 위에 미세한 회로 패턴을 형성하는 데 쓰인다. 반도체 회로가 작아질수록 더 정교한 노광 기술이 필요하고, 최첨단 공정에서는 EUV의 역할도 커진다.\n현재 반도체 생산용 EUV 노광장비를 공급하는 업체는 세계에서 ASML이 유일하다. 다만 첨단 반도체라고 모든 회로층에 EUV를 사용하는 것은 아니다. 기존 DUV 장비도 여러 공정에서 계속 사용된다.\n반도체 미세화가 EUV 장비 수요를 키우는 가운데, 이미 설치된 장비에서는 유지보수와 업그레이드 매출도 발생한다. ASML이 장비 판매 한 번으로 끝나지 않는 이유다.\n■ 웨이퍼 위에 회로를 옮긴다…노광이 뭐길래\n반도체 칩 내부에는 수많은 트랜지스터와 배선이 들어간다. 이를 만들기 위해서는 먼저 웨이퍼 위에 원하는 회로 패턴을 형성해야 한다.\n이 역할을 맡는 공정이 노광(Lithography)이다.\n웨이퍼 표면에 빛에 반응하는 감광액인 포토레지스트를 바른 뒤, 회로 패턴이 담",
+      "score": 5.98,
+      "score_raw": 16.75,
       "score_detail": {
         "buckets": {
           "entity": 5,
-          "product": 5,
-          "tech": 10,
+          "product": 0.0,
+          "tech": 7.5,
           "event": 0.0,
           "domain": 2
         },
         "bucket_hits": {
           "entity": [
-            "하이닉스"
+            "ASML",
+            "TSMC",
+            "삼성전자"
           ],
-          "product": [
-            "HBM",
-            "낸드"
-          ],
+          "product": [],
           "tech": [
-            "단수"
+            "노광"
           ],
           "event": [],
           "domain": [
@@ -393,50 +392,274 @@
           ]
         },
         "title_hits": [
-          "하이닉스",
-          "낸드",
-          "HBM",
-          "단수",
+          "ASML",
+          "삼성전자",
+          "TSMC",
+          "노광",
           "반도체"
         ],
         "summary_hits": [
-          "하이닉스",
-          "낸드",
-          "HBM",
-          "단수",
+          "ASML",
+          "삼성전자",
+          "TSMC",
+          "노광",
           "반도체"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "삼성전기, 엔비디아 등 美 빅테크로부터 AI 반도체 기판 전용라인 증설 투자 유치 - 전자신문",
-      "date": "2026-10-22",
-      "source": "전자신문",
-      "url": "https://www.etnews.com/20261022000470",
-      "summary": "삼성전기, 엔비디아 등 美 빅테크로부터 AI 반도체 기판 전용라인 증설 투자 유치 전자신문",
-      "body": "삼성전기가 엔비디아 등 빅테크 기업으로부터 투자를 받아 인공지능(AI) 반도체용 기판 생산 시설을 증설한다. 글로벌 빅테크 기업들이 고성능 반도체 기판의 안정적인 수급을 위해 전용라인 투자에 나섰다.\n22일 업계에 따르면 삼성전기는 엔비디아 등과 공동 투자를 통해 세종 사업장에 패키지 기판 생산을 위한 신규 공장 증설에 나선다.\n엔비디아는 2조원대, 다른 빅테크 기업은 1조원대 규모 자금을 투자한다. 삼성전기의 생산능력 증설에 필요한 자금 일부를 투자해 전용 생산라인을 구축하고 안정적으로 부품을 조달받기 위해서다.\n양사 투자는 지난달 삼성전기가 국내 세종 사업장 내 플립칩-볼그리드어레이(FC-BGA) 공장에 총 4조2700억원 규모 증설 투자를 결정했다고 발표한 일환이다. 이 중 상당 부분을 엔비디아와 다른 빅테크 기업이 투자해 지원하는 국면이다. 삼성전기는 전날 엔비디아 전용 생산설비를 구축한다고 발표한 바 있다.\nFC-BGA는 칩과 메인보드를 연결해 데이터를 주고받는 핵심 부품이다. AI 반도체의 연산 성능이 높아질수록 처리하는 데이터가 많아지고 이를 전달하기 위한 연결 회로도 늘어난다. 이에 기판의 크기가 커지고 회로를 여러 층으로 쌓는 고다층화가 필요",
-      "score": 6.07,
-      "score_raw": 17.0,
+      "title": "인텔, 애리조나 팹62 장비 반입...2028년말 가동",
+      "date": "2026-10-23",
+      "source": "THELEC_반도체",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64167",
+      "summary": "인텔이 미국 애리조나주 반도체 공장 '오코틸로 캠퍼스 팹62'의 건설과 장비 반입을 본격화했다.나가 찬드라세카란 인텔 파운드리 총괄 겸 최고기술·운영책임자(CTO·COO) 부사장은 22일(현지시간) \"인텔의 제조 고향 애리조나에서 팹62는 오코틸로 캠퍼스의 6번째 대규모 양산 시설이 될 것\"이라며 \"팹62의 건설과 장비 설치가 이뤄지고 있다\"고 밝혔다.인텔은 팹62를 2028년말 가동할 계획이다. 1.4나노(nm)급 14A 공정이 적용될 것으로 보인다. 인텔은 지난 2021년부터 오코틸로 캠퍼스에 팹52와 팹62를 짓기 시작했다.",
+      "body": "인텔이 미국 애리조나주 반도체 공장 '오코틸로 캠퍼스 팹62'의 건설과 장비 반입을 본격화했다.\n나가 찬드라세카란 인텔 파운드리 총괄 겸 최고기술·운영책임자(CTO·COO) 부사장은 22일(현지시간) \"인텔의 제조 고향 애리조나에서 팹62는 오코틸로 캠퍼스의 6번째 대규모 양산 시설이 될 것\"이라며 \"팹62의 건설과 장비 설치가 이뤄지고 있다\"고 밝혔다.\n인텔은 팹62를 2028년말 가동할 계획이다. 1.4나노(nm)급 14A 공정이 적용될 것으로 보인다.\n인텔은 지난 2021년부터 오코틸로 캠퍼스에 팹52와 팹62를 짓기 시작했다. 팹52는 2023년 완공, 지난해 말부터 인텔 18A 공정 기반 제품을 양산하고 있다. 인텔 18A는 리본펫(RibbonFET)과 파워비아(PowerVia) 기술을 결합했다.\n찬드라세카란 부사장은 미국 내 구축 중인 다른 거점 상황도 언급했다. 오하이오주 뉴올버니에 짓고 있는 280억달러(약 37조1000억원) 규모 반도체 공장은 최근 첫 지붕 구조물(대형 트러스)을 설치했다. 당초 지난해 준공이 목표였으나, 자금난으로 2030년 준공을 예상하고 있다.\n오리건주 공장에서는 고개구수 극자외선(High NA-EUV) 노광 장비를 업",
+      "score": 5.71,
+      "score_raw": 16.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 4.5,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 3.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔",
+            "인텔 파운드리"
+          ],
+          "product": [],
+          "tech": [
+            "노드"
+          ],
+          "event": [
+            "양산"
+          ],
+          "domain": [
+            "공정",
+            "반도체",
+            "파운드리",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "인텔",
+          "팹"
+        ],
+        "summary_hits": [
+          "인텔",
+          "인텔 파운드리",
+          "노드",
+          "양산",
+          "파운드리",
+          "공정",
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "낸드값 치솟는데…SK하이닉스, 투자 '골든타임' 놓치나 - 머니투데이 - 머니투데이",
+      "date": "2026-10-23",
+      "source": "머니투데이",
+      "url": "https://www.mt.co.kr/industry/2026/10/23/2026102310124764113",
+      "summary": "낸드값 치솟는데…SK하이닉스, 투자 '골든타임' 놓치나 - 머니투데이 머니투데이",
+      "body": "中 YMTC 생산능력 확대 속도…솔리다임은 증설 재원 확보 과제\n기존 투자만 40조원 후반대…증설 재원 마련에 복잡해진 셈법\n\t\t\t\t\t\t\t\t\t\nSK하이닉스(1,277,000원 ▲54,000 +4.42%)가 미국 자회사 솔리다임의 기업공개(IPO) 검토를 중단하면서 투자 적기를 놓치지 않기 위한 자금 조달 대안 마련을 과제로 안게 됐다. 낸드플래시(이하 낸드) 가격 상승기 생산능력 확충이 필요한 가운데 중국 YMTC(양쯔메모리테크놀로지)의 추격까지 거세지는 상황이지만, IPO 검토 중단으로 외부 자본 유치를 위한 선택지가 줄었기 때문이다.\n23일 반도체 업계에 따르면 SK하이닉스는 솔리다임의 IPO와 상장 전 투자유치(프리IPO) 검토를 중단한 뒤에도 생산능력 확충을 위한 투자 시기와 규모, 재원 조달 방식을 검토하고 있다. 자체 자금 투입과 금융기관 차입, 회사채 발행 등이 대체 자금 조달 방안으로 꼽힌다.\nSK하이닉스는 이미 대규모 설비투자를 진행하고 있다. 올해 전체 투자 규모 예상치만 40조원 후반대다. 청주 M15X와 용인 반도체 클러스터, 첨단패키징 공장 P&T7, 신규 낸드 생산기지 M17 등 중장기 투자도 추진 중이다. HBM(고대역폭메모리)과 ",
+      "score": 5.36,
+      "score_raw": 15.0,
       "score_detail": {
         "buckets": {
           "entity": 5,
           "product": 5,
           "tech": 0.0,
-          "event": 5,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "낸드"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "솔리다임 IPO 접은 SK하이닉스…美 낸드 투자 재원 확보 '새 과제’ - 블로터",
+      "date": "2026-10-23",
+      "source": "블로터",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=676524",
+      "summary": "솔리다임 IPO 접은 SK하이닉스…美 낸드 투자 재원 확보 '새 과제’ 블로터",
+      "body": "SK하이닉스가 손자회사 솔리다임의 기업공개(IPO) 추진을 전격 철회하면서 미국 내 신규 낸드플래시 팹 구축을 위한 재원 마련의 새 판 짜기가 불가피해졌다. 당초 조 단위 외부 자금 수혈을 통해 대규모 설비투자 부담을 분산할 계획이었으나, 최근 증시 변동성 확대와 적정 밸류에이션 확보의 어려움을 고려해 상장 카드를 접었다.\n다만 AI 서버용 고용량 저장장치(eSSD) 수요 폭증이 이어지면서 선제적 생산능력 확장 필요성은 유효한 만큼 향후 얼마나 실적을 키워 현금창출력을 키우고 어떤 대체 자금조달 방안을 택할지에 관심이 쏠린다.\n23일 SK하이닉스는 솔리다임의 상장 전 투자유치 및 IPO 추진 검토를 중단하기로 했다고 밝혔다. SK하이닉스는 \"최근 자본시장 여건과 주가 흐름 등을 고려할 때 현재 IPO가 SK하이닉스와 기존 주주들에게 가장 유리한 선택인지 재검토할 필요가 있다고 판단했다\"고 설명했다. 앞서 8월 5일 솔리다임의 상장 전 투자유치 추진 보도에 대해 처음 해명공시를 낸 지 79일 만이다.\n당초 SK하이닉스는 AI(인공지능) 메모리 수요 증가에 대응하기 위한 솔리다임의 미국 신규 생산시설 확보를 위해 직접투자와 IPO를 통한 외부 자본조달 등 다양한",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "솔리다임",
+            "하이닉스"
+          ],
+          "product": [
+            "낸드"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "솔리다임",
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "summary_hits": [
+          "솔리다임",
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "솔리다임 상장 계획 철회…SK하이닉스, 美 낸드 투자 자금 마련 원점 재검토 - 마켓잉크",
+      "date": "2026-10-23",
+      "source": "마켓잉크",
+      "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=13912",
+      "summary": "솔리다임 상장 계획 철회…SK하이닉스, 美 낸드 투자 자금 마련 원점 재검토 마켓잉크",
+      "body": "SK하이닉스가 미국 낸드플래시 손자회사 솔리다임의 기업공개(IPO) 추진을 멈췄다. 상장을 전제로 진행하던 상장 전 지분투자(프리IPO) 작업도 함께 중단된다. 미국 생산시설 확충에 필요한 자금을 외부 자본으로 마련하려던 구상이 무산되면서 회사는 다른 조달 경로를 찾아야 하는 상황이 됐다.\nSK하이닉스는 23일 공시에서 솔리다임이 생산능력 확대와 경쟁력 강화를 위해 여러 자금조달 방안을 살펴왔지만 자본시장 여건 등을 종합적으로 고려해 프리IPO와 IPO 검토를 접기로 했다고 밝혔다. 회사는 솔리다임의 성장성이나 투자 필요성에 대한 판단이 달라진 것은 아니라고 설명했다. 최근 시장 상황과 주가 흐름을 볼 때 지금 상장하는 것이 회사와 기존 주주에게 가장 유리한 선택인지 다시 따져볼 필요가 있다고 판단했다는 것이다. 상장은 중단하되 솔리다임의 성장 방안은 계속 찾겠다는 입장도 덧붙였다.\n이번 결정에는 금융당국의 공개 경고가 크게 작용한 것으로 보인다. 이찬진 금융감독원장은 지난 19일 국회 정무위원회 국정감사에서 솔리다임 상장이 중복상장에 저촉된다는 판단을 금융위원회와 함께 하고 있다고 말했다. 금융위원장도 수직적 지배구조 아래 있는 계열사 역시 규제 대상이라며",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "솔리다임",
+            "하이닉스"
+          ],
+          "product": [
+            "낸드"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "솔리다임",
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "summary_hits": [
+          "솔리다임",
+          "하이닉스",
+          "낸드",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Merck Expands Molybdenum Use to DRAM and Logic Chips - THE ELEC, Korea Electronics Industry Media",
+      "date": "2026-10-23",
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14817",
+      "summary": "Merck Expands Molybdenum Use to DRAM and Logic Chips THE ELEC, Korea Electronics Industry Media",
+      "body": "Germany’s Merck plans to expand the use of molybdenum dioxide dichloride (MoO₂Cl₂) precursors from NAND flash memory to DRAM and logic semiconductors. The company has established a precursor production facility in Eumseong, North Chungcheong Province, which will be integrated with its materials delivery systems in Ansan.\nBing Han, senior vice president of the Thin Film Materials business at Merck Electronics, said at a press conference held at Sono Felice Samsung in Gangnam on Oct. 21, “We will expand molybdenum applications from NAND to DRAM and logic.” He added, “As device structures shrink, conductivity issues with copper and tungsten will drive greater adoption of molybdenum.”\nMolybdenum is a potential replacement for tungsten and copper used in metal electrodes and interconnects. It is considered a material capable of overcoming tungsten’s limitations in high-layer-count NAND flash memory. NAND increases storage capacity by vertically stacking hundreds of layers of charge-storing ",
+      "score": 5.27,
+      "score_raw": 14.75,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 7.5,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "몰리브덴"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "DRAM",
+          "몰리브덴"
+        ],
+        "summary_hits": [
+          "DRAM",
+          "몰리브덴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스, 솔리다임 IPO 접었다…키움證 “반도체 투자심리 개선 기대” - 디지털데일리",
+      "date": "2026-10-23",
+      "source": "디지털데일리",
+      "url": "https://www.ddaily.co.kr/page/view/2026102310424996049",
+      "summary": "SK하이닉스, 솔리다임 IPO 접었다…키움證 “반도체 투자심리 개선 기대” 디지털데일리",
+      "body": "SK하이닉스, 솔리다임 IPO 접었다…키움證 “반도체 투자심리 개선 기대”\n중복상장·기업가치 할인 우려 완화…반도체주 불확실성 해소 기대",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
           "domain": 2
         },
         "bucket_hits": {
           "entity": [
-            "삼성전자",
-            "엔비디아"
+            "솔리다임",
+            "하이닉스"
           ],
-          "product": [
-            "AI반도체"
-          ],
+          "product": [],
           "tech": [],
           "event": [
-            "증설",
             "투자"
           ],
           "domain": [
@@ -444,18 +667,14 @@
           ]
         },
         "title_hits": [
-          "엔비디아",
-          "삼성전자",
-          "AI반도체",
-          "증설",
+          "솔리다임",
+          "하이닉스",
           "투자",
           "반도체"
         ],
         "summary_hits": [
-          "엔비디아",
-          "삼성전자",
-          "AI반도체",
-          "증설",
+          "솔리다임",
+          "하이닉스",
           "투자",
           "반도체"
         ],
@@ -463,196 +682,199 @@
       }
     },
     {
-      "title": "AI 반도체 주도권 쥔 HBM 양산 기술…SK하이닉스 권재순 부사장 동탑훈장 - 비즈체크",
-      "date": "2026-10-22",
-      "source": "비즈체크",
-      "url": "https://www.bizcheck.co.kr/news/articleView.html?idxno=3634020",
-      "summary": "AI 반도체 주도권 쥔 HBM 양산 기술…SK하이닉스 권재순 부사장 동탑훈장 비즈체크",
-      "body": "세계 첫 HBM 양산 체계 구축 주도…생산성·수율 높여 시장 우위 확보\n10나노급 6세대 D램·321단 낸드 양산에도 기여…기술 경쟁력 입증\n'반도체의 날' 임직원 5명 포상…AI 메모리 기술 성과 인정받아\n인공지능(AI) 반도체 시장의 핵심으로 떠오른 고대역폭메모리(HBM). SK하이닉스가 이 시장에서 앞서 나갈 수 있었던 배경에는 첨단 메모리를 안정적으로 대량 생산하는 양산 기술이 있었다. 세계 최초 HBM 양산 체계 구축을 이끈 권재순 SK하이닉스 부사장이 이 같은 공로로 동탑산업훈장을 받았다.\nSK하이닉스는 지난 21일 서울 강남구 그랜드 인터컨티넨탈 서울 파르나스에서 열린 '제19회 반도체의 날' 기념식에서 권 부사장을 포함한 임직원 5명이 정부와 반도체 업계 포상을 받았다고 22일 밝혔다.\n양산·기술 부문을 이끄는 권 부사장은 HBM 생산 체계를 구축하고 생산성과 수율을 높이는 데 주도적인 역할을 했다. 수율은 생산한 반도체 가운데 정상 제품이 차지하는 비율이다. 첨단 반도체는 기술 개발뿐 아니라 얼마나 안정적으로 대량 생산할 수 있느냐가 시장 경쟁력을 좌우한다.\n권 부사장은 이 같은 양산 경쟁력을 끌어올려 SK하이닉스가 글로벌 HBM 시장에서 우",
-      "score": 6.07,
-      "score_raw": 17.0,
+      "title": "[오늘의 삼전닉스] 메모리 '최대 큰손'의 호언장담, '반도체 공급과잉 일축' - 이코노미스트",
+      "date": "2026-10-23",
+      "source": "이코노미스트",
+      "url": "https://economist.co.kr/article/view/ecn202610230019",
+      "summary": "[오늘의 삼전닉스] 메모리 '최대 큰손'의 호언장담, '반도체 공급과잉 일축' 이코노미스트",
+      "body": "증권 일반\n                                    [오늘의 삼전닉스] 메모리 '최대 큰손'의 호언장담, '반도체 공급과잉 일축'\n- 메모리 구매 최대 기업 엔비디아 CEO 젠슨 황 \n2029년 메모리 공급과잉 우려 확실히 선 그어\nAI 인프라 열풍에 '메모리 다다익선'",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "메모리",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "D램 쇼티지가 부른 HBM 설계 변화… 삼성 파운드리 주목받는 까닭 - 디지털데일리",
+      "date": "2026-10-23",
+      "source": "디지털데일리",
+      "url": "https://www.ddaily.co.kr/page/view/2026102311043225455",
+      "summary": "D램 쇼티지가 부른 HBM 설계 변화… 삼성 파운드리 주목받는 까닭 디지털데일리",
+      "body": "D램 쇼티지가 부른 HBM 설계 변화… 삼성 파운드리 주목받는 까닭\nHBM 적층 단수 낮추자 베이스 다이 수요 폭증… 파운드리 팹 가동률 지탱\n3D D램·zHBM 논의 속 원팀 턴키 시너지 부각… 블렌디드 ASP 견인",
+      "score": 4.29,
+      "score_raw": 12.0,
       "score_detail": {
         "buckets": {
           "entity": 5,
           "product": 5,
           "tech": 0.0,
-          "event": 5,
+          "event": 0.0,
           "domain": 2
         },
         "bucket_hits": {
           "entity": [
-            "하이닉스"
+            "삼성전자"
           ],
           "product": [
-            "AI반도체",
+            "DRAM",
             "HBM"
           ],
           "tech": [],
-          "event": [
-            "양산"
-          ],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "하이닉스",
-          "HBM",
-          "AI반도체",
-          "양산",
-          "반도체"
-        ],
-        "summary_hits": [
-          "하이닉스",
-          "HBM",
-          "AI반도체",
-          "양산",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "“신소재로 K반도체 기업 공략”…머크, 충북 음성서 몰리브덴 양산 - 중앙일보",
-      "date": "2026-10-22",
-      "source": "중앙일보",
-      "url": "https://www.joongang.co.kr/article/25471994",
-      "summary": "“신소재로 K반도체 기업 공략”…머크, 충북 음성서 몰리브덴 양산 중앙일보",
-      "body": "반도체 회로가 미세해지고 메모리 적층 단수가 높아지면서 기존 금속 소재인 텅스텐을 대체할 몰리브덴이 주목받고 있다. 전류가 흐르는 통로를 넓혀 저항과 발열을 줄일 수 있다는 장점 때문이다. 글로벌 소재기업들은 삼성전자와 SK하이닉스 등 국내 반도체 기업을 겨냥해 생산시설과 기술 지원을 확대하고 있다.\n독일 과학기술 기업 머크의 한국 법인인 한국머크는 충청북도 음성사업장에 이산화이염화몰리브덴(몰리브덴) 신규 생산설비를 건설하고 22일 개소식을 개최했다. 몰리브덴은 반도체 배선과 전극에 활용할 수 있는 차세대 금속 소재로 기존에 사용하던 구리나 텅스텐보다 저항이 낮은 것이 장점이다. 머크는 국내 반도체 고객사에 공급할 몰리브덴을 음성 공장에서 직접 생산해 제공할 계획이다.\n벤자민 하인 머크 일렉트로닉스 최고경영자(CEO)는 전날 열린 기자간담회에서 “한국은 전 세계에서 메모리를 가장 많이 만드는 나라이자 반도체 소재 분야 글로벌 톱 3 시장”이라며 “고객이 있는 곳에서 소재와 관련 기술을 통합 제공할 계획”이라고 말했다.\n몰리브덴은 반도체 내부의 전기 배선과 전극에 쓰이는 차세대 금속 소재다. 반도체 회로가 미세해질수록 전기저항과 발열이 커지는데, 몰리브덴은 기",
-      "score": 5.98,
-      "score_raw": 16.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 7.5,
-          "event": 5,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "몰리브덴"
-          ],
-          "event": [
-            "양산"
-          ],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "몰리브덴",
-          "양산",
-          "반도체"
-        ],
-        "summary_hits": [
-          "몰리브덴",
-          "양산",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "머크, 충북 음성에 반도체용 몰리브덴 생산설비 구축…차세대 메모리 소재 공급 확대 - Korea IT Times",
-      "date": "2026-10-22",
-      "source": "Korea IT Times",
-      "url": "https://www.koreaittimes.com/news/articleView.html?idxno=158407",
-      "summary": "머크, 충북 음성에 반도체용 몰리브덴 생산설비 구축…차세대 메모리 소재 공급 확대 Korea IT Times",
-      "body": "음성 소재 생산·안산 공급 시스템 연계…AI 반도체 시대 통합 소재 솔루션 강화\n글로벌 과학기술 기업 머크(Merck)가 한국에 차세대 반도체용 몰리브덴 생산설비를 구축하며 첨단 반도체 소재 공급망 강화에 나선다. 반도체 미세화와 고집적화에 따라 중요성이 커지고 있는 몰리브덴 소재를 국내에서 생산하고, 공급 시스템까지 연계해 고객사의 차세대 공정 개발을 지원한다는 전략이다.\n한국머크는 22일 충청북도 음성 사업장에서 신규 이산화이염화몰리브덴(MoO₂Cl₂) 생산설비 개소식을 개최한다고 밝혔다.\n이번 개소식에는 지난 5월 1일 취임한 벤자민 하인(Benjamin Hein) 머크 일렉트로닉스 최고경영자(CEO)가 취임 후 처음으로 한국을 방문한다.\n슈레시 라자라만(Surésh Rajaraman) 최고기술책임자(CTO), 케빈 고만(Kevin Gorman) 통합공급망 책임자, 빙 한(Bing Han) 박막 소재 사업부 책임자 등 주요 경영진도 참석한다.\n3D 낸드·D램 고집적화 대응…몰리브덴 소재 중요성 확대\n머크가 국내 생산을 확대하는 몰리브덴은 차세대 반도체 제조공정에서 활용 가능성이 높아지고 있는 금속 소재다.\n반도체 회로의 미세화와 메모리 셀의 수직 적층이",
-      "score": 5.98,
-      "score_raw": 16.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5.0,
-          "tech": 7.5,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "메모리"
-          ],
-          "tech": [
-            "몰리브덴"
-          ],
           "event": [],
           "domain": [
-            "반도체"
+            "파운드리"
           ]
         },
         "title_hits": [
-          "메모리",
-          "몰리브덴",
-          "반도체"
+          "삼성전자",
+          "DRAM",
+          "HBM",
+          "파운드리"
         ],
         "summary_hits": [
-          "메모리",
-          "몰리브덴",
-          "반도체"
+          "삼성전자",
+          "DRAM",
+          "HBM",
+          "파운드리"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "SiC·GaN 전력 반도체 시장 2035년 전망: 전기차 급속충전 수요가 성장 견인 - IndexBox",
+      "title": "대한민국 반도체 판도의 명암을 짚는다 ->수출 616억달러 폭발과 착시 => 마이크론 파업발 반사이익 터졌다 >> 삼성전자·하이닉스 반전의 분기점 > 영업익 555조원 폭탄 전망의 이면 = 메모리 80% 싹쓸이의 현실적 계산서 | - 데일리머니",
       "date": "2026-10-23",
-      "source": "IndexBox",
-      "url": "https://www.indexbox.io/ko/blog/sic-and-gan-power-semiconductor-market-forecast-to-2035-ev-fast-charging-demand-drives-growth/",
-      "summary": "SiC·GaN 전력 반도체 시장 2035년 전망: 전기차 급속충전 수요가 성장 견인 IndexBox",
-      "body": "글로벌 SiC 및 GaN 전력 반도체 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\nSiC·GaN 전력 반도체 시장 2035년 전망: 전기차 급속충전 수요가 성장 견인\n요약\n세계 SiC·GaN 전력 반도체 시장에 관한 IndexBox 최신 보고서에 따르면,SiC·GaN 전력 반도체 시장은 2026년을 맞아 수요 기반이 한층 넓어지고 조달 행태가 보다 규율 있게 정비되며 공급 구조의 지역적 다변화가 진전된 상태입니다.\n세계 SiC·GaN 전력 반도체 시장은 시스템 차원의 사용 비용과 신뢰성 검증, 응용별 통합이 단순한 성능 지표보다 채택 기준으로 더 중요해지는 수요 견인 국면에 들어섰습니다. 본 IndexBox 보고서는 2012~2025년의 역사적 전개와 2035년까지의 전망 시나리오를 아우르며 2026~2035년 시장을 상업적 관점에서 구조적으로 분석합니다. 수요는 자동차 등급의 고신뢰성 모듈과 소비자·산업용의 원가 최적화 개별 소자로 양분되며, 각기 다",
-      "score": 5.36,
-      "score_raw": 15.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 10.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "GaN",
-            "SiC"
-          ],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "GaN",
-          "SiC",
-          "반도체"
-        ],
-        "summary_hits": [
-          "GaN",
-          "SiC",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "中 YMTC, 낸드 점유율 20% 목표…'엑스태킹' 기술로 삼전닉스 추격 - 뉴스1",
-      "date": "2026-10-22",
-      "source": "뉴스1",
-      "url": "https://www.news1.kr/industry/general-industry/6328519",
-      "summary": "中 YMTC, 낸드 점유율 20% 목표…'엑스태킹' 기술로 삼전닉스 추격 뉴스1",
-      "body": "카운터포인트리서치 조사…R&D 인력 전체의 30%, 발명 특허 5611건\n엑스태킹 범위 D램으로 확장…\"장기적 3D D램 업체 가야할 방향\"",
-      "score": 5.36,
-      "score_raw": 15.0,
+      "source": "데일리머니",
+      "url": "http://www.thedailymoney.com/news/articleViewAmp.html?idxno=1147107",
+      "summary": "대한민국 반도체 판도의 명암을 짚는다 ->수출 616억달러 폭발과 착시 => 마이크론 파업발 반사이익 터졌다 >> 삼성전자·하이닉스 반전의 분기점 > 영업익 555조원 폭탄 전망의 이면 = 메모리 80% 싹쓸이의 현실적 계산서 | 데일리머니",
+      "body": "[이슈기업분석] 조찬우 대기자/칼럼니슽\n협력사 돈맥경화 뚫는 2조원 긴급 수혈 => K-반도체 생태계 리스크\n미세공정 한계와 공급망 쇼크 맞물려 => 메모리 르네상스 지속가능성\n[편집자 주] = 본지는 최근 여론과 증권가 일각을 뒤흔든 '대한민국 반도체 대폭발론'의 실체적 진실을 파헤치기 위해 긴급 편성했다. 수출 지표의 유례없는 폭증과 해외 경쟁사의 가동 차질, 그리고 천문학적인 영업이익 전망치가 뒤섞이며 시장은 이른바 '역대급 슈퍼사이클' 환호에 휩싸였다. 그러나 화려한 숫자 뒤편에는 착시와 과장, 왜곡된 통계가 도사리고 있어 투자자와 산업 관계자의 냉정한 시각이 요구된다.\n특히 수출 집계 기간과 단위에 대한 오해, 경쟁사 파업 여파의 실질적 영향력, 나아가 기업 실적 예측치에서 빚어진 비현실적 데이터는 자칫 시장 전반의 기초체력을 왜곡할 우려를 낳는다. 이에 데일리머니 편집국은 거론된 5대 핵심 사안의 수치를 철저히 역추적하고, 산업 밸류체인과 거시경제적 맥락을 함께 대조했다.\n기술적 해자와 공급망 내 병목현상, 그리고 소부장 협력사를 둘러싼 자금 순환 구조까지 전방위적으로 검증함으로써, K-반도체가 진정으로 직면한 기회와 위험을 가감 없이 전달하고자 ",
+      "score": 4.29,
+      "score_raw": 12.0,
       "score_detail": {
         "buckets": {
           "entity": 5,
-          "product": 5,
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론",
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "마이크론",
+          "삼성전자",
+          "하이닉스",
+          "메모리",
+          "반도체"
+        ],
+        "summary_hits": [
+          "마이크론",
+          "삼성전자",
+          "하이닉스",
+          "메모리",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "故 이건희 6주기...이재용의 삼성전자, 메모리·파운드리 함께 건 승부 - 인사이트",
+      "date": "2026-10-23",
+      "source": "인사이트",
+      "url": "https://www.insight.co.kr/news/578881",
+      "summary": "故 이건희 6주기...이재용의 삼성전자, 메모리·파운드리 함께 건 승부 인사이트",
+      "body": "자체 D램·4나노 공정 결합한 HBM4...설계부터 사업부 공동 대응\n이재용, 패키징 현장서 생산·품질 점검...AMD와 고객 접점 확대\nHBM 공급 넘어 위탁생산 협력 논의...내년 맞춤형 HBM 샘플 계획\n삼성전자가 올해 양산 출하한 HBM4에는 메모리와 파운드리 기술이 함께 들어갔다. 데이터를 저장하는 D램은 메모리사업부가, 칩 아래에서 데이터 연결을 맡는 베이스 다이는 파운드리사업부가 만든다. 이를 쌓고 연결하는 패키징까지 삼성 내부에서 이뤄진다.\n이건희 삼성 선대회장의 6주기를 맞는 삼성의 현재 모습이다. 선대 재임기부터 축적한 반도체 기술은 AI 고객의 요구에 맞춰 함께 쓰이고 있다. 오는 27일 취임 4주년을 맞는 이재용 삼성전자 회장에게는 이 결합을 더 많은 고객과 거래로 이어가는 일이 남아 있다.\n삼성은 23일 경기 수원 선영에서 이 선대회장의 6주기 추도식을 연다. 기일인 25일을 이틀 앞둔 일정이다. 이 회장을 비롯한 유족과 주요 경영진이 참석할 예정이다.\n선대가 키운 반도체, AI 메모리에서 기술을 합치다\n이 선대회장이 1993년 신경영 선언은 전설로 통한다. 그는 양에서 질로의 전환을 요구했다. 생산량을 늘리는 데 익숙했던 조직에 제품",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "메모리",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "외신들, 삼성·SK “中 현지공장 증설” 예의주시 - 중소기업투데이",
+      "date": "2026-10-23",
+      "source": "중소기업투데이",
+      "url": "http://www.sbiztoday.kr/news/articleViewAmp.html?idxno=27247",
+      "summary": "외신들, 삼성·SK “中 현지공장 증설” 예의주시 중소기업투데이",
+      "body": "[중소기업투데이 이상영 기자] 삼성전자와 SK하이닉스, 중국 내 공장을 증설, 첨단 RAM 생산에 나선다는 소식에 서방 언론들이 비상한 관심을 쏟고 있다. 특히 차세대 메모리의 핵심이 될 낸드플래시를 중국 현지에서 대량 생산한다는 사실에 주목하고 있다.\n특히 미국 언론 대부분은 이를 주요 소식으로 다루며, 향후 두 회사의 행보를 예의주시하는 분위기다. AI 데이터센터 시장 경쟁이 격화되고, 중국 기업들의 추격 조짐이 보이면서, 삼성전자와 SK하이닉스는 중국에 있는 자사 공장을 증설 내지 시설 보강을 통해 첨단 RAM 칩 생산에 나서기로 했다. 이는 CXMT를 비롯한 중국 기업들의 도전에 대응하기 위한 전략적 대응책으로 읽힌다.\n기술매체 ‘테크스팟’은 “중국 경쟁사들이 수익성 높은 메모리 시장에 진입하려 하자, 업계 선두인 두 반도체 기업이 주도권을 지키기 위해 발 빠르게 움직이고 있다.”고 배경을 설명했다. ‘로이터 통신’ 역시 “세계 최대 낸드플래시 메모리 제조사인 삼성전자와 SK하이닉스는 AI 데이터센터용 첨단 칩을 생산하기 위해 중국 내 공장 업그레이드를 추진 중”이라며 이를 두고 “CXMT와 같이 빠르게 성장하는 중국 메모리 제조사들과의 경쟁에서 우위",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
           "tech": 0.0,
           "event": 5.0,
           "domain": 0.0
@@ -661,324 +883,55 @@
           "entity": [
             "삼성전자"
           ],
-          "product": [
-            "낸드"
-          ],
-          "tech": [],
-          "event": [
-            "시장점유율"
-          ],
-          "domain": []
-        },
-        "title_hits": [
-          "삼성전자",
-          "낸드",
-          "시장점유율"
-        ],
-        "summary_hits": [
-          "삼성전자",
-          "낸드",
-          "시장점유율"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "삼성전기-엔비디아,  반도체 패키지기판 공급을 위한 전략적 파트너십 발표",
-      "date": "2026-10-22",
-      "source": "KIPOST",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342579",
-      "summary": "삼성전기와 엔비디아(NVIDIA)가 글로벌 AI 반도체 공급망을 강화하고 차세대 AI 인프라 확장을 가속화하기 위해 전략적 비즈니스 파트너십을 21일 발표했다.이번 협력에 따라 양사는 공동 투자를 통해 AI 반도체 패키지기판 생산을 위한 신규 공장을 증설한다. 삼성전기는 이를 기반으로 2026년부터 다년간 엔비디아에 AI 반도체용 패키지기판을 장기 공급할 예정이다.엔비디아는 AI 반도체 양산에 필수적인 최첨단 기판의 안정적인 공급망을 선제적으로 확보해 글로벌 AI 인프라 공급 병목을 해소하게 되며, 삼성전기는 기술 진입장벽이 가장",
-      "body": "양사 공동 투자로 세종·부산 사업장에 전용 팹 증설\n삼성전기와 엔비디아(NVIDIA)가 글로벌 AI 반도체 공급망을 강화하고 차세대 AI 인프라 확장을 가속화하기 위해 전략적 비즈니스 파트너십을 21일 발표했다.\n이번 협력에 따라 양사는 공동 투자를 통해 AI 반도체 패키지기판 생산을 위한 신규 공장을 증설한다. 삼성전기는 이를 기반으로 2026년부터 다년간 엔비디아에 AI 반도체용 패키지기판을 장기 공급할 예정이다.\n엔비디아는 AI 반도체 양산에 필수적인 최첨단 기판의 안정적인 공급망을 선제적으로 확보해 글로벌 AI 인프라 공급 병목을 해소하게 되며, 삼성전기는 기술 진입장벽이 가장 높은 고부가 AI 반도체 패키지기판 사업을 본격 확대하며 글로벌 시장 지배력을 공고히 하게 됐다.\n삼성전기는 반도체 패키지기판의 적시 공급을 위해 국내 핵심 제조 거점인 세종 및 부산 사업장에 전용 생산 라인을 새롭게 구축한다. 공급 대상 품목은 엔비디아의 연산 칩셋용 기판을 비롯해 데이터센터 내 칩 간 초고속 연결을 담당하는 네트워크(스위치)용 패키지 기판이며, 2026년부터 공급이 진행된다.\n올해를 기점으로 다년간 삼성전기 패키지기판 사업 부문에서 엔비디아에 공급하는 물량은",
-      "score": 5.36,
-      "score_raw": 15.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 3.0,
-          "tech": 0.0,
-          "event": 5,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [
-            "Nvidia",
-            "삼성전자",
-            "엔비디아"
-          ],
-          "product": [
-            "AI반도체"
-          ],
-          "tech": [],
-          "event": [
-            "양산",
-            "증설",
-            "투자"
-          ],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "엔비디아",
-          "삼성전자",
-          "반도체"
-        ],
-        "summary_hits": [
-          "Nvidia",
-          "엔비디아",
-          "삼성전자",
-          "AI반도체",
-          "증설",
-          "투자",
-          "양산",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "머크, 낸드 넘어 D램과 로직에도 몰리브덴 확대 - 디일렉",
-      "date": "2026-10-22",
-      "source": "디일렉",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64087",
-      "summary": "머크, 낸드 넘어 D램과 로직에도 몰리브덴 확대 디일렉",
-      "body": "독일 머크가 낸드플래시에 일부 적용하고 있는 이산화이염화몰리브덴(MoO₂Cl₂) 프리커서(전구체)를 D램과 로직 반도체로 확대한다. 충북 음성에 전구체 생산시설을 구축했다. 안산사업장의 소재 공급 시스템과 연계한다.\n빙 한 머크 일렉트로닉스 박막 소재 사업 수석부사장은 지난 21일 강남 소노펠리체 삼성에서 열린 기자간담회에서 \"몰리브덴 적용을 낸드에서 시작해 D램과 로직으로 확대할 것\"이라며 \"구조가 작아질수록 구리와 텅스텐의 전기전도도 문제가 있어 적용이 늘어날 것\"이라고 말했다.\n몰리브덴은 금속 전극과 배선에 쓰이는 텅스텐, 구리를 대체할 소재다. 층을 높이 쌓는 고단 낸드에서 텅스텐의 한계를 보완할 소재로 꼽힌다. 낸드는 전하를 저장하는 셀과 이를 제어하는 워드라인을 수백 층 수직으로 쌓아 용량을 키운다. 적층 수가 늘수록 배선이 가늘어지는데, 텅스텐은 가늘어질수록 전기 저항이 커져 신호 전달이 느려진다. 미세화된 워드라인 구조에서 텅스텐보다 낮은 저항을 구현할 수 있어 신호를 빠르게 전달할 수 있다.\n삼성전자는 지난 2024년부터 200단대 낸드에 몰리브덴을 적용했다. SK하이닉스도 300단대 낸드에서 워드라인 소재 일부를 몰리브덴으로 바꿨다.\n김우규",
-      "score": 5.27,
-      "score_raw": 14.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 7.5,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM",
-            "낸드"
-          ],
-          "tech": [
-            "몰리브덴"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "낸드",
-          "DRAM",
-          "몰리브덴"
-        ],
-        "summary_hits": [
-          "낸드",
-          "DRAM",
-          "몰리브덴"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "에이루트, 자회사 앤에스알시 임직원 대상 유증 \"노광장비 수주 자신감\" - 머니투데이 - 머니투데이",
-      "date": "2026-10-22",
-      "source": "머니투데이",
-      "url": "https://www.mt.co.kr/index.php/stock/2026/10/22/2026102209210211995",
-      "summary": "에이루트, 자회사 앤에스알시 임직원 대상 유증 \"노광장비 수주 자신감\" - 머니투데이 머니투데이",
-      "body": "에이루트(5,420원 ▲10 +0.18%)가 반도체 장비 자회사인 앤에스알시의 핵심 경영진을 대상으로 17억원 규모의 제3자배정 유상증자를 실시한다. 자회사 임원진의 모회사 지분 참여를 통해 책임경영을 강화하고 반도체 노광장비 사업의 글로벌 공급망 확장에 속도를 낸다는 구상이다.\n에이루트는 17억원 규모의 제3자배정 유상증자를 결정했다고 밝혔다. 이번 증자를 발판으로 앤에스알시와의 전략적 협력을 공고히 해 반도체 장비 부문의 실적 성장을 가속화한다는 방침이다.\n이번 증자 배정 대상자는 앤에스알시의 현 대표이사를 포함해 부사장, 영업본부장 등 핵심 경영진이다. 발행되는 신주는 보통주 34만9362주이며, 신주발행가액은 주당 4866원이다. 해당 주식은 주권교부일로부터 1년간 전량 보호예수된다. 유상증자를 통해 고도화된 앤에스알시의 기술력과 상장사인 에이루트의 자본력이 결합된 강력한 책임경영 체제를 구축함으로써, 시너지를 극대화하고 글로벌 반도체 노광장비 시장 지배력과 양사의 기업가치 향상에 나설 것이라는 게 회사 측 설명이다.\n앤에스알시는 최근 글로벌 반도체 기업향 노광장비 수주 성과를 확대해 나가고 있다. 기존 고객사에 이어 대만 전력반도체 생산 기업 P사로",
-      "score": 5.27,
-      "score_raw": 14.75,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 7.5,
-          "event": 5.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
           "product": [],
-          "tech": [
-            "노광"
-          ],
+          "tech": [],
           "event": [
-            "수주"
+            "증설"
           ],
           "domain": []
         },
         "title_hits": [
-          "노광",
-          "수주"
+          "삼성전자",
+          "증설"
         ],
         "summary_hits": [
-          "노광",
-          "수주"
+          "삼성전자",
+          "증설"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "How Goodram Validates DRAM and SSD Reliability in Europe",
-      "date": "2026-10-22",
-      "source": "EETimes",
-      "url": "https://www.eetimes.com/how-goodram-validates-dram-and-ssd-reliability-in-europe/",
-      "summary": "Explore Goodram’s European approach to DRAM and SSD testing, from burn-in to platform validation, for reliable industrial and embedded systems. The post How Goodram Validates DRAM and SSD Reliability in Europe appeared first on EE Times.",
-      "body": "From burn-in testing at 80°C and more than 400 diagnostic platforms to advanced environmental validation, we examine how quality control procedures at Goodram’s Polish manufacturing facility contribute",
-      "score": 5.04,
-      "score_raw": 14.1,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 7.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM"
-          ],
-          "tech": [
-            "번인",
-            "신뢰성"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "DRAM",
-          "신뢰성"
-        ],
-        "summary_hits": [
-          "DRAM",
-          "번인",
-          "신뢰성"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "엔비디아, AI 인프라에 선제 투자…협력사 생산물량 확 늘린다",
+      "title": "Two Dollars and a Test Suite",
       "date": "2026-10-23",
-      "source": "THELEC_반도체",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64103",
-      "summary": "엔비디아가 늘어나는 인공지능(AI) 인프라 수요를 충족하기 위한 투자를 진행한다. 주요 협력사에 선수금을 주고 반도체 패키징 기판, 테스트, 공동광학패키징(CPO:Co-Packaged Optics) 물량을 확보하는 것이 핵심이다.엔비디아는 21일(현지시간) AI 팩토리 수요 증가에 맞춰 삼성전기, 이비덴, 앰코테크놀로지, KYEC, SPIL, 유니마이크론 등과 협력한다고 밝혔다. 젠슨 황 엔비디아 최고경영자(CEO)는 \"우리는 인류 역사상 가장 큰 인프라 구축의 한가운데에 있다\"며 \"(인프라) 수요는 크지만 생산능력이 제약인 상황\"",
-      "body": "엔비디아가 늘어나는 인공지능(AI) 인프라 수요를 충족하기 위한 투자를 진행한다. 주요 협력사에 선수금을 주고 반도체 패키징 기판, 테스트, 공동광학패키징(CPO:Co-Packaged Optics) 물량을 확보하는 것이 핵심이다.\n엔비디아는 21일(현지시간) AI 팩토리 수요 증가에 맞춰 삼성전기, 이비덴, 앰코테크놀로지, KYEC, SPIL, 유니마이크론 등과 협력한다고 밝혔다. 젠슨 황 엔비디아 최고경영자(CEO)는 \"우리는 인류 역사상 가장 큰 인프라 구축의 한가운데에 있다\"며 \"(인프라) 수요는 크지만 생산능력이 제약인 상황\"이라고 설명했다.\n엔비디아는 기판 제조사인 이비덴, 삼성전기, 유니마이크론과 계약을 확대하고 향후 3년 간 반도체 패키지 기판 생산능력을 2.5배 늘린다. 칩과 주 기판 사이를 전기적으로 연결해 신호를 전달하는 제품이다. AI 서버용 플립칩-볼그리드어레이(FC-BGA) 기판이 대표적이다.\n엔비디아는 이비덴에 수십억달러 규모의 생산을 예약하고 선수금을 지급했다. 일본 오노 공장의 생산능력을 현재의 3배 수준까지 확대하는 것이 목적이다. 추가 생산능력은 2028년 1분기부터 본격 가동될 예정이다.\n삼성전기도 올해부터 국내 생산 시설을",
-      "score": 4.86,
-      "score_raw": 13.6,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 2.0,
-          "event": 5.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "마이크론",
-            "삼성전자",
-            "엔비디아"
-          ],
-          "product": [],
-          "tech": [
-            "CPO"
-          ],
-          "event": [
-            "투자"
-          ],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "엔비디아",
-          "투자"
-        ],
-        "summary_hits": [
-          "마이크론",
-          "엔비디아",
-          "삼성전자",
-          "CPO",
-          "투자",
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Beyond The EPE Budget: Building The Next Generation Of Computational Lithography",
-      "date": "2026-10-22",
-      "source": "SemiEngineering",
-      "url": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography/",
-      "summary": "Why better models, richer metrology, explainable AI, and cross-industry collaboration must come together to extend semiconductor scaling. The post Beyond The EPE Budget: Building The Next Generation Of Computational Lithography appeared first on Semiconductor Engineering.",
-      "body": "At the recent SPIE Photomask Technology + Extreme Ultraviolet Lithography conference, an expert panel discussed the growing importance of edge placement error (EPE). I had the pleasure of joining moderator Jed Rankin of IBM and fellow panelists Hans Stiepan of Carl Zeiss SMT, Ezequiel Vidal-Russell of Micron Technology, Jo Finders of ASML, Il-Yong Jang of Tekscend, and Vivek Balasubramanian of Applied Materials. Together, we brought perspectives spanning OPC and EDA, mask technology, lithography systems, materials, and metrology. One point quickly became clear: EPE is no longer a narrow lithography metric. It is becoming a system-level measure of how well our industry can translate design intent into a manufacturable, high-yielding device. The mask, scanner, resist, etch process, metrology, OPC, and downstream integration all contribute. Each discipline can optimize its own part, but a collection of local optima does not automatically produce the best device—even if everyone arrives wi",
-      "score": 4.77,
-      "score_raw": 13.35,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 9.5,
-          "event": 0.0,
-          "domain": 1.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "lithography",
-            "metrology"
-          ],
-          "event": [],
-          "domain": [
-            "semiconductor"
-          ]
-        },
-        "title_hits": [
-          "lithography"
-        ],
-        "summary_hits": [
-          "metrology",
-          "lithography",
-          "semiconductor"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems",
-      "date": "2026-10-22",
       "source": "EETimes",
-      "url": "https://www.eetimes.com/everspin-expands-mram-push-into-ai-servers-data-centers-satellite-systems/",
-      "summary": "In an exclusive interview, Everspin CEO Sanjeev Aggarwal discusses MRAM opportunities amid NOR flash supply constraints. The post Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems appeared first on EE Times.",
-      "body": "Everspin Technologies is looking to expand its magnetoresistive random-access memory (MRAM) beyond established industrial applications into AI servers, data centers, and satellite systems, as AI workloads",
-      "score": 4.64,
-      "score_raw": 13.0,
+      "url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
+      "summary": "The $2 damages award grabbed headlines, but the Arm-Qualcomm verdict’s bigger implication concerns who controls the compliance tests that custom chips must pass before shipping. The post Two Dollars and a Test Suite appeared first on EE Times.",
+      "body": "The Arm-Qualcomm verdict made headlines for its $2 award. The finding that matters more is about who controls the compliance tests a custom chip must pass before it can ship.\n\nThe verdict nobody read closely\n\nOn Oct. 13, a federal jury in Delaware delivered the second verdict in two years between Arm and Qualcomm. The number that drew the most attention was the damages award: $2, one for each claim Qualcomm won. Both companies declared victory, and IMHO both had some reason to. Arm prevailed on four of the six claims. On the other hand, Qualcomm won a finding that Arm interfered with its business with Meta, plus an additional finding under its Architecture License Agreement that I think deserves far more attention than it received.\n\nThe jury found that Arm breached Qualcomm’s Architecture License Agreement by withholding two deliverables, ACKs and OOBs. To most people, these acronyms mean very little, which may explain why most coverage moved quickly on to royalties and to the $2. But ",
+      "score": 0.71,
+      "score_raw": 2.0,
       "score_detail": {
         "buckets": {
-          "entity": 0.0,
+          "entity": 2.0,
           "product": 0.0,
-          "tech": 10,
+          "tech": 0.0,
           "event": 0.0,
           "domain": 0.0
         },
         "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "MRAM"
+          "entity": [
+            "Arm",
+            "퀄컴"
           ],
+          "product": [],
+          "tech": [],
           "event": [],
           "domain": []
         },
-        "title_hits": [
-          "MRAM"
-        ],
+        "title_hits": [],
         "summary_hits": [
-          "MRAM"
+          "퀄컴",
+          "Arm"
         ],
         "negative_hits": []
       }
@@ -986,71 +939,9 @@
   ],
   "dropped_below_threshold": [
     {
-      "title": "LG U+, 에릭슨과 손잡고 기지국 장비 간 연결 거리 3배로 늘린다",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342578",
-      "source": "KIPOST",
-      "score": 3.9,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 3.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [
-            "Ru"
-          ],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "Ru"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "삼성전자 19% 급락했지만…“내년 이익 성장 이미 확보” - 위키트리",
-      "url": "https://www.wikitree.co.kr/articles/1167668",
-      "source": "위키트리",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 5,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "삼성전자"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "삼성전자"
-        ],
-        "summary_hits": [
-          "삼성전자"
-        ],
-        "negative_hits": [
-          "급락"
-        ]
-      }
-    },
-    {
-      "title": "중국 스마트폰 제조업체들이 구형 기기에서 재활용 DRAM을 조달하고 있다. - Vietnam.vn",
-      "url": "https://www.vietnam.vn/ko/smartphone-trung-quoc-tim-nguon-cung-dram-tai-che-tu-thiet-bi-cu",
-      "source": "Vietnam.vn",
+      "title": "메모리 공급난에…중국 스마트폰 업계, 중고 D램 활용 - 케이벤치",
+      "url": "https://kbench.com/?q=node/282735",
+      "source": "케이벤치",
       "score": 3.0,
       "score_detail": {
         "buckets": {
@@ -1063,17 +954,20 @@
         "bucket_hits": {
           "entity": [],
           "product": [
-            "DRAM"
+            "DRAM",
+            "메모리"
           ],
           "tech": [],
           "event": [],
           "domain": []
         },
         "title_hits": [
-          "DRAM"
+          "DRAM",
+          "메모리"
         ],
         "summary_hits": [
-          "DRAM"
+          "DRAM",
+          "메모리"
         ],
         "negative_hits": [
           "스마트폰"
@@ -1081,75 +975,45 @@
       }
     },
     {
-      "title": "Roundhill Memory ETF (DRAM) stock price, news, quote and history - Yahoo Finance Australia",
-      "url": "https://au.finance.yahoo.com/quote/DRAM/latest-news/",
-      "source": "Yahoo Finance Australia",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 5,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [
-            "DRAM"
-          ],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [
-          "DRAM"
-        ],
-        "summary_hits": [
-          "DRAM"
-        ],
-        "negative_hits": [
-          "ETF"
-        ]
-      }
-    },
-    {
-      "title": "\"AI는 지능 찍어내는 제조업\" 젠슨 황, AI 5계층 아키텍처 발표",
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64084",
-      "source": "THELEC_반도체",
-      "score": 3.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 3.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 0.0
-        },
-        "bucket_hits": {
-          "entity": [
-            "엔비디아"
-          ],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": []
-        },
-        "title_hits": [],
-        "summary_hits": [
-          "엔비디아"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "이재용 회장, UAE 현장 경영 나서 임직원 격려",
-      "url": "https://www.kipost.net/news/articleView.html?idxno=342584",
+      "title": "[Weekly 신기술 및 정책소식] KAIST, OLED 수명 예측 기술 개발…미세한 밝기 변화 분석",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342655",
       "source": "KIPOST",
       "score": 3.0,
       "score_detail": {
         "buckets": {
-          "entity": 3.0,
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 2.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "History of Broadcom: The Quiet Chip Giant Powering the AI Boom - HDFC Sky",
+      "url": "https://hdfcsky.com/sky-learn/global-investing/history-of-broadcom",
+      "source": "HDFC Sky",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
           "product": 0.0,
           "tech": 0.0,
           "event": 0.0,
@@ -1157,24 +1021,26 @@
         },
         "bucket_hits": {
           "entity": [
-            "삼성전자"
+            "브로드컴"
           ],
           "product": [],
           "tech": [],
           "event": [],
           "domain": []
         },
-        "title_hits": [],
+        "title_hits": [
+          "브로드컴"
+        ],
         "summary_hits": [
-          "삼성전자"
+          "브로드컴"
         ],
         "negative_hits": []
       }
     },
     {
-      "title": "“광주엔 반도체, 예천엔 더 큰 소음 온다” - 경향신문",
-      "url": "https://www.khan.co.kr/article/202610222115005",
-      "source": "경향신문",
+      "title": "반도체 공장 짓고 수출까지…'시간 규제' 걷어내 5년 단축 - 한국경제",
+      "url": "https://www.hankyung.com/article/202610231359i",
+      "source": "한국경제",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1203,9 +1069,9 @@
       }
     },
     {
-      "title": "호남 반도체의 ‘말잔치’ [슬기로운 기자생활] - 한겨레",
-      "url": "https://www.hani.co.kr/arti/opinion/column/1283727.html",
-      "source": "한겨레",
+      "title": "‘절연구간 없는 철도’ 한 걸음 더…전력반도체 기반 급전시스템 설계 구체화 - 전기신문",
+      "url": "https://www.electimes.com/news/articleViewAmp.html?idxno=373834",
+      "source": "전기신문",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1234,9 +1100,9 @@
       }
     },
     {
-      "title": "“반도체 회로설계도 지식재산 전쟁”... 중국, 집적회로 배치설계 보호제도 전면 정비 - 특허뉴스",
-      "url": "http://www.e-patentnews.com/15703",
-      "source": "특허뉴스",
+      "title": "반도체 피크아웃? 중국 추격은 현실, 기술 추월은 과장 - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25472367",
+      "source": "중앙일보",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1265,9 +1131,9 @@
       }
     },
     {
-      "title": "반도체부터 로봇·데이터센터까지···글로벌 빅테크 '제조 경쟁' 불붙었다 - 헬로디디",
-      "url": "https://www.hellodd.com/news/articleView.html?idxno=113591",
-      "source": "헬로디디",
+      "title": "외국인 반도체 매도 폭탄 ‘일단 멈춤’… 5500선 지킨 코스피, 다음주 실적 발표 시험대 - 주간동아",
+      "url": "https://weekly.donga.com/List/article/all/11/6430375/1",
+      "source": "주간동아",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1296,9 +1162,9 @@
       }
     },
     {
-      "title": "[신(新) 대동여산업지도 ①] 쌀 아닌 반도체…기업 하나가 도시를 바꿨다 - 더구루",
-      "url": "https://www.theguru.co.kr/mobile/article.html?no=107956",
-      "source": "더구루",
+      "title": "李 \"반도체 주 52시간 예외, 새로운 제도 만들 필요까지 있나\" - 조선일보",
+      "url": "https://www.chosun.com/politics/politics_general/2026/10/23/OJOBJ3KTDFF5BAADLRB3QOK4IA/",
+      "source": "조선일보",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1327,132 +1193,8 @@
       }
     },
     {
-      "title": "충북반도체고, 오페라‘라보엠’ 관람으로 문화예술 감수성 키워 : 네이버 블로그 - Naver Blog",
-      "url": "https://blog.naver.com/PostView.naver?blogId=cbe_news&logNo=224449277357&redirect=Dlog",
-      "source": "Naver Blog",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "반도체 넘어 미래모빌리티까지…경기도·네덜란드 협력 확대 - 경기도뉴스포털",
-      "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202610221453394875C052&s_code=C109",
-      "source": "경기도뉴스포털",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "현대차·기아, SDV·전동화 대응 車반도체 로드맵 제시 - 글로벌이코노믹",
-      "url": "https://www.g-enews.com/article/Industry/2026/10/20261022155108277524debea800_1",
-      "source": "글로벌이코노믹",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "경운대 반도체학과, 우수기업 현장 탐방 “예비 반도체 엔지니어 꿈 키운다” - 한국대학신문",
-      "url": "https://news.unn.net/news/articleView.html?idxno=599120",
-      "source": "한국대학신문",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "\"반도체 클러스터 주민 수용성 확보해야\" - KBC광주방송",
-      "url": "https://news.ikbc.co.kr/article/view/kbc202610220064",
+      "title": "시의회, 반도체 국가 지원 등 건의안 6건 채택 - KBC광주방송",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202610230068",
       "source": "KBC광주방송",
       "score": 2.0,
       "score_detail": {
@@ -1482,8 +1224,132 @@
       }
     },
     {
-      "title": "대구·경북 반도체마이스터고 입시 경쟁률 동반 상승 - 연합뉴스",
-      "url": "https://www.yna.co.kr/amp/view/AKR20261022181700053",
+      "title": "제주 AI·반도체 연구사업 가결 - 뉴스N제주",
+      "url": "https://www.newsnjeju.com/news/articleView.html?idxno=302784",
+      "source": "뉴스N제주",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "중국 반도체 굴기의 실체 - PwC",
+      "url": "https://www.pwc.com/kr/ko/insights/samil-insight/china-semiconductor.html",
+      "source": "PwC",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[亞증시-종합] AI·반도체 약세에 日↓…中·홍콩↑ - 연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440916",
+      "source": "연합인포맥스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "ASM, 국내 반도체 인재에 장학금 수여 - 디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64196",
+      "source": "디일렉",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 산단 속도전…정부, 인허가·보상·설계까지 동시 추진 - 연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261023135300003",
       "source": "연합뉴스",
       "score": 2.0,
       "score_detail": {
@@ -1513,9 +1379,9 @@
       }
     },
     {
-      "title": "이백·임정섭 전북대 대학원생, 국제 반도체 학술대회 수상 - 전자신문",
-      "url": "https://www.etnews.com/20261022000384",
-      "source": "전자신문",
+      "title": "BofA, 실적 발표 앞두고 유럽 반도체 기업 선호주 선정 - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2139346",
+      "source": "Investing.com 한국어",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1544,40 +1410,133 @@
       }
     },
     {
-      "title": "최태원이 띄운 '반도체사이클 파괴', '공포의 붐앤버스트'도 끝인가 - 이코노미스트",
-      "url": "https://economist.co.kr/article/view/ecn202610220060",
-      "source": "이코노미스트",
-      "score": 2.0,
-      "score_detail": {
-        "buckets": {
-          "entity": 0.0,
-          "product": 0.0,
-          "tech": 0.0,
-          "event": 0.0,
-          "domain": 2
-        },
-        "bucket_hits": {
-          "entity": [],
-          "product": [],
-          "tech": [],
-          "event": [],
-          "domain": [
-            "반도체"
-          ]
-        },
-        "title_hits": [
-          "반도체"
-        ],
-        "summary_hits": [
-          "반도체"
-        ],
-        "negative_hits": []
-      }
-    },
-    {
-      "title": "[단독] 반도체·배터리 다 AI 쓰는데…산업부, 국가핵심기술 유출 기준 '공백' - 한국경제",
-      "url": "https://www.hankyung.com/article/202610227621i",
+      "title": "\"韓·英, 반도체공급망 최적 파트너\" - 한국경제",
+      "url": "https://www.hankyung.com/article/2026102318101",
       "source": "한국경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "호남 반도체 성패 가를 ‘전깃길’... 이걸 뚫을 한전 사장 다시 찾는다 - 조선일보",
+      "url": "https://www.chosun.com/economy/industry-company/2026/10/23/ZWDCNVYTJ5AJ3OEPV2PTABG5WA/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "李 “반도체 주52시간 예외, 새 제도 필요 있나…시행령 수정 검토” - 동아일보",
+      "url": "https://www.donga.com/news/Politics/article/all/20261023/134897577/1",
+      "source": "동아일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "정부, 반도체 산단 속도전…인허가·보상·설계 동시 추진 - 매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2009802",
+      "source": "매일일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "李대통령, 29일 메르츠 독일 총리와 정상회담…반도체·AI 협력 논의 - 아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026102321083857261",
+      "source": "아시아경제",
       "score": 2.0,
       "score_detail": {
         "buckets": {
@@ -1606,5 +1565,13 @@
       }
     }
   ],
-  "extract_failed": []
+  "extract_failed": [
+    {
+      "title": "마이크론 메모리반도체 기술 로드맵에 증권업계 호평, 삼성전자 SK하이닉스와 경쟁 격화 - 비즈니스포스트",
+      "url": "https://www.businesspost.co.kr/BP?command=mobile_view&num=450123",
+      "source": "비즈니스포스트",
+      "score": 12.0,
+      "reason": "fetch_fail"
+    }
+  ]
 }
