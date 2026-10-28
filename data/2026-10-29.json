@@ -1,0 +1,1470 @@
+{
+  "generated_at": "2026-10-29T03:16:59.361318+09:00",
+  "field": "반도체",
+  "field_date": "2026-10-29",
+  "stats": {
+    "collected_total": 440,
+    "after_resolve": 440,
+    "after_time_filter": 361,
+    "after_dedup": 359,
+    "after_score_filter": 15,
+    "extracted_success": 12,
+    "extracted_failed": 3
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "[컨콜] SK하이닉스 “6F² D램 최대한 활용…4F²·3D D램 전환 기술 개발” - Chosunbiz",
+      "date": "2026-10-28",
+      "source": "Chosunbiz",
+      "url": "https://biz.chosun.com/it-science/ict/2026/10/28/ADWQSSSUQFGJLHLCVRK3YK42CY/",
+      "summary": "[컨콜] SK하이닉스 “6F² D램 최대한 활용…4F²·3D D램 전환 기술 개발” Chosunbiz",
+      "body": "SK하이닉스가 기존 6F² D램 셀 구조를 최대한 활용하면서 차세대 4F² 및 3차원(3D) D램 기술 개발을 병행하겠다고 밝혔다.\nSK하이닉스는 28일 2026년 3분기 실적발표 컨퍼런스콜에서 \"극자외선(EUV) 기반 미세공정과 공정 혁신을 통해 기존 6F² 플랫폼의 기술적 확장 여력을 확보했다\"고 설명했다.\n4F²는 기존 6F²보다 메모리 셀 면적을 줄여 집적도를 높일 수 있는 차세대 D램 구조다. 다만 업체별 미세화 역량과 공정 환경, 원가 구조에 따라 도입 시점과 전략에는 차이가 있을 수 있다.\nSK하이닉스는 양산 안정성과 원가 경쟁력이 검증된 기존 6F² 플랫폼을 최대한 활용하는 것이 효율적이라고 판단하고, 향후 4F²와 3D D램 플랫폼으로 전환하기 위한 기술 개발을 진행하고 있다고 밝혔다.",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "DRAM",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "DRAM",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "엔비디아, AI 반도체 공급망에 투자 확대...“기판 생산능력 2.5배로” - 더에이아이",
+      "date": "2026-10-28",
+      "source": "더에이아이",
+      "url": "https://www.newstheai.com/news/articleView.html?idxno=21828",
+      "summary": "엔비디아, AI 반도체 공급망에 투자 확대...“기판 생산능력 2.5배로” 더에이아이",
+      "body": "3사와 협력해 향후 3년간 기판 생산능력 2.5배 확대 추진\n앰코, 韓 첨단 패키징 생산능력 2028년 말까지 300% 이상 확대 목표\nKYEC에 11억 달러 선급금, 테스트 생산능력 내년까지 2배 확대 전망\n엔비디아는 독일 베를린에서 열린 GTC에서 앰코테크놀로지, 이비덴, 킹위안전자(KYEC), 삼성전기, 실리콘웨어정밀공업(SPIL), 유니마이크론 등 공급망 파트너 6곳과 글로벌 생산능력 확대 계획을 28일 발표했다. 협력 범위는 기판과 첨단 패키징, 반도체 테스트, 공동 패키징 광학(CPO)에 쓰이는 광학 엔진이다.\n가장 큰 규모의 확대가 예정된 분야는 반도체 패키지 기판이다. 엔비디아는 향후 3년간 자사 제품용 기판 생산능력을 2.5배로 늘릴 계획이다. 일본 이비덴의 오노 공장은 엔비디아의 생산능력 예약 선급금 지원을 받아 생산능력을 현재의 3배 수준으로 확대한다. 추가 물량은 2028년 1분기부터 단계적으로 늘어날 전망이다. 대만 유니마이크론은 2027년 2분기부터 증설 효과가 나타나 2028년 중반 최대 생산능력에 도달할 것으로 예상된다.\n삼성전기도 엔비디아의 기판 공급망에 새롭게 합류했다. 양사는 세종·부산 생산시설의 고도화와 전용 생산라인 구축",
+      "score": 6.07,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "투자",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AP시스템, 에스디옵틱스 투자 결정…HBM·유리기판 검사시장 공략 - 뉴스핌",
+      "date": "2026-10-28",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261028001482",
+      "summary": "AP시스템, 에스디옵틱스 투자 결정…HBM·유리기판 검사시장 공략 뉴스핌",
+      "body": "AI 핵심 요약\nbeta\n- AP시스템은 28일 에스디옵틱스에 전략적 지분 투자를 결정했다\n- 양사는 MALS 광학 기술을 활용한 검사·계측 장비를 공동 개발한다\n- HBM·유리기판 등 첨단 패키징 시장 공략과 글로벌 영업을 추진한다\n!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.\n기존 장비 고도화·차세대 계측 솔루션 공동 개발\n[서울=뉴스핌] 양태훈 기자 = 반도체·디스플레이 장비 전문기업 AP시스템은 초정밀 광학 검사 솔루션 기업 에스디옵틱스에 전략적 지분 투자를 결정하고 차세대 반도체·디스플레이 검사 및 계측 시장을 겨냥한 사업 협력에 나선다고 28일 밝혔다.\nAP시스템은 에스디옵틱스가 진행하는 제3자배정 유상증자에 참여해 전환우선주(CPS) 신주를 인수하기로 했다. 이번 투자를 통해 에스디옵틱스의 광학 기술을 자사 장비에 적용하고 신규 검사·계측 장비 개발과 시장 진출을 추진한다는 계획이다.\n2010년 설립된 에스디옵틱스는 미세전자기계시스템(MEMS) 기반 미러 어레이 렌즈 기술인 'MALS(Micro-mirror Array Lens System)'를 개발한 광학 전문기업이다. 회사 측에 따르면 해당 기술을 세계 최초로 상용화했으며, 글로벌 ",
+      "score": 5.89,
+      "score_raw": 16.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "유리기판"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM",
+          "유리기판",
+          "투자"
+        ],
+        "summary_hits": [
+          "HBM",
+          "유리기판",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "인피니언, 유럽에 세계 최초 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설 구축 - https://www.koreasprint.com/",
+      "date": "2026-10-29",
+      "source": "https://www.koreasprint.com/",
+      "url": "https://www.koreasprint.com/news/articleView.html?idxno=22178",
+      "summary": "인피니언, 유럽에 세계 최초 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설 구축 https://www.koreasprint.com/",
+      "body": "(서울=코리아스프린트) 인피니언 테크놀로지스(코리아 대표이사 이승수)는 유럽에 세계 최초 300mm 웨이퍼 기반 GaN(질화갈륨) 전력반도체 양산 시설을 구축한다. 인피니언은 이번 프로젝트를 위해 2034년까지 오스트리아 빌라흐의 기존 클린룸 시설에 약 11억유로를 투자한다. 기존 인프라와 업그레이드된 시설을 활용해 제조 역량을 효율적으로 확대할 계획이며, 생산은 2027년 말까지 시작할 예정이다.\n이번 투자는 빠르게 증가하는 고성능 전력 공급 솔루션 수요에 대응하기 위한 것이다. GaN은 AI 데이터센터, 에너지 인프라, e-모빌리티, 로보틱스, 소비자 전자기기 등 다양한 애플리케이션에서 상당한 효율 향상을 가능하게 한다.\n인피니언은 GaN 전력전자 분야의 선도기업이다. 인피니언은 2년 전 업계 최초로 300mm GaN 웨이퍼 가공에 성공하며 기술적 이정표를 세웠다. 300mm 웨이퍼는 더 큰 직경을 활용해 웨이퍼당 생산되는 칩 수가 200mm 웨이퍼 대비 2.3배 많아 보다 효율적인 생산이 가능하다. 인피니언은 이제 이 기술을 세계 최초의 고객 공급용 양산 시설로 이전한다.\n요흔 하나벡(Jochen Hanebeck) 인피니언 CEO는 “300mm 웨이퍼 ",
+      "score": 4.82,
+      "score_raw": 13.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "GaN"
+          ],
+          "event": [
+            "양산"
+          ],
+          "domain": [
+            "반도체",
+            "웨이퍼"
+          ]
+        },
+        "title_hits": [
+          "GaN",
+          "양산",
+          "웨이퍼",
+          "반도체"
+        ],
+        "summary_hits": [
+          "GaN",
+          "양산",
+          "웨이퍼",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "中 CXMT, 수율 20~30%에도 HBM 생산 추진…반도체 자립 속도전 - 한국일보",
+      "date": "2026-10-28",
+      "source": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026102816060004154",
+      "summary": "中 CXMT, 수율 20~30%에도 HBM 생산 추진…반도체 자립 속도전 한국일보",
+      "body": "美 수출 규제 속 HBM3E 생산 강행…기술 자립 가속\n중국 최대 D램 제조업체 창신메모리테크놀로지(CXMT)가 생산 수율이 20~30%에 불과한데도 인공지능(AI)용 첨단 고대역폭메모리(HBM) 생산을 추진하고 있다. 미국의 반도체 수출 규제로 첨단 메모리 확보에 어려움을 겪는 중국이 낮은 생산성과 높은 비용을 감수하면서도 기술 자립을 위해 속도를 내는 모습이다.\n28일 로이터통신은 사안에 정통한 소식통 2명을 인용해 CXMT가 향후 두 달 안에 5세대 HBM인 HBM3E의 제한적인 생산을 시작할 것으로 예상된다고 보도했다.\nCXMT는 이미 중국 AI 반도체 설계업체 여러 곳에 제품 샘플을 보냈다. 다만 현재 수율은 20~30%로, 업계 선두인 SK하이닉스의 약 70%에 크게 못 미친다. 성능도 SK하이닉스의 HBM3E보다 한 세대 전 제품인 HBM3에 가깝다는 평가다.\n그럼에도 생산을 강행하는 것은 중국 AI 반도체 업체들이 미국의 대중 규제로 첨단 HBM을 충분히 구하지 못하고 있기 때문이다. 화웨이와 캠브리콘 등은 메모리 비용 상승에 따라 지난달 AI 반도체 가격을 20~50% 올렸다. CXMT 제품 역시 해외 경쟁사 제품보다 비쌀 것으로 예상된다.\n",
+      "score": 4.82,
+      "score_raw": 13.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "수율"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "HBM",
+          "수율",
+          "반도체"
+        ],
+        "summary_hits": [
+          "HBM",
+          "수율",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "HBM4에 범용 D램까지 '쌍끌이'…SK하이닉스, 내년 영업익 400조 도전 [반도체 슈퍼사이클 2.0] - 이투데이",
+      "date": "2026-10-28",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2641259",
+      "summary": "HBM4에 범용 D램까지 '쌍끌이'…SK하이닉스, 내년 영업익 400조 도전 [반도체 슈퍼사이클 2.0] 이투데이",
+      "body": "4분기 HBM4가 HBM3E 추월…차세대 AI 반도체 시장 공략\n1c D램·321단 낸드 전환 가속…고부가 제품 비중 확대\n14개 고객 장기공급계약…2027~2028년 생산능력 절반 확보\n용인 팹 가동·M15X 증설…공급 확대와 가격 흐름이 변수\nSK하이닉스가 사상 최대 실적을 기록하면서 시장의 관심은 내년 성장세에 쏠리고 있다. 고대역폭메모리(HBM) 6세대 제품인 HBM4와 서버용 D램, 낸드플래시가 동반 성장하면서다. 시장에서는 내년 영업이익이 400조원을 넘어설 수 있다는 전망도 나온다. 다만 실제 성과는 HBM4 공급 확대와 범용 메모리 가격 흐름에 달려 있다는 분석이다.\n28일 반도체 업계에 따르면 SK하이닉스는 올해 연간 영업이익이 약 262조원, 내년에는 403조원까지 증가할 수 있다는 전망도 제기된다.\n핵심 성장동력은 HBM4다. SK하이닉스는 3분기 HBM4 출하를 본격화한 데 이어 4분기에는 출하량과 매출 모두 HBM3E를 넘어설 것으로 예상했다. 이를 위해 연말까지 청주 M15X 생산능력을 최대 수준으로 끌어올릴 계획이다. 엔비디아의 차세대 AI 가속기 플랫폼인 베라 루빈 공급 확대도 HBM4 수요 증가를 뒷받침할 전망이다.\n범용 메모리",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM",
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "하이닉스",
+          "DRAM",
+          "HBM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "DRAM",
+          "HBM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, GPU·메모리 '한 몸'으로…차세대 AI 반도체 공략 - 뉴스핌",
+      "date": "2026-10-28",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261028001115",
+      "summary": "삼성전자, GPU·메모리 '한 몸'으로…차세대 AI 반도체 공략 뉴스핌",
+      "body": "AI 핵심 요약\nbeta\n- 삼성전자는 28일 AI 가속기 위에 HBM을 쌓는 zHBM 개발에 속도를 냈다.\n- zHBM은 HBM5 대비 성능 8배와 집적도 10배 향상을 목표로 했다.\n- 삼성전자는 메모리·파운드리·패키징을 결합해 맞춤형 설계를 추진한다.\n!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.\n차세대 zHBM 개발…HBM5 대비 성능 8배 향상 목표\n메모리·파운드리·패키징 결합…고객 맞춤형 설계 강화\n[서울=뉴스핌] 서영욱 기자 = 삼성전자가 고대역폭메모리(HBM)를 그래픽처리장치(GPU) 등 인공지능(AI) 가속기 위에 직접 쌓는 차세대 반도체 기술 개발에 속도를 내고 있다. 차세대 메모리 'zHBM'을 통해 기존 HBM5 대비 최대 8배의 성능 향상을 목표로 데이터 처리 속도와 전력 효율을 동시에 높이겠다는 구상이다. 메모리와 파운드리, 첨단 패키징 기술을 결합해 고객 맞춤형 AI 반도체 시장 공략에도 나선다.\n28일 삼성전자 반도체 뉴스룸에 따르면 삼성전자는 차세대 3차원(3D) 메모리 기술인 'zHBM'을 통해 AI 연산장치와 메모리를 수직으로 결합하는 기술을 개발하고 있다. 지난 8월 미국에서 열린 'FMS 2026'에서 처음 공",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "AI반도체",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "AI반도체",
+          "메모리",
+          "반도체"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "AI반도체",
+          "메모리",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "3분기 영업이익 83조·D램 마진 84%의 위엄…SK하이닉스, 반도체 역사 새로 썼다 - 뉴스퀘스트",
+      "date": "2026-10-28",
+      "source": "뉴스퀘스트",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=303655",
+      "summary": "3분기 영업이익 83조·D램 마진 84%의 위엄…SK하이닉스, 반도체 역사 새로 썼다 뉴스퀘스트",
+      "body": "3분기 : 틀렸지만 기분이 좋습니다\n【뉴스퀘스트=장원수 기자】SK하이닉스의 2027년 영업이익 추정치를 10% 상향했다.\nDS투자증권은 28일 SK하이닉스에 대해 투자의견 ‘매수’. Target 주가순자산비율(P/B) 3배를 유지 적용해 목표주가를 유지했다. 직전거래일 27일 기준 주가는 134만1000원에 거래를 마쳤다.\nSK하이닉스의 3분기 매출액은 전분기 대비 32% 늘어난 104조6150억원, 영업이익은 38% 증가한 83조3340억원으로 기존 추정치 70조원과 컨센서스 76조2000억원을 상회했다.\nD램 평균판매가격(ASP)은 전분기 대비 28% 상승하고 낸드 ASP는 27% 상승한 것으로 추정한다. 출하량(B/G)은 D램 10%로 예상치를 상회했고 낸드는 –1%로 예상치를 하회했다. 영업이익률은 D램 84%, 낸드 66%를 기록한 것으로 파악한다.\n기존 3분기 환율 가정을 1370원으로 조정했으나 실적발표 이후 3분기 가정은 1390원으로 변경 적용했다.\n컨퍼런스콜에서 가장 인상적이었던 부분은 4분기 D램 B/G 가이던스를 20% 중반으로 제시한 점이다. M15X 조기 램프업 및 1c D램 수율 개선으로 인해 4분기 B/G가 크게 증가할 것으로 보",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "하이닉스",
+          "DRAM",
+          "반도체"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "DRAM",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "中 CXMT, 낮은 수율에도 HBM 생산 추진… 증시 비중은 1위 - IT조선",
+      "date": "2026-10-28",
+      "source": "IT조선",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092173020",
+      "summary": "中 CXMT, 낮은 수율에도 HBM 생산 추진… 증시 비중은 1위 IT조선",
+      "body": "중국 최대 D램 업체 창신메모리(CXMT)가 낮은 수율에도 고대역폭메모리(HBM) 생산을 추진한다. 미국의 수출 규제로 중국 내 AI 메모리 확보가 어려워지자 생산비 부담을 감수하고 공급에 나서는 것이다. 기술력은 선두 업체에 뒤처져 있지만 증시에서는 상장 석 달 만에 상하이종합지수 내 비중 1위에 올랐다.\n28일(현지시각) 로이터통신은 사안에 정통한 관계자들을 인용해 CXMT가 중국 AI 반도체 설계업체 여러 곳에 HBM3E 샘플을 공급했다고 보도했다. 관계자는 향후 두 달 안에 제한적인 규모로 생산을 시작할 것으로 예상했다.\nHBM3E는 5세대 HBM이다. 메모리 칩을 수직으로 쌓아 AI 프로세서와 데이터를 빠르게 주고받도록 만든 제품으로 AI 모델 학습과 구동에 쓰인다.\n생산의 걸림돌은 수율이다. 로이터 소식통들에 따르면 CXMT의 HBM3E 수율은 약 20~30%다. 생산한 제품 10개 가운데 2~3개만 성능과 품질 기준을 충족한다는 뜻이다. 소식통들이 추정한 SK하이닉스의 약 70%와 차이가 크다.\n수율이 낮으면 폐기하거나 재작업해야 하는 물량이 늘어 생산비가 높아진다. CXMT의 HBM3E 가격도 해외 경쟁사의 동급 제품보다 비쌀 것으로 예상됐다.",
+      "score": 4.11,
+      "score_raw": 11.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "수율"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM",
+          "수율"
+        ],
+        "summary_hits": [
+          "HBM",
+          "수율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK Hynix Reports Record Q3 Results Driven by AI Memory Surge",
+      "date": "2026-10-29",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/",
+      "summary": "Long-term customer contracts and rising chip prices point to a change in how memory manufacturers manage multi-year production capacity and capex. The post SK Hynix Reports Record Q3 Results Driven by AI Memory Surge appeared first on EE Times.",
+      "body": "SK Hynix posted third-quarter revenue of 104.62 trillion won (~$78 billion), exceeding 100 trillion won (~$75 billion) for the first time. Operating profit reached a record 83.33 trillion won ($62 billion),",
+      "score": 2.5,
+      "score_raw": 7.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 2.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "capex"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "capex"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Intel Wants a Quantum Business, Classiq Could Help Build One",
+      "date": "2026-10-28",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
+      "summary": "After years of hardware research, Intel plans to acquire a software platform that connects quantum developers with enterprise users. The post Intel Wants a Quantum Business, Classiq Could Help Build One appeared first on EE Times.",
+      "body": "Intel has spent more than a decade developing the components of a quantum computer, from silicon spin-qubit chips to control electronics and software. Now, with its proposed acquisition of",
+      "score": 0.89,
+      "score_raw": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "How Much Can Semiconductor Models Hide?",
+      "date": "2026-10-28",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/how-much-can-semiconductor-models-hide/",
+      "summary": "Advanced packaging requires models to cross company boundaries without exposing proprietary processes, but hiding too much can make the prediction break down. The post How Much Can Semiconductor Models Hide? appeared first on Semiconductor Engineering.",
+      "body": "Key Takeaways:\n\nAdvanced packaging pushes process behavior across company lines, so what one supplier hides now shapes another company’s prediction.\n\nEncryption and abstraction protect the recipe cleanly, but neither tells the receiving engineer where the model stops being valid.\n\nA model can be accurate and still be wrong for the question asked, making its envelope as much a deliverable as the model.\n\nThe goal seems simple — share the model without sharing the process. A materials supplier shouldn’t have to reveal a proprietary formulation just so a customer can predict how it will behave in a package, and a foundry shouldn’t have to hand over its recipe to provide a useful model of a chiplet. But advanced packaging is making that separation much harder to maintain.\n\nFor years, engineers moved much of what they needed between companies through datasheets, design rules, and qualification specs, while the manufacturing knowledge stayed with the supplier. That arrangement held as long as",
+      "score": 0.71,
+      "score_raw": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "semiconductor"
+        ],
+        "summary_hits": [
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "AMD \"스파르탄, 경쟁사 FPGA 대비 회로 40% 절감...속도는 1.8배\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64429",
+      "source": "THELEC_반도체",
+      "score": 3.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "AMD"
+        ],
+        "summary_hits": [
+          "AMD",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Hanwha's HBM Chip ETF Tops Retail Buying Among Overseas Chip Funds - Seoul Economic Daily",
+      "url": "https://en.sedaily.com/finance/2026/10/28/hanwhas-hbm-chip-etf-tops-retail-buying-among-overseas-chip",
+      "source": "Seoul Economic Daily",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM"
+        ],
+        "summary_hits": [
+          "HBM"
+        ],
+        "negative_hits": [
+          "ETF"
+        ]
+      }
+    },
+    {
+      "title": "Riding the memory chip rally, retail investors pour 590 billion won into PLUS HBM ETF - 파이낸셜뉴스",
+      "url": "https://en.fnnews.com/news/202610281352313057",
+      "source": "파이낸셜뉴스",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM"
+        ],
+        "summary_hits": [
+          "HBM"
+        ],
+        "negative_hits": [
+          "ETF"
+        ]
+      }
+    },
+    {
+      "title": "LG디스플레이, WOLED 누적 판매 5천만대 돌파",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=342751",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 3.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [
+            "양산"
+          ],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "양산"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Intel Q3 earnings on deck: What to expect - TradingView",
+      "url": "https://www.tradingview.com/news/seekingalpha:a7aea799d094b:0-intel-q3-earnings-on-deck-what-to-expect/",
+      "source": "TradingView",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "씨게이트, 브로드컴 대용량 HDD 호환성 확보",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64477",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "브로드컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "브로드컴"
+        ],
+        "summary_hits": [
+          "브로드컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "퀄컴, 블루칩 프로젝트에 스냅드래곤 X 플랫폼 공급",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64466",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“강원 주력산업에 AI·반도체 역량 더하면 첨단산업 중심 설 수 있어” - 강원일보",
+      "url": "https://www.kwnews.co.kr/article/20261028501490",
+      "source": "강원일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“희토류 필요없다”…서울반도체, LED 판도 바꿀 신기술 개발 - 한국경제",
+      "url": "https://www.hankyung.com/article/202610281580i",
+      "source": "한국경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "(2026 전기국가 포럼)김양팽 박사 “반도체·AIDC에 똑같은 전력 처방 안 통해” - 전기신문",
+      "url": "https://www.electimes.com/news/articleViewAmp.html?idxno=374020",
+      "source": "전기신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "호남 반도체 클러스터 품는 광산구… \"한발 앞선 반도체 행정\" - 조선일보",
+      "url": "https://www.chosun.com/special/special_section/2026/10/29/3NSPGHGMRNDERLUKYMJZPGORD4/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 호황에도 3분기 경기도 경제 ‘주춤’ - 인천일보",
+      "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1335360",
+      "source": "인천일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "코스피 6.63% 뛰어 6천선 탈환…또다시 반도체 쏠림 - 한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1284655.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“용인 반도체 산단 재검토하라” 시민단체 무기한 천막농성 돌입 - 기호일보",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039186",
+      "source": "기호일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "OCI, 3분기 누적 영업익 1013억원…반도체 소재 성장세 - 스트레이트뉴스",
+      "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=314163",
+      "source": "스트레이트뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[뉴욕증시]Fed 금리 결정 앞두고 혼조…반도체주는 강세 - 아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026102823132777331",
+      "source": "아시아경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[강원 AI·반도체 포럼]“산업 생태계 조성 위한 산·학·연 협력 중요” - 강원일보",
+      "url": "https://www.kwnews.co.kr/article/20261028501451",
+      "source": "강원일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "서남권 국가대표 대학 ‘전남대’… 호남 반도체 인재의 요람으로 - 조선일보",
+      "url": "https://www.chosun.com/special/special_section/2026/10/29/3KVQKVPCJRD7NNW4WR43KDU4GE/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체가 버텼지만 소비는 뒷걸음…3분기 경기경제 ‘보합’ - 기호일보",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3039164",
+      "source": "기호일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[강원 AI·반도체포럼]원주, AI·반도체로 미래산업 판 키운다 - 강원일보",
+      "url": "https://www.kwnews.co.kr/article/20261028500934",
+      "source": "강원일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": [
+    {
+      "title": "SK하이닉스 \"기존 6F²구조 최대한 활용…이후 4F²또는 3D D램 전환\" - 연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441557",
+      "source": "연합인포맥스",
+      "score": 23.0,
+      "reason": "no_body"
+    },
+    {
+      "title": "솔리다임, 中 증설 발판…美 낸드팹 신설 속도낸다 - 서울경제",
+      "url": "https://www.sedaily.com/article/20107389",
+      "source": "서울경제",
+      "score": 17.0,
+      "reason": "fetch_fail"
+    },
+    {
+      "title": "\"중국 CXMT의 HBM 수율 30% 미만에도 생산 임박\", 삼성전자 SK하이닉스 추격 서둘러 - 비즈니스포스트",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=450530",
+      "source": "비즈니스포스트",
+      "score": 16.5,
+      "reason": "fetch_fail"
+    }
+  ]
+}
