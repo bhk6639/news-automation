@@ -1,0 +1,1574 @@
+{
+  "generated_at": "2026-11-06T03:13:35.781244+09:00",
+  "field": "반도체",
+  "field_date": "2026-11-06",
+  "stats": {
+    "collected_total": 422,
+    "after_resolve": 422,
+    "after_time_filter": 352,
+    "after_dedup": 350,
+    "after_score_filter": 15,
+    "extracted_success": 14,
+    "extracted_failed": 1
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "Intel’s EMIB-T takes aim at TSMC’s CoWoS-L as AI chip packaging gets crowded - Crypto Briefing",
+      "date": "2026-11-05",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/intel-emib-t-vs-tsmc-cowos-l/",
+      "summary": "Intel’s EMIB-T takes aim at TSMC’s CoWoS-L as AI chip packaging gets crowded Crypto Briefing",
+      "body": "Intel is pitching its bridge-based packaging as a higher-yield, lower-cost alternative while TSMC's CoWoS capacity stays fully booked\nIntel wants a bigger piece of the AI chip boom, and it is not starting with the chips themselves. It is starting with the packaging that holds them together.\nThe company expects future AI packages to carry more than 32 HBM stacks and over 70 EMIB bridges. That is a lot of hardware crammed into one slab, and Intel is betting its EMIB-T technology can handle it more efficiently than TSMC’s CoWoS-L.\nWhat Intel is actually selling\nTSMC’s CoWoS approach has historically leaned on a large silicon interposer, essentially a big slab of silicon that everything sits on. CoWoS-L, the version in question, is the variant now drawing direct comparisons with Intel’s offering.\nIntel’s EMIB-T takes a different route. Instead of one giant silicon foundation, it embeds small, localized silicon bridges inside an organic substrate, placing silicon only where chips need to ta",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC",
+            "인텔"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [
+            "CoWoS",
+            "EMIB"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔",
+          "TSMC",
+          "AI반도체",
+          "CoWoS",
+          "EMIB"
+        ],
+        "summary_hits": [
+          "인텔",
+          "TSMC",
+          "AI반도체",
+          "CoWoS",
+          "EMIB"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "재료공학부 박민혁 교수팀, DRAM급 차세대 메모리 위한 초저전압 강유전체 소자 개발 - 보도자료 - 뉴스 - 서울대 소식 - 서울대학교",
+      "date": "2026-11-05",
+      "source": "서울대학교",
+      "url": "https://www.snu.ac.kr/snunow/press?md=v&bbsidx=178754",
+      "summary": "재료공학부 박민혁 교수팀, DRAM급 차세대 메모리 위한 초저전압 강유전체 소자 개발 - 보도자료 - 뉴스 - 서울대 소식 서울대학교",
+      "body": "- 0.6 V 저전압 동작... 세계 최고 수준의 저전압·고속·고내구성 성능 조합 확보\n- 메모리 소자의 오랜 핵심 난제 '속도-수명 딜레마'에 전극·계면 설계를 통한 해법 제시\n- 국제 학술지 '네이처 커뮤니케이션즈(Nature Communications)' 논문 게재\n  \n저전력 메모리 구현의 속도와 수명 한계를 동시에 넘을 돌파구가 마련됐다.\n서울대학교 공과대학 재료공학부 박민혁 교수 연구팀은 0.6V의 낮은 전압에서도 빠르게 동작하고, 1조 회의 반복 구동 후에도 절연 파괴 없이 정보 상태를 구분할 수 있는 강유전체 캐패시터를 개발했다.\n이번 성과는 빠른 동작과 긴 수명을 동시에 확보하기 어려웠던 강유전체 메모리의 오랜 난제에 해법을 제시했다는 점에서 의미가 크다. 연구팀은 전극과 강유전체가 맞닿는 계면을 정밀하게 설계해 낮은 구동 전압과 빠른 분극 전환, 높은 반복 구동 안정성을 함께 확보했다. 이를 바탕으로 DRAM과 유사한 구조의 차세대 저전력 메모리에 활용할 수 있는 가능성도 제시했다.\n이번 연구는 한양대학교·포항가속기연구소·삼성전자 연구진과 공동으로 수행됐으며, 연구 결과는 세계적 권위의 국제 학술지 '네이처 커뮤니케이션즈(Nature Com",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "강유전체"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "DRAM",
+          "강유전체"
+        ],
+        "summary_hits": [
+          "메모리",
+          "DRAM",
+          "강유전체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스, HBM4 수율 60% '업계 최고'…서버 D램 증산 여력 넓혀 - 딜사이트",
+      "date": "2026-11-05",
+      "source": "딜사이트",
+      "url": "https://dealsite.co.kr/articles/172074",
+      "summary": "SK하이닉스, HBM4 수율 60% '업계 최고'…서버 D램 증산 여력 넓혀 딜사이트",
+      "body": "[딜사이트 송한석 기자] SK하이닉스가 HBM과 서버 D램 판매를 함께 늘리며 사상 최대 실적을 냈다. 생산능력이 HBM에 집중되는 가운데 서버 D램 공급까지 늘린 배경으로는 수율 개선에 따른 생산 효율 향상이 꼽힌다. HBM 생산에 필요한 웨이퍼 투입을 효율화하면서 확보한 여력을 서버 D램에 활용했다는 분석이다.\n업계에 따르면 SK하이닉스의 HBM4 수율은 60% 초중반으로 업계 최고 수준이다. 단위 공정별 수율이 아닌 모든 단계를 거쳐 살아남은 최종 양품 수율인 큠수율(Cum Yield, 누적 수율) 기준으로 경쟁사 대비 가장 높다.\n삼성전자의 HBM4는 큠수율 기준 약 40%대로 알려져있다. 일각에서는 삼성전자가 80% 수율이라는 이야기도 나오지만 HBM은 여러 D램 칩을 쌓아 만드는 만큼 웨이퍼 소모가 크고 로스(손실)가 많아 물리적으로 80% 수율은 불가능하다.\n최근 SK하이닉스는 생산성 확대로 인한 호실적을 기록 중이다. 올해 3분기 매출 104조6155억원, 영업이익 83조3338억원을 기록했다. 전년 동기 대비 매출은 327.9% 증가했고 영업이익은 632.1% 늘어났다. D램 평균판매가격은 전분기 대비 20% 후반 상승했고 출하량도 약 10%",
+      "score": 5.89,
+      "score_raw": 16.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM",
+            "HBM"
+          ],
+          "tech": [
+            "수율"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "HBM",
+          "DRAM",
+          "수율"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "HBM",
+          "DRAM",
+          "수율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마이크론, 대만 신규 공장 건설 중단…성과급 갈등에 HBM 증설 제동 - 머니투데이 - 머니투데이",
+      "date": "2026-11-05",
+      "source": "머니투데이",
+      "url": "https://www.mt.co.kr/world/2026/11/05/2026110521595456514",
+      "summary": "마이크론, 대만 신규 공장 건설 중단…성과급 갈등에 HBM 증설 제동 - 머니투데이 머니투데이",
+      "body": "미국 메모리 반도체 기업 마이크론테크놀로지가 노조와 성과급 갈등 여파로 대만 신규 반도체 공장 건설을 중단했다고 블룸버그통신이 5일(현지시간) 보도했다.\n매체는 사안에 정통한 복수의 소식통을 인용해 마이크론이 대만 북부 타오위안에 건설 중인 반도체 공장 프로젝트가 사실상 중단됐다고 전했다. 현지 노조와의 임금 및 성과급 협상이 장기화하고 합의 번복 가능성이 제기되는 등 불확실성이 커지자 경영진이 공사 중단 결정했다는 전언이다. 마이크론은 대만 당국과 협력업체에도 이를 통보한 것으로 알려졌다.\n마이크론과 현지 노조와의 갈등은 올해 인공지능(AI) 산업 호황 속에 직원들이 성과 배분 확대를 요구하면서 불거졌다. 노조는 회사 글로벌 영업이익의 15%를 성과급으로 지급할 것을 요구해 왔다. 삼성전자와 SK하이닉스 등 한국 반도체 기업들이 회사 실적과 연동한 성과급 제도를 운영하는 것처럼 상시 제도를 만들어달라는 취지다.\n이에 마이크론은 이익 연동 성과급 체계를 마련했다. 다만 구체적인 조건은 알려지지 않았다. 마이크론의 대만 내 최대 노조인 타이중 노조는 이달 앞서 회사 측과 성과급 개편안에 합의했지만 타오위안 노조는 보상 수준과 배분 기준을 놓고 접점을 찾지 못했",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마이크론"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "증설"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "마이크론",
+          "HBM",
+          "증설"
+        ],
+        "summary_hits": [
+          "마이크론",
+          "HBM",
+          "증설"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자 D램 시장 점유율 '38%'…1위 수성 - 전자신문",
+      "date": "2026-11-05",
+      "source": "전자신문",
+      "url": "https://www.etnews.com/20261105000460",
+      "summary": "삼성전자 D램 시장 점유율 '38%'…1위 수성 전자신문",
+      "body": "삼성전자가 3분기 D램 시장 점유율 1위를 지켰다. 고대역폭메모리(HBM) 판매 확대에 따른 실적 성장이 지속되는 모습이다.\n시장조사업체 카운터포인트리서치는 3분기 D램 시장 점유율 1위는 삼성전자로 38%를 차지했다고 5일 밝혔다. SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이다.\n카운터포인트리서치 조사 결과에 따르면, 삼성전자는 지난해 1분기 HBM 공급 난항으로 D램 시장 점유율 1위를 SK하이닉스에 내준 적 있다. 이후 주요 인공지능(AI) 반도체 고객에 HBM 공급을 성사시키고, D램 공급 능력을 앞세워 지난해 4분기 다시 1위에 올랐다.\n카운터포인트리서치는 3분기 세계 D램 전체 매출이 전년 대비 5배 가까운 2000억달러에 달했다고 설명했다. 분기 비트 출하량은 4% 늘어난데 불과하지만, 평균판매가격(ASP) 상승이 매출 성장을 견인한 것이다.\n권동준 기자 djkwon@etnews.com\n- ET Events",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성, D램 3분기 점유율 38% 1위…SK하이닉스 29%로 반등 - 연합뉴스",
+      "date": "2026-11-05",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261105135700003",
+      "summary": "삼성, D램 3분기 점유율 38% 1위…SK하이닉스 29%로 반등 연합뉴스",
+      "body": "삼성전자, 3분기 D램 점유율 38%로 1위\nSK하이닉스 29%로 반등, 마이크론과 격차\n\"HBM4 공급 시작되면 CXMT 점유율 위축\"\n전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.\n(서울=연합뉴스) 박초롱 기자 = 올해 3분기 전 세계 D램 시장에서 삼성전자가 선두를 유지한 가운데 SK하이닉스가 마이크론과의 격차를 벌렸다.\n5일 시장조사업체 카운터포인트리서치에 따르면 삼성전자는 올해 2분기 매출 기준 D램 시장에서 38%의 점유율을 기록하며 1위를 유지했다.\n삼성 점유율은 지난 2분기 39%에서 소폭 하락했다.\nSK하이닉스 점유율은 29%로, 올 초 잃었던 점유율 일부를 만회했다. 2분기와 비교해선 점유율이 3%포인트 늘었다.\n점유율 3위는 미국 마이크론(21%), 4위는 중국 CXMT(9%)다.\nCXMT 점유율은 2분기 10%에서 9%로 소폭 떨어졌다.\n카운터포인트리서치는 올 4분기부터 프리미엄 제품인 HBM4 공급이 시작되면 CXMT 점유율이 더 위축될 가능성이 크다고 전망했다.\n3분기 D램 매출액은 작년 같은 기간보다 369% 급증하며 사상 최고치를 기록했다.\n최정구 카운터포인트리서치 수석연구원은 \"AI는 메모리를 범용재에서 희소한",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "3분기 D램 매출 369% 급증…삼성전자 점유율 38%로 1위 - 연합인포맥스",
+      "date": "2026-11-05",
+      "source": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443289",
+      "summary": "3분기 D램 매출 369% 급증…삼성전자 점유율 38%로 1위 연합인포맥스",
+      "body": "SK하이닉스 매출 전분기比 40%↑…메모리 슈퍼사이클 지속\n(서울=연합인포맥스) 윤영숙 기자 = 인공지능(AI) 데이터센터 수요 확대와 메모리 가격 상승에 힘입어 올해 3분기 글로벌 D램 시장 매출이 전년 동기 대비 5배 가까이 급증한 것으로 나타났다.\n삼성전자는 시장 점유율 38%로 1위를 유지했으며, SK하이닉스는 매출이 전분기 대비 40% 이상 증가하며 점유율 회복에 나섰다.\n5일 시장조사업체 카운터포인트리서치에 따르면 올해 3분기 글로벌 D램 매출은 전년 동기 대비 369% 증가해 사상 최고치를 기록했다.\n삼성전자는 전분기와 같은 38%의 점유율로 1위를 지켰으며, SK하이닉스는 29%로 2분기 25%에 비해 4%포인트 상승했다.\n마이크론은 AI 데이터센터용 메모리 수요에 힘입어 매출이 증가했으나 삼성전자와 SK하이닉스보다 증가 속도는 더뎠다. 점유율은 2분기 24%에서 21%로 하락했다.\n중국 창신메모리테크놀로지(CXMT)의 점유율도 2분기 10%에서 3분기 9%로 하락했다.\nD램 시장의 급성장은 출하량보다 가격 상승이 주도했다.\n3분기 D램 비트 출하량은 전분기 대비 약 4% 증가하는 데 그쳤으나 평균판매가격(ASP)은 기가비트(Gb)당 1.9달러",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "3분기 D램 매출 369% 폭등…삼성, 점유율 38%로 1위 수성 - 지디넷코리아",
+      "date": "2026-11-05",
+      "source": "지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20261105170914",
+      "summary": "3분기 D램 매출 369% 폭등…삼성, 점유율 38%로 1위 수성 지디넷코리아",
+      "body": "인공지능(AI) 가속기·데이터센터 수요 확대와 평균판매가격(ASP) 상승이 맞물리며 3분기 글로벌 D램 매출이 전년비 369% 급증한 2000억 달러를 기록했다. 사상 최고치다.\n5일 시장조사업체 카운터포인트에 따르면 삼성전자는 3분기 점유율 38%로 D램 시장 1위 자리를 지켰다. 지난해 3분기 점유율 33%보다 5%포인트 올랐다.\nSK하이닉스는 전 분기 대비 매출을 40% 이상 늘리며 올해 초 줄어든 점유율을 일부 만회했다. 마이크론도 AI 수요에 힘입어 실적을 개선했으나 국내 양사 대비 성장 속도가 완만했다.\n중국 CXMT 점유율은 2분기 10%에서 3분기 9%로 1%포인트 하락했다. 4분기 경쟁사의 6세대 고대역폭메모리(HBM4) 공급이 본격화되면 입지가 더욱 위축될 전망이다.\n3분기 호실적은 출하량 확대가 아닌 단가 상승이 주도했다. 3분기 D램 비트 출하량은 4% 증가에 그쳤으나, 기가비트(Gb)당 ASP가 1.9달러까지 오르며 전체 매출을 끌어올렸다. HBM 매출이 2배 가까이 늘었음에도 서버용 중앙처리장치(CPU) 소비 증가로 범용 D램(DDR·LPDDR) 매출이 각각 전년비 500%, 400% 폭증하며 전체 D램 매출 내 HBM 비중은 오히려",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "전 세계 3분기 D램 매출 369% 폭증… 삼성전자 점유율 38% 1위 - 글로벌이코노믹",
+      "date": "2026-11-05",
+      "source": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Industry/2026/11/20261105163616392627fa31d75c_1",
+      "summary": "전 세계 3분기 D램 매출 369% 폭증… 삼성전자 점유율 38% 1위 글로벌이코노믹",
+      "body": "5일 시장조사업체 카운터포인트리서치에 따르면 3분기 D램 매출은 지난해 같은 기간보다 369% 급증하며 약 2000억 달러(약 268조1800억 원)를 기록, 사상 최고치를 기록했다.\n반면 비트 출하량 증가율은 약 4%에 그쳤다. 출하량 확대보다 가격 상승이 실적을 이끈 셈이다. 3분기 D램 평균판매가격(ASP)은 기가비트(Gb)당 1.9달러로, 상반기보다 오름폭은 둔화됐지만 매출 증가를 이끌었다.\n업체별로는 삼성전자가 38%의 점유율로 선두를 차지했다. SK하이닉스는 매출이 전분기 대비 40% 이상 늘어 올해 초 내줬던 점유율을 일부 되찾았다. 시장 점유율은 29%다.\n카운터포인트리서치는 경쟁사들이 4분기부터 프리미엄 제품인 HBM4 출하에 들어가는 만큼 CXMT의 점유율 압박은 계속될 것이라고 전망했다.\n카운터포인트리서치는 HBM 시장의 주도권 변화도 예고했다. 황민성 리서치 디렉터는 “HBM3E에서는 SK하이닉스가 앞섰지만 성장세가 둔화했고, 삼성전자의 HBM4는 고객들로부터 좋은 반응을 얻고 있다”면서 \"올해 실적 반등에 성공한 삼성전자가 내년에는 HBM 1위에 오를 것\"이라고 내다봤다.\n제품 구성에도 변화가 나타났다. HBM 매출은 거의 2배로 늘었",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성, D램 점유율 38%로 1위 수성…SK하이닉스 29%로 반등 - 직썰",
+      "date": "2026-11-05",
+      "source": "직썰",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=152278",
+      "summary": "삼성, D램 점유율 38%로 1위 수성…SK하이닉스 29%로 반등 직썰",
+      "body": "[직썰 / 김태형 기자] 올해 3분기 글로벌 D램 시장에서 삼성전자가 점유율 1위를 지킨 가운데 SK하이닉스가 점유율을 끌어올리며 2위 자리를 공고히 했다. 인공지능(AI) 수요 확대로 D램 시장이 역대급 호황을 맞은 가운데 양사의 고대역폭메모리(HBM) 주도권 경쟁도 한층 치열해질 전망이다.\n5일 시장조사업체 카운터포인트리서치에 따르면 올해 3분기 매출 기준 글로벌 D램 시장 점유율은 삼성전자가 38%로 1위를 차지했다. 삼성전자는 2분기 39%에서 점유율이 1%포인트 하락했지만 선두 자리를 유지했다.\nSK하이닉스는 29%로 2위를 기록했다. 2분기보다 3%포인트 상승한 수치로, 올해 초 하락했던 점유율을 일부 회복했다. 3위 미국 마이크론은 21%를 기록해 SK하이닉스와의 격차가 8%포인트로 벌어졌다.\n중국 CXMT는 9%로 4위에 올랐다. 2분기 10%에서 1%포인트 하락하며 성장세가 주춤했다.\n카운터포인트리서치는 4분기부터 차세대 고대역폭메모리인 HBM4 공급이 본격화하면 CXMT의 시장 점유율이 추가로 축소될 가능성이 있다고 내다봤다. 고부가가치 메모리 시장에서 국내 업체들의 기술 경쟁력이 더욱 중요해질 것이라는 분석이다.\n글로벌 D램 시장의 성장세",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "3분기 D램 매출 4.7배 급증…삼성전자 점유율 38%로 1위 - 이투데이",
+      "date": "2026-11-05",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2644735",
+      "summary": "3분기 D램 매출 4.7배 급증…삼성전자 점유율 38%로 1위 이투데이",
+      "body": "삼성전자 1위 수성…SK하이닉스 매출 전분기比 40% 이상 증가\n출하량보다 가격이 이끈 호황…평균판매가격 Gb당 1.9달러\n카운터포인트 “삼성전자, 내년 HBM 시장 1위 탈환 예상”\n인공지능(AI) 가속기와 데이터센터 수요 확대에 가격 상승이 더해지면서 올해 3분기 글로벌 D램 매출이 1년 전의 4.7배 수준으로 급증했다. 삼성전자가 점유율 38%로 선두를 지킨 가운데 SK하이닉스도 전분기 대비 매출을 40% 이상 늘리며 추격했다.\n시장조사업체 카운터포인트리서치는 5일 글로벌 메모리 트래커를 통해 3분기 D램 매출이 전년 동기 대비 369% 증가한 약 2000억달러로 사상 최고치를 기록했다고 밝혔다.\n삼성전자는 매출 기준 점유율 38%로 1위를 유지했다. SK하이닉스는 매출이 전분기보다 40% 이상 증가하며 올해 초 잃었던 점유율 일부를 회복했다. 마이크론도 AI 데이터센터용 메모리 수요에 힘입어 호실적을 거뒀으나 매출 증가 속도는 삼성전자와 SK하이닉스에 미치지 못했다. 중국 CXMT의 점유율은 2분기 10%에서 3분기 9%로 낮아졌다.\n이번 성장은 물량보다 가격 상승이 주도했다. 3분기 D램 평균판매가격(ASP)은 기가비트(Gb)당 1.9달러까지 올랐다",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성·하이닉스, 글로벌 D램 점유율 67%…나란히 1·2위 - 시사저널",
+      "date": "2026-11-05",
+      "source": "시사저널",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=393042",
+      "summary": "삼성·하이닉스, 글로벌 D램 점유율 67%…나란히 1·2위 시사저널",
+      "body": "мӮјм„ұм „мһҗ 38%лЎң м„ л‘җ мң м§ҖвҖҰSKн•ҳмқҙлӢүмҠӨ 29%лЎң м җмң мңЁ нҡҢліө\nAI мҲҳмҡ” нҷ•лҢҖм—җ DлһЁ л§Өм¶ң кёүмҰқвҖҰлӮҙл…„ HBM мӢңмһҘ ліҖнҷ” м „л§қ\nмӮјм„ұм „мһҗмҷҖ SKн•ҳмқҙлӢүмҠӨк°Җ мҳ¬н•ҙ 3л¶„кё° кёҖлЎңлІҢ DлһЁ мӢңмһҘм—җм„ң н•©мӮ° м җмң мңЁ 67%лҘј кё°лЎқн•ҳл©° лӮҳлһҖнһҲ 1·2мң„лҘј м°Ём§Җн–ҲлӢӨ. мӮјм„ұм „мһҗлҠ” 38%мқҳ м җмң мңЁлЎң м„ л‘җлҘј мң м§Җн–Ҳкі , SKн•ҳмқҙлӢүмҠӨлҠ” 29%к№Ңм§Җ м җмң мңЁмқ„ лҒҢм–ҙмҳ¬лҰ¬л©° лҜёкөӯ л§ҲмқҙнҒ¬лЎ кіјмқҳ кІ©м°ЁлҘј лІҢл ёлӢӨ.\n5мқј мӢңмһҘмЎ°мӮ¬м—…мІҙ м№ҙмҡҙн„°нҸ¬мқёнҠёлҰ¬м„ңм№ҳм—җ л”°лҘҙл©ҙ, мҳ¬н•ҙ 3л¶„кё° л§Өм¶ң кё°мӨҖ кёҖлЎңлІҢ DлһЁ мӢңмһҘм җмң мңЁмқҖ мӮјм„ұм „мһ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "DRAM",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Why Integrated Gate Drive Regulation Matters For High Reliability Space GaN Designs",
+      "date": "2026-11-05",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/why-integrated-gate-drive-regulation-matters-for-high-reliability-space-gan-designs/",
+      "summary": "Eliminating the need for a separate bias regulator dedicated to the gate driver for a more streamlined power architecture. The post Why Integrated Gate Drive Regulation Matters For High Reliability Space GaN Designs appeared first on Semiconductor Engineering.",
+      "body": "As Gallium Nitride (GaN) technology becomes increasingly prevalent in space power systems, designers are leveraging its inherent capabilities to deliver higher efficiency, faster switching speeds, and greater power density. These advantages help designers support the growing demands of modern satellite platforms.\n\nWhile GaN devices are central to many modern power architectures, achieving their full efficiency and switching performance depends on the gate driver that controls them. Infineon HiRel’s new, rad hard single-channel gate driver for GaN delivers the precise drive conditions that GaN devices require. Designed specifically for extreme environment applications, the device incorporates an integrated low dropout regulator (LDO). The LDO simplifies gate-drive implementation while providing a tightly regulated voltage optimized for GaN operation, while also reducing the total bill of materials (BOM).\n\nGaN performance starts at the gate driver\n\nThe switching advantages of GaN stem fr",
+      "score": 5.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "GaN",
+            "신뢰성"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "신뢰성",
+          "GaN"
+        ],
+        "summary_hits": [
+          "신뢰성",
+          "GaN",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Chiplets: Meta-Scale Chiplet Velocity Accelerating AI SoC Development to Match the Rapid Evolution of AI Model",
+      "date": "2026-11-05",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/chiplets-meta-scale-chiplet-velocity-accelerating-ai-soc-development-to-match-the-rapid-evolution-of-ai-model/",
+      "summary": "This event session is presented by Olivia Wu, Distinguished Engineer at Meta AI model architectures are evolving faster than traditional chip development cycles, and at Meta’s scale—serving billions of users across ranking & recommendation and generative AI workloads—this mismatch is untenable. Meta’s Infra Silicon team has responded with a six-month SoC tape-out cadence, delivering four […] The post Chiplets: Meta-Scale Chiplet Velocity Accelerating AI SoC Development to Match the Rapid Evolution of AI Model appeared first on EE Times.",
+      "body": "This event session is presented by Olivia Wu, Distinguished Engineer at Meta\n\nAI model architectures are evolving faster than traditional chip development cycles, and at Meta’s scale—serving billions of",
+      "score": 5.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 1.0,
+          "product": 0.0,
+          "tech": 10.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "케이던스"
+          ],
+          "product": [],
+          "tech": [
+            "chiplet",
+            "chiplets"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "chiplets",
+          "chiplet"
+        ],
+        "summary_hits": [
+          "케이던스",
+          "chiplets",
+          "chiplet"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "중국 최대 낸드 메모리 YMTC, 증시 급락·당국 규제로 IPO 보류 - AI타임스",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217060",
+      "source": "AI타임스",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "낸드",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "메모리",
+          "낸드"
+        ],
+        "summary_hits": [
+          "메모리",
+          "낸드"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "삼전닉스 한숨 돌리나…中 YMTC, 증시 급락에 6.8조원 상장 보류 - 매일경제",
+      "url": "https://www.mk.co.kr/news/business/12198530",
+      "source": "매일경제",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자"
+        ],
+        "summary_hits": [
+          "삼성전자"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "Qualcomm stock drops on rising memory pricing, supply challenges - Yahoo Finance",
+      "url": "https://finance.yahoo.com/video/qualcomm-stock-drops-on-rising-memory-pricing-supply-challenges-141021851.html",
+      "source": "Yahoo Finance",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[Memory chip shortage weighs on phones; Qualcomm guidance misses] - Shanghai Metals Market",
+      "url": "https://news.metal.com/newscontent/104207592-memory-chip-shortage-weighs-on-phones-qualcomm-guidance-misses",
+      "source": "Shanghai Metals Market",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AI Roundup: AMD, Apple Results Puzzle Investors, Democrats’ Midterm Win Weighs On Traders - TradingView",
+      "url": "https://www.tradingview.com/news/stocktwits:ccc3283c8094b:0-ai-roundup-amd-apple-results-puzzle-investors-democrats-midterm-win-weighs-on-traders/",
+      "source": "TradingView",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "AMD"
+        ],
+        "summary_hits": [
+          "AMD"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Qualcomm Drops Nearly 12% Pre-Market: Handset Chip Revenue Falls 26%, Profit Under Pressure as SpaceX 5G Deal Fails to Lift Shares - TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262282595-qualcomm-premarket-plunge-12-handset-chip-revenue-26-profit-pressure-spacex-tradingkey",
+      "source": "TradingKey",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AMD Sinks 13%, Bloom Energy Down 18% as Midterm “Seismic Shift” Deepens Chip Sell-Off - TIKR.com",
+      "url": "https://www.tikr.com/blog/amd-sinks-13-bloom-energy-down-18-as-midterm-seismic-shift-deepens-chip-sell-off?",
+      "source": "TIKR.com",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "AMD"
+        ],
+        "summary_hits": [
+          "AMD"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Memory Chip Stocks Extend Losses Amid Qualcomm Earnings and AI Demand Uncertainty - KuCoin",
+      "url": "https://www.kucoin.com/news/flash/memory-chip-stocks-extend-losses-amid-qualcomm-earnings-and-ai-demand-uncertainty",
+      "source": "KuCoin",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Qualcomm’s smartphone chip sales miss estimates, shares fall - The Business Times",
+      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/qualcomms-smartphone-chip-sales-miss-estimates-shares-fall",
+      "source": "The Business Times",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "퀄컴, 스타링크 미국 5G망에 기지국 칩 공급",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64946",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "퀄컴 \"내년 스마트폰 시장 보합...데이터센터 매출 대폭 확대\"",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64940",
+      "source": "THELEC_반도체",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 2.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "퀄컴"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "퀄컴"
+        ],
+        "summary_hits": [
+          "퀄컴",
+          "메모리"
+        ],
+        "negative_hits": [
+          "스마트폰"
+        ]
+      }
+    },
+    {
+      "title": "미 민주 ‘데이터센터 규제 강화’ 기조…한국 반도체 ‘숨 고르기’ - 경향신문",
+      "url": "https://www.khan.co.kr/article/202611052116005",
+      "source": "경향신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[보도설명자료] 「전남광주통합특별시 지원위원회 민간위원 반도체 전문가 없어」(11.5.,조선, 중앙, 한경 등) 보도 관련 - 대한민국 정책브리핑",
+      "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975120",
+      "source": "대한민국 정책브리핑",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설]美 데이터센터 급제동 우려… ‘반도체 逆쓰나미’ 대비해야 - 동아일보",
+      "url": "https://www.donga.com/news/Opinion/article/all/20261105/134975322/2",
+      "source": "동아일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "내년 3월 개교 '용인반도체고' 첫 신입생 경쟁률 4.8대 1 - 연합뉴스",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261105168000061",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[김대호 진단] 아! 반도체... 데이터센터 모라토리움 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Opinion/2026/11/202611051355285384906806b77b_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "미 선거에 흔들린 반도체…복잡해진 우리 경제 셈법 - KBS 뉴스",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705267",
+      "source": "KBS 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "호남 반도체 지원 사업 심의에 비전문가 포진 - Tbc.co.kr",
+      "url": "https://www.tbc.co.kr/news/view?pno=20261105160351AE08055&id=213002&c1=code&c2=",
+      "source": "Tbc.co.kr",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "중국 증시 꺾이니 반도체까지 발목…YMTC, 6.6조 IPO 보류 - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25476195",
+      "source": "중앙일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "코스피도 ‘블루 쓰나미’… 반도체 투톱 폭락 - 조선일보",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/06/PHDWVJHK25CU3KAZBBUXFQKEL4/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": [
+    {
+      "title": "삼성전자 AI 메모리 호황에 3분기 글로벌 D램 점유율 38%, SK하이닉스 29% - 비즈니스포스트",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451297",
+      "source": "비즈니스포스트",
+      "score": 15.0,
+      "reason": "fetch_fail"
+    }
+  ]
+}
