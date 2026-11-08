@@ -1,0 +1,1662 @@
+{
+  "generated_at": "2026-11-09T03:05:36.559676+09:00",
+  "field": "반도체",
+  "field_date": "2026-11-09",
+  "stats": {
+    "collected_total": 305,
+    "after_resolve": 305,
+    "after_time_filter": 171,
+    "after_dedup": 168,
+    "after_score_filter": 15,
+    "extracted_success": 15,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "TSMC, 3D D램 진출설에 선 그어…“파운드리 집중” - 글로벌이코노믹",
+      "date": "2026-11-08",
+      "source": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/11/20261108205451690538169980b3_1",
+      "summary": "TSMC, 3D D램 진출설에 선 그어…“파운드리 집중” 글로벌이코노믹",
+      "body": "세계 최대 파운드리(반도체 위탁생산) 기업 TSMC가 엔비디아의 요청으로 차세대 3차원(3D) D램 생산을 검토하고 있다는 외신 보도에 대해 기존 파운드리 사업에 집중하겠다는 입장을 내놨다.\n7일(현지시간) 미국 정보기술(IT) 매체 톰스하드웨어 등에 따르면 TSMC 대변인은 최근 불거진 메모리 반도체 시장 진출설과 관련해 “회사는 언제나 반도체 위탁생산이라는 핵심 사업에 집중하고 있다”고 밝혔다.\n앞서 미국 IT 전문매체 디인포메이션은 지난 6일 TSMC가 엔비디아의 요청을 받아 3D D램 생산 계획을 마련하기 시작했다고 보도했다. 신규 반도체 공장 건설과 기존 공장 인수·전환 등이 검토 대상에 올랐으며, 첨단 패키징 사업을 담당하는 쉬궈진 부사장이 관련 프로젝트를 이끄는 것으로 알려졌다.\n다만 구체적인 양산 일정은 공개되지 않았다. 보도 당시 TSMC와 엔비디아는 로이터통신의 논평 요청에도 즉각 답변하지 않았다.\n대만 반도체 업계에서는 TSMC의 메모리 시장 진출 가능성을 신중하게 바라보고 있다. 대만 경제일보에 따르면 자오유쥔 윈본드 회장은 D램 사업에 진출하려면 독자적인 제조 기술 확보와 복잡한 특허 문제 해결이 선행돼야 한다고 지적했다.\n특히 TSM",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC, 3D D램 시장 진출설에 “파운드리에 집중할 것” 부인 - 동아일보",
+      "date": "2026-11-09",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20261108/134987386/2",
+      "summary": "TSMC, 3D D램 시장 진출설에 “파운드리에 집중할 것” 부인 동아일보",
+      "body": "삼전닉스도 양산 못한 고난도 기술\n“신뢰 받는 기술-생산 공급자될 것”\n업계, 메모리 진출 가능성 예의주시\n세계 최대 파운드리(반도체 위탁생산) 기업인 대만 TSMC가 3차원(3D) D램으로 D램 시장에 진출할 수 있다는 가능성이 제기됐다. 최대 고객사인 엔비디아 요청에 따른 결정이라는 것이다.\n6일(현지 시간) 미국 기술 전문 매체 디인포메이션은 TSMC가 엔비디아 요청에 따라 3D D램 생산을 검토하고 있으며, 미국 메모리 기업인 마이크론 출신의 쉬궈진 TSMC 첨단패키징 사업 총괄이 이를 주도하고 있다고 보도했다. 3D D램은 D램을 수직으로 여러 층 쌓아 저장 용량을 늘리는 방식이다. 현재 중국 반입이 금지된 네덜란드 ASML의 극자외선(EUV) 노광장비 없이도 저장 용량을 늘릴 수 있어 중국 기업들이 적극적으로 개발하고 있는 기술이다.\n디인포메이션은 TSMC가 전용 메모리 공장을 새로 짓거나 기존 반도체 공장을 인수해 메모리 생산 시설로 개조하는 방안을 검토하고 있다고 보도했다. 하지만 보도가 나간 뒤 TSMC는 7일 “TSMC는 항상 핵심 사업인 반도체 파운드리에 집중하고 있다”며 “앞으로도 글로벌 로직 반도체 산업에서 신뢰받는 기술과 생산 능력 ",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인 - 지디넷코리아",
+      "date": "2026-11-08",
+      "source": "지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20261107230421",
+      "summary": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인 지디넷코리아",
+      "body": "세계 최대 파운드리 업체 TSMC가 6일(현지시간) 디인포메이션이 보도한 3D D램 생산 진출설 관련 \"기존 핵심 사업인 로직 반도체 위탁생산에 집중하겠다\"는 입장을 밝혔다.\n디인포메이션은 6일(현지시간) 복수 소식통을 인용해 \"TSMC가 엔비디아 요청으로 차세대 3차원(3D) D램 생산을 검토하고 있으며 기존 반도체 생산시설을 인수해 메모리 공장으로 전환하거나 새로운 공장을 건설하는 방안을 검토중\"이라고 보도했다.\n그러나 TSMC는 7일 \"현재 로직 반도체 파운드리 사업에 집중하고 있으며, 앞으로도 글로벌 반도체 산업에 기술과 생산능력을 제공하는 역할을 수행하겠다\"고 강조했다.\n사실상 메모리 제조업 진출설과 거리를 둔 것이다.\n대만 현지에서도 TSMC의 메모리 사업 진출 가능성에 대해서는 신중한 전망이 나온다. 경제일보는 7일 현지 메모리 제조사 윈본드의 초유균 회장 발언을 인용해 \"TSMC가 독자적으로 D램 사업에 진출할 가능성이 높지 않다\"고 보도했다.\n경제일보에 따르면 초유균 윈본드 회장은 \"TSMC가 실제로 D램 사업 진출을 계획하고 있다면 기술이 성숙하기 전까지 외부에 알리지 않고 조용히 준비할 것\"이라고 평가했다.\n그는 또 D램 사업 진출에는 독",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘파운드리 1위’ TSMC, 메모리도 손 뻗나…“3D D램 생산 검토” - 동아일보",
+      "date": "2026-11-08",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/amp/all/20261108/134985356/1",
+      "summary": "‘파운드리 1위’ TSMC, 메모리도 손 뻗나…“3D D램 생산 검토” 동아일보",
+      "body": "AP 뉴시스\n6일(현지 시간) 미국 기술 전문매체 디인포메이션은 TSMC가 엔비디아 요청에 따라 3D D램 생산을 검토하고 있으며, 미국 메모리 기업인 마이크론 출신의 쉬궈진 TSMC 첨단패키징 사업 총괄이 이를 주도하고 있다고 보도했다. 3D D램은 D램을 수직으로 여러 층 쌓아 저장 용량을 늘리는 방식이다. 현재 중국 반입이 금지된 네덜란드 ASML의 EUV 노광장비가 없이도 저장 용량을 늘릴 수 있어 중국 기업들이 적극적으로 개발하고 있는 기술이다.\n디인포메이션은 TSMC가 전용 메모리 공장을 새로 짓거나 기존 반도체 공장을 인수해 메모리 생산시설로 개조하는 방안을 검토하고 있다고 보도했다. 하지만 보도가 나간 뒤 TSMC는 7일 “TSMC는 항상 핵심 사업인 반도체 파운드리에 집중하고 있다”며 “앞으로도 글로벌 로직 반도체 산업에서 신뢰받는 기술과 생산능력 공급자가 될 것”이라고 밝혔다.\n광고 로드중\n최지원 기자 jwchoi@donga.com",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC, 엔비디아 요청 3D D램 진출설 부인…＂로직 파운드리 본업 집중＂ - KPI뉴스",
+      "date": "2026-11-08",
+      "source": "KPI뉴스",
+      "url": "https://kpinews.kr/newsView/1065559874749149",
+      "summary": "TSMC, 엔비디아 요청 3D D램 진출설 부인…＂로직 파운드리 본업 집중＂ KPI뉴스",
+      "body": "\"엔비디아 요청으로 3D D램 준비\"한다는 외신보도 부인\n사실이면 삼전닉스 주도 메모리 생태계 격변 불가피한 사안\nTSMC \"핵심 위탁생산에만 전념\"… HBM4 등 기존 메모리 협력은 유지\n세계 최대 파운드리(반도체 위탁생산) 기업 대만 TSMC가 미국 엔비디아의 요청으로 3D D램(DRAM) 생산을 검토하고 있다는 외신 보도를 공식 부인했다. 앞서 미국 정보기술(IT) 전문 매체 디인포메이션은 지난 6일(현지시간) 복수의 소식통을 인용해 TSMC가 핵심 고객사인 엔비디아의 요청에 따라 3D D램 생산 계획을 마련하기 시작했다고 보도했다.\n만약 파운드리 최강자인 TSMC가 독자적으로 메모리 생산에 발을 들인다면, 이는 수십 년간 고착화된 '로직 파운드리(TSMC)와 메모리(삼성전자·SK하이닉스·마이크론)'의 분업 구도가 무너지는 반도체 업계의 중대 지각변동을 의미했다. \n엔비디아 입장에서는 AI 가속기 생산의 최대 병목으로 꼽히는 차세대 고대역폭 메모리 수급을 TSMC '원스톱 턴키(설계부터 메모리 생산, 패키징까지 일괄 위탁)'로 해결해 삼성전자와 SK하이닉스에 대한 의존도를 대폭 낮출 수 있게 된다.\n반면 메모리 시장의 주도권을 쥐고 있는 삼성전자와 SK",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC",
+            "엔비디아"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "엔비디아",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "엔비디아",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC 3D D램 진출설…사측 “파운드리 집중” : 기업·산업 - 재경일보",
+      "date": "2026-11-08",
+      "source": "재경일보",
+      "url": "https://news.jkn.co.kr/post/1078286",
+      "summary": "TSMC 3D D램 진출설…사측 “파운드리 집중” : 기업·산업 재경일보",
+      "body": "대만 TSMC가 엔비디아의 요청으로 3D D램 생산을 검토하고 있다는 외신 보도가 나왔다.\n미국 기술 전문매체 디인포메이션은 TSMC가 미국 마이크론 출신 쉬궈진 첨단패키징 사업 총괄의 주도로 3D D램 생산을 검토 중이라고 6일(현지 시간) 전했다. 전용 메모리 공장을 새로 짓거나 기존 반도체 공장을 인수해 개조하는 방안이 검토 대상으로 언급됐다.\n3D D램은 D램을 수직으로 적층해 저장 용량을 늘리는 기술로, 중국 반입이 금지된 ASML의 EUV 노광장비 없이 용량을 확장할 수 있어 중국 기업들도 개발을 추진하고 있다.",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "파운드리"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[반도체포커스] TSMC \"파운드리 본업 집중\" 답변으로 3D D램 진출설 일축…3D 메모리 연구는 지속 - 이코노미트리뷴",
+      "date": "2026-11-08",
+      "source": "이코노미트리뷴",
+      "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904370",
+      "summary": "[반도체포커스] TSMC \"파운드리 본업 집중\" 답변으로 3D D램 진출설 일축…3D 메모리 연구는 지속 이코노미트리뷴",
+      "body": "[이코노미트리뷴 = 김용현 기자] 세계 최대 파운드리 기업 TSMC가 엔비디아의 요청으로 3차원(3D) D램 생산을 검토하고 있다는 보도에 대해 파운드리 본업에 집중하겠다는 입장을 밝혔다.\n사실상 D램 시장 진출설에 선을 그은 것으로 해석되지만, TSMC가 과거 D램 위탁생산 사업을 수행한 데 이어 최근까지 3D D램 관련 특허와 차세대 메모리 연구를 이어온 사실이 확인되면서 관련 기술의 활용 가능성에 관심이 모인다.\n8일 반도체 업계에 따르면 미국 IT 전문매체 탐스하드웨어는 지난 7일(현지시간) TSMC 대변인에게 3D D램 사업 진출설에 대한 입장을 확인했다고 보도했다.\nTSMC 대변인은 \"TSMC는 언제나 전용 반도체 파운드리라는 핵심 사업에 집중하고 있다\"며 \"앞으로도 글로벌 로직 반도체 산업에서 신뢰받는 기술 및 생산능력 공급자로 남는 것이 우리의 사명\"이라고 밝혔다.\n이는 앞서 미국 기술 전문매체 디인포메이션이 지난 6일 TSMC가 엔비디아의 요청으로 3D D램 생산 계획을 수립하기 시작했다고 보도한 데 대한 답변이다.\n디인포메이션은 사안을 직접 아는 관계자 2명을 인용해 TSMC가 신규 메모리 공장을 건설하거나 기존 반도체 공장을 인수해 메모리",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": [
+            "반도체",
+            "파운드리"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램",
+          "파운드리",
+          "반도체"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램",
+          "파운드리",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "NVIDIA’s Development Of Custom HBM Drops Samsung’s And TSMC’s Foundry Rivalry, As Both Manufacturers Join Forces To Develop “Base Die” On The 3nm Node [Update] - Wccftech",
+      "date": "2026-11-08",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/nvidia-custom-hbm-samsung-tsmc-3nm-base-die/",
+      "summary": "NVIDIA’s Development Of Custom HBM Drops Samsung’s And TSMC’s Foundry Rivalry, As Both Manufacturers Join Forces To Develop “Base Die” On The 3nm Node [Update] Wccftech",
+      "body": "Update - The latest word on the street is that TSMC hasn’t just been tapped to mass produce NVIDIA’s NVHBM base die, but the GPU manufacturer has reportedly requested the Taiwanese firm to begin 3D DRAM production. It didn’t take long for TSMC to comment, as it denies any plans to mass produce 3D DRAM, choosing to stick with logic chip manufacturing.\nSamsung has typically adopted a “turnkey” approach when developing HBM’s core and base dies, but according to the latest report, NVIDIA’s custom NVHBM requires a more streamlined approach in manufacturing involving Samsung and TSMC. Both firms have seemingly joined forces to develop the base die on the 3nm node, with the end goal being a standardized product requiring fewer quality verification steps.\nMicron and SK hynix have also joined Samsung to achieve the same purpose, as NVIDIA aims to obtain consistent performance by adopting one manufacturing process\nAs Feyman GPUs have been mentioned to be treated to custom HBM, NVIDIA has also pr",
+      "score": 8.93,
+      "score_raw": 25.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia",
+            "TSMC",
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "노드",
+            "베이스다이"
+          ],
+          "event": [],
+          "domain": [
+            "foundry"
+          ]
+        },
+        "title_hits": [
+          "TSMC",
+          "Nvidia",
+          "삼성전자",
+          "HBM",
+          "베이스다이",
+          "노드",
+          "foundry"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "Nvidia",
+          "삼성전자",
+          "HBM",
+          "베이스다이",
+          "노드",
+          "foundry"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC, '3D D램' 개발설 사실상 부인…상용화도 먼 길 - AI타임스",
+      "date": "2026-11-08",
+      "source": "AI타임스",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217136",
+      "summary": "TSMC, '3D D램' 개발설 사실상 부인…상용화도 먼 길 AI타임스",
+      "body": "세계 최대 반도체 위탁생산업체 TSMC가 엔비디아의 요청으로 차세대 메모리인 '3D D램' 개발을 검토하고 있다는 보도에 대해 기존 파운드리 사업에 집중하겠다는 입장을 밝혔다. 개발설을 직접 부인하지는 않았지만, 관련 기술이 상용화되기까지 수년이 걸려 당장의 메모리 공급 부족을 해결하기는 어렵다는 분석도 나왔다.\n톰스하드웨어는 7일(현지시간) TSMC가 엔비디아의 요청으로 3D D램 생산을 준비하고 있다는 최근 보도와 관련해 기존 사업에 집중하겠다는 입장을 밝혔다고 보도했다\nTSMC 대변인은 \"TSMC는 항상 반도체 위탁생산이라는 핵심 사업에 집중하고 있다\"라며 \"앞으로도 글로벌 로직 반도체 산업에 신뢰할 수 있는 기술과 생산능력을 제공하는 것이 우리의 사명\"이라고 말했다.\n톰스하드웨어는 이를 사실상 메모리 제조 사업 진출설에 대한 부인으로 해석했다. 그러나 TSMC는 엔비디아의 요청을 받았는지, 실제로 3D D램 개발 계획을 검토하고 있는지에 대해서는 직접 답하지 않았다.\n앞서 디 인포메이션은 6일 엔비디아가 메모리 공급 부족에 대응하기 위해 TSMC에 3D D램 생산을 요청했으며, TSMC가 관련 계획을 준비하기 시작했다고 보도했다. 소식통 2명에 따르면",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC '3D D램' 진출설에 드러난 엔비디아의 속내 … '삼전닉스' 메모리 주도권 시험대 - 뉴데일리",
+      "date": "2026-11-08",
+      "source": "뉴데일리",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/08/2026110800070.html",
+      "summary": "TSMC '3D D램' 진출설에 드러난 엔비디아의 속내 … '삼전닉스' 메모리 주도권 시험대 뉴데일리",
+      "body": "TSMC, 엔비디아 요청 따른 3D D램 진출설에 파운드리 집중 입장 재확인엔비디아, 차세대 HBM 설계·공정까지 영향력 확대 … 메모리 공급망 재편 변수삼성은 자체 생산·외부 공정 병행 검토 … 하이닉스는 TSMC 협력 강화\t\t\t\t\t\t\n- \t\t\t\n\t\t\t세계 최대 파운드리 업체 TSMC의 D램 시장 진출설이 불거지면서 삼성전자와 SK하이닉스가 주도해 온 메모리 공급망에 새로운 변수가 등장했다. TSMC는 주력 사업에 집중하겠다며 선을 그었지만, 인공지능(AI) 반도체 시장을 장악한 엔비디아가 메모리 설계와 생산공정에 영향력을 확대하면서 국내 업체들의 주도권에도 변화가 예상된다.8일 반도체 업계와 외신에 따르면 TSMC는 엔비디아의 요청으로 3차원(3D) D램 생산을 검토하고 있다는 보도에 대해 파운드리 사업에 집중하겠다는 입장을 밝혔다. 메모리 생산 계획을 명시적으로 부인하지는 않았지만 기존 사업 영역을 유지하겠다는 방침을 재확인한 것이다.앞서 미국 기술매체 디인포메이션은 엔비디아가 메모리 공급 부족과 가격 상승에 대응하기 위해 TSMC에 3D D램 생산을 요청했다고 보도했다. 신규 공장 건설이나 기존 반도체 공장 인수·전환까지 거론됐으나 구체적인 투자 규모",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC",
+            "삼성전자",
+            "엔비디아"
+          ],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "엔비디아",
+          "삼성전자",
+          "DRAM",
+          "메모리",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "엔비디아",
+          "삼성전자",
+          "DRAM",
+          "메모리",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성·SK하이닉스 안방 넘보나 했더니… TSMC, 3D D램 진출설 선 그어 - IT조선",
+      "date": "2026-11-08",
+      "source": "IT조선",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000498",
+      "summary": "삼성·SK하이닉스 안방 넘보나 했더니… TSMC, 3D D램 진출설 선 그어 IT조선",
+      "body": "세계 최대 반도체 위탁생산(파운드리) 기업인 대만 TSMC가 차세대 메모리 반도체인 3차원(3D) D램 생산에 뛰어든다는 관측에 선을 그었다. 삼성전자·SK하이닉스·미국 마이크론이 장악한 글로벌 D램 시장에 새로운 경쟁자가 등장할 가능성이 제기됐지만 TSMC의 대응으로 논란은 일단 진정되는 분위기다.\n8일 반도체업계에 따르면 TSMC는 최근 미국 IT 전문매체 톰스하드웨어에 자사의 핵심 사업이 반도체 위탁생산이라는 입장을 밝혔다. TSMC 대변인은 “우리는 언제나 핵심 사업인 반도체 위탁생산에 집중하고 있다”며 “앞으로도 글로벌 로직 반도체 산업에 신뢰할 수 있는 기술과 생산능력을 제공하는 것이 우리의 사명”이라고 밝혔다.\n앞서 미국 IT 전문매체 디인포메이션은 지난 6일(현지 시각) TSMC가 엔비디아의 요청으로 3D D램 생산 계획을 마련하기 시작했다고 보도했다. 해당 매체는 회사 사정을 정통한 2명을 인용해 TSMC가 신규 생산시설을 건설하거나 기존 반도체 공장을 인수해 메모리 생산시설로 전환하는 방안을 검토하고 있다고 전했다.\n이번 계획은 마이크론의 대만 사업을 이끌었던 경력이 있는 쉬궈진 TSMC 첨단 패키징 담당 부사장이 주도하는 것으로 알려졌다.",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC",
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "하이닉스",
+          "삼성전자",
+          "DRAM",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "하이닉스",
+          "삼성전자",
+          "DRAM",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC, 엔비디아 손잡고 3D D램 시장 진출 검토 - 스페셜경제",
+      "date": "2026-11-08",
+      "source": "스페셜경제",
+      "url": "https://www.speconomy.com/news/articleView.html?idxno=419810",
+      "summary": "TSMC, 엔비디아 손잡고 3D D램 시장 진출 검토 스페셜경제",
+      "body": "스페셜경제=박숙자 기자 | 세계 최대 반도체 위탁생산 업체인 대만 TSMC가 엔비디아의 요청에 따라 차세대 메모리인 3차원(3D) D램 생산을 검토하고 있다. 인공지능(AI) 반도체 시장의 급격한 성장으로 고성능 메모리 공급 부족이 심화하자 기존 파운드리 사업을 넘어 메모리 제조 분야까지 사업 영역을 확대하려는 움직임이다.\n7일 대만 중앙통신과 과기신보, 일본 닛케이신문 등에 따르면 TSMC는 최근 3D D램 생산을 위한 사업 계획 수립에 착수했다. 다만 실제 생산에 들어갈 시점과 설비 확보 방식 등 구체적인 실행 방안은 아직 확정되지 않은 것으로 전해졌다.\nTSMC는 전용 메모리 공장을 새롭게 건설하거나 기존 반도체 생산시설을 인수해 메모리 제조라인으로 전환하는 방안을 검토하고 있다. 기존 공장을 활용하는 방식은 미국 마이크론이 올해 웨이퍼 공장을 인수해 D램 생산시설로 전환한 사례와 유사하다.\n이번 사업은 TSMC의 첨단 패키징 부문을 총괄하는 쉬궈진 부사장이 주도하는 것으로 알려졌다. 쉬 부사장은 과거 대만 마이크론에서 근무한 경력이 있어 메모리 반도체 분야에 대한 이해도가 높은 인물로 평가된다.\n3D D램은 기존 평면 구조의 D램과 달리 메모리 소자를",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC",
+            "엔비디아"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "엔비디아",
+          "DRAM",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "엔비디아",
+          "DRAM",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC 3D D램 생산설에 업계 반론…저장 셀은 메모리 업체 몫 - 토큰포스트",
+      "date": "2026-11-08",
+      "source": "토큰포스트",
+      "url": "https://www.tokenpost.kr/amp/news/tech/434723",
+      "summary": "TSMC 3D D램 생산설에 업계 반론…저장 셀은 메모리 업체 몫 토큰포스트",
+      "body": "TSMC($TSM)가 엔비디아($NVDA)의 요청으로 3D D램 생산 방안을 검토한다는 보도가 나온 가운데, 대만 반도체 업계는 저장 셀 제조와 로직 칩·첨단 패키징을 구분해야 한다고 설명했다.\n디인포메이션(The Information)은 6일 직접 사정을 아는 두 사람을 인용해 TSMC가 최대 고객인 엔비디아의 요청으로 생산 방안을 검토하고 있다고 보도했다. 신설 공장을 짓거나 기존 공장을 인수해 전환하는 방안이 거론됐지만, TSMC가 엔비디아 요청으로 생산을 검토한다는 보도에는 생산 착수 시점이 제시되지 않았다.\n대만 경제일보가 8일 보도한 업계 인터뷰에서 관계자들은 TSMC가 맡을 수 있는 영역으로 HBM4 베이스 다이 제조와 SoIC 패키징을 들었다. 이들은 이런 협력이 D램 저장 셀 생산과 같은 뜻은 아니라고 설명했다.\nHBM은 각각 제조한 D램 칩 여러 개를 쌓고 가장 아래에 베이스 다이를 둔다. 베이스 다이는 메모리와 그래픽처리장치(GPU)를 연결하는 역할을 한다.\n3D D램은 여러 메모리 칩을 쌓는 HBM과 구조가 다르다. 한 칩 안에서 데이터를 저장하는 셀을 수직으로 쌓는 방식이다.\n저장 셀 배열은 메모리 업체의 전문 영역이고, TSMC는 하",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "메모리",
+          "수직D램"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "TSMC Is Working On A BEOL Memory That Can Leverage The Larger Footprint Of The Processor Die To Its Advantage, Even As It Issues A Circuitous Denial On 3D DRAM Development - Wccftech",
+      "date": "2026-11-09",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/tsmc-is-working-on-a-beol-memory-that-can-leverage-the-larger-footprint-of-the-processor-die-to-its-advantage-even-as-it-issues-a-circuitous-denial-on-3d-dram-development/",
+      "summary": "TSMC Is Working On A BEOL Memory That Can Leverage The Larger Footprint Of The Processor Die To Its Advantage, Even As It Issues A Circuitous Denial On 3D DRAM Development Wccftech",
+      "body": "When news first emerged earlier this week that TSMC was apparently entering the 3D DRAM business, it was trumpeted as a definitive proof that the memory sphere had finally graduated beyond its dreaded commodity status.\nThen, TSMC dashed that budding euphoria by issuing a rambling denial. And yet, the very wording of that statement gives us cause to continue to expect some movement on this front, especially as the world's largest contract chip manufacturer is already working on a novel Back-End-Of-Line (BEOL) memory solution that might render the SRAM obsolete.\nTSMC's BEOL memory solution can take advantage of the larger footprint of the processor die itself, reducing the number of layers that would have been required for a standalone, monolithic 3D DRAM\nTSMC issued the following statement to Tom's Hardware to clarify reports that suggested it was entering the 3D DRAM business:\n\"Please note that TSMC focuses on our core business at all times, which is dedicated IC foundry.\"\n\"Our mission",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "TSMC"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "BEOL",
+            "수직D램"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "BEOL"
+        ],
+        "summary_hits": [
+          "TSMC",
+          "DRAM",
+          "수직D램",
+          "BEOL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer — massive gem aims to solve AI chip cooling crisis, envisioned as a cooling material for semiconductors - Tom's Hardware",
+      "date": "2026-11-09",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
+      "summary": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer — massive gem aims to solve AI chip cooling crisis, envisioned as a cooling material for semiconductors Tom's Hardware",
+      "body": "Diamonds have exceptional cooling capabilities due to their excellent thermal conductivity, with the material estimated to be at least five times more conductive than copper. Because of this, Diamond Foundry, a firm focusing on lab-grown diamonds, announced the world’s first 200mm single-crystal diamond (SCD) wafer. The 200mm SCD is about the same wafer size that semiconductor fabs use for older processes, with the company boasting on its website that “Single-crystal diamond has entered the wafer-scale era.” This is part of the effort to manufacture SCD at scale so that it can be used for semiconductor cooling, especially now that increasing power of AI chips has also led to enormous thermal problems.\nWhat makes Diamond Foundry’s 200mm SCD wafer different from other lab-grown diamonds is that it’s created as a high-quality single-crystal piece instead of a polycrystalline gem. Although the former is difficult to manufacture, it is what allows diamond to become an extreme efficient ther",
+      "score": 2.5,
+      "score_raw": 7.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "foundry",
+            "wafer"
+          ]
+        },
+        "title_hits": [
+          "AI반도체",
+          "wafer",
+          "foundry"
+        ],
+        "summary_hits": [
+          "AI반도체",
+          "wafer",
+          "foundry"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "[블루웨이브 쇼크] 삼전닉스 레버리지, 이틀 새 최대 38% 증발 : 네이버 블로그 - Naver Blog",
+      "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224469518925&redirect=Dlog",
+      "source": "Naver Blog",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자"
+        ],
+        "summary_hits": [
+          "삼성전자"
+        ],
+        "negative_hits": [
+          "레버리지"
+        ]
+      }
+    },
+    {
+      "title": "광주송정역·금호타이어 부지 묶어 '반도체 관문도시' 조성 - KBC광주방송",
+      "url": "https://www.ikbc.co.kr/news/article/view/kbc202611080045",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘800조 반도체’ 낙수효과, 메마른 호남 적시나 - 광주드림",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=674128",
+      "source": "광주드림",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 주식, 지금 살까 기다릴까? 뱅크오브아메리카의 3가지 시나리오 - Investing.com 한국어",
+      "url": "https://kr.investing.com/news/stock-market-news/article-2165098",
+      "source": "Investing.com 한국어",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[취재수첩] 구미, 반도체 포기는 없다 - 영남일보",
+      "url": "https://www.yeongnam.com/web/view.php?key=20261108024597798",
+      "source": "영남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 특수 ‘K-경제’ 양극화는 더 짙어졌다 - 경북일보",
+      "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090064",
+      "source": "경북일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "美 데이터센터 규제 우려 ‘불똥’ 韓 반도체로 튀나 - 국제신문",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261109.22014002352&kid=",
+      "source": "국제신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "AI 데이터센터 1곳 무산 땐 반도체 4500만개 수요 ‘흔들’ - 서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/industry/2026/11/09/20261109001004",
+      "source": "서울신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "‘반도체 벨트’ 경기도, 아파트값 상승률 8주째 서울 제쳐 - Chosunbiz",
+      "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/08/24N6DE5J7VFZDKRC2XVPKD6UKU/",
+      "source": "Chosunbiz",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "'반도체 투톱' 7.6조 판 외국인‥보유율도 최저 - MBC 뉴스",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6864083_37004.html",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[김대호 진단] 네덜란드병과 반도체 호황 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Opinion/2026/10/202610271052554794906806b77b_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "광주 반도체, 전력·용수부터 정주·연구까지 ‘본격 시동’ - 무등일보",
+      "url": "https://m.mdilbo.com/detail/0kIA7d/760368",
+      "source": "무등일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "10억원 넘는 고액 예금 960조 ‘사상 최대’…반도체 수출 호황 기업 곳간 불었다 - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000080699",
+      "source": "진일보 | 전남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“개미들은 이번 월요일만 기다립니다”…일단 美 반도체는 회복 성공 - 매일경제",
+      "url": "https://www.mk.co.kr/news/stock/12201946",
+      "source": "매일경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[800조 호남 반도체 낙수효과] 건설 인력 몰려온다 - 광주드림",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=674132",
+      "source": "광주드림",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "민생 현장에 안 퍼지는 ‘반도체 온기’… 자영업자 돌아섰다 - 서울신문",
+      "url": "https://www.seoul.co.kr/news/politics/2026/11/09/20261109008004",
+      "source": "서울신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[800조 호남 반도체 낙수효과] 파급효과 얼마나 - 광주드림",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=674135",
+      "source": "광주드림",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[800조 호남 반도체 낙수효과] 향후 로드맵 - 광주드림",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=674130",
+      "source": "광주드림",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설] 증시 폭락, ‘반도체 파티’ 조기 종결 경고다 - 아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261108010002943",
+      "source": "아시아투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "안철수 \"전남광주, 반도체 대신 AI 데이터센터 유치 검토해야\" | - 주간조선",
+      "url": "http://weekly.chosun.com/news/articleViewAmp.html?idxno=56950",
+      "source": "주간조선",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}
