@@ -1,0 +1,1587 @@
+{
+  "generated_at": "2026-11-14T03:15:29.058977+09:00",
+  "field": "반도체",
+  "field_date": "2026-11-14",
+  "stats": {
+    "collected_total": 363,
+    "after_resolve": 363,
+    "after_time_filter": 274,
+    "after_dedup": 269,
+    "after_score_filter": 15,
+    "extracted_success": 15,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "메모리 호황에 대만도 EUV 투자 본격화… 삼성전자·SK하이닉스 추격 나선 난야·윈본드 - Chosunbiz",
+      "date": "2026-11-13",
+      "source": "Chosunbiz",
+      "url": "https://biz.chosun.com/it-science/ict/2026/11/13/7DDBMZKBRFGYRKEGRRHWRMRI24/",
+      "summary": "메모리 호황에 대만도 EUV 투자 본격화… 삼성전자·SK하이닉스 추격 나선 난야·윈본드 Chosunbiz",
+      "body": "메모리 반도체 호황이 대만 D램 업체들의 첨단 공정 투자로 이어지고 있다. 삼성전자와 SK하이닉스, 마이크론 등 메모리 3사가 고대역폭메모리(HBM)와 서버용 D램 생산에 집중하면서 범용 D램 공급이 줄어들자, 대만 업체들이 가격 상승에 따른 반사이익을 누리고 있는 것이다. 난야테크놀로지와 윈본드는 확보한 수익을 극자외선(EUV) 노광장비와 차세대 공정 개발에 재투자하며 한국 메모리 업체들과의 기술 격차 축소에 나섰다.\n13일 반도체 업계에 따르면 윈본드는 2030년까지 EUV 기술을 적용한 14나노미터(㎚·10억분의 1m)급 D램 공정 도입을 추진하고 있다. 윈본드는 네덜란드 반도체 장비 업체 ASML과 약 3년 6개월간 EUV 도입을 준비해왔으며, 첫 장비를 약 2년 뒤 공급받을 수 있을 것으로 예상하고 있다.\n윈본드는 14나노급 D램 공정을 두 단계로 나눠 개발할 계획이다. 초기에는 기존 노광기술을 활용해 공정을 개발하고, 이후 EUV를 적용하는 방식이다. 다만 2030년 EUV 도입은 개발이 순조롭게 진행될 경우를 전제로 한 목표로, 실제 양산 시점은 확정되지 않았다.\n대만 최대 D램 업체인 난야테크놀로지도 EUV 도입을 포함한 대규모 설비투자를 추진",
+      "score": 10.0,
+      "score_raw": 28.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "난야",
+            "삼성전자",
+            "윈본드",
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "EUV"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "윈본드",
+          "난야",
+          "하이닉스",
+          "메모리",
+          "EUV",
+          "투자"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "윈본드",
+          "난야",
+          "하이닉스",
+          "메모리",
+          "EUV",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SK하이닉스($SKHY), CXL 메모리 공유…SSD에 KV 캐시 저장 - 토큰포스트",
+      "date": "2026-11-13",
+      "source": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/ai/437935",
+      "summary": "SK하이닉스($SKHY), CXL 메모리 공유…SSD에 KV 캐시 저장 토큰포스트",
+      "body": "SK하이닉스는 256GB CXL 모듈과 메모리 중심 AI 랙을 공개했다. 솔리다임과 Metrum AI는 SSD에 KV 캐시를 저장하는 방식을 시연했다.\n토포AI로 이 기사 더 깊이 읽기\nSK하이닉스($SKHY)가 고대역폭메모리(HBM) 외부의 메모리까지 묶어 쓰는 AI 랙 시스템을 공개했다. 솔리다임(Solidigm)과 Metrum AI는 SSD에 AI 처리 정보를 보관하는 방식을, Nallasway는 AI 프로세서에 외부 D램을 연결하는 구상을 각각 제시했다.\n행사는 10월 12~15일 미국 캘리포니아주 새너제이에서 열린 오픈컴퓨트프로젝트(OCP) 글로벌 서밋이다. 참석자는 약 1만5000명으로, OCP가 공개한 행사 집계에 나와 있다.\nSK하이닉스가 선보인 메모리 중심 AI 랙 시스템(MARS)은 여러 업체의 장비와 솔루션을 하나의 랙에 통합하고 메모리를 중심에 두는 구성이다. 회사는 서버 여러 대가 필요한 만큼 메모리 풀에서 꺼내 쓰는 시스템으로 소개했다(SK하이닉스 발표).\n함께 공개한 것은 CXL 3.2 기반 2세대 CMM-DDR5 모듈이다. 용량은 256GB, 대역폭은 초당 80GB이며 회사는 이전 세대보다 대역폭이 두 배 이상, 에너지 효율이 약",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "메모리",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "메모리업계, HBM 하이브리드 본딩 검토…어플라이드 장비 사업 확대 - 아이티데일리",
+      "date": "2026-11-13",
+      "source": "아이티데일리",
+      "url": "https://www.itdaily.kr/news/articleView.html?idxno=242930",
+      "summary": "메모리업계, HBM 하이브리드 본딩 검토…어플라이드 장비 사업 확대 아이티데일리",
+      "body": "어플라이드 머티어리얼즈, 메모리 고객사들 기술 평가\n관련 공정 80% 대응 가능 주장…한국 매출 비중 18%\n[아이티데일리] 글로벌 메모리 제조사들이 고대역폭메모리(HBM)에 차세대 접합 기술인 하이브리드 본딩을 적용하는 방안을 검토하고 있다. HBM의 적층 수가 늘고 성능 요구가 높아지면서 칩 간 연결 밀도와 전력 효율을 개선할 필요성이 커진 데 따른 것이다. 미국 반도체 장비업체 어플라이드 머티어리얼즈(Applied Materials)는 관련 장비 사업 확대에 나섰다.\n13일 반도체업계에 따르면 어플라이드 머티어리얼즈는 12일(현지시간) 열린 2026회계연도 4분기 실적 컨퍼런스콜에서 메모리 고객사들이 HBM용 하이브리드 본딩 기술을 평가하고 있다고 밝혔다.\n브라이스 힐 어플라이드 머티어리얼즈 최고재무책임자(CFO)는 어플라이드의 모든 메모리 고객사가 HBM에 하이브리드 본딩을 적용하는 방안을 평가하고 있다고 설명했다. 구체적인 양산 적용 시점은 개별 고객사의 판단에 달려 있다고 덧붙였다.\n하이브리드 본딩은 반도체 칩이나 웨이퍼의 금속 연결부와 절연층을 직접 접합하는 기술이다. 기존 열압착 접합 방식에서 사용하는 돌출형 금속 연결부인 범프를 없애거나 줄여",
+      "score": 7.05,
+      "score_raw": 19.75,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 7.5,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "어플라이드"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [
+            "하이브리드본딩"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "어플라이드",
+          "HBM",
+          "메모리",
+          "하이브리드본딩"
+        ],
+        "summary_hits": [
+          "어플라이드",
+          "HBM",
+          "메모리",
+          "하이브리드본딩"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, 아산 HBM 생산시설 착공… 6조 원 공장 건설·40조 원 첨단장비 투자로 AI 반도체 경쟁력 강화 - 한국공공정책신문",
+      "date": "2026-11-13",
+      "source": "한국공공정책신문",
+      "url": "http://knpp.co.kr/news/587601",
+      "summary": "삼성전자, 아산 HBM 생산시설 착공… 6조 원 공장 건설·40조 원 첨단장비 투자로 AI 반도체 경쟁력 강화 한국공공정책신문",
+      "body": "HAPPY PLUS TIMES ьќЅв│х вЇћьЋўЖИ░ вЅ┤Віц\nВѓ╝Вё▒ВаёВъљ, ВЋёВѓ░ HBM ВЃЮВѓ░ВІюВёц В░ЕЖ│хРђд 6ВА░ ВЏљ Ж│хВъЦ Ж▒┤Вёц┬и40ВА░ ВЏљ В▓евІеВъЦв╣ё ьѕгВъљвАю AI в░ўвЈёВ▓┤ Ж▓йВЪЂваЦ Ж░ЋьЎћ\n2028вЁё 6ВЏћ Ж░ђвЈЎ вфЕьЉювАю ВЮ╝ВаЋ 1вЁё ВЋъвІ╣Ж▓еРђд ВўеВќЉВ║аьЇ╝ВіцвЦ╝ В░еВёИвїђ HBM В▓евІе ьїеьѓцВДЋ ьЋхВІг Ж▒░ВаљВю╝вАю ВюАВё▒\n6ВА░ ВЏљ Ж▒┤ВёцьѕгВъљВЎђ 40ВА░ ВЏљ вІеЖ│ёв│ё ВъЦв╣ёьѕгВъљ Ж│ёьџЇ в░юьЉюРђд ВІцВаю ВДЉьќЅВЋАЖ│╝ ьќЦьЏё ьѕгВъљ ВІцВаЂВЮђ в│ёвЈё ьЎЋВЮИ ьЋёВџћ\nьўЉваЦЖИ░ВЌЁ 112Ж││, ВХЕВ▓ГЖХїВЌљ 23ВА░ 6,000Вќх ВЏљ ВХћЖ░ђ ьѕгВъљЖ│ёьџЇРђд ВЮ╝Въљвдг В░йВХюЖ│╝ ВДђВЌГЖ▓йВаю ьЎюВё▒ьЎћ ЖИ░вїђ\nВѓ╝Вё▒ВаёВъљЖ░ђ ВЮИЖ│хВДђв",
+      "score": 6.07,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "AI반도체",
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "공정",
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "AI반도체",
+          "투자",
+          "반도체",
+          "공정"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "AI반도체",
+          "투자",
+          "반도체",
+          "공정"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "파네시아-인텔 MOU...제온에 CXL 스위치 접목한다 - 디일렉",
+      "date": "2026-11-13",
+      "source": "디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65380",
+      "summary": "파네시아-인텔 MOU...제온에 CXL 스위치 접목한다 디일렉",
+      "body": "파네시아가 인텔코리아와 CXL(Compute Express Link) 기술 협력 목적의 업무협약(MOU)을 체결했다고 12일 밝혔다.\n체결식은 이날 '인텔 인공지능(AI) 서밋 서울 2026' 행사가 열린 서울 코엑스에서 이뤄졌다. 정명수 파네시아 대표와 배태원 인텔코리아 대표 등이 참석했다.\n양사는 인텔 서버용 중앙처리장치(CPU) 제온 플랫폼에 파네시아의 CXL 스위치 등 상호연결(인터커넥트) 반도체 칩을 접목할 예정이다. CXL 기반 서버를 실제 인공지능(AI) 데이터센터에 공급하는 것이 목적이다.\n장치 간 연동 검증부터 AI 작업 환경 성능 최적화 방안도 함께 모색한다. 서버 랙(Rack) 단위 AI 연산 인프라의 표준 구조(레퍼런스 아키텍처) 구축과 개념 검증(PoC) 등도 단계적으로 추진한다.\n파네시아의 PCI익스프레스(PCIe) 6.4-CXL 3.2 퓨전 스위치는 PCIe와 CXL을 한 칩에서 지원한다. CPU의 메모리 확장·공유 범위를 CXL로 랙 단위로 넓혀 준다. 스위치와 스위치를 연결하는 캐스케이딩, 스위치와 다른 장치 간 연결 등 랙 단위 메모리 확장을 지원한다.\n파네시아는 현재 PCIe 6.4-CXL 3.2 퓨전 스위치의 실물 칩을 확",
+      "score": 5.54,
+      "score_raw": 15.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "summary_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "파네시아, 인텔코리아와 CXL 기술 협력 위한 업무협약(MOU) 체결 - KIPOST",
+      "date": "2026-11-13",
+      "source": "KIPOST",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343276",
+      "summary": "파네시아, 인텔코리아와 CXL 기술 협력 위한 업무협약(MOU) 체결 KIPOST",
+      "body": "AI 인프라 링크 솔루션 기업 파네시아(대표 정명수)가 12일 서울 코엑스에서 열린 '인텔 AI 서밋 서울 2026(Intel AI Summit Seoul 2026)'에서 인텔코리아와 CXL(Compute Express Link) 기술 협력을 위한 업무협약(MOU)을 체결했다. 이번 협약은 CXL 기반 서버를 실제 AI 데이터센터(AI DC)에 도입하기 위한 것으로, 양사는 장치 간 연동 검증에서 출발해 랙 스케일 AI 인프라 관련 협업까지 단계적으로 추진해 나갈 계획이다.\nAI 모델과 데이터가 커지면서, 연산에 필요한 메모리가 서버 한 대가 담을 수 있는 양을 넘어서고 있다. 문제는 메모리가 서버마다 묶여 있다는 점이다. 어떤 서버는 메모리가 남고 어떤 서버는 모자라도, 이를 서로 나눠 쓰기 어렵다. 양사가 우선적으로 해결하고자 하는 것도 이 부분이다.\n이를 위해 인텔 제온(Xeon) 플랫폼에 파네시아의 CXL 스위치 등 링크 반도체를 접목해 CXL 패브릭 기반 메모리 확장 구조를 검토하고, 장치 간 연동 검증과 AI 워크로드 성능 최적화 방안도 함께 모색할 예정이다. 나아가 양사는 랙 스케일 AI 인프라 구조로 협력 범위를 넓힐 기회를 모색하며, 레퍼런스",
+      "score": 5.54,
+      "score_raw": 15.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "summary_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "파네시아, 인텔코리아와 MOU…CXL 서버 확산 협력 - 정보통신신문",
+      "date": "2026-11-13",
+      "source": "정보통신신문",
+      "url": "https://www.koit.co.kr/news/articleView.html?idxno=209890",
+      "summary": "파네시아, 인텔코리아와 MOU…CXL 서버 확산 협력 정보통신신문",
+      "body": "[정보통신신문=서유덕기자]\n파네시아가 인텔코리아와 컴퓨트익스프레스링크(CXL) 기술 협력에 나선다.\n양사는 12일 서울 강남구 코엑스에서 열린 '인텔 AI 서밋 서울 2026'에서 업무협약(MOU)을 체결했다.\n이날 MOU는 CXL 기반 서버를 실제 데이터센터에 들여놓기 위한 것으로, 양사는 장치 간 연동 검증에서 출발해 랙 스케일 인공지능(AI) 인프라 관련 협업까지 단계적으로 추진해 나갈 계획이다.\n최근 AI 모델과 데이터의 규모가 커지면서 연산에 필요한 메모리가 서버 한 대가 담을 수 있는 양을 넘어서고 있다. 문제는 메모리가 서버마다 묶여 있어 어떤 서버는 메모리가 남고 어떤 서버는 모자라도 이를 서로 나눠 쓰기 어려운 상황이 발생한다는 점이다.\n이에 대응해 양사는 인텔의 서버·워크스테이션용 중앙처리장치(CPU)인 제온(Xeon) 시리즈에 파네시아의 CXL 스위치 등 링크 반도체를 접목해 CXL 패브릭 기반 메모리 확장 구조를 검토하고, 장치 간 연동 검증과 AI 워크로드 성능 최적화 방안을 모색한다.\n나아가 랙 스케일 AI 인프라 구조로 협력 범위를 넓힐 기회를 모색하며, 레퍼런스 아키텍처 구축과 개념검증(PoC) 시연 등을 추진하는 방안도 논의한다",
+      "score": 5.54,
+      "score_raw": 15.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "summary_hits": [
+          "인텔",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "젠슨 황 사임에 삼성·SK하이닉스 촉각…HBM 추가 수주 변수 - Korea IT Times",
+      "date": "2026-11-13",
+      "source": "Korea IT Times",
+      "url": "https://www.koreaittimes.com/news/articleView.html?idxno=159149",
+      "summary": "젠슨 황 사임에 삼성·SK하이닉스 촉각…HBM 추가 수주 변수 Korea IT Times",
+      "body": "엔비디아 창업자 젠슨 황(Jensen Huang)이 11월 12일(미국 현지시간) 최고경영자(CEO) 자리에서 물러나면서 글로벌 AI 반도체 산업의 공급망과 투자 전략에 새로운 변수가 등장했다. 한국 정부는 13일 엔비디아가 약속한 GPU 26만 장 공급과 기존 기술협력 계획이 유지된다고 밝혔다. 당장 한국 반도체 공급망에 차질이 발생했다는 증거는 없다. 그러나 이번 경영진 교체는 한국이 세계 AI 메모리 시장에서 확보한 경쟁력과 첨단 AI 연산 인프라에서 해외 플랫폼에 의존하는 구조를 동시에 드러냈다.\n한국은 엔비디아에 고대역폭메모리(HBM)를 공급하는 핵심 생산국이면서 엔비디아의 첨단 GPU를 대규모로 도입하는 고객이기도 하다. 두 산업의 위험은 서로 다르다. HBM에서는 엔비디아의 차세대 제품 출시와 신규 주문이 중요하고, AI 인프라에서는 GPU의 인도 일정과 실제 가동률, 운영비 회수가 투자 성과를 좌우한다. 젠슨 황의 사임이 한국 산업에 미칠 영향도 이러한 공급과 수요의 관계에서 살펴봐야 한다.\n세계 HBM 시장 83%…한국의 공급 경쟁력은 유지될까\n시장조사업체 카운터포인트리서치에 따르면 2026년 2분기 세계 HBM 시장에서 SK하이닉스의 매출 ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "하이닉스"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "수주"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "하이닉스",
+          "HBM",
+          "수주"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "하이닉스",
+          "HBM",
+          "수주"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“22조 적자의 교훈”…삼전닉스, 메모리 증설 공식 뒤집는다 - 한양경제",
+      "date": "2026-11-13",
+      "source": "한양경제",
+      "url": "https://www.hanyangeconomy.com/news/articleView.html?idxno=10638",
+      "summary": "“22조 적자의 교훈”…삼전닉스, 메모리 증설 공식 뒤집는다 한양경제",
+      "body": "메모리 반도체 호황 속, ‘투톱’인 삼성전자와 SK하이닉스가 공격적인 설비 증설 공식을 버리고 ‘선(先) 물량 확보·후(後) 단계적 투자’ 전략으로 선회하고 있다.\n글로벌 고객사들과 장기공급계약(LTA)을 맺어 수년 치 판매 물량을 사전에 확정 지은 뒤, 실제 생산량을 좌우하는 장비 투입은 시장 수요에 맞춰 단계적으로 집행하는 방식이다.\n업계 역사를 되짚어 보면, 과거 메모리 산업은 호황기마다 경쟁적으로 생산능력을 늘렸다가, 뒤이은 공급과잉과 가격 폭락으로 천문학적인 적자를 떠안는 악순환을 되풀이해 왔다.\n지난달 샘 올트먼 오픈AI 최고경영자(CEO) 역시 한 팟캐스트에서 과거 D램 업계가 200억달러를 투자해 190억달러를 벌어들이는 데 그쳤던 불황의 역사를 지목하며, AI 메모리 공급 부족에도 제조사들이 설비투자에 신중한 배경을 짚은 바 있다.\n아울러, 신규 반도체 공장 건설부터 실제 양산까지 수년이 소요되는 만큼, 무작정 공급능력을 늘리기보다 계약 구조 고도화와 투자 속도 조절을 통해 미래 불황 위험을 줄이려는 움직임이 보이고 있다.\n13일 업계에선 삼성전자와 SK하이닉스가 AI 메모리 초호황기 속에서도 구속력 있는 장기계약으로 수요 예측 가능성을 높이",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [],
+          "event": [
+            "증설"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "메모리",
+          "증설"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "메모리",
+          "증설"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이재용, 온양캠퍼스 HBM 거점 전환 선언… 삼성전자 46조 투자 - Korea IT Times",
+      "date": "2026-11-13",
+      "source": "Korea IT Times",
+      "url": "https://www.koreaittimes.com/news/articleView.html?idxno=159120",
+      "summary": "이재용, 온양캠퍼스 HBM 거점 전환 선언… 삼성전자 46조 투자 Korea IT Times",
+      "body": "온양에 HBM 생산라인 5개 구축… 연면적 42만㎡·직접고용 700명 전망\n이재용 삼성전자 회장이 충남 아산 온양캠퍼스를 인공지능(AI) 반도체의 핵심인 고대역폭메모리(HBM) 첨단 패키징 거점으로 전환하겠다는 구상을 밝혔다.\n삼성전자는 이를 위해 온양캠퍼스에 총 46조원을 단계적으로 투입하고 HBM 생산라인 5개를 구축한다. 기존 반도체 조립·검사 중심의 후공정 사업장을 AI 반도체 시대에 맞는 첨단 패키징 생산기지로 탈바꿈한다는 전략이다.\n이 회장은 12일 충남 아산 삼성전자 온양캠퍼스 건설 현장에서 열린 '충청권 메가프로젝트 착공식'에 참석했다. 이날 행사에는 이재명 대통령을 비롯해 정부와 지방자치단체, 기업 관계자들이 자리했다.\n이 회장은 환영사에서 “오늘 착공식으로 또 한 번의 도약을 약속드린다”고 말했다. 이어 온양캠퍼스가 단순히 반도체를 조립하고 검사하는 사업장에서 AI 반도체의 심장으로 불리는 최첨단 HBM 거점으로 변모할 것이라고 강조했다.\n온양캠퍼스의 성장 과정도 직접 언급했다. 이 회장은 40년 전만 해도 민둥산과 비포장도로가 전부였던 곳이 현재는 반도체를 조립하고 검사하는 첨단 공장으로 성장했다고 설명했다. 기존 후공정 분야에서 축적한 ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[영상] 삼성 온양 ‘HBM 패키징 거점’ 첫삽…충청권에 415조 투자 - 서울경제",
+      "date": "2026-11-13",
+      "source": "서울경제",
+      "url": "https://www.sedaily.com/article/20113892",
+      "summary": "[영상] 삼성 온양 ‘HBM 패키징 거점’ 첫삽…충청권에 415조 투자 서울경제",
+      "body": "▲ AI 프리즘* 맞춤형 경제 브리핑\n* 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은 한국언론진흥재단의 지원을 받아 개발한 ‘인공지능(AI) 기반 맞춤형 뉴스 추천 및 요약 서비스’입니다. 독자 유형별 맞춤 뉴스 6개를 선별해 제공합니다.\n[주요 이슈 브리핑]\n■ 반도체 메가프로젝트, 채용 수요 본격 확산: 충남 아산 삼성전자 온양캠퍼스 착공식을 기점으로 반도체·바이오 등 첨단 산업 전반에 112개 기업의 23조 6000억 원 추가 투자가 확정됐다. 소재·부품·장비 협력사까지 후속 투자가 연쇄적으로 번지면서 관련 직군의 인력 수요가 본격적으로 커질 전망이다.\n■ 네이버, AI 신사업 본격 궤도에: 네이버가 AI 팩토리·에이전트·물류를 3대 성장동력으로 낙점하고 사업 구조 재편에 속도를 냈다. 엔비디아·브룩필드와 함께 추진하는 AI 팩토리에서 미국 AI 추론 기업과 5년간 2조 원 규모의 첫 공급 계약을 성사시키며 신사업의 수익화 가능성이 현실로 다가오는 모습이다.\n■ AI 보안·인프라, 글로벌 기업 진출 가속화: AI 해킹 위협 고조로 사이버 보안 수요가 치솟으면서 보안기업 지니언스",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성 113조 원 아산 투자 본격화…온양캠퍼스 HBM 공장 착공 - 지이코노미",
+      "date": "2026-11-13",
+      "source": "지이코노미",
+      "url": "https://www.geconomy.co.kr/mobile/article.html?no=325613",
+      "summary": "삼성 113조 원 아산 투자 본격화…온양캠퍼스 HBM 공장 착공 지이코노미",
+      "body": "지이코노미 정길종 기자 |충남 아산에서 삼성전자의 113조 원 규모 첨단산업 투자계획이 본격적인 실행 단계에 들어갔다. 온양캠퍼스 고대역폭메모리(HBM) 첨단패키징 생산시설 건설이 추진되면서 아산이 AI 반도체 산업의 핵심 거점으로 도약할 수 있을지 주목된다.\n아산시는 12일 삼성전자 온양캠퍼스에서 이재명 대통령과 이재용 삼성전자 회장, 오세현 아산시장 등 정부·기업 관계자 100여 명이 참석한 가운데 ‘충청권 메가프로젝트 착공식’이 열렸다고 밝혔다.\n삼성은 지난 7월 충청권 첨단산업 발전비전 국민보고회에서 반도체 HBM 후공정 분야 46조 원, 디스플레이 분야 67조 원 등 총 113조 원 규모의 아산 투자계획을 발표했다.\n이 가운데 온양캠퍼스 5라인 증설사업은 정부 3대 메가프로젝트 중 가장 먼저 착공 단계에 진입한 사업이다.\n삼성전자는 급증하는 서버용 메모리 수요에 대응하기 위해 공사 일정을 당초 계획보다 1년 앞당겼으며, 2028년 6월 가동을 목표로 첨단패키징 생산시설을 구축하고 있다.\n이번 사업의 신속한 추진에는 아산시의 행정지원도 뒷받침됐다. 시는 지난 7월 부시장을 단장으로 12개 국·소, 29개 과가 참여하는 삼성투자 행정지원 추진단을 구성하",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Chip Industry Week In Review",
+      "date": "2026-11-13",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
+      "summary": "Nvidia faces questions about security and oversight; 300mm SiC breakthrough; Siemens buys Lauterbach; chiplet standards; new memory bets; imec interposer process flow; TPUs with CPUs; 2D transistors; anti-smuggling tools for chips. The post Chip Industry Week In Review appeared first on Semiconductor Engineering.",
+      "body": "Innovations\n\nA wave of announcements this week, including several from SEMICON Europa and electronica 2026 in Munich, highlighted advances in semiconductor manufacturing, advanced packaging, automotive chips, and AI hardware.\n\n     Manufacturing\n\nInfineon reported an industry-first milestone in 300mm silicon carbide manufacturing, fabricating functional power devices at its Villach, Austria fab using existing silicon processing equipment. The larger wafers can accommodate 2.3 times as many chips as 200mm wafers, potentially lowering manufacturing costs for automotive, industrial, and AI data center power devices.\n\nimec completed baseline process flows for its NanoIC silicon-interposer platform, including TSVs and multiple routing layers for chiplet and 3D integration. A silicon-interposer PDK is planned for early 2027.\n\n     Chips and systems\n\nAMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconductor ATE; an AI GPU with 288GB of HBM4; and tamper",
+      "score": 4.21,
+      "score_raw": 11.8,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 0.0,
+          "tech": 6.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia"
+          ],
+          "product": [],
+          "tech": [
+            "SiC",
+            "chiplet",
+            "interposer"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Nvidia",
+          "chiplet",
+          "SiC",
+          "interposer",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions",
+      "date": "2026-11-14",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
+      "summary": "This paper first examines how total ionizing dose and single-event effects degrade NOR Flash. It focuses on the charge pumps, sense amplifiers, and control logic that often fail before the storage array does. It then presents a method for deriving radiation requirements from four mission inputs (orbit, lifetime, shielding, and risk tolerance) instead of applying […] The post NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions appeared first on EE Times.",
+      "body": "This paper first examines how total ionizing dose and single-event effects degrade NOR Flash. It focuses on the charge pumps, sense amplifiers, and control logic that often fail before the storage array",
+      "score": 2.32,
+      "score_raw": 6.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "신뢰성"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "신뢰성"
+        ],
+        "summary_hits": [
+          "신뢰성"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Jensen Resigns Over Second Affair",
+      "date": "2026-11-13",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
+      "summary": "Nvidia CEO’s second affair scandal in a week prompted his resignation, and the board is now searching for a new leader for the company. The post Jensen Resigns Over Second Affair appeared first on EE Times.",
+      "body": "A lot can change in a week. Just days after admitting to an extramarital affair with a Chinese intelligence asset, Jensen Huang has resigned as Nvidia CEO after The New York Times exposed a second affair",
+      "score": 1.07,
+      "score_raw": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Nvidia"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "FCM Travel appoints Mark McSpadden as Chief Product Officer to lead product and AI strategy",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343254",
+      "source": "KIPOST",
+      "score": 3.6,
+      "score_detail": {
+        "buckets": {
+          "entity": 1.0,
+          "product": 0.0,
+          "tech": 2.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Arm"
+          ],
+          "product": [],
+          "tech": [
+            "CPO"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Arm",
+          "CPO"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[영상뉴스] 젠슨 황이 쏘아올린 주가 급락... 한국 HBM공급망 괜찮을까? - 엠투데이",
+      "url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602068",
+      "source": "엠투데이",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM"
+        ],
+        "summary_hits": [
+          "HBM"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "삼성전자, 구글·젠틀몬스터·워비파커와 협업한 인텔리전트 아이웨어 공개",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343277",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자",
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "인텔"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "인텔"
+        ],
+        "negative_hits": [
+          "갤럭시"
+        ]
+      }
+    },
+    {
+      "title": "SuperX (NASDAQ: SUPX) to Make U.S. Exhibition Debut at SC26, Showcasing Full-Stack AI Infrastructure Solutions",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343262",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Nvidia"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "HyperAccel to Showcase LPU-Based AI Inference System at SC26, Highlighting Power and Cost Efficiency",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343260",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Nvidia"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "시전, AI 기반 시전 인텔리전스 선보여 브랜드가 더 많이 보고 확신을 갖고 행동하도록 지원",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343264",
+      "source": "KIPOST",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "물·전기 끌어와도 \"지을 사람이 없어\"...반도체 공장 건설 '비상' - 머니투데이 - 머니투데이",
+      "url": "https://www.mt.co.kr/estate/2026/11/13/2026111217352077138",
+      "source": "머니투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "대만 매체 \"젠슨 황 불륜 상대, 중국 국가안전부 반도체팀 소속\" - MBC 뉴스",
+      "url": "https://imnews.imbc.com/news/2026/world/article/6865557_36925.html",
+      "source": "MBC 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "OCI미술관, 조선 백자와 반도체를 연결하다…공통 소재 ‘규소’로 행사 20일 개최 - 에너지경제신문",
+      "url": "https://www.ekn.kr/web/view.php?key=20261113023449459",
+      "source": "에너지경제신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "대만 매체 \"젠슨 황 불륜 상대, 中국가안전부 반도체팀 소속\" - 연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261113177100083",
+      "source": "연합뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“앨리스 황은 중국 정보기관 반도체팀 일원”이라는 대만 매체···“아직 결론 못 내렸다”는 미국 - 경향신문",
+      "url": "https://www.khan.co.kr/article/202611132218001",
+      "source": "경향신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "둑 터진 대중 반도체 규제… 美, 수출 우회로 틀어막는다 - 조선일보",
+      "url": "https://www.chosun.com/economy/tech_it/2026/11/14/OZNXECDW4BCVBK7ZCOFGUWZ42I/",
+      "source": "조선일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체·방산에 로봇·AI까지…구미 산업 확장에 주택시장도 ‘꿈틀’ - 경북일보",
+      "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090586",
+      "source": "경북일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "젠슨 황 불륜 상대, 中 정보기관 연루 의혹 제기…반도체 우회 반출도 관여했나 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111321342391143d7a510102_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "최근 반도체 호황과 유가 상승이 민간소비에 미치는 영향 - KDI 경제교육·정보센터",
+      "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000208151",
+      "source": "KDI 경제교육·정보센터",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"젠슨 황 불륜 상대, 中국가안전부 반도체팀 소속\" - 연합뉴스 한민족센터",
+      "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1439264",
+      "source": "연합뉴스 한민족센터",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[기획/경제] ㉗ 반도체·데이터센터 산업용수 공급망, 충분한가? - 기후에너지경제",
+      "url": "https://www.efn.co.kr/news/articleView.html?idxno=3257",
+      "source": "기후에너지경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "폴리텍 반도체융합캠퍼스, '스마트체어'로 창업경진대회 최우수상 - 헬로티",
+      "url": "https://www.hellot.net/news/article.html?no=116301",
+      "source": "헬로티",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "전남광주통합특별시교육청-국립목포대학교, 반도체 실무인재 양성 ‘맞손’ - 호남타임즈",
+      "url": "http://www.honamtimes.com/news/articleView.html?idxno=300242",
+      "source": "호남타임즈",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"젠슨 황 내연녀 앨리스 황, 中국가안전부 반도체팀 소속” 의혹 - 세계일보",
+      "url": "https://www.segye.com/newsView/20261113514947",
+      "source": "세계일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}
