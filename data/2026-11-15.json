@@ -1,0 +1,1580 @@
+{
+  "generated_at": "2026-11-15T03:05:19.855575+09:00",
+  "field": "반도체",
+  "field_date": "2026-11-15",
+  "stats": {
+    "collected_total": 281,
+    "after_resolve": 281,
+    "after_time_filter": 169,
+    "after_dedup": 166,
+    "after_score_filter": 15,
+    "extracted_success": 15,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "피엠티, 삼성전자 점유율 상승에 흑자 전환 기대…수율 개선이 열쇠 - 핀포인트뉴스",
+      "date": "2026-11-14",
+      "source": "핀포인트뉴스",
+      "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=504075",
+      "summary": "피엠티, 삼성전자 점유율 상승에 흑자 전환 기대…수율 개선이 열쇠 핀포인트뉴스",
+      "body": "반도체 검사 장비 핵심 부품인 프로브카드를 생산하는 피엠티가 삼성전자 낸드(NAND) 공급 재개와 점유율 상승을 바탕으로 실적 회복에 속도를 낼 전망이다. 한국IR협의회는 삼성전자 내 공급 비중 확대와 제조 수율 개선이 맞물리면서 피엠티의 매출 성장과 수익성 회복이 본격화할 것으로 내다봤다.\n피엠티의 실적 개선을 이끌 핵심 동력은 삼성전자 낸드 프로브카드 공급 확대다. 회사는 2025년 8월 삼성전자에 대한 공급을 재개한 이후 점유율을 꾸준히 높여가고 있다. 공급 재개가 일회성 매출 회복에 그치지 않고 고객사 내 입지 확대로 이어지고 있다는 점에서 향후 성장 가능성에 무게가 실린다.\n프로브카드는 반도체 웨이퍼 단계에서 개별 칩의 전기적 특성과 불량 여부를 검사하는 데 사용되는 부품이다. 반도체 제조 공정이 고도화되고 검사 수요가 늘어날수록 관련 부품의 기술력과 안정적인 공급 능력이 중요해진다. 고객사의 생산 확대와 차세대 공정 전환은 프로브카드 업체의 매출 증가로 연결될 수 있다.\n2027년에는 삼성전자의 낸드 V8·V9 세대 전환이 추가적인 수요 확대 요인으로 작용할 것으로 예상된다. 신규 세대 제품으로 전환하는 과정에서 검사 수요가 늘어날 수 있고, 생산",
+      "score": 5.89,
+      "score_raw": 16.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [
+            "수율"
+          ],
+          "event": [
+            "시장점유율"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "수율",
+          "시장점유율"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "수율",
+          "시장점유율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "화학기상증착(CVD) 시장 2035년 전망: 반도체 미세화와 태양광 수요가 성장 견인 - IndexBox",
+      "date": "2026-11-14",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/chemical-vapor-deposition-cvd-market-forecast-to-2035-semiconductor-miniaturization-and-solar-pv-demand-drive-growth/",
+      "summary": "화학기상증착(CVD) 시장 2035년 전망: 반도체 미세화와 태양광 수요가 성장 견인 IndexBox",
+      "body": "글로벌 화학기상증착(CVD) 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\n화학기상증착(CVD) 시장 2035년 전망: 반도체 미세화와 태양광 수요가 성장 견인\n요약\n글로벌 화학기상증착(CVD) 시장에 관한 인덱스박스(IndexBox)의 최신 보고서에 따르면,화학기상증착(CVD) 시장은 2026년에 접어들며 더욱 폭넓은 수요 기반과 보다 규율 있는 조달 행태, 그리고 지역적으로 더욱 다변화된 공급 구조를 갖추게 되었습니다.\n글로벌 화학기상증착(CVD) 시장은 반도체, 재생에너지, 광학, 내마모 코팅에 필수적인 고성능 박막을 정밀하게 증착할 수 있게 하는 첨단 제조의 핵심 기반입니다. 2026년 현재 이 시장은 최첨단 반도체 제조에서 나오는 견조한 수요가 특징입니다. 소자 노드가 축소되고 게이트올어라운드 트랜지스터와 3D 낸드처럼 복잡한 구조가 도입되면서 CVD와 원자층 증착(ALD) 공정에 대한 의존도가 갈수록 높아지고 있습니다.\n동시에 글로벌 탈탄소화 ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "CVD",
+            "증착"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "증착",
+          "CVD",
+          "반도체"
+        ],
+        "summary_hits": [
+          "증착",
+          "CVD",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "2035년 벌크 특수가스 시장 전망: 반도체 팹 증설이 성장 견인 - IndexBox",
+      "date": "2026-11-14",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/bulk-specialty-gases-market-forecast-to-2035-semiconductor-fab-capacity-expansion-drives-growth/",
+      "summary": "2035년 벌크 특수가스 시장 전망: 반도체 팹 증설이 성장 견인 IndexBox",
+      "body": "글로벌 벌크 특수가스 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\n2035년 벌크 특수가스 시장 전망: 반도체 팹 증설이 성장 견인\n요약\n글로벌 벌크 특수가스 시장을 다룬 IndexBox 최신 보고서에 따르면,벌크 특수가스 시장은 2026년에 보다 폭넓은 수요 기반과 규율 있는 조달 행태, 지역적으로 다변화된 공급 구조를 갖추고 새해를 맞이했습니다.\n글로벌 벌크 특수가스 시장은 반도체 제조, 전자 조립, 의료기기 생산, 분석 응용 분야에 고순도 산업용·의료용·특수가스를 벌크 단위로 공급하는 첨단 제조의 핵심 기반입니다. 범용 산업가스와 달리 벌크 특수가스는 엄격한 순도 요건과 품질 인증 부담, 고객 공정과의 긴밀한 통합으로 규정됩니다. 수요는 장기 계약으로 고정된 OEM 소비와 분산된 애프터마켓으로 양분되며, 두 영역은 상업적 논리가 서로 다릅니다. 시장은 팹 증설, 전동화, 의료 기준, 공급망 신뢰성에 의해 형성됩니다.\n특히 아시아태평양을 중심으로 반",
+      "score": 4.82,
+      "score_raw": 13.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "특수가스"
+          ],
+          "event": [
+            "증설"
+          ],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "특수가스",
+          "증설",
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "특수가스",
+          "증설",
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "용융 실리카 기판 시장 2035년 전망: EUV 리소그래피와 포토닉스가 성장 견인 - 뉴스 및 통계 - IndexBox",
+      "date": "2026-11-14",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/fused-silica-substrates-market-forecast-to-2035-driven-by-euv-lithography-and-photonics-demand/",
+      "summary": "용융 실리카 기판 시장 2035년 전망: EUV 리소그래피와 포토닉스가 성장 견인 - 뉴스 및 통계 IndexBox",
+      "body": "글로벌 용융 실리카 기판 시장: 규모, 동향 및 2035까지의 예측\n- 전체 PDF 보고서 · Excel 데이터 패키지 · Word 문서 · 경영진 프레젠테이션\n- 주말과 공휴일을 포함해 이메일로 제공\n- 복사 및 붙여넣기 가능 · 인쇄용 형식\n- 제공 후 무제한 질의 및 설명\nEUV 리소그래피와 포토닉스 수요가 이끄는 용융 실리카 기판 시장 2035년 전망\n요약\n글로벌 시장조사기관 인덱스박스(IndexBox)의 최신 보고서에 따르면, 글로벌용융 실리카 기판 시장은 2026년을 맞아 수요 기반이 한층 넓어지고 구매 행태가 보다 규율 있게 정착하는 한편, 공급 구조도 지역적으로 다변화되는 양상을 보이고 있습니다.\n글로벌 용융 실리카 기판 시장은 반도체 제조, 정밀 광학, 포토닉스에 필수적인 고순도 비정질 이산화규소 부품을 공급하는 첨단 기술의 핵심 기반입니다. 2026년 현재 이 시장은 리소그래피 기술, 특히 극자외선(EUV) 노광 장비의 지속적인 발전과 통신, 센싱, 국방 분야 전반의 광학·포토닉 소자 확산에 힘입어 견조한 성장세를 향해 나아가고 있습니다. 용융 실리카 기판은 뛰어난 열적 안정성과 높은 자외선·적외선 투과율, 낮은 열팽창률을 갖춰 나노미터급 ",
+      "score": 4.64,
+      "score_raw": 13.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "EUV"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "EUV"
+        ],
+        "summary_hits": [
+          "EUV"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "트럼프, AI 반도체 수출통제 풀기 직전에 엔비디아 주식 매수?…이해충돌 논란 - 디지털데일리",
+      "date": "2026-11-14",
+      "source": "디지털데일리",
+      "url": "https://www.ddaily.co.kr/page/view/2026111416582223965",
+      "summary": "트럼프, AI 반도체 수출통제 풀기 직전에 엔비디아 주식 매수?…이해충돌 논란 디지털데일리",
+      "body": "트럼프, AI 반도체 수출통제 풀기 직전에 엔비디아 주식 매수?…이해충돌 논란",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "트럼프, 엔비디아 주식 최대 67억어치 사들인 뒤 AI 반도체 규제 폐지 논란 - 경기일보",
+      "date": "2026-11-14",
+      "source": "경기일보",
+      "url": "https://www.kyeonggi.com/article/20261114580145",
+      "summary": "트럼프, 엔비디아 주식 최대 67억어치 사들인 뒤 AI 반도체 규제 폐지 논란 경기일보",
+      "body": "AI 반도체 수출 규제 철회 직전 대규모 투자…정책 발표 후 주가 상승\n중국 수출 허용 발표 뒤에도 추가 매수…젠슨 황 의혹까지 겹쳐 파장\n도널드 트럼프 미국 대통령이 엔비디아 주식을 최대 67억원어치 매입한 직후 해당 기업에 유리한 인공지능(AI) 반도체 수출 규제를 폐지했다는 보도가 나왔다.\n14일 영국 일간 가디언 등에 따르면 트럼프 대통령은 지난해 5월 조 바이든 전 행정부가 마련한 AI 반도체 수출통제 규정을 철회하기 며칠 전 엔비디아 주식을 대규모로 사들인 것으로 나타났다.\n가디언이 인용한 반부패 단체 '디클랩토크래시'의 분석 결과, 트럼프 대통령의 당시 엔비디아 주식 매입 규모는 100만~500만달러(약 13억3천만~66억8천만원)로 파악됐다.\n이는 공개된 재산·금융거래 신고 자료를 토대로 분석한 금액이다. 트럼프 대통령은 비슷한 시기 애플과 메타, 마이크로소프트 등 다른 주요 기술기업 주식에도 투자한 것으로 전해졌다.\n논란의 핵심은 주식 매입 직후 엔비디아의 사업에 영향을 미칠 수 있는 수출 규제가 폐지됐다는 점이다.\n바이든 행정부는 지난해 1월 미국의 첨단 AI 반도체가 중국 등 우려 국가로 유입되는 것을 제한하기 위해 'AI 확산 프레임워크",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“트럼프, AI 반도체 수출통제 풀기 전 엔비디아 주식 대량 매입” - 세계일보",
+      "date": "2026-11-14",
+      "source": "세계일보",
+      "url": "https://www.segye.com/newsView/20261114506484",
+      "summary": "“트럼프, AI 반도체 수출통제 풀기 전 엔비디아 주식 대량 매입” 세계일보",
+      "body": "도널드 트럼프 미국 대통령이 인공지능(AI) 반도체 수출통제 규제 폐지를 앞두고, 직접적인 수혜가 예상되는 엔비디아 주식을 대규모로 매입했다는 의혹이 제기됐다. 정책 변화로 주가 상승이 예상되는 기업의 주식을 미리 사들인 만큼 이해충돌 논란이 불가피할 것으로 보인다.\n영국 일간 가디언은 13일(현지시간) 반부패 감시단체 디클랩토크래시(Declatocracy)를 인용해 트럼프 대통령이 지난해 5월 엔비디아 주식을 100만∼500만달러(약 13억3000만∼66억8000만원)어치 매입했다고 보도했다. 논란의 핵심은 트럼프 대통령의 주식 매입 시점이다. 바이든 전 행정부가 도입한 AI 반도체 수출통제 방침을 폐지하겠다고 발표하기 며칠 전이라는 점에서다. 디클랩토크래시에 따르면 트럼프 대통령은 엔비디아 주식 외 애플과 메타, 마이크로소프트 등 다른 주요 정보기술(IT) 기업의 주식도 사들였다.\n바이든 행정부는 임기 말인 2025년 1월 ‘AI 확산 프레임워크(Framework for Artificial Intelligence Diffusion)’를 마련해 첨단 AI 반도체의 국가별 수출을 차등 규제하는 체계를 도입했다. 이 시스템은 전 세계 국가를 △한국 등 동맹 및",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "트럼프, AI반도체 규정 폐지 전 엔비디아 주식 대량 매입 논란 - 진일보 | 전남일보",
+      "date": "2026-11-14",
+      "source": "진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082665",
+      "summary": "트럼프, AI반도체 규정 폐지 전 엔비디아 주식 대량 매입 논란 진일보 | 전남일보",
+      "body": "도널드 트럼프 미국 대통령이 첨단 인공지능(AI) 반도체 수출 규제 완화 직전 엔비디아 주식을 대규모로 매입한 사실이 알려졌다.\n영국 가디언은 13일(현지시간) 반부패 단체 '디클랩토크래시' 자료를 인용해 트럼프 대통령이 지난해 5월 조 바이든 전 행정부의 AI 반도체 수출통제 규정 폐지 발표를 앞두고 엔비디아 주식 100만~500만 달러(약 13억3000만~66억8000만원)어치를 매입했다고 보도했다. 트럼프 대통령은 같은 시기 애플, 메타, 마이크로소프트 등 주요 정보기술(IT) 기업의 주식도 매입한 것으로 나타났다.\n문제가 된 규정은 바이든 행정부가 2025년 1월 도입한 'AI 확산 프레임워크'(Framework for Artificial Intelligence Diffusion)로, 국가별로 AI 반도체 수출을 차등 제한하는 내용을 담고 있다. 이 규정은 동맹·파트너 국가, 일반 국가, 중국·러시아·북한 등 우려 국가로 분류해 우려 국가에는 강한 수출통제를 적용하도록 했다. 시행 시 중국은 미국산 첨단 반도체 수입에 제약을 받을 예정이었다.\n트럼프 행정부는 해당 규정이 미국의 혁신을 저해하고 기업에 과도한 규제 부담을 준다며 폐지 방침을 밝혔다. 또",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"트럼프, AI 반도체 수출통제 풀며 엔비디아 주식 샀다\" - 연합뉴스",
+      "date": "2026-11-14",
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261114040400009",
+      "summary": "\"트럼프, AI 반도체 수출통제 풀며 엔비디아 주식 샀다\" 연합뉴스",
+      "body": "- 트럼프, AI 반도체 수출통제 폐지 직전 엔비디아 주식 매수 논란\n- 규제완화로 中시장 판매 가능해져 주가 상승·수혜 지적\n- 젠슨 황-中간첩 의혹 겹쳐…민주당 정경유착 조사 착수\n전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.\n(서울=연합뉴스) 오수진 기자 = 도널드 트럼프 미국 대통령이 첨단 인공지능(AI) 반도체에 대한 수출통제를 완화하면서 직접 수혜를 보는 AI 반도체 선도기업 엔비디아의 주식을 사들였다는 논란이 제기됐다.\n영국 가디언은 트럼프 대통령이 전임 조 바이든 행정부가 중국 등 동맹이나 우방이 아닌 국가로 향하는 첨단 반도체를 통제하려고 마련한 규제를 지난해 5월 폐기하기 직전에 엔비디아 주식을 매수했다고 13일(현지시간) 보도했다.\n가디언이 인용한 반부패 단체 '디클랩토크래시'에 따르면 트럼프 대통령은 해당 정책 폐지를 며칠 앞두고 엔비디아 주식만 100만∼500만 달러(약13억3천만∼66억8천만원)어치 매입했다.\n트럼프 대통령은 당시 애플, 메타, 마이크로소프트 등 다른 정보기술(IT) 기업의 주식도 사들인 것으로 나타났다.\n바이든 정부는 정권 말인 2025년 1월 'AI 확산 프레임워크'(Framework for Ar",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“트럼프, 반도체 수출규제 풀기 직전 엔비디아 주식 매입” - 아시아투데이",
+      "date": "2026-11-14",
+      "source": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261114010005376",
+      "summary": "“트럼프, 반도체 수출규제 풀기 직전 엔비디아 주식 매입” 아시아투데이",
+      "body": "백악관 “투자는 독립 운용사가 결정”\n영국 가디언은 13일(현지 시각) 반부패 단체 '디클랩토크래시'가 트럼프 대통령의 재산 신고 자료를 분석한 결과 이 같은 거래가 확인됐다고 보도했다. 트럼프 대통령은 지난해 5월 반도체 수출통제 규정 폐지 발표를 며칠 앞두고 엔비디아 주식 100만~500만달러어치를 사들였다. 애플·메타·마이크로소프트 주식도 매입했다.\n폐지 대상은 조 바이든 전 행정부가 지난해 1월 마련한 'AI 확산 프레임워크'였다. 세계 각국을 세 등급으로 나눠 첨단 인공지능(AI) 반도체 수출을 차등 제한하는 규정이다. 트럼프 행정부는 이 규정이 미국 기업의 혁신을 저해하고 과도한 부담을 준다며 폐지를 추진했다.\n가디언에 따르면 규정 철회 발표 이후 엔비디아 주가는 상승했다. 트럼프 대통령의 주식 매입은 이후에도 이어졌다. 지난해 12월 엔비디아의 H200 반도체를 중국에 판매하도록 허용하겠다고 발표한 뒤에도 최소 세 차례 엔비디아 주식을 추가로 사들였다.\n백악관은 투자 결정에 대통령이 관여하지 않는다는 입장이다. 지난달 로이터가 트럼프 대통령의 엔비디아 주식 거래를 보도했을 당시 백악관은 제3의 금융기관이 대통령 자산을 독립적으로 운용한다고 설명했",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "수출규제"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "수출규제",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "수출규제",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 수출규제 완화 전 엔비디아 주식 산 트럼프…이해충돌 논란 확산 - 아주경제",
+      "date": "2026-11-14",
+      "source": "아주경제",
+      "url": "https://www.ajunews.com/view/20261114190930321",
+      "summary": "반도체 수출규제 완화 전 엔비디아 주식 산 트럼프…이해충돌 논란 확산 아주경제",
+      "body": "14일 영국 가디언 및 연합뉴스 등에 따르면 트럼프 대통령은 지난해 5월 조 바이든 전 행정부가 마련한 AI 반도체 수출통제 규정을 폐기하기 며칠 전 엔비디아 주식 100만~500만 달러(약 13억~67억원) 어치를 매입했다.\n가디언이 인용한 반부패 단체 디클랩토크래시의 분석에 따르면 트럼프 대통령은 당시 애플과 메타, 마이크로소프트 등 다른 정보기술(IT) 기업의 주식도 매수했다.\n바이든 행정부는 지난해 1월 첨단 AI 반도체의 해외 유출을 제한하기 위해 'AI 확산 프레임워크'를 마련했다. 한국 등 동맹국과 일반 국가, 중국·러시아 등 우려 국가를 구분해 국가별로 반도체 수출을 차등 통제하는 제도다.\n가디언은 해당 규정이 시행됐다면 엔비디아의 주요 시장인 중국에 대한 제품 판매가 제한됐을 것이라고 분석했다. 실제 규제 폐기 발표 이후 엔비디아 주가는 상승했다.\n트럼프 대통령은 지난해 12월 엔비디아의 AI 반도체 H200에 대한 중국 수출을 허용하겠다고 발표한 직후에도 최소 세 차례 주식을 추가 매입했다고 가디언은 전했다.\n트럼프 대통령의 이 같은 이해충돌 논란은 젠슨 황 전 엔비디아 최고경영자가 중국 간첩의 연인관계가 확인된 뒤 잇따른 의혹을 부채질 것",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "엔비디아"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [
+            "수출규제"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "엔비디아",
+          "수출규제",
+          "반도체"
+        ],
+        "summary_hits": [
+          "엔비디아",
+          "수출규제",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "국채금리 '발작'에 꺾인 AI 반도체 랠리…AMD·마벨·Arm·인텔 동반 약세 - 글로벌이코노믹",
+      "date": "2026-11-14",
+      "source": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Securities/2026/11/202611140824038548e250e8e188_1",
+      "summary": "국채금리 '발작'에 꺾인 AI 반도체 랠리…AMD·마벨·Arm·인텔 동반 약세 글로벌이코노믹",
+      "body": "[핵심 포인트]\n○ 엔비디아 CEO 사임 반사이익으로 급등했던 AMD 주가 9% 급락…마벨(-5%)·Arm(-5%)·인텔(-3%) 등 반도체 섹터 전반 차익실현 매도세 출회\n○ 10월 생산자물가지수(PPI) 급등 여파로 미 10년 만기 국채 수익률 5.17%까지 치솟으며 고밸류 기술주 투자심리 냉각\n○ 주가 조정으로 AMD 주가수익비율(PER)이 5년 평균 수준인 35배로 낮아진 가운데, 다음 주 화요일 엔비디아 실적 발표에 시장 이목 집중\n뉴욕 주식시장에서 인공지능(AI)과 반도체 관련주가 국채 금리 급등과 단기 급등에 따른 차익실현 매물 출회로 일제히 급락 전환했다. 젠슨 황 엔비디아 최고경영자(CEO)의 전격 사임 이후 반사이익 기대감으로 폭등했던 AMD는 하루 만에 9% 밀려나며 상승분의 상당 부분을 반납했다.\n13일(현지시각) 글로벌 주식 리서치-기업 분석 플랫폼 티커에 따르면 나스닥 시장에서 AMD 주가는 전 거래일보다 8.75% 급락 마감했다. 앞서 황 전 CEO의 사임 소식이 전해진 뒤 시장에서 엔비디아의 가장 확실한 대안으로 지목받으며 주간 약 30%에 달하는 급등세를 연출했으나, 이날 자체적인 악재 없이도 대규모 차익실현 자금이 빠져나가며 ",
+      "score": 4.29,
+      "score_raw": 12.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "AMD",
+            "Arm",
+            "마벨",
+            "인텔"
+          ],
+          "product": [
+            "AI반도체"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "인텔",
+          "AMD",
+          "Arm",
+          "마벨",
+          "AI반도체",
+          "반도체"
+        ],
+        "summary_hits": [
+          "인텔",
+          "AMD",
+          "Arm",
+          "마벨",
+          "AI반도체",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Inside the World of Semiconductor Manufacturing: How Tiny Chips Are Printed, How Lithography Works, Career Opportunities and How to Establish a Chip Manufacturing Plant - IBG News",
+      "date": "2026-11-14",
+      "source": "IBG News",
+      "url": "https://ibgnews.com/2026/11/14/inside-the-world-of-semiconductor-manufacturing-how-tiny-chips-are-printed-how-lithography-works-career-opportunities-and-how-to-establish-a-chip-manufacturing-plant/",
+      "summary": "Inside the World of Semiconductor Manufacturing: How Tiny Chips Are Printed, How Lithography Works, Career Opportunities and How to Establish a Chip Manufacturing Plant IBG News",
+      "body": "Inside the World of Semiconductor Manufacturing: How Tiny Chips Are Printed, How Lithography Works, Career Opportunities and How to Establish a Chip Manufacturing Plant\nBy Suman Munshi | IBG NEWS\nIntroduction: The Technology That Powers the Modern World\nFrom smartphones and computers to satellites, electric vehicles, artificial intelligence, medical equipment and defence systems, almost every modern technological innovation depends on one remarkable component: the semiconductor chip.\nOften smaller than a fingernail, these sophisticated electronic devices contain millions or even billions of microscopic transistors. They process information, store data, control electrical power and enable machines to communicate with one another.\nBut how are these tiny electronic structures actually manufactured? How can light be used to print microscopic circuits onto silicon? What is lithography, and why has it become one of the most strategically important technologies in the world?\nMore importantly,",
+      "score": 4.2,
+      "score_raw": 11.75,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 7.5,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "lithography"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "lithography",
+          "semiconductor"
+        ],
+        "summary_hits": [
+          "lithography",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Samsung to invest $4.48 billion in HBM packaging plant in South Korea - electronics.economictimes.indiatimes.com",
+      "date": "2026-11-14",
+      "source": "electronics.economictimes.indiatimes.com",
+      "url": "http://electronics.economictimes.indiatimes.com/news/semiconductors/samsung-to-invest-4-48-billion-in-hbm-packaging-plant-in-south-korea/135787159",
+      "summary": "Samsung to invest $4.48 billion in HBM packaging plant in South Korea electronics.economictimes.indiatimes.com",
+      "body": "Samsung Electronics will invest 6 trillion won ($4.48 billion) in a high-bandwidth memory (HBM) chip packaging plant in Asan, South Korea.investment will be followed by approximately 40 trillion won in advanced equipment, according to news agency Reuters.server memory.semiconductors, physical artificial intelligence, and AI data centres.\n- Semiconductors\n- 1 min Read\nSamsung to invest $4.48 billion in HBM packaging plant in South Korea\nSamsung Electronics plans a 6 trillion won ($4.48 billion) investment in a high-bandwidth memory (HBM) chip packaging plant in Asan, South Korea. This initial investment will be followed by about 40 trillion won in advanced equipment.\nHighlights\n- Samsung commits 6 trillion won ($4.48 billion) to Asan HBM chip packaging plant.\n- Additional 40 trillion won investment planned for advanced equipment.\n- New HBM production line to begin operations in June 2028, a year early.\n- Plant aims to meet rising demand for server memory and support national projects.",
+      "score": 3.57,
+      "score_raw": 10.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+      "date": "2026-11-14",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+      "summary": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: “Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process... » read more The post Shifting HBM4 Controller Functions Closer To Memory (UC Riverside) appeared first on Semiconductor Engineering.",
+      "body": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.”\n\nAbstract Excerpt:\n\n“Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM. We present the first systematic quantitative study of function-level controller placement between the host and the HBM4 base die on a silicon interposer. We divide the controller into its main functions and evaluate four placements, from a complete host controller to a complete base die controller, with intermediate placements that move maintenance or scheduling to the base die. “\n\nFind the technical paper here. November 2026.\n\nYogananda, Tharunya, and Wantong Li. “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” arXiv:",
+      "score": 3.07,
+      "score_raw": 8.6,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 2.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "베이스다이"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "HBM"
+        ],
+        "summary_hits": [
+          "HBM",
+          "베이스다이",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "최태원 이어 이재용도 ‘광주’ 언급…호남 반도체 추진 탄력 - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082692",
+      "source": "진일보 | 전남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 클러스터 조성에 대비…도시재생·주택 공급 해법 모색 - KBC광주방송",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202611140036",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "대만 매체 “앨리스 황은 중국 정보기관 반도체팀 소속” - 한겨레",
+      "url": "https://www.hani.co.kr/arti/international/international_general/1287312.html",
+      "source": "한겨레",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화 - 지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20261114191001",
+      "source": "지디넷코리아",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "나주시, 반도체 클러스터 배후거점 육성…에너지산업 역량 결집 - 에너지경제신문",
+      "url": "https://m.ekn.kr/view.php?key=20261114025559479",
+      "source": "에너지경제신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체·방산에 로봇·AI까지…구미 산업 확장에 주택시장도 ‘꿈틀’ - 경북일보",
+      "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090586",
+      "source": "경북일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "'젠슨황 연인' 앨리스 황, “中국가안전부 반도체팀 소속” [자유시보] - 이코노미스트",
+      "url": "https://economist.co.kr/article/view/ecn202611140006",
+      "source": "이코노미스트",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "광양읍 발전 19개 과제 한자리에…폐교 부지 활용부터 반도체 연계까지 - 진일보 | 전남일보",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082483",
+      "source": "진일보 | 전남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "\"반도체 오면 도시 변화해야\"...광주대 전문가 세미나 - KBC광주방송",
+      "url": "https://news.ikbc.co.kr/article/view/kbc202611140049",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체·AI 인프라 수출 호황…수출물량 증가율 43.9% '역대 최대' - 머니투데이 - 머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/11/13/2026111216414737936",
+      "source": "머니투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "코스닥 반도체 장비株, 장초반 '불기둥' - 머니투데이 - 머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/11/13/2026111310083877397",
+      "source": "머니투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[사설]건설인력 없이 반도체 속도전은 공염불 - 머니투데이 - 머니투데이",
+      "url": "https://www.mt.co.kr/opinion/2026/11/13/2026111215405843862",
+      "source": "머니투데이",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "비자성 커넥터 시장 2035년 전망: 의료 영상·반도체 팹이 성장 견인 - 뉴스 및 통계 - IndexBox",
+      "url": "https://www.indexbox.io/ko/blog/non-magnetic-connectors-market-forecast-to-2035-demand-accelerates-on-medical-imaging-and-semiconductor-fab-equipment-upgrades/",
+      "source": "IndexBox",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[나주] 호남권 반도체 클러스터 배후거점 육성 - www.newsinjn.com",
+      "url": "http://www.newsinjn.com/news/articleView.html?idxno=120734",
+      "source": "www.newsinjn.com",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이상일 용인시장, 반도체 넘어 문화예술도시로…시민 위한 가을축제 직접 기획 - 필드뉴스",
+      "url": "http://www.fieldnews.kr/news/articleView.html?idxno=33101",
+      "source": "필드뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체 주식, 매수 신호는 딱 하나입니다 - 네이버 프리미엄콘텐츠",
+      "url": "https://contents.premium.naver.com/finfarmer00/finfarmer/contents/261114205921791eh",
+      "source": "네이버 프리미엄콘텐츠",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이상일 “반도체 메가클러스터에 문화예술 입힌다”…‘문화도시 용인’ 승부수 - 아시아경제",
+      "url": "https://www.asiae.co.kr/article/2026111422054715952",
+      "source": "아시아경제",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체가 효자···한국, 중국 1~9월 수입시장 1위 - 시사저널e",
+      "url": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=425043",
+      "source": "시사저널e",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "반도체가 벌어도 소비는 더디다…대만 사례가 보여준 한국 경제의 시차 - 강릉뉴스",
+      "url": "https://www.gangneungnews.kr/news/articleView.html?idxno=70113",
+      "source": "강릉뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "미국은 선제 확충, 대만은 교통 혼잡 대응…용인 반도체 교통망 구축 과제 - 광교신문",
+      "url": "https://www.kgnews.net/news/articleView.html?idxno=429502",
+      "source": "광교신문",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}
