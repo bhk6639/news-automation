@@ -1,0 +1,1594 @@
+{
+  "generated_at": "2026-11-18T03:12:25.222200+09:00",
+  "field": "반도체",
+  "field_date": "2026-11-18",
+  "stats": {
+    "collected_total": 388,
+    "after_resolve": 388,
+    "after_time_filter": 307,
+    "after_dedup": 302,
+    "after_score_filter": 15,
+    "extracted_success": 15,
+    "extracted_failed": 0
+  },
+  "keywords_snapshot": {
+    "critical": [
+      "2D반도체",
+      "4F2",
+      "BCAT",
+      "CXL",
+      "DRAM세대",
+      "EUV",
+      "FeFET",
+      "FeRAM",
+      "IGZO",
+      "MRAM",
+      "PCRAM",
+      "PIM",
+      "RCAT",
+      "ReRAM",
+      "SOT-MRAM",
+      "STT-MRAM",
+      "VCAT",
+      "VCT",
+      "high-NA",
+      "강유전체",
+      "노드",
+      "뉴로모픽",
+      "단수",
+      "더블스택",
+      "매립게이트",
+      "새들핀",
+      "셀렉터",
+      "셀온페리",
+      "셀커패시턴스",
+      "수직D램",
+      "채널홀",
+      "캐패시터리스",
+      "트리플스택"
+    ],
+    "strong": [
+      "AI반도체",
+      "ALD",
+      "AS-ALD",
+      "ASML",
+      "CFET",
+      "CTF",
+      "CVD",
+      "Cu-Cu",
+      "D2W",
+      "DDR5",
+      "DRAM",
+      "FCVD",
+      "GAA",
+      "GDDR",
+      "HBM",
+      "HDP-CVD",
+      "HKMG",
+      "KLA",
+      "LPCVD",
+      "LPDDR",
+      "MIM",
+      "MOCVD",
+      "MR-MUF",
+      "Micron",
+      "NAND",
+      "Nvidia",
+      "ONO",
+      "PEALD",
+      "PECVD",
+      "PVD",
+      "PowerVia",
+      "RibbonFET",
+      "Ru",
+      "SMIC",
+      "TSMC",
+      "TiN",
+      "UMC",
+      "W2W",
+      "ZAZ",
+      "backside_power",
+      "bowing",
+      "etching",
+      "forksheet",
+      "lithography",
+      "nanosheet",
+      "갭필",
+      "고종횡비",
+      "글로벌파운드리",
+      "난야",
+      "낸드",
+      "노광",
+      "다중패터닝",
+      "도쿄일렉트론",
+      "라피더스",
+      "램리서치",
+      "램프업",
+      "마이크론",
+      "매스리플로우",
+      "몰리브덴",
+      "바텀업",
+      "박막",
+      "삼성전자",
+      "샌디스크",
+      "선택비",
+      "선택적증착",
+      "섬코",
+      "솔리다임",
+      "스트링스택",
+      "스퍼터링",
+      "시스템반도체",
+      "식각",
+      "신에츠",
+      "양산",
+      "어드밴테스트",
+      "어플라이드",
+      "엔비디아",
+      "웨스턴디지털",
+      "윈본드",
+      "증착",
+      "칩온웨이퍼",
+      "컴포멀리티",
+      "크라이오식각",
+      "키옥시아",
+      "펠리클",
+      "하이닉스",
+      "하이브리드본딩"
+    ],
+    "medium": [
+      "10나노급",
+      "2.5D",
+      "3D IC",
+      "ALE",
+      "ASIC",
+      "BEOL",
+      "CD-SEM",
+      "CHIPS Act",
+      "CMP",
+      "CPO",
+      "CoWoS",
+      "DDR6",
+      "DTCO",
+      "EMC",
+      "EMIB",
+      "FEOL",
+      "FinFET",
+      "Foveros",
+      "GaN",
+      "HPSP",
+      "JSR",
+      "MOL",
+      "MoS2",
+      "OCD",
+      "OPC",
+      "QLC",
+      "RDL",
+      "RIE",
+      "SK실트론",
+      "SiC",
+      "SiGe",
+      "SoIC",
+      "TLC",
+      "TSV",
+      "UCIe",
+      "capex",
+      "chiplet",
+      "chiplets",
+      "e-beam",
+      "export control",
+      "foundry",
+      "high-k",
+      "immersion",
+      "interposer",
+      "low-k",
+      "metrology",
+      "microbump",
+      "overlay",
+      "peripheral",
+      "photoresist",
+      "seam",
+      "subsidy",
+      "void",
+      "가동률",
+      "감산",
+      "건식식각",
+      "검사장비",
+      "게이트스택",
+      "결함검사",
+      "고대역폭",
+      "네패스",
+      "넥스틴",
+      "도쿄오카",
+      "도핑",
+      "동진쎄미켐",
+      "마스크블랭크",
+      "메모리",
+      "몰딩",
+      "백그라인딩",
+      "버퍼다이",
+      "번인",
+      "베이스다이",
+      "보조금",
+      "삼성파운드리",
+      "소부장",
+      "솔브레인",
+      "수율",
+      "수주",
+      "수출규제",
+      "슬러리",
+      "습식식각",
+      "시장점유율",
+      "신뢰성",
+      "실리콘포토닉스",
+      "어닐",
+      "언더필",
+      "에스앤에스텍",
+      "에피택시",
+      "워피지",
+      "원익IPS",
+      "웨이퍼보우",
+      "웨이퍼본딩",
+      "웨이퍼투입",
+      "유리기판",
+      "이오테크닉스",
+      "이온주입",
+      "인수",
+      "인텔 파운드리",
+      "일함수",
+      "전구체",
+      "접합",
+      "주성엔지니어링",
+      "증설",
+      "침지노광",
+      "칩렛",
+      "칩스법",
+      "케이씨텍",
+      "코어다이",
+      "투자",
+      "특수가스",
+      "파운드리",
+      "파크시스템스",
+      "패널레벨",
+      "팬아웃",
+      "평탄화",
+      "포토레지스트",
+      "포토마스크",
+      "퓨리오사",
+      "플라즈마식각",
+      "피에스케이",
+      "하나마이크론",
+      "한미반도체",
+      "화합물반도체"
+    ],
+    "weak": [
+      "AI서버",
+      "AMD",
+      "Arm",
+      "fab",
+      "semiconductor",
+      "wafer",
+      "공정",
+      "마벨",
+      "미디어텍",
+      "반도체",
+      "브로드컴",
+      "시높시스",
+      "웨이퍼",
+      "인텔",
+      "케이던스",
+      "퀄컴",
+      "팹"
+    ],
+    "neg_strong": [
+      "스포츠",
+      "연예",
+      "종목추천",
+      "코인",
+      "테마주"
+    ],
+    "neg_weak": [
+      "DX부문",
+      "ETF",
+      "MX사업부",
+      "가전",
+      "갤럭시",
+      "급등",
+      "급락",
+      "냉장고",
+      "단순주가",
+      "레버리지",
+      "모바일경험",
+      "무선사업부",
+      "버즈",
+      "비스포크",
+      "상한가",
+      "생활가전",
+      "세탁기",
+      "스마트폰",
+      "시황",
+      "에어컨",
+      "워치",
+      "폴더블"
+    ]
+  },
+  "items": [
+    {
+      "title": "메타 AI 칩 뚫은 삼성전자, HBM4E 2나노 턴키로 반격 - 한국신용신문",
+      "date": "2026-11-17",
+      "source": "한국신용신문",
+      "url": "https://www.creditnews.kr/news/articleView.html?idxno=32633",
+      "summary": "메타 AI 칩 뚫은 삼성전자, HBM4E 2나노 턴키로 반격 한국신용신문",
+      "body": "- 입력 2026.11.17 18:22\n- 수정 2026.11.17 18:25\n- 日本語版\n메타 차세대 자체 가속기 맞춤형 HBM4E 수주\n메모리와 파운드리 결합한 일괄 생산 전략 성과\n2나노 양산 수율 안정화와 타 빅테크 수주 확대\n삼성전자가 메타의 차세대 자체 인공지능(AI) 칩에 탑재될 맞춤형 고대역폭메모리(HBM) 개발에 나섰다. 7세대인 HBM4E의 베이스 다이를 자사 2나노 파운드리 공정으로 생산해 납품하는 완전 맞춤형 방식이다. 빅테크의 자체 AI 반도체 내재화 수요를 파고들어 메모리와 파운드리를 결합한 원스톱 솔루션이 성과를 냈다는 분석이 나온다.\n17일 대만 시장조사업체 트렌드포스 등에 따르면 삼성전자는 메타의 차세대 자체 칩에 맞춘 HBM4E를 개발하고 있다. 이번 칩은 고객사가 요구하는 컨트롤러와 다이투다이(D2D) 통신 인터페이스 등 특정 지적재산권(IP)을 베이스 다이에 통합한 형태다. 삼성전자는 고객사 요구에 맞춰 이 베이스 다이를 최첨단 2나노 파운드리 공정으로 양산할 계획이다.\n이번 사안의 핵심은 HBM 세대교체와 맞물린 칩 하단부 베이스 다이의 역할 변화에 있다. 기존 HBM3E 세대까지는 범용 D램 공정으로 베이스 다이를 만들",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "노드"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "노드"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "노드"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[단독] 예스티, 삼성전자 1d D램용 HPA 장비 공급사 선정… 연내 검증용 장비 납품 - Chosunbiz",
+      "date": "2026-11-17",
+      "source": "Chosunbiz",
+      "url": "https://biz.chosun.com/it-science/ict/2026/11/17/4MWPKOEPTNG5NKCR7PKZLJ4D5Q/",
+      "summary": "[단독] 예스티, 삼성전자 1d D램용 HPA 장비 공급사 선정… 연내 검증용 장비 납품 Chosunbiz",
+      "body": "반도체 장비업체 예스티가 삼성전자의 차세대 1d D램 공정에 적용할 고압수소어닐링(HPA) 장비 공급사로 선정된 것으로 파악됐다. HPA는 고온·고압의 수소 환경에서 웨이퍼를 열처리해 반도체 소자의 결함을 줄이는 장비다. 예스티는 한 번에 웨이퍼 125매를 처리할 수 있는 검증용 장비를 이르면 이달 말 납품할 예정이다. 삼성전자가 기존 HPA 장비 공급사인 HPSP 외에 예스티의 장비 도입을 추진하면서 공급망 다변화에 나섰다는 분석이 나온다.\n17일 반도체 업계에 따르면 예스티는 지난 6월 삼성전자 장비선정위원회에서 1d D램 공정용 HPA 장비 공급사로 선정됐다. 현재 고객사 검증을 위한 장비 납품을 준비하고 있으며, 납품 시점은 11월 말에서 12월 사이로 예상된다.\n이번에 공급을 추진하는 장비는 한 번에 웨이퍼 125매를 처리하는 HPA 장비다. 125매급은 장비 한 대가 한 번의 공정에서 처리할 수 있는 웨이퍼 수를 의미한다. 예스티는 기존 75매급 장비보다 처리 용량을 늘린 125매급 장비를 개발해 메모리 반도체 시장 진출을 추진해 왔다. D램은 동일한 공정을 대량으로 반복하는 만큼 장비의 처리량과 공정 균일도가 중요하다.\n다만 이번 납품은 정식 구",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [
+            "DRAM세대"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "DRAM",
+          "DRAM세대"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "DRAM",
+          "DRAM세대"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "영광YKMC, '글로벌 甲' ASML 차세대 High-NA EUV 핵심부품 개발·공급 \"첨단 노광장비 시장 공략 가속\" - 데이터투자",
+      "date": "2026-11-17",
+      "source": "데이터투자",
+      "url": "https://www.datatooza.com/article/202611171135405462661c44de84_80",
+      "summary": "영광YKMC, '글로벌 甲' ASML 차세대 High-NA EUV 핵심부품 개발·공급 \"첨단 노광장비 시장 공략 가속\" 데이터투자",
+      "body": "-High-NA EUV 핵심부품 개발 완료·선행 양산 돌입…차세대 반도체 공급망 입지 확대\n-노광장비 부품 매출 상반기 39억원…2027년 100억원 이상 성장 전망\n17일 업계에 따르면 영광와이케이엠씨는 ASML의 노광장비 공급망에 참여해 EUV 장비용 정밀부품을 공급하고 있으며, 차세대 High-NA EUV 장비에 적용되는 핵심부품 개발을 완료하고 선행 양산에 착수했다.\nHigh-NA EUV는 기존 EUV 노광장비보다 높은 개구수를 적용해 더욱 미세한 반도체 회로 구현을 지원하는 차세대 노광 기술이다. 반도체 회로의 미세화와 고집적화가 가속화하면서 글로벌 반도체 제조사들의 핵심 기술로 부상하고 있다.\n영광와이케이엠씨는 이러한 기술 변화에 대응해 초정밀 대형 프레임 서브어셈블리, 정밀 구동 프레임, 결함 제어 차폐 플레이트 등 차세대 노광장비 관련 부품 개발을 완료했다. 회사가 공개한 기업공개(IPO) 자료에 따르면 해당 부품들은 올해 상반기부터 선행 양산 공급 단계에 진입했다.\n특히 영광와이케이엠씨는 정밀가공부터 특수표면처리, 초고진공(UHV) 정밀세정, 조립까지 핵심 제조공정을 일괄 수행할 수 있는 생산체계를 갖추고 있다. 노광장비는 극도로 높은 정밀도",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 5.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "ASML"
+          ],
+          "product": [],
+          "tech": [
+            "EUV",
+            "high-NA",
+            "노광"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "ASML",
+          "EUV",
+          "노광",
+          "high-NA",
+          "투자"
+        ],
+        "summary_hits": [
+          "ASML",
+          "EUV",
+          "노광",
+          "high-NA",
+          "투자"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, 메타 AI칩용 맞춤 HBM 개발 보도…2나노 베이스다이 거론 - 토큰포스트",
+      "date": "2026-11-17",
+      "source": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/tech/439529",
+      "summary": "삼성전자, 메타 AI칩용 맞춤 HBM 개발 보도…2나노 베이스다이 거론 토큰포스트",
+      "body": "중국 매체 진스데이터는 17일 삼성전자가 메타의 자체 AI 칩용 맞춤형 HBM을 개발하고 있다고 전했다. 진스데이터는 베이스다이에 삼성 파운드리의 2나노 공정이 쓰일 것으로 예상된다고 밝혔다.\n토포AI로 이 기사 더 깊이 읽기\n중국 경제정보 매체 진스데이터(Jin10)는 17일 삼성전자($005930)가 메타($META)의 자체 개발 인공지능(AI) 칩에 들어갈 맞춤형 고대역폭메모리(HBM)를 개발하고 있다고 전했다. 진스데이터는 메모리 맨 아래에 놓이는 베이스다이에 삼성 파운드리의 2나노 공정이 쓰일 것으로 예상된다고 전했다.\n보도대로라면 삼성전자는 메모리와 파운드리 공정을 한 고객에게 함께 제공하게 된다.\nHBM은 여러 개의 D램을 수직으로 쌓아 데이터 처리 속도를 끌어올린 메모리다. AI 반도체와 짝을 이뤄 대량의 데이터를 빠르게 주고받는다. 베이스다이는 쌓아 올린 D램의 맨 아래에서 메모리를 제어하는 칩이다. 맞춤형 HBM은 이 베이스다이를 고객사 칩 설계에 맞춰 만드는 방식이어서, 범용 제품보다 고객사와의 설계 협업이 깊어진다.\n본지가 전한 엔비디아의 HBM 제어기 이전 분석 기사에서는 맞춤형 HBM 고객으로 구글·AMD($AMD)·메타가 거론됐다.",
+      "score": 8.21,
+      "score_raw": 23.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "노드",
+            "베이스다이"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자",
+          "HBM",
+          "노드",
+          "베이스다이"
+        ],
+        "summary_hits": [
+          "삼성전자",
+          "HBM",
+          "노드",
+          "베이스다이"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "지엘리서치 “SFA, 반도체 전공정 진입 본격화…HBM 검사장비·해외 수주 확대 기대” - 이투데이",
+      "date": "2026-11-17",
+      "source": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2648965",
+      "summary": "지엘리서치 “SFA, 반도체 전공정 진입 본격화…HBM 검사장비·해외 수주 확대 기대” 이투데이",
+      "body": "지엘리서치는 17일 SFA가 반도체 전공정 물류시장 진입과 고부가가치 장비 수주 확대에 힘입어 내년 실적 개선세를 이어갈 것으로 전망했다. 올해 3분기 반도체 장비 수주 비중이 상반기 14%에서 57%로 급증한 가운데 고대역폭메모리(HBM) 생산라인용 물류장비와 AI 기반 검사장비 사업이 새로운 성장동력으로 부상하고 있다는 분석이다. 특히 2027~2028년 반도체 메인 생산라인의 전공정 물류시스템 공급을 목표로 하고 있으며 해저케이블과 연료전지 등으로 사업 영역도 넓히고 있다고 평가했다. 투자의견과 목표주가는 제시하지 않았다.\n이날 지엘리서치 ‘SFA-3Q26 Review: 반도체 전공정 진입 & 고부가가치 장비 수주 확대’ 보고서에 따르면 SFA의 3분기 별도 매출액은 전 분기 대비 1% 증가한 1923억원, 영업이익은 9% 늘어난 266억원을 기록했다. 영업이익률은 13.8%로 AI 로보틱스 기술을 적용한 고부가가치 장비 공급 확대와 원가 경쟁력 강화가 수익성 개선을 이끌었다.\n반도체 관련 수주 비중은 빠르게 높아지고 있다. SFA의 3분기 신규 수주액 1356억원 가운데 반도체 부문은 772억원으로 전체의 약 57%를 차지했다. 상반기 14%에서 43",
+      "score": 6.61,
+      "score_raw": 18.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [
+            "검사장비"
+          ],
+          "event": [
+            "수주"
+          ],
+          "domain": [
+            "공정",
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "HBM",
+          "검사장비",
+          "수주",
+          "반도체",
+          "공정"
+        ],
+        "summary_hits": [
+          "HBM",
+          "검사장비",
+          "수주",
+          "반도체",
+          "공정"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[모닝 리포트] \"네오셈, Gen6 전환·CXL 양산 확대에 실적 성장 지속\" - 뉴스핌",
+      "date": "2026-11-17",
+      "source": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261117000047",
+      "summary": "[모닝 리포트] \"네오셈, Gen6 전환·CXL 양산 확대에 실적 성장 지속\" 뉴스핌",
+      "body": "AI 핵심 요약\nbeta\n- 신한투자증권은 17일 네오셈이 3분기 사상 최대 실적을 기록했다고 밝혔다\n- 네오셈은 3분기 매출 507억원과 영업이익 192억원을 기록했다\n- 2027년 Gen6·CXL·번인·자동화 장비로 성장축이 확대될 전망이다\n!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.\n내년 Gen6·CXL·CLT·CIB·NAND 번인 매출 확대 전망\n[서울=뉴스핌] 이나영 기자= 신한투자증권은 17일 반도체 SSD와 번인 테스트 장비를 생산하는 '네오셈'에 대해 3분기 사상 최대 실적을 기록한 데 이어 2027년 Gen6와 CXL, CLT·CIB, NAND 번인, 자동화 장비 등으로 성장축이 확대될 것으로 전망했다.\n김유민 신한투자증권 선임연구원은 \"3분기 SSD 테스터 매출 확대와 고정비 효과로 영업이익률 37.9%를 기록했다\"며 \"2027년에는 신규 제품의 매출 기여가 본격화되며 성장축이 더욱 다변화될 전망\"이라고 밝혔다.\n네오셈의 3분기 매출은 507억원으로 전년 동기 대비 398.8% 증가했고 영업이익은 192억원으로 흑자 전환했다. 매출과 영업이익은 시장 컨센서스인 386억원, 98억원을 각각 크게 웃돌았다.\n실적 성장은 SSD 테스",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10,
+          "event": 5,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [
+            "양산"
+          ],
+          "domain": []
+        },
+        "title_hits": [
+          "CXL",
+          "양산"
+        ],
+        "summary_hits": [
+          "CXL",
+          "양산"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "서울대 박민혁 교수팀, DRAM급 차세대 메모리 위한 초저전압 강유전체 소자 개발 - 국민기자뉴스",
+      "date": "2026-11-17",
+      "source": "국민기자뉴스",
+      "url": "https://www.kmkj.kr/news/articleView.html?idxno=143764",
+      "summary": "서울대 박민혁 교수팀, DRAM급 차세대 메모리 위한 초저전압 강유전체 소자 개발 국민기자뉴스",
+      "body": "저전력 메모리 구현의 속도와 수명 한계를 동시에 넘을 돌파구가 마련됐다.\n서울대학교 공과대학 재료공학부 박민혁 교수 연구팀은 0.6V의 낮은 전압에서도 빠르게 동작하고, 1조 회의 반복 구동 후에도 절연 파괴 없이 정보 상태를 구분할 수 있는 강유전체 캐패시터를 개발했다.\n이번 성과는 빠른 동작과 긴 수명을 동시에 확보하기 어려웠던 강유전체 메모리의 오랜 난제에 해법을 제시했다는 점에서 의미가 크다. 연구팀은 전극과 강유전체가 맞닿는 계면을 정밀하게 설계해 낮은 구동 전압과 빠른 분극 전환, 높은 반복 구동 안정성을 함께 확보했다. 이를 바탕으로 DRAM과 유사한 구조의 차세대 저전력 메모리에 활용할 수 있는 가능성도 제시했다.\n이번 연구는 한양대학교·포항가속기연구소·삼성전자 연구진과 공동으로 수행됐으며, 연구 결과는 세계적 권위의 국제 학술지 ‘네이처 커뮤니케이션즈(Nature Communications)’에 게재됐다.\nAI 서버와 모바일 기기에서 처리하는 데이터가 늘면서 메모리의 성능과 전력 효율을 함께 높이는 기술의 중요성이 커지고 있다. 특히 AI 서버에 쓰이는 고대역폭 메모리(HBM)와 스마트폰 등 모바일 기기에 쓰이는 저전력 DRAM 규격인 LPD",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM",
+            "메모리"
+          ],
+          "tech": [
+            "강유전체"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "DRAM",
+          "메모리",
+          "강유전체"
+        ],
+        "summary_hits": [
+          "DRAM",
+          "메모리",
+          "강유전체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Everspin Looks to Broaden MRAM Adoption with LPDDR Standard",
+      "date": "2026-11-18",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/everspin-looks-to-broaden-mram-adoption-with-lpddr-standard/",
+      "summary": "An exploratory JEDEC task group is weighing how controller vendors could support MRAM with hard IP to work with newer LPDDR implementations. The post Everspin Looks to Broaden MRAM Adoption with LPDDR Standard appeared first on EE Times.",
+      "body": "Giving magnetoresistive RAM (MRAM) access to the low power DDR (LPDDR) ecosystem requires more than adapting a memory interface; it needs controller developers to have confidence there is enough customer",
+      "score": 6.43,
+      "score_raw": 18.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "LPDDR"
+          ],
+          "tech": [
+            "MRAM"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "LPDDR",
+          "MRAM"
+        ],
+        "summary_hits": [
+          "LPDDR",
+          "MRAM"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "[반도체포커스] GPU 밖으로도 나온 HBM…SK하이닉스 투자 美 펭귄솔루션즈, 차세대 광학 메모리 공개 - 이코노미트리뷴",
+      "date": "2026-11-17",
+      "source": "이코노미트리뷴",
+      "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904453",
+      "summary": "[반도체포커스] GPU 밖으로도 나온 HBM…SK하이닉스 투자 美 펭귄솔루션즈, 차세대 광학 메모리 공개 이코노미트리뷴",
+      "body": "[이코노미트리뷴 = 김용현 기자] SK하이닉스가 지분 약 9.1%를 보유한 미국 인공지능(AI) 인프라 기업 펭귄솔루션즈가 GPU 외부에 고대역폭메모리(HBM)를 배치하고 광학 기술로 연결하는 차세대 메모리 장치를 공개했다.\n기존 GPU 바로 옆에 배치해야 했던 HBM을 외부로 확장하는 기술로, 펭귄솔루션즈가 SK하이닉스와 기존 메모리 공급 및 기술협력 관계를 맺고 있다는 점에서 주목된다.\n17일 반도체 업계에 따르면 펭귄솔루션즈는 전날 미국 시카고에서 열린 슈퍼컴퓨팅 콘퍼런스 'SC26'에서 광학 기반 외부 메모리 장치 '메모리AI 포토닉 어플라이언스(MemoryAI Photonic Appliance)'를 공개했다.\n마벨의 실리콘 포토닉스 기술을 활용한 이 제품은 장치당 최대 576GB의 HBM3E와 16TB의 DDR5를 지원하도록 설계됐다. 전체 목표 대역폭은 57.6Tbps(약 7.2TB/s)이며, 2027년 하반기 일부 고객사에 샘플을 공급할 계획이다. 이는 엔비디아 루빈 GPU 1개의 HBM4 대역폭(최대 22TB/s)에는 못 미치지만, HBM 용량은 GPU 1개 탑재량(288GB)의 두 배다.\n기존 HBM은 GPU와 동일한 반도체 패키지에 배치돼 ",
+      "score": 6.07,
+      "score_raw": 17.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 5,
+          "tech": 0.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [
+            "하이닉스"
+          ],
+          "product": [
+            "HBM",
+            "메모리"
+          ],
+          "tech": [],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "하이닉스",
+          "HBM",
+          "메모리",
+          "투자",
+          "반도체"
+        ],
+        "summary_hits": [
+          "하이닉스",
+          "HBM",
+          "메모리",
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "마벨-펭귄솔루션즈 전략적 협력...CXL·광솔루션 통합 - 디일렉",
+      "date": "2026-11-17",
+      "source": "디일렉",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65506",
+      "summary": "마벨-펭귄솔루션즈 전략적 협력...CXL·광솔루션 통합 디일렉",
+      "body": "마벨과 펭귄솔루션즈가 인공지능(AI) 데이터센터의 메모리 인프라 기술 관련 전략적 협력을 16일(현지시간) 발표했다.\n양사는 CXL(Compute eXpress Link) 기반 서버단 메모리 확장 기술, 랙(Rack) 간 광학 상호연결(인터커넥트) 기술 영역에서 협력한다. 데이터센터의 메모리를 기존 대비 쉽게 확장, 공유(풀링), 분리할 수 있도록 지원한다. 고대역폭메모리(HBM)와 DDR5의 공급 부족 현상과 데이터센터의 메모리 병목 현상을 완화하는 것이 목적이다.\n우선 펭귄솔루션즈의 '스마트 CXL 애드인카드(AIC)' 제품군에 마벨의 CXL 메모리 확장 컨트롤러 '스트럭테라 X'를 탑재한다.\nAIC는 서버의 PCI익스프레스(PCIe) 슬롯 등에 꽂아 새 기능이나 성능을 추가하는 인쇄회로기판(PCB) 형태의 장치다. 구형 DDR4 메모리 모듈을 스마트 CXL AIC에 장착하고 데이터센터 서버에 고속 전송 규격 PCIe 5세대나 CXL 2.0으로 연결할 수 있다. 지연시간이 짧고 확장이 쉬운 메모리 증설이 가능하다.\n펭귄솔루션즈의 대규모 외장 메모리 확장 서버 '메모리AI 어플라이언스', 고성능 AI 연산용 서버 플랫폼 '컴퓨트AI'에도 마벨의 포토닉 패브",
+      "score": 5.54,
+      "score_raw": 15.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "마벨"
+          ],
+          "product": [],
+          "tech": [
+            "CXL"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "마벨",
+          "CXL"
+        ],
+        "summary_hits": [
+          "마벨",
+          "CXL"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "CMP·식각·패키징까지…반도체 소재주 매수 뜨거워질 조짐 - 핀포인트뉴스",
+      "date": "2026-11-17",
+      "source": "핀포인트뉴스",
+      "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=505135",
+      "summary": "CMP·식각·패키징까지…반도체 소재주 매수 뜨거워질 조짐 핀포인트뉴스",
+      "body": "17일 반도체 재료 부품 관련주가 장 마감 기준 혼조세를 나타냈다. 인공지능(AI)과 고성능 컴퓨팅(HPC) 시장 확대에 따라 글로벌 반도체 기업들이 미세화 공정과 첨단 패키징 투자를 이어가는 가운데 소재와 부품 공급업체들의 주가가 종목별로 엇갈렸다.\n일부 기업에는 매수세가 유입됐지만 단기 주가 상승에 따른 차익 실현과 실적 둔화 우려가 겹친 종목들은 하락 마감했다.\n한국거래소에 따르면 이날 반도체 재료·부품 테마에서는 반도체 부품 및 바이오 사업을 영위하는 HLB이노베이션이 전 거래일 대비 8.26% 상승한 1만3370원에 거래를 마쳤다.\n반도체 전장 부품 사업과 바이오 분야로의 사업 다각화에 대한 기대가 투자심리에 긍정적으로 작용한 것으로 풀이된다.\n반도체 공정 장비 및 소재 기업 케이씨텍도 6.74% 오른 7만6000원에 장을 마감했다. 반도체 미세화 공정에 필요한 화학적 기계적 연마(CMP) 장비와 관련 소재 사업의 경쟁력이 부각되면서 매수세가 유입된 것으로 분석된다.\n이 밖에 위지트, 웰킵스하이텍, 비씨엔씨, 엘케이켐, 드림텍, 3S, 해성디에스, 티씨케이 등도 상승 마감했다. 반도체 공정용 소재와 부품을 공급하는 기업들이 강세를 보이면서 테마 내 ",
+      "score": 5.36,
+      "score_raw": 15.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "CMP",
+            "식각"
+          ],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "CMP",
+          "식각",
+          "반도체"
+        ],
+        "summary_hits": [
+          "CMP",
+          "식각",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "SSSTC, AI PC 및 산업용 애플리케이션을 위한 PCIe® Gen4 QLC SSD 공개",
+      "date": "2026-11-17",
+      "source": "KIPOST",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343387",
+      "summary": "타이베이 2026년 11월 17일 /PRNewswire/ – 키오시아(Kioxia Corporation)의 자회사 솔리드 스테이트 스토리지 테크놀로지 코퍼레이션(Solid State Storage Technology Corporation, SSSTC)이 10일 자사 최초의 산업용 QLC SSD인 PQ2 시리즈를 발표했다. PCIe® Gen4 x4 인터페이스와 8세대 BiCS FLASH™ QLC 플래시 메모리를 탑재한 PQ2는 빠른 데이터 접근 성능과 산업용 수준의 신뢰성을 갖췄다. SSSTC의 PQ2 시리즈 PCIe Gen4...",
+      "body": "타이베이 2026년 11월 17일 /PRNewswire/ – 키오시아(Kioxia Corporation)의 자회사 솔리드 스테이트 스토리지 테크놀로지 코퍼레이션(Solid State Storage Technology Corporation, SSSTC)이 10일 자사 최초의 산업용 QLC SSD인 PQ2 시리즈를 발표했다. PCIe® Gen4 x4 인터페이스와 8세대 BiCS FLASH™ QLC 플래시 메모리를 탑재한 PQ2는 빠른 데이터 접근 성능과 산업용 수준의 신뢰성을 갖췄다.\n읽기 집약적 워크로드용으로 설계된 PQ2는 로컬에 저장된 AI 모델 로딩과 애플리케이션 데이터 접근 등 AI PC 작업을 지원한다. 판매 시점은 제거 정보 관리(point-of-sale, POS) 단말기, 씬 클라이언트(thin clients), 네트워킹 장치뿐만 아니라 임베디드 시스템의 부팅용 스토리지에도 적합하다.\nPQ2 시리즈는 셀당 4비트를 저장하는 키오시아의 QLC 낸드 플래시 메모리를 사용한다. 이 낸드 플래시 메모리는 CMOS를 메모리 어레이에 직접 접합하는 CBA(CMOS directly Bonded to Array) 기술을 적용해 메모리 집적도와 성능 및 전력 효율",
+      "score": 5.04,
+      "score_raw": 14.1,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 2.0,
+          "tech": 7.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "키옥시아"
+          ],
+          "product": [
+            "메모리"
+          ],
+          "tech": [
+            "QLC",
+            "신뢰성"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "QLC"
+        ],
+        "summary_hits": [
+          "키옥시아",
+          "메모리",
+          "신뢰성",
+          "QLC"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere)",
+      "date": "2026-11-18",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+      "summary": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.” Abstract “Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; however, they also introduce new yield challenges arising from manufacturing defects and complex die-to-die (D2D) interconnect constraints. In particular, lane-level defects, limited... » read more The post Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere) appeared first on Semiconductor Engineering.",
+      "body": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.”\n\nAbstract\n\n“Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; however, they also introduce new yield challenges arising from manufacturing defects and complex die-to-die (D2D) interconnect constraints. In particular, lane-level defects, limited spares, and strict structural compatibility requirements impede the efficient assembly of functional systems from defective but repairable chiplets. We present DT-MATCH, a defect- and topology-aware chiplet matching framework that maximizes the number of functional SoCs under realistic assembly constraints. DT-MATCH provides two complementary approaches. The integer linear programming (ILP)-based approach is implemented using a batching strategy to approximate the exact formulation. The greedy randomized adaptive s",
+      "score": 5.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "chiplet",
+            "수율"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "chiplet",
+          "수율"
+        ],
+        "summary_hits": [
+          "chiplet",
+          "수율",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
+      "date": "2026-11-17",
+      "source": "SemiEngineering",
+      "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+      "summary": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” Excerpt “In this paper, we propose Global Regression Pretraining (GREP), a self-supervised, attention-based framework for CMP* MRR prediction. GREP learns temporal representations from unlabeled sensor signals through global proxy-target regression,... » read more The post Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS) appeared first on Semiconductor Engineering.",
+      "body": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.”\n\nExcerpt\n\n“In this paper, we propose Global Regression Pretraining (GREP), a self-supervised, attention-based framework for CMP* MRR prediction. GREP learns temporal representations from unlabeled sensor signals through global proxy-target regression, followed by supervised fine-tuning for MRR estimation. The framework is evaluated against a feature-engineered supervised baseline under three conditions: limited labeled data, sensor noise, and temporal process drift. “\n\n*chemical mechanical planarization\n\nFind the technical paper here. November 2026.\n\nRico, Jonathan Adam, Nagarajan Raghavan, and Senthilnath Jayavelu. “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” arXiv preprint arXiv:2611.16172 (2026). License CC BY-NC-ND 4.0.\n\nThe post Self-Supervised Vir",
+      "score": 5.0,
+      "score_raw": 14.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 10.0,
+          "event": 0.0,
+          "domain": 1.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "CMP",
+            "metrology"
+          ],
+          "event": [],
+          "domain": [
+            "semiconductor"
+          ]
+        },
+        "title_hits": [
+          "metrology",
+          "CMP"
+        ],
+        "summary_hits": [
+          "metrology",
+          "CMP",
+          "semiconductor"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "이천시, 소부장 반도체기업 투자유치 총력전 나서 - 경기1뉴스",
+      "date": "2026-11-17",
+      "source": "경기1뉴스",
+      "url": "http://www.gyeonggi1news.com/news/view.php?no=41683",
+      "summary": "이천시, 소부장 반도체기업 투자유치 총력전 나서 경기1뉴스",
+      "body": "제40회 이천도자기축제, \"40년의 불과 흙, 미래를 빚다\"\n\t\t\t\t\t\n   \n   \n      <사진=이천시 제공>\n   \n \n   [이천1뉴스] 한철전 기자= 올해 40회를 맞는 이천도자기축제가 단순한 지역 축제를 넘어, 대한민국 도자산업의 미래를 제시하는 문화예술 플랫폼으로 진화한다. 한국 도자문화의 중심지 이천은 이번 축제를 통해 전통을 계승하고, 도자산업 활성화와 주민과 예술이 공존하는 지속 가능한 축제를 선보일 계획이다. \n     \n  제40회 이천도자기축제는 ①도자산업 활성화 플랫폼 구축 ②지속 가능한 주민참여형 축제 ③40주년 아카이브관 운영과 ‘명장의 작업실’을 중심으로 한 특별기획 프로그램 운영을 핵심 방향으로 삼았다. 구체적인 실행전략으로는 축제 공간의 확장과 문화예술의 놀이터화, ‘스마트한 지표 기반 운영(Wi-Fi 방문객 통계 분석)’이 제시됐다. 40년의 역사 위에 새로운 감각과 기술, 지역 공동체의 힘을 더한 이번 축제는 이천 도자의 현재이자 미래를 보여주는 무대가 될 것이다. \n     \n     \n   도자기를 ‘구매하는 축제’에서 ‘머무는 축제’로… \n   900m 판매전과 100여 개 공방의 확장된 무대\n     \n  올해",
+      "score": 4.82,
+      "score_raw": 13.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 5.0,
+          "event": 5.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "소부장"
+          ],
+          "event": [
+            "투자"
+          ],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "소부장",
+          "투자",
+          "반도체"
+        ],
+        "summary_hits": [
+          "소부장",
+          "투자",
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "dropped_below_threshold": [
+    {
+      "title": "[특징주] 세미파이브, HBM 대체할 3D-IC 기술 공개…주가 18%대 급등 - https://www.moneystorm.kr/",
+      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=8536",
+      "source": "https://www.moneystorm.kr/",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "HBM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "HBM"
+        ],
+        "summary_hits": [
+          "HBM"
+        ],
+        "negative_hits": [
+          "급등"
+        ]
+      }
+    },
+    {
+      "title": "불안한 AI 호황…낸드값은 왜 한달새 20% 급락했나 [biz-플러스] - 서울경제",
+      "url": "https://www.sedaily.com/article/20115028",
+      "source": "서울경제",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "낸드"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "낸드"
+        ],
+        "summary_hits": [
+          "낸드"
+        ],
+        "negative_hits": [
+          "급락"
+        ]
+      }
+    },
+    {
+      "title": "Roundhill Memory ETF (DRAM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/DRAM/",
+      "source": "Yahoo! Finance Canada",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 5,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [
+            "DRAM"
+          ],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "DRAM"
+        ],
+        "summary_hits": [
+          "DRAM"
+        ],
+        "negative_hits": [
+          "ETF"
+        ]
+      }
+    },
+    {
+      "title": "Physical AI Leader Agile Robots Raises $500 Million Series F at $8.5 Billion Valuation to Accelerate Global Growth",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343383",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 3.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "Nvidia"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "Nvidia"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "삼성전자, '갤럭시 AI 클래스'에 '갤럭시 XR' 도입…교실 속 AI 경험 확대",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343379",
+      "source": "KIPOST",
+      "score": 3.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "삼성전자"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "삼성전자"
+        ],
+        "summary_hits": [
+          "삼성전자"
+        ],
+        "negative_hits": [
+          "갤럭시"
+        ]
+      }
+    },
+    {
+      "title": "Durabook Introduces Windows-Based Rugged Ground Control Solutions Built Around Mission and Operator Needs",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343394",
+      "source": "KIPOST",
+      "score": 2.6,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 2.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "신뢰성"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "신뢰성"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "BASF Agricultural Solutions strengthens Seed Solutions portfolio with breakthrough Nemasphere™ technology",
+      "url": "https://www.kipost.net/news/articleView.html?idxno=343365",
+      "source": "KIPOST",
+      "score": 2.6,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 2.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [
+            "수율"
+          ],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [],
+        "summary_hits": [
+          "수율"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "Intel's AI Story Meets a Memory-Chip Squeeze and a Shareholder Lawsuit - ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/intel-s-ai-story-meets-a-memory-chip-squeeze-and-a-shareholder-lawsuit/70524006",
+      "source": "ad-hoc-news.de",
+      "score": 2.5,
+      "score_detail": {
+        "buckets": {
+          "entity": 2.5,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 0.0
+        },
+        "bucket_hits": {
+          "entity": [
+            "인텔"
+          ],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": []
+        },
+        "title_hits": [
+          "인텔"
+        ],
+        "summary_hits": [
+          "인텔"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "젠슨 황, 12월 1일 美 의회 출석…中 간첩·반도체 유출 의혹 해명 - 연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445220",
+      "source": "연합인포맥스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "조용호 오산시장, K-반도체 초격차 비전 선포식서 산업 육성 협력 - 매일일보",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2019835",
+      "source": "매일일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "경기도, 반도체 초격차 실현 본격화… 전략위원회 출범 - 경기도뉴스포털",
+      "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202611171453429978C109&s_code=C109",
+      "source": "경기도뉴스포털",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "경기도, 8개 시 반도체 산업 묶는다… 수원 연구개발 등 지역별 분담 - 천지일보",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3449626",
+      "source": "천지일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "“호남반도체 팹 착공시 건설현장 숙련공 싹 흡수할 것” - 광주드림",
+      "url": "https://www.gjdream.com/news/articleView.html?idxno=674439",
+      "source": "광주드림",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체",
+            "팹"
+          ]
+        },
+        "title_hits": [
+          "반도체",
+          "팹"
+        ],
+        "summary_hits": [
+          "반도체",
+          "팹"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "경기도 8개 시 ‘반도체 광역 연대’ 선언… 3대 전략·14개 과제 제시 - 경기일보",
+      "url": "https://www.kyeonggi.com/article/20261117580494",
+      "source": "경기일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "광주 도심융합특구, 반도체혁신클러스터 구축해야 - KBC광주방송",
+      "url": "https://news.ikbc.co.kr/article/view/kbc202611170094",
+      "source": "KBC광주방송",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "추미애 경기도지사, \"경기도 반도체 핵심 거점 만들 것\" - 성남일보",
+      "url": "https://www.snilbo.co.kr/sub_read.html?uid=49659&section=sc276",
+      "source": "성남일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "차세대 전력반도체 기업 NFS 부산 공장 준공 - 부산경남대표방송 KNN 뉴스",
+      "url": "https://news.knn.co.kr/news/article/194608",
+      "source": "부산경남대표방송 KNN 뉴스",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "동남아 AI 망 막히자 홍콩 H200 대안 부상…한국 반도체 주시 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611171928352013fbbec65dfb_1",
+      "source": "글로벌이코노믹",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "IMF, 올해 韓성장률 3.9% 전망… 반도체 호황에 한달새 0.6%P 올려 - 동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20261117/135041930/2",
+      "source": "동아일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    },
+    {
+      "title": "추미애 경기도지사, K-반도체 초격차 비전 선포 - 인천일보",
+      "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1337058",
+      "source": "인천일보",
+      "score": 2.0,
+      "score_detail": {
+        "buckets": {
+          "entity": 0.0,
+          "product": 0.0,
+          "tech": 0.0,
+          "event": 0.0,
+          "domain": 2
+        },
+        "bucket_hits": {
+          "entity": [],
+          "product": [],
+          "tech": [],
+          "event": [],
+          "domain": [
+            "반도체"
+          ]
+        },
+        "title_hits": [
+          "반도체"
+        ],
+        "summary_hits": [
+          "반도체"
+        ],
+        "negative_hits": []
+      }
+    }
+  ],
+  "extract_failed": []
+}
